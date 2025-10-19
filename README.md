@@ -3,8 +3,8 @@ CSE291A Option 2: Company-Specific RAG System for Nvidia
 
 ## Phase 1 
 ### Dataset Collection 
-100 data sources see /data/
-- [ ] 50 NVIDIA most-recent publications on arxiv.org (PDF)
+>=100 data sources see /data/
+- [x] 43 NVIDIA most-recent publications on arxiv.org (PDF)
 - [ ] NVIDIA Newsletter (Webpages: HTML)
 - [ ] NVIDIA Interviews (.txt)
 - [ ] Test on existing open-source vector-store systems
