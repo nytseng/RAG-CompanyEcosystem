@@ -1,7 +1,8 @@
 """
     Performs query on "NVIDIA internal research"
-    See below for current query (80-most recent NVIDIA-published AI/ML papers)
-    Downloads PDF files from XML metadata (export.arxiv.org) to /arxiv_papers/
+    See below for current OpenAlexAPI query (80-most recent NVIDIA-published AI/ML papers)
+    Downloads PDF files from XML metadata (export.arxiv.org and then attempt openalexapi)
+    Saves to OUTPUT_DIR = 'nvidia-most-cited'
 """
 import requests
 import feedparser
@@ -10,9 +11,8 @@ import os
 import time
 import json 
 
-
+"""Checks arXiv API for a paper using its DOI and returns the PDF link if found."""
 def check_arxiv_for_doi(doi):
-    """Checks arXiv API for a paper using its DOI and returns the PDF link if found."""
     if not doi or doi == 'no-doi':
         return None
         
@@ -57,7 +57,6 @@ MAX_RESULTS = 200
 EMAIL_FOR_POLITE_POOL = 'notseng@ucsd.edu' 
 
 # Output directory for downloaded PDFs
-# OUTPUT_DIR = 'nvidia_top_100_pdfs'
 OUTPUT_DIR = 'nvidia-most-cited'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -91,8 +90,7 @@ except requests.exceptions.RequestException as e:
     print(f"Error executing OpenAlex API query: {e}")
     exit()
 
-# --- 3. DOWNLOAD PDFS AND HANDLE SOURCE ---
-
+# DOWNLOAD PDFS AND HANDLE SOURCE 
 download_count = 0
 for i, paper in enumerate(papers):
     
@@ -109,7 +107,7 @@ for i, paper in enumerate(papers):
     print("DOI: " + doi_id)
     print(f"\n[{i + 1}/{len(papers)}] Processing: {title} (Cited: {cited_by})")
     
-    # --- A. STRATEGY: Check ArXiv First (PIRACY-FREE OPEN ACCESS) ---
+    # --- A. Check ArXiv First (PIRACY-FREE OPEN ACCESS) ---
     final_pdf_url = None
     if doi_full_url:
         final_pdf_url = check_arxiv_for_doi(doi_full_url)
@@ -118,7 +116,7 @@ for i, paper in enumerate(papers):
         print("-> ARXİV BYPASS SUCCESS: Using open-access arXiv PDF.")
         # Proceed to download using the trusted arXiv URL
     else:
-        # --- B. STRATEGY: Fallback to OpenAlex/Publisher Link ---
+        # --- B. Fallback to OpenAlex/Publisher Link ---
         primary_location = paper.get('primary_location', {})
         if primary_location:
             final_pdf_url = primary_location.get('pdf_url') # Try direct PDF first
@@ -129,8 +127,8 @@ for i, paper in enumerate(papers):
             print("-> SKIPPING: No valid download link found.")
             continue
             
-    # --- C. ATTEMPT DOWNLOAD ---
-    try:
+    # ATTEMPT DOWNLOAD
+    try: 
         # Use the determined final_pdf_url (either ArXiv or Publisher/Landing Page)
         pdf_response = requests.get(final_pdf_url, stream=True, timeout=60)
         pdf_response.raise_for_status()
@@ -154,8 +152,6 @@ for i, paper in enumerate(papers):
     except requests.exceptions.RequestException as e:
         print(f"-> NETWORK/TIMEOUT ERROR: Failed to access {final_pdf_url}. Error: {e}")
 
-# ... (Part 4: Conclusion) ...
-# --- 4. CONCLUSION ---
 print("\n--- Process Complete ---")
 print(f"Total papers processed: {len(papers)}")
 print(f"Total PDFs successfully downloaded: {download_count}")
