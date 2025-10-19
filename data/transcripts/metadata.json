@@ -1,0 +1,109 @@
+{
+  "transcripts": [
+    {
+      "id": "transcript_1",
+      "details": "Unofficial transcript of a CNBC interview with NVIDIA Co-Founder, President & CEO Jensen Huang on CNBC’s “Squawk Box” (M-F, 6AM-9AM ET) today, Wednesday, October 8, 2025",
+      "video_link": "https://www.youtube.com/watch?v=bQHcRNul3AA",
+      "date": "October 8, 2025",
+      "source": "https://www.cnbc.com/2025/10/08/cnbc-transcript-nvidia-co-founder-president-ceo-jensen-huang-speaks-with-cnbcs-squawk-box-today.html"
+    },
+    {
+      "id": "transcript_2",
+      "details": "Unofficial transcript of GTC March 2025 Keynote with NVIDIA CEO Jensen Huang, Tuesday, March 18, 2025",
+      "video_link": "https://www.youtube.com/watch?v=_waPvOwL9Z8",
+      "date": "March 18, 2025",
+      "source": "https://www.rev.com/transcripts/gtc-keynote-with-nvidia-ceo-jensen-huang"
+    },
+    {
+      "id": "transcript_3",
+      "details": "Unofficial transcript of BG2 Pod w/ Bill Gurley and Brad Gerstner on “NVIDIA: OpenAI, Future of Compute, and the American Dream”, September 26, 2025",
+      "video_link": "https://www.youtube.com/watch?v=pE6sw_E9Gh0",
+      "date": "September 26, 2025",
+      "source": "https://singjupost.com/transcript-nvidia-ceo-jensen-huang-on-openai-future-of-compute-and-the-american-dream-bg2-pod/"
+    },
+    {
+      "id": "transcript_4",
+      "details": "Unofficial transcript of Memos to the President podcast episode 31 on AI Waves and the Future of Computing, July 14, 2025",
+      "video_link": "https://www.youtube.com/watch?v=2wK06mCJWHo",
+      "date": "July 14, 2025",
+      "source": "https://singjupost.com/transcript-nvidia-ceo-jensen-huangs-interview-on-memos-to-the-president/"
+    },
+    {
+      "id": "transcript_5",
+      "details": "Unofficial transcript of Hill and Valley Forum co-founder Jacob Helberg and NVIDIA CEO Jensen Huang on Rebuilding Industrial Power: AI Factories & the Return of US Manufacturing at Hill & Valley Forum 2025 on May 2, 2025",
+      "video_link": "https://www.youtube.com/watch?v=nkhrEnuZi20",
+      "date": "May 2, 2025",
+      "source": "https://singjupost.com/transcript-of-jensen-huangs-interview-at-hill-valley-forum-2025/"
+    },
+    {
+      "id": "transcript_6",
+      "details": "Unofficial transcript of Huge Conversations Podcast with Cleo Abram titled “NVIDIA CEO Jensen Huang’s Vision for the Future”, Jan 27, 2025",
+      "video_link": "https://www.youtube.com/watch?v=7ARBJQn6QkM",
+      "date": "January 27, 2025",
+      "source": "https://singjupost.com/nvidia-ceo-jensen-huang-on-huge-conversations-podcast/"
+    },
+    {
+      "id": "transcript_7",
+      "details": "Unofficial transcript of the interview that occurred on “Halftime Report” (M-F, 12PM-1PM ET) today, September 22, 2025",
+      "video_link": "https://www.cnbc.com/video/2025/09/22/watch-cnbcs-full-interview-with-nvidia-ceo-jensen-huang-and-openai-leaders-sam-altman-and-greg-brockman.html",
+      "date": "September 22, 2025",
+      "source": "https://www.cnbc.com/2025/09/22/cnbc-transcript-nvidia-ceo-jensen-huang-openai-ceo-sam-altman-and-openai-president-greg-brockman-speak-with-cnbcs-jon-fortt-on-halftime-report-today-.html"
+    },
+    {
+      "id": "transcript_8",
+      "details": "Unofficial transcript of a CNBC interview with NVIDIA Founder and CEO Jensen Huang on CNBC’s “Squawk on the Street” (M-F, 9AM-11AM ET) today, Wednesday, March 19, 2025",
+      "video_link": "https://www.cnbc.com/video/2025/03/19/nvidia-ceo-jensen-huang-in-the-near-term-the-impact-of-tariffs-will-not-be-meaningful.html",
+      "date": "March 19, 2025",
+      "source": "https://nbcuniversalnewsgroup.com/cnbc/2025/03/19/cnbc-transcript-nvidia-founder-and-ceo-jensen-huang-speaks-with-cnbcs-jim-cramer-on-squawk-on-the-street-today/"
+    },
+    {
+      "id": "transcript_9",
+      "details": "Unofficial transcript of a CNBC interview with NVIDIA Founder, President & CEO Jensen Huang on CNBC’s “Mad Money” (M-F, 6PM-7PM ET) today, Wednesday, May 28, 2025",
+      "video_link": "https://www.cnbc.com/video/2025/05/28/nvidia-ceo-jensen-huang-we-are-going-to-keep-dialogue-going-with-the-trump-administration.html",
+      "date": "May 28, 2025",
+      "source": "https://www.cnbc.com/2025/05/28/cnbc-transcript-nvidia-founder-president-ceo-jensen-huang-speaks-with-cnbcs-jim-cramer-on-mad-money-today.html"
+    },
+    {
+      "id": "transcript_10",
+      "details": "Unofficial Transcript of a CNN interview Fareed Zakaria GPS with NVIDIA Founder, July 13, 2025",
+      "video_link": "https://www.cnn.com/2025/07/13/world/video/gps0713-nvidia-us-china-ai",
+      "date": "July 13, 2025",
+      "source": "https://transcripts.cnn.com/show/fzgps/date/2025-07-13/segment/01"
+    },
+    {
+      "id": "transcript_11",
+      "details": "Unofficial transcript of NVIDIA Q1 2026 Earnings Conference Call, May 28, 2025",
+      "video_link": "https://www.youtube.com/watch?v=PzrX70OYhDo",
+      "date": "May 28, 2025",
+      "source": "https://www.rev.com/transcripts/nvidia-q1-2026-earnings-call"
+    },
+    {
+      "id": "transcript_12",
+      "details": "Official transcript of The Angel from T. Rowe Price podcast. The Long View: Jensen Huang, Founder and CEO of NVIDIA Corporation, May 7, 2025",
+      "video_link": "https://www.troweprice.com/en/us/insights/the-long-view-nvidia",
+      "date": "May 7, 2025",
+      "source": "https://www.troweprice.com/en/us/insights/the-long-view-nvidia"
+    },
+    {
+      "id": "transcript_13",
+      "details": "Unofficial transcript of All-In with Chamath, Jason, Sacks & Friedberg - Winning the AI Race Part 3: Jensen Huang, Lisa Su, James Litinsky, Chase Lochmiller, July 23, 2025",
+      "video_link": "https://pod.wave.co/podcast/all-in-with-chamath-jason-sacks-friedberg-5677e821-bd3a-4ecf-bcc0-3e93f73d6b83/winning-the-ai-race-part-3-jensen-huang-lisa-su-james-litinsky-chase-lochmiller-e923c61e",
+      "date": "July 23, 2025",
+      "source": "https://pod.wave.co/podcast/all-in-with-chamath-jason-sacks-friedberg-5677e821-bd3a-4ecf-bcc0-3e93f73d6b83/winning-the-ai-race-part-3-jensen-huang-lisa-su-james-litinsky-chase-lochmiller-e923c61e"
+    },
+    {
+      "id": "transcript_14",
+      "details": "Unofficial transcript of a CNBC interview with Nvidia CEO Jensen Huang for a CNBC special report tonight, Wednesday, February 26, 2025",
+      "video_link": "https://www.youtube.com/watch?v=U9RNaok70yo",
+      "date": "February 26, 2025",
+      "source": "https://nbcuniversalnewsgroup.com/cnbc/2025/02/27/cnbc-transcript-nvidia-ceo-jensen-huang-speaks-with-cnbcs-jon-fortt-for-a-cnbc-special-report-tonight"
+    },
+    {
+      "id": "transcript_15",
+      "details": "Milken Institute, Global Conference 2025, A NEW INNOVATION ECONOMY: A CONVERSATION WITH NVIDIA CEO JENSEN HUANG, May 6, 2025",
+      "video_link": "https://www.youtube.com/watch?v=HT8-KPAjpiA",
+      "date": "May 6, 2025",
+      "source": "https://milkeninstitute.org/sites/default/files/2025-05/new-innovation-economy-conversation-nvidia-ceo-jensen-huang_Transcript_GC25.pdf"
+    }
+  ]
+}

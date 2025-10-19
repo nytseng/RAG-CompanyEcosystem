@@ -1,0 +1,88 @@
+JIM CRAMER: Tonight, we got the single most important quarter of this entire earnings season when NVIDIA reported. There was a lot of hand-wringing about this one as usual, but NVIDIA delivered a huge set of numbers, including a sizable top and bottom line beat, healthy revenue guidance for the current quarter, even after taking an $8 billion sales hit on those export controls that prevent him from doing lots of business in China. So, how did they pull it off? Let’s go straight to the source with the man I call the modern-day Leonardo da Vinci, Jensen Huang, the co-founder, president and CEO of NVIDIA. Well, Jensen, welcome back to “Mad Money.”  
+
+JENSEN HUANG:  Hey, Jim. It’s great to be here.
+
+CRAMER:  Alright, so let’s go to -- it’s a remarkable quarter in every single way, but you do say, I’m going to go right there, that China is positioned to lead globally and you do not think that, unless you can sell to China, you can necessarily lead with them. And I look at this market and I’m saying there’s $50 billion up for grab. I actually think it could literally be all yours if there weren’t export controls. Am I wrong? And how much of that money would flow back to the United States if you could do the sales?
+
+HUANG:  NVIDIA’s market share in China was about 95 percent four years ago. It’s about 50 percent today because of the limitations on the products that we sell. $50 billion a year market today, it’s growing, just like AI is growing everywhere. Over the course of the next, this four years, the president’s administration, we’re probably talking about a few hundred billion dollars worth of revenues to NVIDIA, probably tens of billions of dollars of taxes, revenues to the country, thousands of jobs, incredible, incredible opportunity. But more, strategically, more importantly, this is very important.
+
+CRAMER: Okay.
+
+HUANG:  First of all, the China market is, of course, very large, but it’s also the home of 50 percent of the world’s AI researchers. The platform that succeeds is the platform with the most developers. Just like iPhone is successful because of lots of developers, Windows is successful because of lots of developers, all these platforms succeed because there are a lot of developers. China is home to 50 percent of the AI researchers in the world. And so we want the world to build on American technology stack. We want every developer in the world to prefer the American technology stacks. Once that happens, the developers develop on American technology stacks, American technology stacks will run AI the best all over the world. And so this is, that’s probably the most important strategic reason to be in China, because there are so many developers there and because the world is going to adopt technology from one country or another. And we prefer it to be the American technology stack.
+
+CRAMER:  Well, you know the president has a plan. You say that. He has a vision, and you trust him. You say that. I have to believe that you think that he has to see, either see the light, or he has, and that things that look so dire right now in China may not be as dire, and there could be even as soon as next quarter more business being done than we thought after tonight.
+
+HUANG:  It’s hard to tell. But the most important thing is this, Jim. Our president wants America to win. And he also recognizes that this is an important market. It’s a very large market. And the revenues that it could generate for the United States is significant. It’s just incredible, $50 billion this year. Look, we’re talking about the size of a Boeing, not a Boeing plane, Boeing the company. This is an enormous market. And so I think the opportunity left behind is quite substantial. This is also an excellent way to improve our trade deficit.
+
+CRAMER:  It would also seem to me that there must be some people who think that they can militarize our, your chips. I can’t imagine a scenario where they would decide, you know what, we’re going to use NVIDIA chips in our aircraft carriers. We would put them in our submarines. Wouldn’t that be foolhardy? We would never use Huawei chips in our missiles.
+
+HUANG:  That’s exactly right. They have plenty of chips themselves. Obviously, we’re losing market share to chips that are built locally. China is an extraordinary manufacturing capability. And they are doubling the number of chips that they’re building every single year. The technology that’s being offered by Huawei is extraordinary. This is an extraordinary technology company. And so we have plenty of competition there. Chinese government has plenty of choices with indigenous technology, which is their preference. So I think that the idea that any -- anyhow, go ahead.
+
+CRAMER:  But isn’t it true that the president has helped you immeasurably, the huge business that you’re doing in the Gulf states? When you see him, he obviously is, in many ways, NVIDIA’s number one salesperson. Is it asking too much to be able to say, and not only that, Mr. President, I also want you to open China?
+
+HUANG:  Well, we’re going to keep our dialogue going with the administration. And I believe that what we’re explaining is ground truth. And we understand the technology best, and we understand how computing works. We understand how AI works, and we have been in China for 30 years. And so this is an area that we have a lot of expertise, and we’re going to continue to share that. But let me tell you this, Jim. Listen, the president laid out a bold vision for the United States, for America to reindustrialize, to onshore manufacturing, so that we can have a more resilient supply chain, so that we can create jobs locally, very importantly, so that we become great at manufacturing again, at a time when manufacturing isn’t about labor, but it’s about, labor only, but it’s about technology. And so that vision is incredible. This is going to be, this initiative by the president is likely going to set the United States up for a century, for this century to come.
+
+CRAMER:  Okay.
+
+HUANG:  This is going to be a very big deal.
+
+CRAMER:  Well, let’s—
+
+HUANG:  I also think that he, when he rescinded the AI diffusion rule, it was a visionary move, it was a bold move, and he recognizes that there’s an AI race, and we’re not alone. And he wants America to win. And so it’s not about AI diffusion limitation. It’s about AI diffusion maximizing American technology.
+
+CRAMER:  Okay, so let’s—
+
+HUANG:  And so he sees that. Yes.
+
+CRAMER:  Okay. so let’s talk about the Blackwell ramp, which was amazing, and, of course, we’re going to have Ultra, which is incredible, and the demand. Is the demand as, when I saw you the last few times, it sounds like you’re running out of superlatives, but demand seems even stronger than GTC. It’s even stronger than COMPUTEX.
+
+HUANG:  The demand keeps growing because there’s just more companies. Number one, inference has taken off. That is number one. Inference has taken off. This reasoning AI capability is genuinely a breakthrough. It is now so popular, solving so many problems. And the amount of computation necessary for reasoning, for thinking is 100 times, 1,000 times more than a couple of years ago, when ChatGPT was a one-shot answer AI. And so now these reasoning AIs requires a lot of thinking, a lot of compute. The demand is just incredible.
+
+CRAMER:  Now, you’re telling me even since GTC?
+
+HUANG:  In the meanwhile, of course, we’re getting more customers. Oh, yes, much—
+
+CRAMER:  But even since GTC, you just increased it. It was 100 times at GTC. Now it’s possibly even 1,000?
+
+HUANG:  Yes.
+
+CRAMER:  How is this possible, Jensen? And what, why are there still people who are holding back and not seeing what you’re doing? We will all have robots. We will all have free, we will have hands-free driving. All of this is going to come about much faster than people realize because of what you’re working on.
+
+HUANG:  It’s completely true. It’s completely, robotics is definitely within the next three to four, five years. The technology works today. It’s starting to work very well today. Now, within -- once a technology becomes realized, becomes possible, it’s only a couple of two, three ticks for an engineer to crank it and turn it into something that could be really scaled out in volume. And so self-driving cars are here. That, we know. Robotics is going to be right around the corner, robotics factories being built around the world. Yes, this is the next great growth opportunity.
+
+CRAMER:  Alright, so let’s talk software. I don’t think enough is talked about software. I don’t think -- we’re not talking about Omniverse enough. And we’re not talking about the idea that we’re not -- you’re just not selling these devices. You’re selling a full platform that’s not duplicatable, which is why you’re so far ahead of everybody else. It’s not just about the hardware.
+
+HUANG:  We used to be a chip company, and then we became a systems company. And, Jim, now, we’re an entire infrastructure company. If you take a look at what we build, it’s an entire factory. And you can’t just load up a factory with chips. You have got computing systems. You have got networking systems and switches. But what you have mostly is a mountain of software to get it all to run. When you have got a $50 billion infrastructure, the software necessary to keep it humming and to make it, make the utilization and the efficiency and its throughput as high as possible, that piece of software is invaluable. If the utilization was 10 percent off, that’s worth $5 billion. And so this is a very big deal now. Software is just a giant part of our business.
+
+CRAMER:  Okay, how about what, we have to talk about society. And when I hear what you can do, when I hear what the robots can do, when I know what Boston Dynamics, 1X, when I see what these companies can do, I wonder, is the CEO of Anthropic going to be right when he talks about a bloodbath of white-collar workers, unemployment spiking 10 to 20 percent, mass elimination of jobs? Or isn’t your vision that productivity, like whether it be the loom, whether it be the canal, whether it be the steam engine, these were all generators of jobs, not retractors of jobs?
+
+HUANG:  It’s a generator of jobs. There are surely different views. Let me give you this view.
+
+CRAMER:  Okay.
+
+HUANG:  The, there’s a labor shortage between now and the end of the decade that’s measured in some 30, 40, 50 million short. If you just translate 50 million people short in labor force and translate that to GDP growth, it’s extraordinary. It’s approximately about the size of the United States. And so the ability for us to expand what is today a limited and short labor shortage, we around the world should be able to expand our GDP. And that’s our future, to be able to turn these agents, which are essentially work force robots, information robots, and human robots, physical robots, to expand the world’s GDP.
+
+CRAMER:  Alright, one last question from me. I want to be sure that we have a smooth transition to the next iteration, to Ultra, and then even to Rubin. How are we feeling? Because I know that there was a glitch. I got a little too aggressive in thinking everything would be smooth. I got ahead. I don’t want to get ahead of myself this time. We looking good?
+
+HUANG:  Well, first of all, Jim, remember, we made last quarter. We made the quarter before that. So it was not easy. It was not easy. And let me tell you why it wasn’t easy. In the case of Grace Blackwell, because of this thinking machine we wanted to create, this reasoning AI factory we wanted to create, we changed the architecture of these AI supercomputers.
+
+CRAMER:  Right.
+
+HUANG:  The architecture is completely different. And it’s extraordinarily complex. And so, anyways, now the entire supply chain, not only that. We enabled a very, very large supply chain to be able to build these things, every ODM, every OEM, CSPs, they have now got it up and running.
+
+CRAMER:  Okay.
+
+HUANG:  Now, here’s the really great thing. Ultra is exactly the same architecture, exactly the same chassis. And so we will just slip it right in and keep running.
+
+CRAMER:  Alright, we’re going to leave it there. I wish you the best of luck. Congratulations on an amazing quarter. And let’s see if the president’s plan includes opening China back for you. Thank you so much, Jensen Huang.
+
+HUANG:  Thank you, Jim.
+
+CRAMER:  Absolutely, president, founder, CEO of—
+
+HUANG:  Off to the races.
+
+CRAMER:  Alright, NVIDIA. Thank you so much for coming on the show. Appreciate it.
+
+HUANG:  Thank you, Jim. Good to see you.
+

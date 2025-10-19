@@ -1,0 +1,213 @@
+YLLI BAJRAKTARI: Hi, I’m Ylli with a special competitive studies project. In this week’s episode of Memos to the President, I’ve had the opportunity to chat with Jensen Huang, founder and CEO of NVIDIA. We cover all things related to AI. I hope you’ll enjoy the conversation as much as I did.
+
+Hi, welcome back to Memos to the President. It’s really an honor to sit down today with a special guest, Jensen Huang, founder and CEO of NVIDIA. This was a big week for NVIDIA, so I’m going to turn over to Jensen to talk about how does it feel this week to be the founder and CEO of NVIDIA. Jensen, welcome to my podcast.
+
+JENSEN HUANG: Thank you, Ylli. It’s an incredible honor. Wow. Crazy week, right?
+
+YLLI BAJRAKTARI: It’s an incredible week for NVIDIA.
+
+The American Dream and NVIDIA’s Journey
+JENSEN HUANG: Yeah, it’s crazy week. I think the… Well, first of all, it hasn’t really sunk in yet, but let’s see what thoughts comes to mind. Well, you know, in a lot of ways, somebody asked me yesterday about and mentioned to me that I’m an immigrant and in fact, I am an immigrant talking about immigration.
+
+YLLI BAJRAKTARI: Same here.
+
+JENSEN HUANG: And the two of us are both immigrants and America stands for the land of the American dream. And this is the place where immigrants come to build a life and build a company. In a lot of ways, you know, what I’m experiencing is probably the ultimate American dream.
+
+You know, to come to the United States when I was 7 years old, I guess 8 years old, and having the opportunity to found a company with good friends 33 years ago, be the CEO today after 33 years and having many of the founders that were there with me at the very beginning, still here at NVIDIA, pursuing a dream that we’ve had that took three decades to accomplish with a lot of ups and downs, with enormous amount of ups and downs.
+
+And so in a lot of ways this milestone, what is happening to us, it’s kind of hard to internalize, it’s kind of hard to take in, but it also represents something that’s really important.
+
+We wanted to reinvent the computer. The computer as we know it really has been largely defined for about six decades, since the IBM System 360. IBM, as you know, was the largest company in the world of their time.
+And the blueprint that they put together for computing was basically, it’s the same blueprint that has been played out in the last six decades. Everything from the architecture of the systems, the way the separation between software and hardware and architecture, compatibility and application compatibility, full family lineup, all of the things that they described largely describes the computer industry today and the opportunity to reinvent that and take it to the next level.
+
+And now being the platform for artificial intelligence is really a dream come true. Yeah, really extraordinary time.
+
+The Four Waves of AI Development
+YLLI BAJRAKTARI: You talk about the AI waves and I really like how you divide them into different categories. Can you describe where we’re today in terms of the wave and how we got here?
+
+JENSEN HUANG: 2012, we saw the same moment as everybody else. We had the inside track in the sense that we always believed that CUDA was going to enable a new class of applications, and we’re always looking out for it. And so when AlexNet came along, built on top of CUDA, our GPUs made it possible to train AlexNet.
+
+And for AlexNet to achieve such extraordinary results in computer vision, achieve the level of capability that computer scientists specializing in computer vision could not achieve over four decades. For three people to do something like that, it’s just an extraordinary feat.
+
+And so we took the opportunity and we looked at what is it that we’re looking at, what’s going on here? Is AlexNet a breakthrough in computer vision or is this a bigger idea than that? And of course, as we know, computer vision is a pillar of artificial intelligence. Without computer vision, without speech, language, understanding, it’s hard to have intelligence.
+
+And so we realized that this of course, was a part of artificial intelligence. But is it a bigger idea than that? And we came to the conclusion that what AlexNet and deep learning showed is that it is now finally possible, if we had enough data, enough computing scale. And of course we have these deep learning models that are quite scalable, that we might be able to apply computers to solve problems that were impossible to describe using human engineered feature and using principled algorithms.
+
+And so we got excited from that perspective. We also got excited because when you reason through deep learning and the training of AlexNet and where it could go, we realized that the entire computing platform is going to change. Processors are going to change, the Internet Connect is going to change, the networking is going to change, the software stack on top of it, how you develop the software, the methodology of software inside companies, and of course the many industries that we might be able to create was going to completely change.
+
+And so we went about doing that. We reset our company, essentially. Now the waves that you were talking about, after we did that, we dedicated ourselves to creating new libraries called cuDNN, creating AI frameworks called Megatron Core, to inventing NVLink and tensor cores and different numerical formats and we led to the creation of a system we call DGX-1, our first AI supercomputer. I personally delivered it to a startup in San Francisco which turned out to have been OpenAI.
+
+# Wave One: Perception AI
+Since 2012, the first thing that happened, AI took off. Deep learning, kept advancing the amount of data we had, the amount of compute we had, kept growing, kept scaling. And it led to the first wave, which is really described as perception. We solved perception. It became superhuman. Computer vision became superhuman. Language understanding or speech recognition became superhuman.
+
+# Wave Two: Generative AI
+The second phase is generative. We can now not only understand information, but we can translate and generate information. So text to text, text to images, images through text, text to video. And so if you could do text to video, what else can you do? So second phase was generative AI.
+
+# Wave Three: Reasoning AI
+This third wave is the wave that we’re in today really deeply, solidly into which is reasoning AI. This is where an AI could apply principles and knowledge, maybe some common sense, and use techniques like chain of thought, trees of thought, to break down the problem into multiple steps, reason about how to solve the problem, the larger goal, step by step. It might even do some research, read some documents, read an archive paper before it answers the question.
+
+And so the third wave that we’re in today, which is reasoning, is a very big part of seeing the acceleration of AI becoming AGI. The fact that we’re doing reasoning AI is the reason why people are starting to say we’re near general intelligence.
+
+# Wave Four: Physical AI
+And then the next wave after reasoning AI is physical AI. This is where AI knows how to now interact with the physical world, has physical world common sense like object permanence, friction, inertia, cause and effect, and all of these types of common sense that children have puppies have. Now AI is going to have those things and as a result of that, the collection of all these capabilities, we should be able to see the next wave, which is probably robotics, right?
+
+AI Factories: The New Industrial Revolution
+YLLI BAJRAKTARI: You build the digital infrastructure for the way we live in today. You’re also working and have a vision for the AI factories. Can you unpack? What does that mean? How does that transform today’s data center for the future?
+
+JENSEN HUANG: The semiconductor industry, TSMC, the computer ecosystem that then create these computers. NVIDIA today we represent, if you will, the digital ecosystem, the digital infrastructure of the world, the computing infrastructure. And on top of that computing infrastructure realized this thing called artificial intelligence.
+
+And what is interesting about the last industry is that we, the digital infrastructure, the computer industry enabled software and that represents, you know, about a trillion dollars of industry. You use the computer infrastructures to write the software, but then you deploy the software into things like phones, smartphones. And so the software industry was not very large, call it a half trillion dollars. And the hardware industry, not very large, call it a half trillion dollars.
+
+And all of a sudden this industry, the computer industry, enabled artificial intelligence. And what’s really interesting is artificial intelligence is both this revolutionary technology that we just talked about, and it’s because of its perception and reasoning capability, you can use it to solve problems in just about every single industry. Because every industry that we know at the foundation of it is intelligence. And now we can create intelligence at incredible scales. And of course that’s going to revolutionize every industry.
+
+That’s the technology perspective. What about the industrial perspective? In order to produce these AI, what is actually coming out of it? What’s coming out of these models is tokens. And these tokens are formulated into words and numbers and symbols and could be in the future chemicals and proteins for drug discovery. It could be actuator motions to drive a self driving car or animate a robot.
+
+And so these tokens that are coming out are reformulated, reconstituted into intelligence of different kinds. But what it takes to generate these tokens at the scale that we need to support all these industries and everybody using AI are these large data centers. And I stopped calling it a data center because in fact it’s not a data center. It’s not about the classical data centers and retrieving data. It’s a new type of data center. And its job is singular to produce tokens. And that’s why I call it an AI factory.
+
+The Economics of AI Production
+YLLI BAJRAKTARI: And you’ve used also token per meter and how these AI factors will be utilized going forward.
+
+JENSEN HUANG: Exactly. And what’s really interesting about that is the last industry of factories creating electrons was the power generation industry. It represented 30% of the world’s economy at one time. What is produced out of it is monetized at kilowatt hours per dollar. Now we have these ideas called megatokens per dollar. Right. And it comes out as electrons again. And so instead of pure electrons, now it’s value added electrons, and we call them tokens. And we’re going to create essentially a whole new industry.
+
+And this industry needs energy, which is the reason why President Trump’s Pro Energy Inc. and Energy Growth Initiative is so timely. Because at exact time when America wants to be great at AI and wants to be a world leader in the AI ecosystem without the energy that’s necessary to create these AI factories, we wouldn’t be able to do that. So the confluence of President Trump’s vision and his drive to enable energy growth in our nation and the confluence of the readiness of the technology and the readiness of the world for AI, it all happened at exactly the right time, and so this is going to enable a new industry in front of us.
+
+The Future of Work in the AI Era
+YLLI BAJRAKTARI: Just a question on that. Enabling of new industries. A lot of people are nervous about jobs. How is this going to impact the workforce? This is not the first time that a massive transformative technology comes to our lives and it creates new job, but it also makes impact on people losing their jobs. How do you see this transformation happening in the workforce?
+
+The Power of New Technologies and Productivity
+JENSEN HUANG: New technologies and productivity drives the growth of industries and it creates jobs. In the case of electricity, it’s a new technology. And as I mentioned earlier, the energy production industry represented 30% at one time of the world’s economy.
+
+Not only did the energy production was a large industry in itself, creating these power generation plants of all different types around the world, it also enabled new applications. Electricity enabled light bulbs, dishwashers, refrigerators, laundry machines. All kinds of new applications were created. And all those applications created a new industry, created jobs.
+
+Now, the last industrial revolution, which United States is right in the middle of, was the information industrial revolution. And that digital revolution enabled productivity growing. In the last three decades or so, productivity has grown about 80%. Along with it, employment went up by 80%. And so when productivity goes up, employment goes up.
+
+Now, why is that? In fact, you could say that when productivity goes up, employment would go down because you could do more with fewer people. But that’s because that lacks imagination. If your company – let’s just take it from a company’s perspective. If a company has no new ideas and it’s literally doing one thing and one thing only, when our productivity goes up, we need fewer people to do it.
+
+But if you look at Nvidia, we have so many ideas, we don’t have enough time or people to go do it. The backlog of great ideas that we would love to go try new markets and new applications, we’d like to go create. The backlog of that is incredible. Now, if I just had more people, more time, considering how hard we’re already working, if I just had more people, if I had more time, if I were more productive, we’d do more.
+
+Our company would be able to offer more things, we’d be able to invent new ideas that created new industries. And so the real theme is that are you a hopeful person, optimistic person, and you believe in idea creation, or are you somebody who believes there are no new ideas left? And quite frankly, we’re just working and if we could just do that work more productively, we’ll be out of work.
+
+I think there’s so much work to do, there are so many ideas to pursue that if I can do work more effectively, I would simply do more. And so I think that optimistic view is not naive, it’s actually history. History would suggest that humanity has a lot more ideas to go pursue. We have a lot more challenges to go address. If we should just have more productivity, we can get to it much faster.
+
+AI as the Great Equalizer
+One thing, if I could just one thing that I would like to add, and this is something that you and I have spoken about before. It is vital that everyone engages AI right away. Every adult, every working person, not working person, every child should address and engage AI right away. And the reason for that is because AI is the greatest equalizing force.
+
+YLLI BAJRAKTARI: That’s a good point.
+
+JENSEN HUANG: It is the first time in history that a technology as incredible as artificial intelligence is useful for someone who knows how to program software, whether you program C or Python or you have no idea how to use a computer. This is the very first time in history that all of a sudden that computer is easy to use. If you don’t know how to use AI, just open up the website, go to ChatGPT, go to Gemini Pro, just ask a simple question.
+
+YLLI BAJRAKTARI: Yeah, yeah.
+
+JENSEN HUANG: And you could even say, “I have no idea how to use AI. Can you teach me how to use AI?”
+
+YLLI BAJRAKTARI: That’s true.
+
+JENSEN HUANG: And if you don’t know how to type, hit the microphone button and speak to us.
+
+YLLI BAJRAKTARI: It’s recorded.
+
+JENSEN HUANG: Yeah. And if you don’t understand English, you can’t speak whatever language you like. It is an extraordinary thing. It is an extraordinary thing. And I also think it’s incredible that if the AI doesn’t know that language, you tell the AI, “go learn that language.”
+
+YLLI BAJRAKTARI: And it will do it. And it will do it.
+
+JENSEN HUANG: And so I think everybody needs to engage AI. It is the greatest equalization force that we have ever known. And it’s going to empower, it’s going to enable, it’s going to lift society of all, everywhere.
+
+Meeting with the President
+YLLI BAJRAKTARI: I agree with you. Switching now to Washington. You’re in Washington? As I said, you had an incredible week. You also met with the President yesterday.
+
+JENSEN HUANG: Yes.
+
+YLLI BAJRAKTARI: First question.
+
+JENSEN HUANG: That’s incredible. Pro innovation, pro growth. Pro energy, pro industry wants us to take AI by the horns and be the world leader. Continue to be the world leader. So proud of our country, so proud of our companies, so proud of our people. Just it’s always, yeah, every time I meet him, every time I’m with him, I come back, completely fired up.
+
+Advice to the President: Maintaining America’s Computing Leadership
+YLLI BAJRAKTARI: So I have three questions for you for three different audiences. Number one is, you obviously met the President, and this is Memos to the President podcast. What is your advice to him about what are the things we have to do now to stay ahead?
+
+JENSEN HUANG: He wants America – well, first of all, he recognizes that the computer industry and one that I have the great honor to be part of, the computer industry is America’s national treasure. In no other industry do we lead the world to the level and scale of the computer industry. You can’t find another one. We lost the telecommunications industry. There is no way we’re going to lose the American computing industry and this computer industry.
+
+YLLI BAJRAKTARI: I’m talking about 5G because I think we have had this conversation. We lost the 5G wave.
+
+JENSEN HUANG: We lost the 5G wave. We lost it through technology. We lost it through policy. We lost it through bad strategic thinking. It is incredible what happened, and we simply cannot allow that to happen.
+
+YLLI BAJRAKTARI: And we’re still struggling to regain that territory.
+
+JENSEN HUANG: It’s going to be rough. It’s going to be super rough. We have an opportunity with 6G because 6G, that’s right, because of AI also. And so we are going to go do our best to help our country regain technology, leadership, and telecommunications.
+
+But back on AI, he wants America to be the world’s best. Of course he wants to continue to lead the world in order to lead the world in AI, because AI is fundamentally about computing, and computing is fundamentally about developers. The first job of leadership of a computing platform, which AI is also, is to win all developers. The first job of any platform is to win all developers.
+
+Later, when we talk about 5G, I can show you exactly the same thing. We had a policy that caused us to lose all developers. We need to have a policy that enables us to win all developers. 50% of the world’s AI developers are in China. AI developers are all over the world. They’re AI developers. Now, coming up, growing up in Africa, in Latin America, in Southeast Asia, in the Middle East, AI developers are everywhere.
+
+The reason why AI developers are everywhere is because every country, every industry, every company needs to have intelligence and wants to engage artificial intelligence. But it starts with 50% are in China and we need to win those developers. And so I think the first thing that I would continue to say every time I can, because the technology is not easy to understand, is if we want America to lead the AI revolution and continue to be the world leader, the first thing we need is every AI developer to build on American tech stack. The second thing I would say is…
+
+YLLI BAJRAKTARI: That I think you’ve also said you want to set the global standard for the technology stack.
+
+JENSEN HUANG: That’s right.
+
+YLLI BAJRAKTARI: The American companies should be those that set the standard.
+
+The American Tech Stack as Global Standard
+JENSEN HUANG: The American tech stack should be the global standard, just as the American dollar is the global standard by which every country builds on. We should want the American tech stack to be the tech stack that the AI stack that everyone builds on.
+
+Now, the tech stack starts with chips and systems. It is not just the AI models on top. There are many AI models on top. There’s incredible models of all kinds. Some of them are open source, some of them are closed, some are for physics, some of them are for quantum, some of them are for communications. The AI models are of all different types.
+
+The things that you do – your initiative called AI plus, I just deeply love AI for science. That model is obviously different than a chatbot. AI for quantum, obviously different. AI for 5G and 6G, obviously different. And so AI for robotics, obviously different. And so all these different models are all AI models and they should all be built on the American tech stack.
+
+And so the second thing that I would advocate is that AI diffusion should not be to limit American tech stack to the world. AI diffusion should be about maximizing the American tech stack all over the world so that every AI developer in the world builds on the American standard. And as we know about the computing ecosystem, the virtual cycle is incredible. The more your technology is everywhere, the more developers you’re going to have, the more developers you’re going to have, the more your technology is going to be everywhere. And so this positive feedback system is…
+
+Sovereign AI: Building on American Tech Stack
+YLLI BAJRAKTARI: I will just piggyback on this topic because you talk a lot about sovereign AI. What do you mean by that? How does a country build a sovereign AI? Why does it need it for? Obviously the way Europeans will build sovereign AI is going to be different than how African countries are big. But you’re traveling around the world and advocating for sovereign AI. So can you unpack your vision about this?
+
+JENSEN HUANG: I’m advocating for the American tech stack to be the tech stack that every country builds on. That’s what I’m advocating for. And the reason why every country needs to build their own tech stack, their own AI is because even though they could use American AIs, there’s no question. And they should. Every country should use OpenAI, every country should use Gemini, Google’s Gemini, and every country should use Grok. And so these are incredible models. And so every country should use them, but they should also build their own indigenous AI stack and their AI models.
+
+And that AI model is trained on their language, their history, the knowledge of their society, their culture, their values. It’s not sensible that one Western company will be able to capture and somehow deeply appreciate the values of every country and every religion and every background and every society around the world. And so each one of them should be able to build something on their own.
+
+And that AI model will work with other industrial AI, OpenAI models, or maybe even private corporate models or specific industrial science models or whatever it is. But all of these models are going to interact. They should be able to build their own. But still we want them to build on American tech stack.
+
+US-China Tech Competition
+YLLI BAJRAKTARI: Yeah, you’ve been pretty vocal about the US China tech competition. So I want to get your views about how you view the competition. You call them a peer competitor, not a near peer, but a peer competitor that have serious products, serious companies. Where do you think the competition stands now?
+
+America’s Competitive Position and China Relations
+JENSEN HUANG: First of all, China is our competitor and adversary, not our enemy. And the reason for that is because we have deep interconnections and interdependencies between the two countries.
+
+America is incredible. Our technology leadership is extraordinary. The computer industry by which I have the honor to serve is the most talented, deeply capable tech industry the world’s ever seen. And I expect us to retain our leadership position for decades to come. And I welcome competition. Let’s go, competitors. Come on, let’s go play. That’s the American spirit.
+
+The competitive spirit that we have isn’t lost. And we need the opportunity as the American industry to go fight for American leadership. And at a time when countries around the world all have capabilities, frankly, we’re interdependent and we depend on the capabilities of many countries.
+
+The deeper you go, the more you realize there are things in Europe that we depend on. There are things in Japan we depend on. There are things in Southeast Asia we depend on. There’s things in Latin America we depend on. Every country has their specialty and their capabilities.
+
+And China, of course, has formidable capabilities. Their technology companies are formidable. Huawei is formidable, BYD is formidable. These are incredible companies. Their national pride in manufacturing and deep, really deep and broad scale of manufacturing expertise cannot be undermined. It’s not about labor, it’s technology plus craft and labor scale. The combination of those three things together is just extraordinary. It’s something to witness.
+
+The Need for American Re-industrialization
+And so we need to realize that we are now in an interdependent world. And so what do we do? The thing that we should do. President Trump’s initiative on localizing or re-industrializing America is just a fantastic and visionary and timely initiative.
+
+We need to be world class at the technology of manufacturing, the craft of manufacturing and the labor scale of manufacturing. Again, that entire part of our ecosystem is somewhat lacking and we’ve lost our passion for it. Maybe it’s because back in the old days it was more about labor than it was about technology, but now it’s deeply technical and it’s something that we could really get passionate behind.
+
+And so I think this whole area of manufacturing, so that we could reduce our dependency on many countries around the world, reduce the temperature there, have more capabilities ourselves, it’s great for our national security, it’s great for our industries, it’s great for job creation, it’s great for our culture, frankly, it’s great for our society overall. And so I love that vision, President Trump’s vision of re-industrializing America.
+
+Meanwhile, we have to stay extraordinarily excellent in areas like artificial intelligence and AI computing and the tech stack so that we could be a partner to every country in the world and make a contribution to every country in the world so that we could have this continued interdependency of each other and drive our industry forward.
+
+Strategic Confidence Through Leadership
+YLLI BAJRAKTARI: Last question. Jensen, you talk about regaining strategic confidence. Is this what that means in your words? Leading, keep inventing. And by the end of this decade, American technologies have built the global infrastructure both on the tech stack, hardware, but as well as software.
+
+JENSEN HUANG: Yeah, exactly. Most of the time regulation policies tend to focus too much on limiting and restricting and that is fine to do. I just want to remind ourselves that America is extraordinary and that the companies here, and I have the benefit of working with companies all over the world. NVIDIA is obviously a company. We have businesses all over the world. I can attest that this country is extraordinary and extraordinary work ethics.
+
+Frankly, I think Americans work, if not as hard as any hardworking culture in the world. But I consider many American companies and many industries we work the hardest of any industry. And so Americans work, we have work ethics, we have incredible foundation for supporting industry and supporting startups. And it’s still the world’s best place for immigrants to come. It’s still the world’s best place for immigrants to come to get a great education and have the opportunity with all the ecosystem around us to build a great company.
+
+The American Dream Embodied
+I saw it firsthand. No one has enjoyed the American Dream and saw it personally in my lifetime than I have. If there’s a book that’s called “The American Dream,” I might be one of the chapters. And so this I embody the American dream and so I walk with extraordinary pride and great gratitude and recognizing what the magic of America and also a great confidence about what we can do.
+
+And so I think that whatever policies are created, are developed, is to realize and this is no different than companies developing strategies. Before you develop strategies about the adversary or the competition, the first thing you have to do is know thyself. And the strategies that you deploy when you’re in defense versus the strategies that you deploy and policies you deploy when you are in offense are related, not the same.
+
+And so it’s really important to get a sense of what our national capabilities are and especially in the field of artificial intelligence and computing, to recognize what an extraordinary industry we’ve created somehow over the years. And it is our national treasure. We should do everything we can to further this capability, to nurture this capability, to protect this capability and enhance it.
+
+And so I can’t tell you how proud here I am in Washington D.C. and our nation’s capital. It’s hard not to feel patriotic after you see the President. But it is a great reminder what an amazing country we’ve somehow built over the years and what an industry that has been that has emerged from it as a result. And we have every reason to be proud and every reason to be confident.
+
+YLLI BAJRAKTARI: On that incredible last note, thank you for really being a guest on our show.
+
+JENSEN HUANG: Thank you.
+
+YLLI BAJRAKTARI: Truly appreciate. We value the partnership we have with NVIDIA and I look forward to many more conversations with you. Thank you Jensen.
+
+JENSEN HUANG: Thank you Ylli, it’s great to be here.
+

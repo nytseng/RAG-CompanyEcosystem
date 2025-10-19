@@ -1,0 +1,154 @@
+JIM CRAMER: Jensen, we are in the capital of artificial intelligence.
+
+JENSEN HUANG: We sure are.
+
+CRAMER: Yes. And you are the leader and you put out a number yesterday. I’ve never heard a CEO ever say this. We’ve got a trillion-dollar roadmap and it’s going to happen sooner. How is this possible?
+
+HUANG: Well, you know, we’re building AI infrastructure for the world. And it is very clear now that we’re about 150 billion dollars of AI infrastructure into a journey of trillions of dollars of infrastructure. And so we’ve got a lot of AI to build.
+
+CRAMER: I was here last year. Totally different feel, different vibe. Felt there was a limitation to it. What happened in one year?
+
+HUANG: Well, in one year we made AI better. It’s smarter now. It can reason. We made AI more useful just about every industry and every company. All these companies are all building AI into their systems and into their products. And we’ve got a lot more energy and a lot more land and just so much more desire to build out these AI infrastructures.
+
+CRAMER: There were people who just even a month ago were saying there’s an outfit in China that is going to eliminate a lot of what NVIDIA provides and therefore NVIDIA — these chips are way too expensive. What I saw yesterday was that not even a factor in your thinking or anyone else’s thinking. It was an abstraction. It was a distraction.
+
+HUANG: Well, it is true that these processors and these computers are quite expensive. They’re quite expensive to make. And this is the largest chip in the world. It is the most complex computer the world’s ever made. And so it’s expensive to make. However, it saves you a mountain of money because it does work –
+
+CRAMER: Saves.
+
+HUANG: Saves you a mountain of money because the amount of it takes – the amount of time it saves you the amount of times that the processing time it reduces is incredible. And number two, now because it generates tokens that you can monetize, the amount of money it helps you make is incredible.
+
+CRAMER: Well, why just in the last 24 hours do I hear from GM, do I hear from Disney, do I hear from Cisco, do I hear from BlackRock, do I hear from CrowdStrike, who all of them say, look, our partnership with Jensen is key to our future?
+
+HUANG: Well, AI is the foundation, the operating system of every single industry going forward. And the reason for that is, of course, everything that we do in life is underpinned by intelligence. And we create what NVIDIA builds is the infrastructure for manufacturing digital intelligence. Now, we’re looking at this as one processor. But in our data centers, we announced a way yesterday to connect millions of these together using silicon photonics. And so we now have the ability to go from 100,000 of these things to millions of these things running in the data center at the same time. And that infrastructure, that factory, if you will, is the factory of the future.
+
+CRAMER: Now, I do want to go for a moment before I go to robotics and autonomous vehicles. I want to put on my journalist’s corrosive sardonic hat and say, well, wait a second. What if the president puts 25% tariffs on and Michael Dell is slowed down? HPE, we talked about yesterday, they’re slowed down and it could put a limit, if not a cap on your growth.
+
+HUANG: Well, we want to build. We’re enthusiastic about building in America as anybody. And so we’ve been working with TSMC to get them ready for manufacturing chips here in the United States. We also have great partners like Foxconn and Wistron, who are working with us to bring manufacturing onshore. So long term manufacturing onshore is going to be something very, very possible to do. And we’ll do it, incredibly scale.
+
+CRAMER: But the Chinese are still a key partner right now. You have a lot of businesses. I would say 17% of your business.
+
+HUANG: We do. Yeah. And in the near term, I would say, in the near term, tariffs will not – the impact will not be meaningful. And –
+
+CRAMER: But AI diffusion. Like that last initiative by Biden, which said, really, they’re only 18 friendly countries that we want you to do massive business with. That seemed arbitrary, if not judgmental in a way that I think you and I would say it makes no sense.
+
+HUANG: As you know, I just look around here. There are companies from all over the world. AI has gone mainstream. AI isn’t some magical technology. It’s incredible technology.
+
+CRAMER: Well, we have this –
+
+HUANG: But it’s used for everything.
+
+CRAMER: But we should talk about robot.
+
+HUANG: It’s used for health care, education and agriculture.
+
+CRAMER: Yesterday, I thought you downplayed Groot. When we think of icons, we think of Groot. And in many ways, you gave that two and a quarter minutes. But isn’t Groot robot going to save most of the marriages in this country by doing the dishes?
+
+HUANG: Yeah, you’re right. Doing the dishes and taking the trash out, walking the dogs, you know. And so, Groot stands for General Robotics Technology, GRT, Groot. And it stands for General Robotics Technology because the technology finally arrived where we could create the AIs. We build them in the data centers, requires large AI infrastructure to train these robots, simulate these robots in virtual worlds that obeys the laws of physics. And we partnered with Disney and DeepMind and we created this thing called Newton, which simulates physics incredibly accurately. And then you create this AI in the cloud and in the data center, and then you move the AI brain, if you will, download it digitally into a physical robot. And so the technology that we’ve been working on for some time is really making enormous progress. Robotics and robotics industries, general robots and other forms of robots, is going to be one of the largest AI, fact AI infrastructure opportunities for us, so.
+
+CRAMER: Well, if you can simulate, train, simulate and run you’re expediting – it’s going to happen much faster than people realize. When I hear that, that actually arc of how you can do it, I’m going to buy a robot within the next few years.
+
+HUANG: Yeah.
+
+CRAMER: Yes.
+
+HUANG: But you’ll rent it. You know –
+
+CRAMER: OK, I will rent it. I can’t afford to buy it.
+
+HUANG: We’ll rent it.
+
+CRAMER: Only the oligarchs can buy.
+
+HUANG: Well when you rent –
+
+CRAMER: No, but you’re saying this is what – and the robot is my size.
+
+HUANG: Yeah.
+
+CRAMER: It can do things that we only dreamed of doing. It’s not artifice, it’s reality.
+
+HUANG: And it doesn’t get bored, doesn’t get tired. You know.
+
+CRAMER: Sure.
+
+HUANG: Oh, yeah.
+
+CRAMER: Because when I think that they can reason, they want health care.
+
+HUANG: No, they’ll want entertainment. And yeah, sure. Yeah, we’ll keep them company and they’ll keep us company. But you see robots here  they are incredibly –
+
+CRAMER: But this is not the dog robot lifting Jell-o cubes. We are now well past that.
+
+HUANG: We’re incredibly cute. Yeah, they’re incredibly cute, as you know.
+
+CRAMER: I know.
+
+HUANG: And we can make them do all kinds of repetitive work. And seriously, the world is short of tens of millions of workers and factories. And factories would be more than delighted to pay 50, 70 thousand dollars a year to have some of these robots come in and do the repetitive tasks and all the dangerous work that we’d like not to do.
+
+CRAMER: This is exigency. I think too many people feel that they’re going to replace us. They don’t realize there’s not enough of us.
+
+HUANG: There’s not enough of us. Yeah.
+
+CRAMER: Well, OK, so you were talking about we need an amount of computation. There’s easily a hundred times more than we thought. So far, so good –
+
+HUANG: Yeah.
+
+CRAMER: — last year.
+
+HUANG: Yes.
+
+CRAMER: Were we that off last year?
+
+HUANG: Yeah, we’re way off. Yeah.
+
+CRAMER: We were. We didn’t see it?
+
+HUANG: Yeah.
+
+CRAMER: We just didn’t know how important it is?
+
+HUANG: Well, we realize that reasoning is very important to intelligence. And we realized that one shot AI that we were using wasn’t representative of intelligence and that we were going to make incredible progress. And last year, with reasoning models coming out, ChatGPT’s reasoning model and others. And it just took off. People love these reasoning models. We love that it’s giving us multiple answers that we can choose from. We love the fact that the AI is reflective of its own answers. And, you know, did I answer that question right? And could I have better options that I can present you? And so there’s a lot of different ways that the AI has now become much more reasonable and reasoning. And so that requires a lot more computation, a hundred hundreds, hundreds more time computation. And so we – this new level of AI is going to demand a lot of a lot of chips, which is the reason why demand for –
+
+CRAMER: But you’re talking about millions of chips. You’re talking about data centers. A huge data center, a Larry Ellison data center. How many chips does that need?
+
+HUANG: Hundreds of thousands.
+
+CRAMER: Hundreds of thousands.
+
+HUANG: Yeah.
+
+CRAMER: Well, that’s millions of dollars for NVIDIA.
+
+HUANG: Every gigawatt of data center is somewhere around $40 to $50 billion of opportunity for us.
+
+CRAMER: And how much percentage does NVIDIA get there?
+
+HUANG: Out of that, every gigawatt –
+
+CRAMER: That’s you.
+
+HUANG: — is about $40 or $50 billion –
+
+CRAMER: But I thought you were in trouble and things are slowing down and the Chinese are taking over and we should be looking at you and thinking this is a meme stock that’s going to 90.
+
+HUANG: We have a very large opportunity ahead of us.
+
+CRAMER: OK, so I worry about it. You give a roadmap – I was laughing on the inside I’m sorry.
+
+HUANG: Yeah.
+
+CRAMER: You give a roadmap and I can – I know about the Vera Rubin and I’m saying, why don’t I just wait for Vera Rubin? Why can’t I skip this? Blackwell plus? No, we’ll forget that. I’m jumping over. And therefore, I’m going to wait ’til 2027. What do you say to those customers?
+
+HUANG: Well, this is building an industry and building business. And we’re trying to build business every year, as you know. And it’s not like buying a TV or, you know, buying a bicycle. This is something that you’re building these AI factories to run your company. You’re building these AI factories to run other companies companies, and so they’re going to want your AI factories right now. The reason why I lay out our roadmap for several years is because the world is building AI infrastructure, trillions of dollars of it over the next several years.
+
+CRAMER: We can’t comprehend trillions.
+
+HUANG: Well, you know, this is the new industrial revolution. And inside underpinning an industrial revolution are new factories. And we are the factories of the future.
+
+CRAMER: What are we talking about? We think about Fulton and the steam engine. We think about railroads. These are – yours is so much bigger than all of those.
+
+HUANG: Well, the world is bigger now than it was back then, right? That’s $120 trillion industry, GDP around the world. And now this new factory, called AI factories, is the underpinning for all of it. And so the idea that 100 trillion dollars of the world’s GDP will be underpinned by trillions of dollars of AI factories, it’s very sensible.
+
+CRAMER: With NVIDIA in it, and that’s why we’re going to wait and talk more later on Mad Money. And I want to thank the Squawk on the Street 10 o’clock gang for letting me coming in here with an eye-opening discussion. Thank you, David. Thank you, Sara.
+

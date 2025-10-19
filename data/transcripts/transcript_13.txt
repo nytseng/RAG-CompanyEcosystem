@@ -1,0 +1,424 @@
+Jason Calacanis (43:27)
+
+Yeah, thanks D. Okay, everybody, we got a real treat for you. Jensen Huang is here. Sit here, sit here, sit here.
+
+Lisa Su (43:34)
+
+The hot seat. Thanks for coming.
+
+Jensen Huang (43:37)
+
+Thank you.
+
+Lisa Su (43:38)
+
+Great to have you.
+
+Jensen Huang (43:39)
+
+Thank you. The number one podcast.
+
+Lisa Su (43:41)
+
+Podcast in the world, we were saying. The number one company in the world.
+
+Jason Calacanis (43:45)
+
+Wow.
+
+Lisa Su (43:45)
+
+Thank you.
+
+Jensen Huang (43:46)
+
+You're a fan of the Pod.
+
+Jason Calacanis (43:47)
+
+You listen to the pod.
+
+Chamath Palihapitiya (43:50)
+
+This is Norman, our host.
+
+Jason Calacanis (43:51)
+
+Yeah. Yes. And there's Steve. What's the story with the jacket? You got one of those? You have like six.
+
+Jensen Huang (43:57)
+
+I have something like 50 or 60 of them.
+
+Lisa Su (44:01)
+
+You really?
+
+Jensen Huang (44:01)
+
+Yeah.
+
+Lisa Su (44:02)
+
+Wow.
+
+Jason Calacanis (44:02)
+
+What is that? Tom Ford?
+
+Jensen Huang (44:04)
+
+I think so. This one is. I think.
+
+Jason Calacanis (44:06)
+
+Yeah. It's nice. I like it. I tried that on. It was like, you way too much money.
+
+Jensen Huang (44:09)
+
+Well, you guys are all so fashionable.
+
+Jason Calacanis (44:11)
+
+Yeah.
+
+Jensen Huang (44:11)
+
+Coming from you guys, it actually means something. Yeah.
+
+Jason Calacanis (44:13)
+
+Oh, yeah.
+
+Jensen Huang (44:14)
+
+Oops. Oh, look at you. Look at you.
+
+Jason Calacanis (44:17)
+
+Hey, we've been talking a lot about opportunity. You've talked.
+
+Jensen Huang (44:20)
+
+Shaman is like a model.
+
+Jason Calacanis (44:23)
+
+He is. He is.
+
+Lisa Su (44:24)
+
+Okay. He's definitely in his head, he's like.
+
+Jason Calacanis (44:27)
+
+Is Tom Ford your favorite? Who's your favorite?
+
+Jensen Huang (44:29)
+
+My favorite is whatever my wife gets me.
+
+Jason Calacanis (44:31)
+
+Ah, she dresses you as soon as she gets it.
+
+Jensen Huang (44:33)
+
+For me, it's my favorite.
+
+Jason Calacanis (44:34)
+
+Yes. Same with me.
+
+Lisa Su (44:35)
+
+Smart man.
+
+Jensen Huang (44:38)
+
+Nobody wears a suit better than Jacob. Good God.
+
+Jason Calacanis (44:40)
+
+Yeah, he's a handsome man.
+
+Chamath Palihapitiya (44:42)
+
+Just trying to keep up with you guys.
+
+Jason Calacanis (44:44)
+
+I have two questions for you. Take them in whichever order you like. We've been talking a lot about job, displacement, opportunity. Short term, long term. Obviously you get to see everybody applying the technology because, hey, listen, you've got the best product in town to build on. Therefore, everybody explains to you their hopes, their dreams. So you have a unique way of looking at the playing field. You have complete information that we don't have. So I want to know what you think. Don't worry, we'll fix it. What you think? What you think about job creation, transfer, displacement, et cetera. And then the second one, I've just always been curious. You got all these important people knocking on your door. You got Zuck, you got E. You got Sam Altman. He seems like he's a little bit of a headache, I'll be honest.
+
+Jensen Huang (45:36)
+
+But he's great.
+
+Jason Calacanis (45:38)
+
+He's great. I'm joking. I'm joking. How do you allocate the H1 hundreds and whatever else you're selling them and still have them all like you? Because they must ask sometimes, hey, can I get extra? I'll pay you extra. So just the allocation of a finite amount of resources. And then, Jobs.
+
+Jensen Huang (45:56)
+
+First of all, I wrote off $5 billion worth of hoppers. If anybody would like to have some extras, just give me a call. Jobs. We use AI across the whole company. Every single software Engineer today uses AI. Not one left behind. 100% of our chip designers use AI. We are busier than ever. And the reason for that is because we have so many ideas that we want to go pursue. AI makes it possible for us to go pursue those ideas now that we're not doing the mundane stuff. And so I think the first idea is, the more productive you are as a company, so long as you have more ideas, you could pursue those ideas. You'll go after those ideas. And I think that AI in my case, is creating jobs. It causes us to be able to create things that other people would. Customers would like to buy. It drives more growth. It drives more jobs. All that goes together. The other thing to remember is that AI is the greatest technology equalizer of all time.
+
+Jason Calacanis (46:57)
+
+Okay, explain.
+
+Jensen Huang (46:58)
+
+Everybody's a programmer now.
+
+Jason Calacanis (47:00)
+
+Yes.
+
+Jensen Huang (47:01)
+
+You used to have to know C and then C and Python. And, you know, in the future, everybody can program a computer, Right? Just have to get up. And if you don't know how to program a computer, you don't know how to program an AI. Just go up to the AI and say, how do I program an AI? And the AI explains to you exactly how to program the AI, even when you're not sure exactly how to ask a question. What's the best way to ask the question? And I'll actually write the question for you. It's incredible.
+
+Jason Calacanis (47:24)
+
+Yeah.
+
+Jensen Huang (47:24)
+
+And so it's a great equalizer. Everybody is going to be augmented by AI. Everybody's an artist now, everybody's an author now, Everybody's a programmer now. That is all true. And so we know that AI is a great equalizer. We also know that it's not likely that although everybody's job will be different as a result of AI, everybody's jobs will be different. Some jobs will be obsolete, but many jobs will be created. The one thing that we know for certain is that if you're not using AI, you're going to lose your job to somebody who uses AI. That I think we know for certain. There's not a software programmer in the future who's going to be able to hold their own, I mean, you know, typing by themselves.
+
+Jason Calacanis (48:10)
+
+Yeah, you can't raw dog it.
+
+Jensen Huang (48:11)
+
+No, no, not anymore. Not anymore. You can't raw dog it. I'll be sure to go home and tell people.
+
+Chamath Palihapitiya (48:19)
+
+Yeah, exactly.
+
+Jensen Huang (48:19)
+
+You're not going to raw dog this.
+
+Jason Calacanis (48:21)
+
+Yeah, get your copilot on. Now, what about the allocation of all these?
+
+Jensen Huang (48:24)
+
+Okay, so the way we allocate is this. The way we allocate is this place a po.
+
+Jason Calacanis (48:30)
+
+Okay, you go to the register, you.
+
+Jensen Huang (48:34)
+
+Pay, you order first. You know, first. In the old days with Hopper, it happened so fast it was impossible to keep up with the demand. But now we disclose our roadmap to all of our partners a year in advance. Gives everybody a chance to plan with us. They decide how much power and how much data center space and how much capex they want to allocate. We plan together, we work on transitions. It's really quite orderly these days.
+
+Jason Calacanis (49:02)
+
+What's the lifespan now? I was looking into how they're amortizing these units four or five years. What happens to this massive build out in year 6, 7 and 8? What will be the use of those computers if you keep building such great products that replace them at 2, 3, 4 times? What do we do with all that.
+
+Jensen Huang (49:19)
+
+Concepts are happening right now? The first thing is every generation we increase the performance by X factors. If the perf per watt goes up by X factors, whatever your data center power is, we just increase your revenues by X factors.
+
+Chamath Palihapitiya (49:36)
+
+Right.
+
+Jensen Huang (49:37)
+
+So perf per watt is equal to revenues. Perf per dollar equals the cost. And so when we increase our perf per dollar by X factors, we reduce your cost by X factors. Does that make sense? That's the first idea. And so every single. The reason why we're moving so fast is we're trying to increase everybody's revenues, we're trying to decrease everybody's cost so that we have the benefit of driving AI cost down as far as possible so that we can have thinking AI. It's not that we're trying to make AI so that it generates a thousand tokens and that's it. In the future, you're going to be generating millions of tokens and it generates an answer. As a result of that, you got to think a long time and so you got to get that cost down. The second idea is, if you look at the residual value of Nvidia gear right now, hopper, for example, one year later, it's probably about 80%, 75 to 80% of the value of the original value. And then one year later is another kind of like 65%. And then one year later it's like 50%. The reason. And right now, if you try to get hoppers in the cloud, it's all sold out. The reason for that is because CUDA is so programmable and we're constantly. The whole world, not just us, the whole world is doing open source development, improving its effectiveness. And so what's amazing is the performance of Hopper increases over time because we're improving the software stack it Hopper improved in performance by us and others by a factor of four in the time that we shipped it. Now, you can't get that out of a cpu, right?
+
+Chamath Palihapitiya (51:11)
+
+Jensen, can you explain to us Elon's tweet and the impact to your industry? He said, we're going to have 50 million H100 equivalents in five years from now. And everybody started to feverishly do the math because if he has 50 million H100 equivalents, then OpenAI will have that much or more, Meta will have that much or more, Google, et cetera, et cetera, et cetera. Can you just explain to us Layman what that means, what he just said, and how it impacts your business?
+
+Jensen Huang (51:46)
+
+One of the biggest observations about AI is that there's the industry of applications that AI has created as a revolutionary technology. Every industry will be revolutionized, new applications will be created, so on and so forth, that all the things that we know, agentic AI, reasoning, AI, robotics, AI, so on and so forth, we know all those things now. Every industry, healthcare, education, transportation, you name manufacturing, all revolutionized. The one part that we observed and, and made a great contribution to is that in order to sustain those applications, you need factories of AI. You have to produce AI, unlike software. You write the software and that's it. In the case of AI, you have to continuously produce it, generate the tokens in a lot of the same ways that energy production was a large part of the economy a couple two, 300 years ago. I think it actually peaked out at 30% there's going to be a whole industry of just producing tokens and this is going to be the new infrastructure. Just as we have the energy production infrastructure, we have the Internet infrastructure and we got to build out that plumbing and now we got to, we have to build out the AI infrastructure. My sense is that we're probably, you know, a couple of hundred billion dollars, maybe a few hundred billion dollars into a multi trillion dollar infrastructure build out per year. Yeah.
+
+Lisa Su (53:18)
+
+What about manufacturing?
+
+Jensen Huang (53:21)
+
+And the reason for that is because you want the new infrastructure which increases revenue, drive your cost down, Right? That's right.
+
+Lisa Su (53:27)
+
+What about manufacturing in the us so where are we? We've seen stories of TSMC in Arizona. We asked this question earlier about how it's going. Is the US equipped? What is it going to take for us to get there to have onshore fabs?
+
+Jensen Huang (53:42)
+
+First of all, you guys know you're talking about the United States. I know that there's lots of concerns and everybody's worried about competition and things like that. But we are talking about America here. This is unquestionably the most technology rich country in the world. And this is the most innovative countries in the world. And the computer industry I have the honor to serve is the single greatest industry our country has ever produced. I think we could acknowledge that. Yep, the, the level of leadership of the computer industry, the technology industry is just unimaginable worldwide. And so this is our national treasure. This is one of our country's assets. We have to make sure that we continue to, to, to advance it. Onshoring next generation manufacturing is going to be insanely technology driven. Robotics technology, AI technology. You're going to have factories that are going to be orchestrated by AI orchestrating a whole bunch of robots that are AI building products that are effectively AIs.
+
+Chamath Palihapitiya (54:48)
+
+Right.
+
+Jensen Huang (54:48)
+
+So you're going to have this layers of inception and the amount of technology necessary to create that is really insane. I love President Trump's vision, bold vision of re industrializing the United States. That entire band of industry that's missing. We outsource too much of it, frankly, we don't need to insource all of it. But we ought to bring onshore the most advanced, the most economy sustaining, driving national security enhancing parts of the industry. You know, people always degrade down to tennis shoes. We don't have to go there. We just manufacture chips and AI supercomputers in Arizona and Texas. We will in the next four years probably produce about half a trillion dollars worth of AI supercomputers that half a trillion Dollars with AI supercomputers will probably drive a few trillion dollars worth of AI industry. And so that's only in the next several years. And, and they're doing great, Arizona is doing great.
+
+Chase Lockmiller (55:47)
+
+And so there's, there's a lot of.
+
+Chamath Palihapitiya (55:49)
+
+Talk about American competitiveness today. And the White House rolled out its AI action plan and Nvidia is making very big bets on the United States.
+
+Chase Lockmiller (55:57)
+
+And so as a CEO of a global company, what do you see are America's unique advantages that other countries don't have?
+
+Jensen Huang (56:06)
+
+America's unique advantage that no country possibly have is President Trump. And let me explain why. One, on the first day of his administration, he realized the importance of AI and he realized the importance of energy. For the last, I don't know how many years energy production was vilified. If you guys remember, we can't create new industries without energy. You can't reshore manufacturing without energy. You can't sustain a brand new industry like artificial intelligence without energy. If we decide as a country the only thing we want is IP to be an IP only, a services only country, then we don't need much energy. But if we want to produce things, something as vital as artificial intelligence, and we need energy. And so I'm just delighted to see pro to accelerate AI innovation, to accelerate the growth of energy so that we can sustain this new industry and you know, go after the, the new industrial revolution. Big, big deal.
+
+Lisa Su (57:20)
+
+Can, can you Talk about physical AI vs data center AI? We talk, we talked a little bit about this today. Is there a threshold where you see physically accelerating and ultimately the deployment of chips outpaces the deployment of chips and data centers? Is that where the world evolves to or what do you think everything in the world of the world looks like?
+
+Jensen Huang (57:38)
+
+Yeah, excellent. Everything in the world that moves will be autonomous someday. And that someday is probably around the corner. So everything that moves. We already know that your lawnmower is going to, you know, who's going to be pushing a lawnmower around? That's craziness. Unless you want to. I mean it's, you know, and so I think everything that moves will be autonomous. And every machine, every company that builds machines will have two factories. There's the machine factory, for example, cars, and then there's the AI factory to create the AI for the cars. And so maybe you're a machine factory to build human robots. You need an AI factory to build a brain for the human or robot. And so every company in the future, in fact the future of industry is really two factories Tesla already has two factories, right. Elon has a giant AI factory. He was very early in recognizing that he needs to have an AI factory to sustain the cars that he has. Now he's got AIs in the car. But in the future instead of, you know, I imagine that in the future instead of a whole lot of people remote remotely monitoring air traffic control, it'll be a giant AI that's doing the remote control. And then only in the case of the giant AI can't handle it with a person come in to intercept. And so I think you see that these industries in the future, every industrial company will be an AI company or you're not going to be an industrial company.
+
+Chamath Palihapitiya (59:05)
+
+There was a couple of moments throughout the course of this year where people almost threw in the towel and said, oh, we lost to China, right. There was the Deep Sea moment. Then maybe this week, last week there was this Kimmy model moment. But then it kind of fizzled out. Can you just explain to us how big of a threat they really are in terms of getting to supremacy, getting there first, whether it's AGI or you know, super intelligence.
+
+Jensen Huang (59:33)
+
+Yeah, excellent question. The Chinese AI labs are the world, world's leading open open model companies. They, they offer the most advanced open models. Open source is fantastic. If not for open source, we know startups won't exist. And to the extent that we believe that the future is going to be, the future industry is going to be today startups, they're going to need open open source models and Deep Seq. When it came out, it was a great win for the United States. It was an incredible win. What people did and two reasons. First, imagine if Deep Sea came out and only ran on Huawei. I just want us to pretend use that thought experiment totally right.
+
+Jason Calacanis (60:19)
+
+You got two parallel universe.
+
+Jensen Huang (60:21)
+
+Exactly. Could you imagine if QN came out and only worked on non emerg Tech Stack? Could you imagine if Kimi came out and it only worked on non American Tech Stack? And these are the top three open models in the world today. It is downloaded hundreds of millions of times. So the fact of the matter is American Tech Stack all over the world, being the world's standard is vital to the future of winning the AI race. You can't do it any other way. We've got to be, you know, as you know, any computing platform wins because of developers.
+
+Chamath Palihapitiya (60:52)
+
+Yeah.
+
+Jensen Huang (60:53)
+
+And half of the world's developers are in China.
+
+Chamath Palihapitiya (60:55)
+
+So speaking of developers, the second, the.
+
+Jensen Huang (60:57)
+
+Second, I'm sorry, the second thing is really big deal. When Deep Sea came out. We were thrilled for the second reason which is we now have a super efficient reasoning model. And the reason for that is because the old models are one shot. Give it a question. Everything was memorized. You know, the pre training is basically memorization and generalization, two concepts. Post training is teaching you how to think. And so now with deep seq R1 Kimi Kimi K2Q1 3 you now have reasoning models that can allow to help you think. And so the reason why I was so excited is if each pass of a thought is energy efficient then you can think for a long time. Yeah.
+
+Chamath Palihapitiya (61:43)
+
+The last question for me is that we see this capital being applied to human capital in a way that we never thought was possible. It used to be NBA players signing 300 million dollar contracts. Now it's, you know, model researchers. And then there was a, there was a post this weekend that said that there was a person that was offered a billion dollars over four years by Meta. Now if that's happening at this layer, why hasn't it happened at your layer? Because you are the enabler of all of that. And how do you think all of this human capital is going to actually play out?
+
+Jensen Huang (62:17)
+
+First of all, I've created more billionaires on my management team than any CEO in the world. They're doing just fine. Okay. And so, and they're doing, don't feel sad for anybody at my layer.
+
+Jason Calacanis (62:35)
+
+Everybody's doing okay.
+
+Jensen Huang (62:35)
+
+Yeah, my layer is doing just fine. I tell. But, but the important, the big idea though is that you're highlighting is that the impact of a 150 or so AI researchers can probably create with enough funding behind them. Create an open AI.
+
+Chamath Palihapitiya (62:53)
+
+It's a, it's not a 150 people.
+
+Jensen Huang (62:55)
+
+Yeah, it's not a, it's not. Well, deep seeks 150 people. Moonshots. 150 people.
+
+Chamath Palihapitiya (63:00)
+
+Right, right.
+
+Jensen Huang (63:01)
+
+And so I mean look at the original OpenAI was about 150 people, DeepMind, you know, and they're all about that size I think, I think, you know, there's something about the elegance of small teams. And that's not a small team, that's a good, good sized team with the right infrastructure. And so that kind of tells you something. 150 people. If you're willing to pay say $20 billion, $30 billion to buy a startup with 150 AI researchers, why wouldn't you pay one?
+
+Lisa Su (63:28)
+
+Right, yeah.
+
+Jason Calacanis (63:29)
+
+Speaking of options, by the way, somebody.
+
+Lisa Su (63:31)
+
+Told me we need to wrap because.
+
+Jason Calacanis (63:33)
+
+I'm going to do this one question. Somebody who was inside Your organization told me with the options, that you have a secret pool of options and that you will randomly, just, if somebody does a great job, drop a bunch of RSUs on top of them, and that you have this, like, little bag of options you carry around and that you give them out.
+
+Jensen Huang (63:52)
+
+That's nuts.
+
+Jason Calacanis (63:53)
+
+Is that true?
+
+Jensen Huang (63:54)
+
+Yeah. I'm carrying in my pocket right now. So listen. So this is what happens. I review. I review everybody's compensation up to this day.
+
+Jason Calacanis (64:03)
+
+Yeah.
+
+Jensen Huang (64:03)
+
+At the end of every cycle when they present it. And they said, they send me everybody's. Everybody's recommended comp. I go through the whole company. I've got my methods of doing that, and I use machine learning. I do all kinds of technology, and I sort through all 42,000 employees. And 100% of the time, I increase the company's spend on OpEx. And the reason for that is because you take care of people. Everything else takes care of.
+
+Jason Calacanis (64:27)
+
+All right. Well done.
+
+Lisa Su (64:28)
+
+Thank you. Thank you.
+
+Jason Calacanis (64:29)
+
+Joseph.
+
+Chamath Palihapitiya (64:29)
+
+Great to see you.
+
+Jensen Huang (64:30)
+
+It's great to see you.
+
+Lisa Su (64:31)
+
+We have an event in la. We'd love to continue the conversation.
+
+Jensen Huang (64:33)
+
+So we'll send you the world's number one podcast.
+
+Lisa Su (64:36)
+
+There you go. Thank you.
+
