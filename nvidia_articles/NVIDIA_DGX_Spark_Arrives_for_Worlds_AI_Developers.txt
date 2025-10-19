@@ -1,0 +1,57 @@
+Title: NVIDIA DGX Spark Arrives for World’s AI Developers
+Source: https://nvidianews.nvidia.com/news/nvidia-dgx-spark-arrives-for-worlds-ai-developers
+
+---
+
+News Summary:
+NVIDIA founder and CEO Jensen Huang delivers DGX Spark to Elon Musk at SpaceX.
+This week, NVIDIA and its partners are shipping DGX Spark, the world’s smallest AI supercomputer, delivering NVIDIA’s AI stack in a compact desktop form factor.
+Acer, ASUS, Dell Technologies, GIGABYTE, HPI, Lenovo and MSI debut DGX Spark systems, expanding access to powerful AI computing.
+Built on the NVIDIA Grace Blackwell architecture, DGX Spark integrates NVIDIA GPUs, CPUs, networking, CUDA libraries and NVIDIA AI software, accelerating agentic and physical AI development.
+NVIDIA today announced it will start shipping NVIDIA DGX Spark™, the world’s smallest AI supercomputer.
+AI workloads are quickly outgrowing the memory and software capabilities of the PCs, workstations and laptops millions of developers rely on today — forcing teams to shift work to the cloud or local data centers.
+As a new class of computer, DGX Spark delivers a petaflop of AI performance and 128GB of unified memory in a compact desktop form factor, giving developers the power to run inference on AI models with up to 200 billion parameters and fine-tune models of up to 70 billion parameters locally. In addition, DGX Spark lets developers create AI agents and run advanced software stacks locally.
+“In 2016, we built DGX-1 to give AI researchers their own supercomputer. I hand-delivered the first system to Elon at a small startup called OpenAI — and from it came ChatGPT, kickstarting the AI revolution,” said Jensen Huang, founder and CEO of NVIDIA. “DGX-1 launched the era of AI supercomputers and unlocked the scaling laws that drive modern AI. With DGX Spark, we return to that mission — placing an AI computer in the hands of every developer to ignite the next wave of breakthroughs.”
+DGX Spark brings together the full NVIDIA AI platform — including GPUs, CPUs, networking, CUDA
+®
+libraries and the NVIDIA AI software stack — into a system small enough for a lab or an office, yet powerful enough to accelerate agentic and physical AI development. By combining breakthrough performance with the reach of the NVIDIA ecosystem, DGX Spark transforms the desktop into an AI development platform.
+DGX Spark systems deliver up to 1 petaflop of AI performance, accelerated by a NVIDIA GB10 Grace Blackwell Superchip, NVIDIA ConnectX
+®
+-7 200 Gb/s networking and NVIDIA NVLink™-C2C technology, providing 5x the bandwidth of fifth-generation PCIe with 128GB of CPU-GPU coherent memory.
+The NVIDIA AI software stack is preinstalled to enable developers to start working on AI projects out of the box. With DGX Spark, developers can access NVIDIA AI ecosystem tools including models, libraries, and NVIDIA NIM™ microservices, enabling local workflows such as customizing Black Forest Labs’ FLUX.1 models to refine image generation, creating a vision search and summarization agent using the NVIDIA Cosmos™ Reason vision language model, or building an AI chatbot using Qwen3 that is optimized for DGX Spark.
+To celebrate DGX Spark shipping worldwide, Huang hand-delivered one of the first units of DGX Spark to Elon Musk, chief engineer at SpaceX, today in Starbase, Texas. The exchange was a connection to the supercomputer’s origins, as Musk was among the team that received the first NVIDIA DGX™-1 supercomputer from Huang in 2016.
+Other early recipients of DGX Spark, including
+Anaconda
+, Cadence,
+ComfyUI
+,
+Docker
+, Google, Hugging Face, JetBrains,
+LM Studio
+, Meta, Microsoft,
+Ollama
+and
+Roboflow
+, are testing, validating and optimizing their tools, software and models for DGX Spark.
+Research organizations around the world, including the NYU Global AI Frontier Lab, previewed DGX Spark to boost their AI development.
+“DGX Spark allows us to access peta-scale computing on our desktop,” said Kyunghyun Cho, professor of computer and data science at the NYU Global AI Frontier Lab. “This new way to conduct AI research and development enables us to rapidly prototype and experiment with advanced AI algorithms and models — even for privacy- and security-sensitive applications, such as healthcare.”
+NVIDIA DGX Spark Now Shipping
+Starting Wednesday, Oct. 15, DGX Spark can be ordered on
+NVIDIA.com
+. Partner systems will be available from
+Acer
+,
+ASUS
+,
+Dell Technologies
+,
+GIGABYTE
+,
+HP
+,
+Lenovo
+,
+MSI
+as well as
+Micro Center
+stores in the U.S., and from NVIDIA channel partners worldwide.

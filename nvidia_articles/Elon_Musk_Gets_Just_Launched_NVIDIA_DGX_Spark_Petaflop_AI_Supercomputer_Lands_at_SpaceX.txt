@@ -1,0 +1,143 @@
+Title: Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Source: https://blogs.nvidia.com/blog/live-dgx-spark-delivery/
+
+---
+
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+The revolution begins at Starbase. NVIDIA CEO Jensen Huang kicks off the rollout of DGX Spark, the world’s smallest AI supercomputer, with a hand-delivery to  Elon Musk.
+October 13, 2025
+by
+NVIDIA Newsroom
+Share
+Email
+0
+The future of AI took flight at Starbase, Texas — where NVIDIA CEO Jensen Huang hand-delivered the first DGX Spark to Elon Musk, chief engineer at SpaceX.
+Amid towering engines and gleaming steel, Huang walked past rows of engineers who waved and grinned. Moments later, Musk appeared in the cafeteria, greeting staff, opening donuts and chips for kids, and grabbing a slice of pizza. Huang joined him, recounting the story of delivering the first DGX system to OpenAI — and how DGX Spark takes that mission further.
+“Imagine delivering the smallest supercomputer next to the biggest rocket,” Huang said with a laugh.
+The handoff came as SpaceX prepared for the 11th test of Starship — the world’s most powerful launch vehicle — fusing the spirit of exploration with the power of AI.
+Built for developers, researchers and creators, DGX Spark brings supercomputer-class performance beyond the data center — ready to grab and go.
+Nine years ago, NVIDIA bet on the future of AI with NVIDIA DGX-1. Today, that bet goes beyond the data center with the handoff to Musk coming amid the 11th test of
+SpaceX’s Starship, the world’s most powerful launch vehicle
+.
+From robotics labs to creative studios, DGX Sparks are landing where ideas happen… putting petaflop AI within arm’s reach of everyone.
+This blog will be updated as DGX Spark systems land from Ollama in Palo Alto to Arizona State’s robotics lab, from Refik Anadol’s studio to the hands of Jo Mardall at Zipline. Each delivery is a new chapter in the story of AI.
+What’s Inside DGX Spark? A Supercomputer in the Palm of Your Hand
+It’s the size of a piece of origami paper, and the thickness of a hardcover book. It acts like a rocket engine for AI.
+DGX Spark isn’t just compact — it’s dense with possibility. Inside its 1.2 kg chassis is a full-blown AI supercomputer built to take AI beyond the data center and into the hands of those who create.
+At its core:
+NVIDIA GB10 Grace Blackwell Superchip
+— delivering up to 1 petaflop of AI performance at FP4 precision.
+128GB of unified CPU-GPU memory
+— so developers can prototype, fine-tune and run inference locally without bouncing between machines or cloud instances.
+NVIDIA ConnectX networking
+for clustering and NVIDIA NVLink-C2C for 5x PCIe bandwidth.
+NVMe storage
+for speed and
+HDMI out
+for visuals.
+And it’s not just hardware. DGX Spark comes with the full NVIDIA AI software stack — frameworks, libraries, pretrained models and NVIDIA NIM microservices, ready to power workflows like:
+Customizing image-generation models such as FLUX.1
+Building vision search and summarization agents with NVIDIA Cosmos
+Deploying optimized chatbots using Qwen3
+This isn’t a dev box. It’s a launchpad… A petaflop of AI performance within arm’s reach for developers, researchers and creators everywhere.
+Partners Power Up: DGX Spark Lands Beyond the Data Center
+From PC giants to AI pioneers, the diminutive DGX Spark is sure to start something big.
+DGX Spark is already in the hands of innovators — from ISVs optimizing their tools to researchers pushing the boundaries of robotics, art and edge AI.
+DGX Spark isn’t just a breakthrough in size and performance… it’s a platform built on collaboration. Acer, ASUS, Dell Technologies, GIGABYTE, HP, Lenovo and MSI are rolling out systems that put petaflop AI on your desk, transforming the desktop into an AI launchpad.
+These partners deliver more than hardware. They deliver possibility — NVIDIA’s full AI stack in a compact form factor that accelerates agentic and physical AI development everywhere ideas happen.
+And the rollout doesn’t stop at OEMs. DGX Sparks are already lighting up the AI ecosystem. Some highlights:
+Ollama
+in Palo Alto, rewriting how developers run large language models locally.
+NYU Global Frontier Lab
+, where researchers prototype algorithms for privacy-sensitive applications.
+Zipline
+, pushing the boundaries of autonomous delivery.
+Arizona State University
+, running robotics simulations and vision models at the edge.
+Refik Anadol’s studio
+, blending art and AI with petaflop performance.
+From creative studios to robotics labs, DGX Sparks are landing where imagination meets engineering — taking AI beyond the data center and into the hands of those building what’s next.
+DGX Spark Ignites a New Era of Desktop AI
+As DGX Spark systems land across the ecosystem, six early partners are already showing what’s possible when petaflop-class AI meets the desktop:
+Dell Pro Max with GB10
+powered by Grace Blackwell and DGX OS brings data-center class AI at your desk, delivering up to 200B parameters- with unified memory, CUDA and instant scalability. For those needing even more power, connecting two Dell Pro Max with GB10 systems turns them into a single node capable of supporting 400 billion-parameter models.
+HP’s ZGX Nano G1n AI Station
+brings serious AI horsepower to the desktop — petaflop-class performance, 128GB unified memory, and full access to NVIDIA’s AI stack.
+Lenovo ThinkStation PGX
+brings agentic AI to the desktop. Built for researchers and developers, it runs models up to 200B parameters and seamlessly bridges local prototyping with cloud deployment.
+LM Studio
+is now live on DGX Spark, shipping for Linux on ARM. Developers can spin up private LLM servers, run models like Qwen3 Coder locally, and connect across the network—no cloud required.
+Python on DGX Spark
+is already changing the game. Anaconda’s Stanley Seibert dives into unified memory, hybrid compute, and what it means for running billion-row dataframes and billion-parameter models — all locally.
+Roboflow
+brings vision AI to the desktop. With DGX Spark, developers can now train and fine-tune highly accurate computer vision models locally, giving their software the sense of sight and powering intelligent, connected systems.
+Also notable: Serve Robotics completed the first-ever DGX Spark deliveries
+:
+The company’s autonomous sidewalk robots, powered by NVIDIA Jetson Orin and trained in Isaac Sim, carried out the first deliveries of DGX Spark systems to developers — a milestone that literally brings the next generation of AI to their doorsteps.
+From Palo Alto to the PyData ecosystem, DGX Spark is redefining what’s possible by putting supercomputing power within arm’s reach of every creator, researcher and builder.
+‘Freaking Cool’: DGX Spark Early Reviews Are In
+As DGX Spark systems begin landing, early reviewers are weighing in — and the verdict is clear: this tiny AI supercomputer is making a massive impact. From developer-first design to petaflop performance in a desktop form factor, Spark, is earning high marks across the board. A few quick hits:
+HotHardware Recommended
+NVIDIA’s Build portal playbooks are
+clear, thorough, and beginner-friendly
+.
+“Even novices will have no trouble getting started.” —
+HotHardware
+“Purpose-built hardware like DGX Spark will become the norm.”
+“This is the place to start.”
+ServeTheHome
+“Freaking cool.”
+128GB unified memory + NVIDIA Blackwell =
+no need for cloud or extra accelerators
+.
+“Must-have for AI devs — and execs bringing AI into their orgs.”
+Level1Techs
+“Soup-to-nuts dev lab.”
+Build RAG, multimodal agents, video search —
+day one
+.
+“A lab in a box.”
+Bojan Tunguz
+“Every local DS/ML/AI dev’s dream.”
+“Hardware + software = magic.”
+NetworkChuck
+“If you’re fine-tuning and doing fun data science stuff daily — this is your device.”
+DGX Spark will be generally available starting Wednesday, Oct. 15, on NVIDIA.com and through partners worldwide.
+Delivering NVIDIA DGX Spark to AI Leaders
+From a music studio in Los Angeles to a robotics lab in Arizona, a new kind of machine is landing on desks everywhere. NVIDIA’s DGX Spark gives creators, researchers and tinkerers a petaflop of AI power small enough to carry under one arm. In this short film, will.i.am, Zipline, and Arizona State University show how they’re already putting it to work — turning ideas once reserved for data centers into experiments anyone can run.
+OpenAI Receives DGX Spark: Full-Circle Moment for AI’s Pioneers
+Just as DGX Spark was being placed in the hands of researchers and artists, startups and enterprises around the world, the story came full circle in San Francisco earlier this week.
+At OpenAI’s Mission Bay campus, the air was thick with déjà vu. Nearly a decade after receiving the first DGX-1 supercomputer, OpenAI once again welcomed NVIDIA — this time with DGX Spark, the world’s smallest AI supercomputer.
+NVIDIA founder and CEO Jensen Huang presents a DGX Spark system to OpenAI CEO Sam Altman at OpenAI’s Mission Bay office as OpenAI president and co-founder Greg Brockman looks on.
+Huang arrived with the compact system in hand, greeted by OpenAI CEO Sam Altman, Greg Brockman, co-founder and president of OpenAI and the OpenAI team. The moment bridged past and future — the partnership that helped spark the modern AI era, now renewed in a system small enough to fit under one arm.
+Thanks Jensen for the hand delivery of DGX Spark. Best delivery service ever.
+Amazing to see so much compute (1 petaflop!) in such a tiny form factor.
+pic.twitter.com/cnm4cBx13I
+— Greg Brockman (@gdb)
+October 15, 2025
+DGX Spark Now Available Worldwide
+After traveling from rocket factories to research labs and artists’ studios, DGX Spark is finally landing where it was always meant to be — in the hands of developers everywhere.
+The world’s smallest AI supercomputer is now available for order on
+NVIDIA.com
+and through partners worldwide, including Acer, ASUS, Dell Technologies, GIGABYTE, HP, Lenovo, MSI, and select Micro Center locations in the U.S.
+Built on the Grace Blackwell architecture, DGX Spark delivers a petaflop of AI performance and 128GB of unified memory in a compact desktop form factor. It runs the full NVIDIA AI software stack—CUDA libraries, pretrained models, and NVIDIA NIM microservices—enabling everything from local fine-tuning to multimodal agent development, all without a data center.
+Early adopters from Ollama, Refik Anadol Studio, Zipline, Arizona State University, NYU, LM Studio, Roboflow and many more have already shown what happens when that power moves from racks to desks. Now, it’s your turn.
+DGX Spark is available starting Wednesday, October 15, at
+NVIDIA.com
+and through partners globally.
+Categories:
+Corporate
+|
+Hardware
+|
+Software
+|
+Supercomputing
+|
+Workstation
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

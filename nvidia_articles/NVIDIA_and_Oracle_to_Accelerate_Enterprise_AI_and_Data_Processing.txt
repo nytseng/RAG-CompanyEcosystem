@@ -1,0 +1,75 @@
+Title: NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Source: https://blogs.nvidia.com/blog/nvidia-oracle-accelerate-enterprise-ai-data-processing/
+
+---
+
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+New OCI Zettascale10 computing cluster, accelerated by NVIDIA GPUs, and AI database integrations to deliver intelligence at every layer of the business.
+October 14, 2025
+by
+Ikroop Dhillon
+Share
+Email
+0
+AI is transforming the way enterprises build, deploy and scale intelligent applications. As demand surges for enterprise-grade AI applications that offer speed, scalability and security, industries are swiftly moving toward platforms that can streamline data processing and deliver intelligence at every layer of the business.
+At Oracle AI World, Oracle today announced a new
+OCI Zettascale10
+computing cluster accelerated by NVIDIA GPUs, designed for high-performance AI inference and training workloads. The cluster will deliver up to 16 zettaflops of peak AI compute performance and harness
+NVIDIA Spectrum-X Ethernet
+— the first Ethernet platform purpose-built for AI — enabling hyperscalers to interconnect millions of GPUs with unprecedented efficiency and scale.
+Other announcements include added support for NVIDIA NIM microservices in Oracle Database 26ai, NVIDIA accelerated computing integration in the new Oracle AI Data Platform, native availability of the NVIDIA AI Enterprise software platform in the OCI Console and more.
+“I believe the AI market has been defined by critical partnerships such as the one between Oracle and NVIDIA,” said Mahesh Thiagarajan, executive vice president of Oracle Cloud Infrastructure. “These partnerships provide force multipliers that help ensure customer success in this rapidly evolving space. OCI Zettascale10 delivers multi‑gigawatt capacity for the most challenging AI workloads with NVIDIA’s next-generation GPU platform. In addition, the native availability of NVIDIA AI Enterprise on OCI gives our joint customers a leading AI toolset close at hand to OCI’s 200+ cloud services, supporting a long tail of customer innovation.”
+“Through this latest collaboration, Oracle and NVIDIA are marking new frontiers in cutting-edge accelerated computing — streamlining database AI pipelines, speeding data processing, powering enterprise use cases and making inference easier to deploy and scale on OCI,” said Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA.
+Speeding AI Database Workloads
+Oracle Database 26ai,
+Oracle’s flagship database, is adding key functionality to accelerate high-volume AI vector workloads.
+Oracle Database 26ai application programming interfaces now support integration with
+NVIDIA NeMo Retriever
+, allowing developers to easily run vector embedding models or implement retrieval-augmented generation (RAG) pipelines using NVIDIA NIM microservices.
+NVIDIA offers a full suite of NIM microservices for every stage of a RAG pipeline: NeMo Retriever extraction models for ingesting multimodal data at scale, NeMo Retriever embedding models for converting data chunks into vector embeddings, NeMo Retriever reranking models for boosting overall accuracy of final responses, and large language models (LLMs) to generate the final contextually accurate responses.
+Oracle Private AI Services Container is a new service that makes it easy to deploy AI services wherever needed, including cloud and on-premises environments. Oracle’s first implementation, which supports execution on CPU resources, has now been designed to support the future use of NVIDIA GPUs for vector embedding and index generation using the
+NVIDIA cuVS
+open-source library.
+Embedding generation and vector search index creation are two important tasks required by vector databases. As data volumes increase and AI applications mature, vector index creation build times increasingly become a bottleneck.
+GPUs are incredibly efficient at building approximate nearest neighbor search algorithms. Users who want to accelerate their index builds will soon be able to offload this computationally intensive task to NVIDIA GPUs using planned Oracle Private AI Services Container capabilities. Once the index has been built, it can be formatted for search on Oracle AI Database 26ai.
+Oracle AI Data Platform and NVIDIA RAPIDS Accelerator for Apache Spark
+NVIDIA accelerated computing is also integrated into the new
+Oracle AI Data Platform,
+which provides a comprehensive ecosystem that unites enterprise data with AI models, developer tools, and tight controls over privacy and governance.
+The Oracle AI Data Platform includes a built-in NVIDIA GPU option to power high-performance workloads. It also features a new
+NVIDIA RAPIDS Accelerator for Apache Spark
+plug-in to unlock faster analytics, extract, transform, load, and machine learning pipelines through GPU acceleration.
+The RAPIDS Accelerator for Apache Spark plug-in uses GPUs to accelerate processing by combining the power of the NVIDIA cuDF library and the scale of the Spark distributed computing framework. All of this is designed to enable GPU-acceleration for Apache Spark applications with no code changes.
+Powering Enterprise AI Applications With NVIDIA Nemotron and NeMo
+Oracle Media and Entertainment is using the NVIDIA NeMo Curator library with a Nemotron vision language model (VLM) to power video understanding.
+This pipeline accelerates Oracle’s video-centric AI workflows by automating the pre-processing steps: video decoding, clip segmentation, transcoding and more. It enables high-quality, scalable filtering, deduplication, annotation, classification and quality control for both video and associated text. This capability enables Oracle to generate dense video captions and curate images needed to train downstream models, improving their efficiency and reliability.
+NVIDIA NeMo Retriever Parse
+, a transformer-based vision-encoder-decoder model designed for high-precision document understanding, enhances Oracle Fusion Document Intelligence by making it easier to extract meaningful information from complex documents. The model goes beyond simple text scanning — it can handle versatility, diversity and variability in enterprise documents, extracting critical metadata while preserving document structure. These capabilities can be used to build agentic or multimodal RAG applications.
+Bringing all these capabilities together, Oracle AI Hub now offers enterprises a single access point for building, deploying and managing custom AI solutions.
+Users can deploy NVIDIA NIM microservices through Oracle AI Hub, delivering a simple, no-code experience for deploying models, including NVIDIA Nemotron LLMs, VLMs and more. The initial release features a curated set of hosted NIM microservices and early access to next-generation, streamlined inference capabilities. With the integration of NIM microservices, designed to run a broad range of LLMs from a single container, customers can quickly deploy models for various business applications.
+NVIDIA AI Enterprise on OCI
+Enterprises can now also harness NVIDIA AI Enterprise, natively integrated within OCI, for simplified access to NVIDIA’s cloud-native suite of software tools, libraries and frameworks. This integration streamlines the development, deployment and management of AI solutions, providing robust enterprise support across Oracle’s platform.
+NVIDIA AI Enterprise is now natively available within the OCI Console experience, allowing users to directly enable it when provisioning supported GPU instances. This capability is available across OCI’s distributed cloud, including public regions, sovereign clouds and dedicated regions, to help customers meet security and compliance requirements.
+This new offering allows customers to access a full suite of AI tools without having to separately procure orders through the Oracle Cloud Marketplace, providing a streamlined process to build AI applications at scale with flexible pricing, enterprise support, expert guidance and priority security updates.
+NVIDIA was also recognized at Oracle AI World as a 2025 Oracle Partner award winner, underscoring the company’s work with Oracle to transform the AI landscape for enterprises and drive innovation across the OCI ecosystem.
+To learn more, read the Oracle
+press release
+.
+Categories:
+Cloud
+|
+Data Center
+Tags:
+Artificial Intelligence
+|
+NVIDIA AI Enterprise
+|
+NVIDIA NeMo
+|
+NVIDIA NIM
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

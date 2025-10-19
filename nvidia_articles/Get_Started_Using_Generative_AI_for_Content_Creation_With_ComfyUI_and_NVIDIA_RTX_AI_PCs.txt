@@ -1,0 +1,173 @@
+Title: Get Started Using Generative AI for Content Creation With ComfyUI and NVIDIA RTX AI PCs
+Source: https://blogs.nvidia.com/blog/rtx-ai-garage-comfyui-wan-qwen-flux-krea-remix/
+
+---
+
+Get Started Using Generative AI for Content Creation With ComfyUI and NVIDIA RTX AI PCs
+The node-based platform unlocks advanced, AI-based creative workflows and makes it easy to get started with preconfigured templates.
+September 9, 2025
+by
+Michael Fukuyama
+Share
+Email
+0
+ComfyUI
+— an open-source, node-based graphical interface for running and building generative AI workflows for content creation — published major updates this past month, including up to 40% performance improvements for NVIDIA RTX GPUs, and support for new AI models including Wan 2.2, Qwen-Image, FLUX.1 Krea [dev] and Hunyuan3D 2.1.
+NVIDIA also released NVIDIA TensorRT-optimized versions of popular diffusion models like Stable Diffusion 3.5 and FLUX.1 Kontext as NVIDIA NIM microservices, allowing users to run these models in ComfyUI up to 3x faster and with 50% less VRAM.
+Plus, an update to
+NVIDIA RTX Remix
+— a platform that lets modders remaster classic games — launched today, adding an advanced path-traced particle system that delivers stunning visuals to breathe new life into classic titles.
+ComfyUI v3.57 Gets a Performance Boost With RTX
+NVIDIA has collaborated with ComfyUI to boost AI model performance by up to 40%. To put this in perspective, GPU generation upgrades typically only deliver a 20-30% performance boost.
+Measured on a GeForce RTX 5090 with Intel Core i9 14900K. All models run on ComfyUI using 20 steps at 1024×1024 resolution.
+Developers interested in optimizing performance and efficiency of diffusion models on their apps can read more on how NVIDIA helps accelerate these workloads in the
+developer forum
+.
+State-of-the-Art AI Models, Accelerated by RTX
+Incredible models for AI content creation have been released in the last weeks, all of which are now available in ComfyUI.
+Wan 2.2 is a new video model that provides incredible quality and control for video generation on PCs. It’s the latest model from
+Wan AI
+— a creative AI platform offering an impressive lineup of AI models, including Text to Image, Text to Video, Image to Video and Speech to Video. GeForce RTX and NVIDIA RTX PRO GPUs are the only GPUs capable of running Wan 2.2 14B models in ComfyUI without major delays in output. Check out the example below created with the single prompt: “A robot is cracking an egg, but accidentally hits it outside the bowl.”
+Qwen-Image
+is a new image generation foundation model from Alibaba that achieves significant advances in complex text rendering and precise image editing. It excels at rendering complex text, handling intricate editing and maintaining both semantic and visual accuracy in generated images. The model runs 7x faster on a GeForce RTX 5090 vs. Apple M3 Ultra.
+Qwen-Image excels in text generation across numerous languages, as well as image generation.
+Black Forest Labs’ new
+FLUX.1 Krea [dev]
+AI model is the open-weight version of Krea 1, offering strong performance and trained to generate more realistic, diverse images that don’t contain oversaturated textures. Black Forest Labs calls the model “opinionated,” as it offers a wide variety of diverse, visually interesting images. This model runs 8x faster on a GeForce RTX 5090 vs. Apple M3 Ultra.
+Black Forest Labs’ new FLUX.1 Krea [dev] model offers more realistic, diverse imagery.
+Hunyuan3D 2.1
+is a fully open-source, production-ready 3D generative system that transforms input images or text into high-fidelity 3D assets enriched with physically based rendering materials. Core components include a 3.3-billion-parameter model for shape generation and a 2-billion-parameter model for texture analysis to quickly generate more realistic materials. It all runs faster on Blackwell RTX GPUs.
+Go from image to 3D model quickly with Hunyuan3D 2.1.
+Get Started With Advanced Visual Generative Techniques
+Visual generative AI is a powerful tool, but getting started can be difficult even for technical experts and learning to use more advanced techniques typically takes months.
+ComfyUI makes it easy to get started with advanced workflows by providing templates or preset nodes that achieve a specific task, like keeping a character constant throughout different generations, adjusting the light of an image or loading a fine-tuning. This allows even non-technical artists to easily use advanced AI workflows.
+These are 10 key techniques to get started with generative AI:
+Guide video generation by defining the start frame and end frame
+: Upload a start and end frame, as well as how a video clip should begin and end. Wan 2.2 can then generate a smooth, animated transition, filling the in-between frames to create a coherent animation. It’s ideal for making animations, scene shifts or defining poses.
+Edit images with natural language
+: Use FLUX.1 [dev] KONTEXT to edit specific text sections of an image.
+Upscale images or videos
+: Take image or video at a lower resolution and increase its resolution and detail quality by adding realistic, high-frequency details.
+Control a
+rea composition
+: Assume more granular control over image generation by controlling the arrangement and layout of visual elements within specific regions of an image.
+Restyle images
+: Use
+FLUX Redux
+to create different variations of images while preserving core visual elements and details.
+Tap
+image-to-multiview-to-3D models
+: Use multiple images of an object captured from different angles to create a high-fidelity, textured 3D model.
+Transform sound to video
+: Create video clips or animations directly from audio inputs such as speech, music or environmental sounds.
+Control video trajectory
+: Automatically guide the motion of objects, camera or scenes within videos.
+Edit images with inpainting
+: Fill in or alter missing or unwanted parts of a digital image in a visually seamless, contextually consistent way with surrounding areas.
+Expand the canvas with outpainting
+: Generate new image content to extend the boundaries of an existing image or video footage, add detail to cropped sections or complete a scene.
+Follow ComfyUI on
+X
+for updates to creative templates and workflows.
+Expand Your ComfyUI Zone
+ComfyUI plug-ins enable users to add generative AI workflows into their existing applications. The ComfyUI community has started building plug-ins for some of the top popular creative applications.
+The
+Adobe Photoshop plug-in
+complements Photoshop’s native Firefly models by allowing users to run their own flows and select specialized models for specific tasks. Local inference also enables unlimited generative fill with low latency.
+The
+Blender plug-in
+— featured in the
+NVIDIA AI Blueprint for 3D-guided generative AI
+— allows users to connect 2D and 3D workflows. Artists can use 3D scenes to control image generations or create textures in ComfyUI and apply them to separate 3D assets.
+The
+Foundry Nuke plug-in
+— similar to the Blender — enables a connection between 2D and 3D workflows so users don’t have to alt-tab and swap between applications.
+The
+Unreal Engine plug-in
+enables ComfyUI nodes directly in the Unreal Engine user interface to quickly create and refine textures for scenes using generative diffusion models. See the example below.
+Run Hyper-Optimized Models for NVIDIA RTX GPUs in ComfyUI
+The best way to use NVIDIA RTX GPUs is with the
+TensorRT
+library — a high-performance deep learning inference engine designed to squeeze maximum speed out of the Tensor Cores in NVIDIA RTX GPUs.
+NVIDIA has collaborated with the top AI labs to integrate TensorRT in their models, such as
+Black Forest Labs’ models
+and
+Stability AI’s models
+. These models are also available quantized — a compressed version of the network that uses 50-70% less VRAM and offers up to 2x faster inference while maintaining similar quality.
+TensorRT-optimized models can be run directly in ComfyUI through the
+TensorRT node
+, which currently supports SDXL, SD3 and SD3.5, as well as FLUX.1-dev and FLUX.1-schnell models. The node converts the AI model into a TensorRT-optimized model, and then generates a TensorRT-optimized engine for the user’s GPU — a map of how to execute that model with optimal efficiency for their particular hardware — providing significant speedups.
+Quantizing models, however, takes a bit more work. For users interested in running quantized and TensorRT-optimized models, NVIDIA offers preconfigured files in a simple container called a NIM microservice. Users can use the
+NIM node
+in ComfyUI to load these containers and use quantized versions of models like
+FLUX.1-dev
+,
+FLUX.1-schnell
+,
+FLUX.1 Kontext
+,
+SD3.5 Large
+and
+Microsoft TRELLIS
+.
+Remix Update Adds a Path-Traced Particle System
+A new RTX Remix update released today through the
+NVIDIA app
+, adding an advanced particle system that enables modders to enhance traditional fire and smoke effects, as well as more fantastical effects, like those in the video game
+Portal
+.
+With RTX Remix, legacy particles from classic games could be interpreted as path-traced, enabling them to cast realistic light to enhance the appearance of many scenes. But ultimately, these particles were still over 20 years old, lacking detail, flair and fluid animations.
+RTX Remix’s new particles have physically accurate properties and can interact with a game’s lighting and other effects. This enables particles to collide, accurately move in response to wind and other forces, be reflected on surfaces, cast shadows and assign their own shadows.
+For a complete breakdown of the new particle system, read the
+GeForce article
+.
+Each week, the
+RTX AI Garage
+blog series features community-driven AI innovations and content for those looking to learn more about NVIDIA NIM microservices and AI Blueprints, as well as building
+AI agents
+, creative workflows, productivity apps and more on AI PCs and workstations.
+Plug in to NVIDIA AI PC on
+Facebook
+,
+Instagram
+,
+TikTok
+and
+X
+— and stay informed by subscribing to the
+RTX AI PC newsletter
+. Join NVIDIA’s
+Discord server
+to connect with community developers and AI enthusiasts for discussions on what’s possible with RTX AI.
+Follow NVIDIA Workstation on
+LinkedIn
+and
+X
+.
+See
+notice
+regarding software product information.
+Categories:
+Generative AI
+Tags:
+Art
+|
+Artificial Intelligence
+|
+Creators
+|
+GeForce
+|
+Graphics
+|
+NVIDIA RTX
+|
+Rendering
+|
+RTX AI Garage
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

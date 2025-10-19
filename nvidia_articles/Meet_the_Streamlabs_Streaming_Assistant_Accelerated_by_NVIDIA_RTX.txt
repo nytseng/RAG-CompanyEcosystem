@@ -1,0 +1,100 @@
+Title: Meet the Streamlabs Streaming Assistant, Accelerated by NVIDIA RTX
+Source: https://blogs.nvidia.com/blog/rtx-ai-garage-logitech-streamlabs-agent/
+
+---
+
+Meet the Streamlabs Streaming Assistant, Accelerated by NVIDIA RTX
+The AI agent — with features like a 3D avatar powered by NVIDIA ACE and DLSS technologies — can cohost, produce and troubleshoot livestreams.
+September 17, 2025
+by
+Gerardo Delgado
+Share
+Email
+0
+Today’s creators are equal parts entertainer, producer and gamer, juggling game commentary, scene changes, replay clips, chat moderation and technical troubleshooting — all while trying to play their best.
+Agentic AI
+presents huge potential for creators. The technology can power intelligent collaborators that can help cohost, produce or troubleshoot livestreams in real time to make space for what matters most: connecting with audiences.
+At
+Logitech G PLAY 2025
+, Streamlabs released its
+Intelligent Streaming Agent
+, an AI assistant developed using technologies from NVIDIA and
+Inworld
+, that helps livestreamers produce high-quality broadcasts with remarkable ease.
+From Solo Producer to AI-Powered Streams
+First previewed at the CES trade show in January, the
+Streamlabs Intelligent Streaming Agent
+, now in Streamlabs Desktop, acts as a cohost, producer and technical expert.
+The cohost can step in as a 3D avatar, powered by
+NVIDIA RTX
+technologies, to help keep the conversation going when chat is quiet and answer questions so livestreamers don’t need to alt-tab out of their games. The avatar’s animations are created with the
+NVIDIA ACE
+Audio2Face software development kit and its performance is enhanced with
+NVIDIA DLSS
+technology.
+“With NVIDIA ACE Audio2Face integrated into Streamlabs, creators can bring lifelike avatars and real-time intelligence to their streams, enabling them to deliver more engaging content right from their NVIDIA GeForce RTX AI PCs,
+”
+said Jason Paul, vice president of GeForce platform technology at NVIDIA.
+The AI agent makes streams more dynamic by acting as a producer, changing scenes where needed or running audio or video cues. Production assistance is fully customizable, allowing users to define triggers to achieve their desired stream outcome.
+“Streamlabs has always focused on building tools that empower creators,” said Ashray Urs, head of Streamlabs. “Now, with the Intelligent Streaming Agent, we’re opening the door to the future of AI-powered livestreaming, where creators can host novel interactive experiences while enjoying seamless production support. From custom avatars to responsive overlays and automated production support, the power to create is in their hands.”
+The agent can also act as a technical assistant to help answer questions or troubleshoot errors users may experience in Streamlabs.
+It uses real-time vision models that can detect gameplay events such as eliminations, victories and health drops. Accelerated by
+NVIDIA GeForce RTX GPUs
+, these models run locally to ensure low-latency responsiveness and seamless interaction.
+With the Intelligent Streaming Assistant, even new livestreamers still learning to engage with their audiences and game at the same time can create dynamic, interesting streams with minimal complexity.
+Professional Streaming Made Simple With RTX
+Not long ago, livestreaming required expensive gear: dual-PC setups, XLR microphones, DSLR cameras and more. NVIDIA has steadily lowered the barrier of entry to livestreaming with enhancements to:
+Encoding:
+The NVIDIA encoder and optimizations to livestreaming apps enable high-quality streaming from a single NVIDIA RTX GPU system.
+Audio and Video:
+NVIDIA Broadcast
+applied AI to microphones and webcams enables high-quality audio and video even with affordable devices.
+Distribution:
+Twitch and OBS created Enhanced Broadcast, a feature that lets smaller, non-partnered channels generate different stream quality levels on their own computers, so viewers can watch in the quality that works best for their internet speed.
+The Intelligent Streaming Assistant builds on these enhancements, making it easier for newcomers to start streaming and helping creators elevate their productions. Check out the
+Streamlabs Intelligent Stream Agent How-To Guide
+for instructions on getting started.
+Each week, the
+RTX AI Garage
+blog series features community-driven AI innovations and content for those looking to learn more about NVIDIA NIM microservices and AI Blueprints, as well as building
+AI agents
+, creative workflows, productivity apps and more on AI PCs and workstations.
+Plug in to NVIDIA AI PC on
+Facebook
+,
+Instagram
+,
+TikTok
+and
+X
+— and stay informed by subscribing to the
+RTX AI PC newsletter
+.
+Follow NVIDIA Workstation on
+LinkedIn
+and
+X
+.
+See
+notice
+regarding software product information.
+Categories:
+Generative AI
+Tags:
+Agentic AI
+|
+Creators
+|
+GeForce
+|
+NVIDIA RTX
+|
+NVIDIA Studio
+|
+RTX AI Garage
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

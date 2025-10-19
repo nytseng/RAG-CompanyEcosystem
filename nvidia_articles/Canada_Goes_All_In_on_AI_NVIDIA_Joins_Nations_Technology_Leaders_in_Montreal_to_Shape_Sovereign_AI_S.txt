@@ -1,0 +1,77 @@
+Title: Canada Goes All In on AI: NVIDIA Joins Nations’ Technology Leaders in Montreal to Shape Sovereign AI Strategy
+Source: https://blogs.nvidia.com/blog/canada-all-in/
+
+---
+
+Canada Goes All In on AI: NVIDIA Joins Nations’ Technology Leaders in Montreal to Shape Sovereign AI Strategy
+NVIDIA’s Kari Briski joins Canada’s AI Minister Evan Solomon and Cohere’s Aidan Gomez in a panel this week, as TELUS unveils Canada’s first fully sovereign AI factory in Rimouski and RBC Capital Markets creates AI agents for financial services.
+September 24, 2025
+by
+Erik Pounds
+Share
+Email
+0
+Canada’s role as a leader in artificial intelligence was on full display at this week’s All In Canada AI Ecosystem event.
+NVIDIA Vice President of Generative AI Software Kari Briski today joined Canada’s Minister of Artificial Intelligence and Digital Innovation Evan Solomon and Aidan Gomez, cofounder and CEO of Cohere, in a special address moderated by SiriusXM host Amber Mac.
+“You’re all here to deliver the next big thing,” Solomon told the room full of founders, researchers, investors and students. “The AI revolution is the birth not just of a new technology — this is the birth of the age of the entrepreneur.”
+The session comes as Canadian communications technology company and
+NVIDIA Cloud Partner
+TELUS announces
+the launch of Canada’s first fully sovereign AI factory in Rimouski, Quebec, powered by  the latest NVIDIA accelerated computing, and financial services company
+RBC
+Capital Markets continues building AI agents for capital markets using NVIDIA software.
+“For our government, for our country, ‘All In’ means building digital sovereignty — the most pressing policy, democratic issue of our time,” Solomon said.
+“Every nation should develop its own AI — not just outsource it,” Briski said during the panel conversation following Solomon’s address. “AI must reflect local values, understand cultural context and align with national norms and policies. It needs to speak and write in the nuanced patterns of your natural language. Digital intelligence isn’t something you can simply outsource.”
+From left to right, Amber Mac, SiriusXM podcast host and moderator; Kari Briski, vice president of generative AI software for enterprise at NVIDIA; Aidan Gomez, cofounder and CEO of Cohere; Evan Solomon, Canada’s Minister of Artificial Intelligence.
+The event marks a pivotal moment in Canada’s AI journey, bringing together public and private sector leaders to spotlight the national infrastructure, innovation and policy that shape the future of artificial intelligence. It underscores the country’s commitment to digital sovereignty, economic competitiveness and the responsible development of AI.
+“Canada must own the tools and the rules that matter at this critical moment,” Solomon said. “We need our digital insurance policy — and that’s what we’re building.”
+Canada’s AI momentum is accelerating.
+TELUS’ new facility, powered by NVIDIA’s computing and software, and built in collaboration with HPE, offers end-to-end AI capabilities — from model training to inferencing — while ensuring full data residency and control within Canadian borders.
+The factory is already serving clients including OpenText, and is powered by 99% renewable energy and TELUS’ PureFibre network.
+Accenture will develop and deploy industry-specific solutions on the TELUS sovereign AI platform, accelerating AI adoption across its Canadian clients.
+And League, Canada’s leading healthcare consumer experience provider, will run its comprehensive suite of AI-powered healthcare solutions using the TELUS Sovereign AI Factory.
+This event is the latest in a global wave of initiatives as countries activate AI to supercharge their economies and research ecosystems.
+Over the past year, NVIDIA founder and CEO Jensen Huang has appeared at events in
+France
+,
+Germany
+, India, Japan and the
+U.K.
+, joining heads of state and industry leaders to highlight national AI strategies, announce infrastructure investments and accelerate public-private collaboration.
+“Leadership is not a birthright,” Solomon said. “It has to be earned again and again — and the competition is fierce.”
+And last year, during a visit to Canada, Huang highlighted
+Canada’s pioneering role in modern AI
+, describing it as the “epicenter of innovation in modern AI,” building on the foundational work of pioneering Canadian AI researchers such as Geoffrey Hinton and Yoshua Bengio, who is also speaking at the conference.
+RBC Capital Markets works with NVIDIA software to build enterprise-grade AI agents for Capital Markets. This enables global institutions to deploy intelligent systems tailored to local needs.
+These agents — customized with
+NVIDIA NeMo
+agent lifecycle tools and deployed using
+NVIDIA NIM
+microservices — are helping transform RBC Capital Markets’ research for faster delivery of insights to clients.
+Watch the entire conversation below.
+Categories:
+Data Center
+|
+Generative AI
+|
+Software
+Tags:
+AI Factory
+|
+cloud
+|
+Financial Services
+|
+Nemotron
+|
+NVIDIA NeMo
+|
+NVIDIA NIM
+|
+Sovereign AI
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

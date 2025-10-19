@@ -1,0 +1,58 @@
+Title: RIKEN, Japan’s Leading Science Institute, Taps Fujitsu and NVIDIA for Next Flagship Supercomputer
+Source: https://blogs.nvidia.com/blog/fugakunext/
+
+---
+
+RIKEN, Japan’s Leading Science Institute, Taps Fujitsu and NVIDIA for Next Flagship Supercomputer
+Early collaboration will shape Japan’s FugakuNEXT, a flagship supercomputing platform to tackle pressing scientific and societal challenges.
+August 21, 2025
+by
+Dion Harris
+Share
+Email
+0
+Japan is once again building a landmark high-performance computing system — not simply by chasing speed, but by rethinking how technology can best serve the nation’s most urgent scientific needs.
+At the FugakuNEXT International Initiative Launch Ceremony held in Tokyo on Aug. 22, leaders from RIKEN, Japan’s top research institute, announced the start of an international collaboration with Fujitsu and NVIDIA to co-design FugakuNEXT, the successor to the world-renowned supercomputer, Fugaku.
+Awarded early in the process, the contract enables the partners to work side by side in shaping the system’s architecture to address Japan’s most critical research priorities — from earth systems modeling and disaster resilience to drug discovery and advanced manufacturing.
+More than an upgrade, the effort will highlight Japan’s embrace of modern AI and showcase Japanese innovations that can be harnessed by researchers and enterprises across the globe.
+The ceremony featured remarks from the initiative’s leaders, RIKEN President Makoto Gonokami and Satoshi Matsuoka, director of the RIKEN Center for Computational Science and one of Japan’s most respected high-performance computing architects.
+Fujitsu Chief Technology Officer Vivek Mahajan attended, emphasizing the company’s role in advancing Japan’s computing capabilities.
+Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, attended in person as well to discuss the collaborative design approach and how the resulting platform will serve as a foundation for innovation well into the next decade.
+Momentum has been building.
+When NVIDIA founder and CEO Jensen Huang touched down in Tokyo last year
+, he called on Japan to seize the moment — to put NVIDIA’s latest technologies to work building its own AI, on its own soil, with its own infrastructure.
+FugakuNEXT answers that call, drawing on NVIDIA’s whole software stack —  from
+NVIDIA CUDA-X
+libraries such as
+NVIDIA cuQuantum
+for quantum simulation, RAPIDS for data science, NVIDIA TensorRT for high-performance inference and NVIDIA NeMo for large language model development, to other domain-specific software development kits tailored for science and industry.
+Innovations pioneered on FugakuNEXT could become blueprints for the world.
+What’s Inside
+FugakuNEXT will be a hybrid AI-HPC system, combining simulation and AI workloads.
+It will feature FUJITSU-MONAKA-X CPUs, which can be paired with NVIDIA technologies using
+NVLink Fusion
+, new silicon enabling high-bandwidth connections between Fujitsu’s CPUs and NVIDIA’s architecture.
+The system will be built for speed, scale and efficiency.
+What It Will Do
+FugakuNEXT will support a wide range of applications — such as automating hypothesis generation, code creation and experiment simulation.
+Scientific research:
+Accelerating simulations with surrogate models and physics-informed neural networks.
+Manufacturing:
+Using AI to learn from simulations to generate efficient and aesthetically pleasing designs faster than ever before.
+Earth systems modeling:
+aiding disaster preparedness and prediction for earthquakes and severe weather, and more.
+RIKEN, Fujitsu and NVIDIA will collaborate on software developments, including tools for mixed-precision computing, continuous benchmarking, and performance optimization.
+FugakuNEXT isn’t just a technical upgrade — it’s a strategic investment in Japan’s future.
+Backed by Japan’s MEXT (Ministry of Education, Culture, Sports, Science and Technology), it will serve universities, government agencies, and industry partners nationwide.
+It marks the start of a new era in Japanese supercomputing — one built on sovereign infrastructure, global collaboration, and a commitment to scientific leadership.
+Image courtesy of RIKEN
+Categories:
+Corporate
+|
+Supercomputing
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

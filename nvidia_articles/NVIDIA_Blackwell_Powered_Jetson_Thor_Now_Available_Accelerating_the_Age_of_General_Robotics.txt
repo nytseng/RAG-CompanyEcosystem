@@ -1,0 +1,50 @@
+Title: NVIDIA Blackwell-Powered Jetson Thor Now Available, Accelerating the Age of General Robotics
+Source: https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics
+
+---
+
+News Summary:
+NVIDIA Jetson AGX Thor developer kit and production modules, robotics computers designed for physical AI and robotics, are now generally available.
+Over 2 million developers are using NVIDIA’s robotics stack, with Agility Robotics, Amazon Robotics, Boston Dynamics, Caterpillar, Figure, Hexagon, Medtronic and Meta among early Jetson Thor adopters.
+Jetson Thor, powered by NVIDIA Blackwell, offers 7.5x more AI compute and 3.5x greater energy efficiency compared with its predecessor, Jetson Orin, unlocking real-time reasoning inference, critical for highly performant physical AI applications.
+Jetson Thor solves one of the most significant challenges in robotics: enabling robots to have real-time, intelligent interactions with people and the physical world.
+NVIDIA today announced the general availability of the
+NVIDIA Jetson AGX Thor™
+developer kit and production modules, powerful new robotics computers designed to power millions of robots across industries including manufacturing, logistics, transportation, healthcare, agriculture and retail.
+Early adopters include industry leaders
+Agility Robotics
+, Amazon Robotics, Boston Dynamics, Caterpillar, Figure, Hexagon, Medtronic and Meta, while 1X, John Deere, OpenAI and Physical Intelligence are evaluating Jetson Thor to advance their physical AI capabilities.
+“We’ve built Jetson Thor for the millions of developers working on robotic systems that interact with and increasingly shape the physical world,” said Jensen Huang, founder and CEO of NVIDIA. “With unmatched performance and energy efficiency, and the ability to run multiple generative AI models at the edge, Jetson Thor is the ultimate supercomputer to drive the age of physical AI and general robotics.”
+The Ultimate Platform for Next-Generation Robotics
+Powered by an NVIDIA Blackwell GPU and featuring 128GB of memory, Jetson Thor delivers up to 2,070 FP4 teraflops of AI compute to effortlessly run the latest AI models — all within a 130-watt power envelope.
+Compared with its predecessor, the
+NVIDIA Jetson Orin
+™, Jetson Thor delivers up to 7.5x higher AI compute and 3.5x greater energy efficiency to run any
+generative AI
+model — from vision language action models like
+NVIDIA Isaac™ GR00T N1.5
+to popular large language and vision language models.
+The new system-on-module solves one of the most significant challenges in robotics: running multi-AI workflows to enable robots to have real-time, intelligent interactions with people and the physical world. Jetson Thor unlocks real-time inference, critical for highly performant physical AI applications spanning
+humanoid robotics
+, agriculture and surgical assistance.
+Global Robotics Leaders Build on Jetson Thor
+Jetson Thor is powered by the full-stack
+NVIDIA Jetson™ software platform
+, built for physical AI and humanoid robotics, which supports any popular AI framework and generative AI model. It is also fully compatible with NVIDIA’s software stack from cloud to edge, including
+NVIDIA Isaac
+for robotics simulation and development,
+Isaac GR00T
+humanoid robot foundation models,
+NVIDIA Metropolis
+for vision AI and
+NVIDIA Holoscan
+for real-time sensor processing.
+Since its inception in 2014, the NVIDIA Jetson platform and NVIDIA’s robotics stack have attracted over 2 million developers and a growing ecosystem of 150+ hardware system, software and sensor partners, with Jetson Orin enabling over 7,000 customers to use edge AI across industries. Jetson Thor pushes the frontier further for
+visual AI agents
+and complex robotic systems such as humanoids and surgical robots.
+World technology leaders in robotics are adopting Jetson Thor to power their next-generation robots.
+“The development of capable humanoid robots hinges on our ability to run powerful AI models directly on the robot, enabling real-time learning and interaction,” said Brett Adcock, founder and CEO of Figure. “NVIDIA Jetson Thor’s server-class performance, delivered within a compact and power-efficient design, allows us to deploy the large-scale generative AI models necessary for our humanoids to perceive, reason and act in complex, unstructured environments.”
+“The future of robotics in logistics depends on the ability to deploy increasingly intelligent and autonomous systems,” said Tye Brady, chief technologist at Amazon Robotics. “NVIDIA Jetson Thor offers the computational horsepower and energy efficiency necessary to develop and scale the next generation of AI-powered robots that can operate safely and effectively in dynamic, real-world environments, transforming how we move and manage goods globally.”
+“As autonomous machines tackle more complex tasks in our customers’ operations, edge computing is critical for real-time decision making,” said Joe Creed, CEO of Caterpillar. “NVIDIA Jetson Thor offers the AI performance we need to develop and deploy the construction and mining equipment of the future, enhancing precision, reducing waste and improving safety for our customers around the globe.”
+Availability
+The NVIDIA Jetson AGX Thor developer kit is available now starting at $3,499. Jetson T5000 production modules are available from worldwide distribution partners. Production systems and carrier boards can be purchased from embedded partners.

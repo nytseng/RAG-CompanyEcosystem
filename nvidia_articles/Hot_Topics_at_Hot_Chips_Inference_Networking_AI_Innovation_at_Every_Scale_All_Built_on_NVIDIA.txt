@@ -1,0 +1,135 @@
+Title: Hot Topics at Hot Chips: Inference, Networking, AI Innovation at Every Scale — All Built on NVIDIA
+Source: https://blogs.nvidia.com/blog/hot-chips-inference-networking/
+
+---
+
+Hot Topics at Hot Chips: Inference, Networking, AI Innovation at Every Scale — All Built on NVIDIA
+At the conference next week in Palo Alto, California, NVIDIA experts will detail how NVIDIA NVLink and Spectrum-X Ethernet technologies, Blackwell and CUDA accelerate inference for millions of AI workflows across the globe.
+August 22, 2025
+by
+Dave Salvator
+Share
+Email
+0
+AI reasoning, inference and networking will be top of mind for attendees of next week’s Hot Chips conference.
+A key forum for processor and system architects from industry and academia, Hot Chips — running Aug. 24-26 at Stanford University — showcases the latest innovations poised to advance
+AI factories
+and drive revenue for the trillion-dollar data center computing market.
+At the conference, NVIDIA will join industry leaders including Google and Microsoft in a “tutorial” session — taking place on Sunday, Aug. 24 — that discusses designing rack-scale architecture for data centers.
+In addition, NVIDIA experts will present at four sessions and one tutorial detailing how:
+NVIDIA networking, including the
+NVIDIA ConnectX-8 SuperNIC
+, delivers AI reasoning at rack- and data-center scale.
+(Featuring Idan Burstein, principal architect of network adapters and systems-on-a-chip at NVIDIA)
+Neural rendering advancements and massive leaps in inference — powered by the NVIDIA Blackwell architecture, including the
+NVIDIA GeForce RTX 5090 GPU
+— provide next-level graphics and simulation capabilities.
+(Featuring Marc Blackstein, senior director of architecture at NVIDIA)
+Co-packaged optics (CPO) switches
+with integrated silicon photonics — built with light-speed fiber rather than copper wiring to send information quicker and using less power — enable efficient, high-performance, gigawatt-scale AI factories. The talk will also highlight
+NVIDIA
+Spectrum-XGS
+Ethernet
+, a new scale-across technology for unifying distributed data centers into AI super-factories.
+(Featuring Gilad Shainer, senior vice president of networking at NVIDIA)
+The NVIDIA GB10 Superchip serves as the engine within the
+NVIDIA DGX Spark
+desktop supercomputer.
+(Featuring Andi Skende, senior distinguished engineer at NVIDIA)
+It’s all part of how NVIDIA’s latest technologies are accelerating inference to drive AI innovation everywhere, at every scale.
+NVIDIA Networking Fosters AI Innovation at Scale
+AI reasoning
+— when artificial intelligence systems can analyze and solve complex problems through multiple AI inference passes — requires rack-scale performance to deliver optimal user experiences efficiently.
+In data centers powering today’s AI workloads, networking acts as the central nervous system, connecting all the components — servers, storage devices and other hardware — into a single, cohesive, powerful computing unit.
+NVIDIA ConnectX-8 SuperNIC
+Burstein’s Hot Chips session will dive into how NVIDIA networking technologies — particularly NVIDIA ConnectX-8 SuperNICs — enable high-speed, low-latency, multi-GPU communication to deliver market-leading AI reasoning performance at scale.
+As part of the NVIDIA networking platform, NVIDIA NVLink, NVLink Switch and NVLink Fusion deliver scale-up connectivity — linking GPUs and compute elements within and across servers for ultra low-latency, high-bandwidth data exchange.
+NVIDIA Spectrum-X Ethernet
+provides the scale-out fabric to connect entire clusters, rapidly streaming massive datasets into AI models and orchestrating GPU-to-GPU communication across the data center.
+Spectrum-XGS
+Ethernet
+scale-across technology extends the extreme performance and scale of Spectrum-X Ethernet to interconnect multiple, distributed data centers to form AI super-factories capable of giga-scale intelligence.
+Connecting distributed AI data centers with NVIDIA Spectrum-XGS Ethernet.
+At the heart of Spectrum-X Ethernet, CPO switches push the limits of performance and efficiency for AI infrastructure at scale, and will be covered in detail by Shainer in his talk.
+NVIDIA GB200 NVL72
+— an exascale computer in a single rack — features 36 NVIDIA GB200 Superchips, each containing two NVIDIA B200 GPUs and an NVIDIA Grace CPU, interconnected by the largest NVLink domain ever offered, with NVLink Switch providing 130 terabytes per second of low-latency GPU communications for AI and high-performance computing workloads.
+An NVIDIA rack-scale system.
+Built with the NVIDIA Blackwell architecture, GB200 NVL72 systems deliver massive leaps in reasoning inference performance.
+NVIDIA Blackwell and CUDA Bring AI to Millions of Developers
+The NVIDIA GeForce RTX 5090 GPU — also powered by Blackwell and to be covered in Blackstein’s talk — doubles performance in today’s games with
+NVIDIA DLSS 4
+technology.
+NVIDIA GeForce RTX 5090 GPU
+It can also add neural rendering features for games to deliver up to 10x performance, 10x footprint amplification and a 10x reduction in design cycles,  helping enhance realism in computer graphics and simulation. This offers smooth, responsive visual experiences at low energy consumption and improves the lifelike simulation of characters and effects.
+NVIDIA CUDA
+, the world’s most widely available computing infrastructure, lets users deploy and run AI models using NVIDIA Blackwell anywhere.
+Hundreds of millions of GPUs run CUDA across the globe, from NVIDIA GB200 NVL72 rack-scale systems to
+GeForce RTX
+– and
+NVIDIA RTX PRO
+-powered PCs and workstations, with
+NVIDIA DGX Spark
+powered by NVIDIA GB10 — discussed in Skende’s session — coming soon.
+From Algorithms to AI Supercomputers — Optimized for LLMs
+NVIDIA DGX Spark
+Delivering powerful performance and capabilities in a compact package, DGX Spark lets developers, researchers, data scientists and students push the boundaries of
+generative AI
+right at their desktops, and accelerate workloads across industries.
+As part of the NVIDIA Blackwell platform, DGX Spark brings support for NVFP4, a low-precision numerical format to enable efficient
+agentic AI
+inference, particularly of large language models (
+LLMs
+). Learn more about NVFP4 in this NVIDIA Technical Blog.
+Open-Source Collaborations Propel Inference Innovation
+NVIDIA accelerates several open-source libraries and frameworks to accelerate and optimize AI workloads for LLMs and distributed inference. These include
+NVIDIA TensorRT-LLM
+,
+NVIDIA Dynamo
+, TileIR, Cutlass, the
+NVIDIA Collective Communication Library
+and NIX — which are integrated into millions of workflows.
+Allowing developers to build with their framework of choice, NVIDIA has collaborated with top open framework providers to offer model optimizations for FlashInfer, PyTorch, SGLang, vLLM and others.
+Plus,
+NVIDIA NIM microservices
+are available for popular open models like OpenAI’s gpt-oss and Llama 4,  making it easy for developers to operate managed application programming interfaces with the flexibility and security of self-hosting models on their preferred infrastructure.
+Learn more about the latest advancements in inference and accelerated computing by joining
+NVIDIA at Hot Chips
+.
+Categories:
+Corporate
+|
+Data Center
+|
+Generative AI
+|
+Networking
+Tags:
+Artificial Intelligence
+|
+CUDA
+|
+Events
+|
+GeForce RTX
+|
+GPU
+|
+Hardware
+|
+High-Performance Computing
+|
+Inference
+|
+NVIDIA NIM
+|
+NVIDIA RTX
+|
+NVLink
+|
+Open Source
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

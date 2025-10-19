@@ -1,0 +1,163 @@
+Title: AI On: 6 Ways AI Agents Are Raising Team Performance — and How to Measure It
+Source: https://blogs.nvidia.com/blog/ways-ai-agents-are-raising-team-performance/
+
+---
+
+AI On: 6 Ways AI Agents Are Raising Team Performance — and How to Measure It
+September 4, 2025
+by
+Erik Pounds
+Share
+Email
+0
+Editor’s note: This post is part of the
+AI On
+blog series, which explores the latest techniques and real-world applications of agentic AI, chatbots and copilots. The series also highlights the NVIDIA software and hardware powering advanced AI agents, which form the foundation of AI query engines that gather insights and perform tasks to transform everyday experiences and reshape industries.
+AI agents
+are expected to be involved in most business tasks within three years, with effective human-agent collaboration projected to
+increase human engagement in high-value tasks by 65%
+.
+AI agents can help achieve and exceed efficiency goals as they learn,
+reason
+and adjust based on context and outcomes. As they become increasingly central to business strategies, understanding where they deliver impact and justify investment is essential for leaders.
+Here are six ways
+agentic AI
+boosts team performance — and practical tips for measuring its impact.
+1. Accelerating Software Development With AI Agents
+AI agents can act as intelligent copilots, helping automate code generation, testing and deployment.
+They can pinpoint errors early, resulting in higher-quality, faster releases, and speed onboarding of new engineers by providing AI-curated information and context on documentation.
+For example,
+NVIDIA ChipNeMo
+— a team of specialized agents built on custom large language models (
+LLMs
+) and trained on NVIDIA’s internal chip design data — helped 5,000 NVIDIA engineers in design, verification and documentation save 4,000 engineering days in just one year.
+Since deployment, ChipNeMo has:
+Learn about
+building agents with NVIDIA Nemotron
+and
+improving AI code generation using NVIDIA NeMo Agent Toolkit
+.
+2. Driving Data-Backed Decision-Making
+Agents can help businesses across industries easily glean insights from complex, time-sensitive data for critical decision-making, such as on investments or business strategy.
+BlackRock’s Aladdin Copilot — an embedded AI assistant serving thousands of users across hundreds of financial institutions — lets teams garner portfolio insights, assess investment research and monitor available cash balances through simple text prompts. It’s helped reduce research time from minutes to seconds while enhancing data-driven investment decisions.
+VAST Data uses agents to rapidly gather and synthesize information from internal and external sources. For its sales teams, this means faster access to useful, up-to-date insights on client accounts.
+3. Optimizing IT Operations
+Agents excel at maintaining IT operations, including by proactively monitoring infrastructure and automating decision-making.
+AI agents in IT operations offer:
+In fast-paced telco environments, agents can help manage networks by analyzing real-time performance indicators and predicting service failures. For example,
+Telenor Group
+integrated the
+NVIDIA Blueprint for telco network configuration
+to deploy intelligent, autonomous networks that meet the performance demands of 5G and beyond.
+4. Streamlining Industrial and Manufacturing Operations
+Able to interact with the physical world,
+video analytics AI agents
+can monitor assembly lines for quality checks and anomaly detection.
+Pegatron developed the PEGA AI Factory platform
+to accelerate the development of AI agents across the company by 400% in the last four years. In addition, the company’s digital twin platform PEGAVERSE was built on the
+NVIDIA Omniverse
+platform and lets engineers virtually simulate, test and optimize production lines before they’re built, cutting factory construction time by 40%.
+Pegatron also augmented its assembly process using
+video analytics AI agents
+, powered by
+NVIDIA AI Blueprint for video search and summarization
+, and saw a 7% reduction in labor costs per assembly line and a 67% decrease in defect rates.
+Siemens
+is bringing generative AI into their solutions with the Industrial Copilot to tap real-time factory data to guide maintenance technicians and shopfloor operators. Interviews with maintenance engineers indicate that this could save on average 25% reactive maintenance time.
+Foxconn uses digital twins and AI agents to optimize its production lines,
+reducing deployment time by 50%
+, as well as to simulate robots and monitor quality and safety in real time.
+5. Enhancing Customer Service
+Agents excel at handling customer service at scale, reducing customer wait times by handling thousands of inquiries simultaneously.
+AT&T employees and contractors use a generative AI solution called “
+Ask AT&T
+,” which has over 100 solutions and agents in production. Built with LLMs served by
+NVIDIA NeMo
+and
+NIM
+microservices, Ask AT&T helps fetch relevant documentation and autonomously resolve routine inquiries.
+Offering 24/7 personalized support, Ask AT&T shares context-relevant suggestions by recalling organizational information from emails, meetings and past transactions. And to continuously improve agent performance, real-time feedback loops are built into the system using a
+data flywheel
+.
+These automated services resulted in 84% lower call center transcript analytics costs.
+6. Delivering Personalized Education
+AI agents are making individualized learning support more accessible, scalable and effective while freeing up instructors for more in-depth teaching.
+Faced with surging class sizes and a shortage of teaching assistants,
+Clemson University
+developed an AI-powered TA — built with the
+NVIDIA Blueprint for retrieval-augmented generation
+— to guide students through challenging concepts.
+Rather than simply providing answers, the virtual TA walks students through problems step by step, encouraging active problem-solving and critical thinking to promote deeper understanding and academic integrity.
+The assistant also personalizes feedback and hints in alignment with course content, assignment deadlines and student submissions. It operates 24/7, giving every student timely, tailored support regardless of enrollment size.
+How Can the Success of AI Agents Be Measured?
+Measuring the impact of AI agents isn’t just a box to check — it’s essential to maximizing investment. The way users define success will directly shape how well these systems deliver value. Too often, businesses deploy agents without a clear measurement framework, making it difficult to prove return on investment or identify areas for improvement.
+When setting up an evaluation strategy, users should consider which metrics matter most for their goals. For example:
+Adoption and engagement:
+Track whether the technology is being embraced. Metrics include how many eligible users interact with the agent — and how frequently — along with how long the sessions last. High engagement means the agent is routinely providing effective support.
+Task completion:
+Look beyond usage to outcomes. Measure how many tasks or requests the agent handles and what portions are fulfilled without human intervention. In software development, users can measure the automated code generation rate to see how much of the software is being developed by an agent. A high automated task completion rate means employees are freed up for higher-value work.
+Productivity and efficiency gains:
+Quantify time saved. Metrics like time to resolve IT issues, report generation time for decision-making and average handling time for customer service interactions help demonstrate clear efficiency improvements.
+Business outcomes:
+Connect agent performance to bottom-line results. This could mean cost per interaction in support, time to market in software development or unplanned downtime reduction in IT operations.
+High-quality user experience:
+Ensure the system is both trusted and effective. Consider a code quality score for developers, prediction accuracy in data-backed decision-making or customer satisfaction scores in service scenarios.
+The key takeaway: measuring AI agent success goes far beyond a single number. Adoption, efficiency, accuracy and business impact all matter. By choosing the right mix of metrics upfront, businesses can validate success while continually refining and improving how agents deliver value.
+Read more stories on how
+customers are adopting AI applications
+to reshape their daily operations and increase their return on investment.
+Stay up to date on agentic AI, NVIDIA Nemotron and more by subscribing to
+NVIDIA news
+,
+joining the community
+and following NVIDIA AI on
+LinkedIn
+,
+Instagram
+,
+X
+and
+Facebook
+. Plus, explore
+self-paced video tutorials and livestreams
+.
+Categories:
+Data Center
+|
+Generative AI
+|
+How To
+Tags:
+Agentic AI
+|
+AI On
+|
+Artificial Intelligence
+|
+Customer Stories
+|
+Data Science
+|
+Education
+|
+Financial Services
+|
+Industrial and Manufacturing
+|
+Nemotron
+|
+NVIDIA Blueprints
+|
+NVIDIA NeMo
+|
+NVIDIA NIM
+|
+Omniverse
+|
+Telecommunications
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

@@ -1,0 +1,56 @@
+Title: NVIDIA, National Science Foundation Support Ai2 Development of Open AI Models to Drive U.S. Scientific Leadership
+Source: https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models/
+
+---
+
+NVIDIA, National Science Foundation Support Ai2 Development of Open AI Models to Drive U.S. Scientific Leadership
+Aligned with the White House AI Action Plan, public-private partnership includes $152 million in support of open AI model development in America.
+August 14, 2025
+by
+Jack Wells
+Share
+Email
+0
+NVIDIA is partnering with the U.S. National Science Foundation (NSF) to create an AI system that supports the development of multimodal language models for advancing scientific research in the United States.
+The
+partnership
+supports the NSF Mid-Scale Research Infrastructure project, called Open Multimodal AI Infrastructure to Accelerate Science (OMAI).
+“Bringing AI into scientific research has been a game changer,” said Brian Stone, performing the duties of the NSF director. “NSF is proud to partner with NVIDIA to equip America’s scientists with the tools to accelerate breakthroughs. These investments are not just about enabling innovation; they are about securing U.S. global leadership in science and technology and tackling challenges once thought impossible.”
+OMAI, part of the work of the
+Allen Institute for AI, or Ai2
+, aims to build a national fully open AI ecosystem to drive scientific discovery through AI, while also advancing the science of AI itself.
+NVIDIA’s support of OMAI includes providing
+NVIDIA HGX B300 systems
+— state-of-the-art AI infrastructure built to accelerate model training and inference with exceptional efficiency — along with the
+NVIDIA AI Enterprise software platform,
+empowering OMAI to transform massive datasets into actionable intelligence and breakthrough innovations.
+NVIDIA HGX B300 systems are built with NVIDIA Blackwell Ultra GPUs and feature industry-leading high-bandwidth memory and interconnect technologies to deliver groundbreaking acceleration, scalability and efficiency to run the world’s largest models and most demanding workloads.
+“AI is the engine of modern science — and large, open models for America’s researchers will ignite the next industrial revolution,” said Jensen Huang, founder and CEO of NVIDIA. “In collaboration with NSF and Ai2, we’re accelerating innovation with state-of-the-art infrastructure that empowers U.S. scientists to generate limitless intelligence, making it America’s most powerful and renewable resource.”
+The contributions will support research teams from the University of Washington, the University of Hawaii at Hilo, the University of New Hampshire and the University of New Mexico. The public-private partnership investment in U.S. technology aligns with recent initiatives outlined by the White House AI Action Plan, which supports America’s global AI leadership.
+“The models are part of the national research infrastructure — but we can’t build the models without compute, and that’s why NVIDIA is so important to this project,” said Noah Smith, senior director of natural language processing research at Ai2.
+Opening Language Models to Advance American Researchers
+Driving some of the fastest-growing applications in history, today’s large language models (
+LLMs
+) have many billions of parameters, or internal weights and biases learned in training. LLMs are trained on trillions of words, and multimodal LLMs can ingest images, graphs, tables and more.
+But the power of these so-called frontier models can sometimes be out of reach for scientific research when the parameters, training data, code and documentation are not openly available.
+“With the model training data in hand, you have the opportunity to trace back to particular training instances similar to a response, and also more systematically study how emerging behaviors relate to the training data,” said Smith.
+NVIDIA’s partnership with NSF to support Ai2’s OMAI initiative provides fully open model access to data, open-source data interrogation tools to help refine datasets, as well as documentation and training for early-career researchers — advancing U.S. global leadership in science and engineering.
+Cirrascale Cloud Services will provide managed services for the new hardware infrastructure funded by the support, helping Ai2 push the boundaries of AI for science.
+The Ai2 project — supported by NVIDIA technologies — pledges to make the software and models available at low or zero cost to researchers, similar to open-source code repositories and science-oriented digital libraries. It’s in line with Ai2’s previous work in creating fully open language models and multimodal models, maximizing access.
+Driving U.S. Global Leadership in Science and Engineering
+“Winning the AI Race: America’s AI Action Plan”
+was announced
+in July by the White House, supported with executive orders to accelerate federal permitting of data center infrastructure and promote exportation of the American AI technology stack.
+The OMAI initiative aligns with White House AI Action Plan priorities, emphasizing the acceleration of AI-enabled science and supporting the creation of leading open models to enhance America’s global AI leadership in academic research and education.
+Categories:
+Software
+Tags:
+NVIDIA AI Enterprise
+|
+NVIDIA Blackwell Platform
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

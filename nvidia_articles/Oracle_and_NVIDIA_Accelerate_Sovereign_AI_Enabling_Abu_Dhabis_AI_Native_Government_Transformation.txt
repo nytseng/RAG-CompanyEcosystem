@@ -1,0 +1,62 @@
+Title: Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+Source: https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/
+
+---
+
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+October 14, 2025
+by
+Asad Ansari
+Share
+Email
+0
+At Oracle AI World, NVIDIA and Oracle announced they are deepening their collaboration to bolster sovereign AI initiatives and accelerate government digital transformation worldwide.
+By combining NVIDIA’s AI computing platforms with Oracle’s scalable cloud infrastructure, the collaboration enables organizations, such as Abu Dhabi’s Department of Government Enablement (DGE), in partnership with Deloitte and Core42, to build secure, AI-first systems that deliver next-generation services for residents and community members.
+The effort supports Abu Dhabi’s vision of becoming an AI-native government by 2027 while demonstrating an initiative that can be replicated globally to expand AI adoption.
+Seamless Integration for Sovereign AI Delivery
+With NVIDIA AI Enterprise software on Oracle Cloud Infrastructure, NVIDIA’s cloud-native suite of software tools, libraries and frameworks are seamlessly integrated and natively available to customers, empowering DGE to rapidly develop and deploy production-grade AI solutions. The solution brings together 160 AI tools, a high-performance accelerated computing cluster and cutting-edge NVIDIA NIM microservices in a secure, sovereign environment.
+The Abu Dhabi Government Digital Strategy 2025-2027
+is a landmark initiative demonstrating how sovereign AI, powered by OCI and NVIDIA AI, is transforming government operations at scale.
+Backed by a 13-billion AED investment, the strategy is built on 100% sovereign cloud adoption, complete digitization and automation of all government processes. It serves as an industry-leading example of how modern AI and cloud capabilities can position public sector organizations for global leadership in serving residents and community members.
+Such services include automatic notifications about benefits eligibility and license renewals, multilingual AI assistants in over 15 languages to serve Abu Dhabi’s diverse population and intelligent compliance systems that process 77% of service queries instantly, with automated approvals for routine applications.
+In this way, AI-native systems can anticipate the needs of residents and community members and deliver government services proactively rather than reactively.
+“The Abu Dhabi Government Digital Strategy 2025-2027 reflects our leadership’s vision of being an AI-native government, seamlessly integrating AI across all government systems for a future that is proactive, agile and fully technology-enabled,” said Ahmed Hisham Al Kuttab, chairman of DGE.
+Crawl, Walk, Run: A Phased Approach to AI
+Transformation
+Since its initial rollout in December 2024, DGE has gone live across 25 government entities, with over 15,000 daily active OCI users benefiting from secure, AI-accelerated services.
+OCI’s Dedicated Regions offer NVIDIA GPUs and NVIDIA CUDA-X libraries through Core42 infrastructure, supporting data sovereignty and addressing compliance needs while delivering the high-performance AI that’s reshaping government operations.
+DGE’s transformation follows a phased “crawl, walk, run” approach that ensures sustainable growth and minimizes implementation risks.
+Phase 1 focused on foundation building with core infrastructure and embedded AI in Oracle Fusion Cloud Applications
+Phase 2 brings generative AI into production, with Oracle Fusion Applications, implementing 37 features, such as intelligent candidate matching and performance review summaries in Oracle Fusion Cloud Human Capital Management, automated supplier qualification and procurement policy advisors in Oracle Fusion Cloud Supply Chain Management, and AI-generated financial reporting narratives narratives in Oracle Fusion Cloud Enterprise Resource Planning.
+Phase 3 will introduce advanced agentic AI and custom autonomous workflows, using the underlying Oracle and NVIDIA stack to continuously evolve government-wide operations.
+Ensuring Compliance and Driving Innovation
+The partnership taps into sovereign AI principles to maintain data control within Abu Dhabi’s borders while harnessing best-in-class AI acceleration capabilities.
+Core42’s infrastructure forms the foundation for the OCI Dedicated Region solution, which uses NVIDIA accelerated computing to deliver high-performance AI training and inference workloads.
+”Abu Dhabi’s deployment of OCI Dedicated Regions represents the future of sovereign AI infrastructure, and Deloitte is proud to orchestrate this groundbreaking implementation,” said Mauro Schiavon, Deloitte Global Chief Commercial Officer for the Oracle Business. “Through OCI Dedicated Regions, we’re delivering end-to-end Oracle Cloud Infrastructure services within Abu Dhabi’s sovereign boundaries, ensuring their sensitive government data does not leave the emirate while providing access to the full breadth of Oracle’s AI and cloud capabilities. This architecture demonstrates how governments can achieve true digital sovereignty without compromising on innovation or performance.”
+NVIDIA accelerated computing provides the computational power for traditional AI workloads and advanced generative AI applications, ensuring optimal performance for government-specific use cases.
+The next-generation NVIDIA Blackwell architecture is poised to provide even greater performance and efficiency in accelerating government operations.
+Advancements in sovereign AI, enabled by partnerships like Oracle and NVIDIA, are redefining how governments deliver connected, secure experiences for citizens, residents and community members. With high-performance cloud and AI infrastructure, organizations can rapidly deploy intelligent solutions that automate services and personalize interactions across every sector.
+Abu Dhabi’s DGE demonstrates this transformation at scale — deploying more than 200 AI-powered capabilities, supporting digital upskilling for residents and driving impact through measurable economic gains and job creation.
+Sovereign Blueprint for Future Success
+The digital transformation strategy is projected to contribute over 24 billion AED to Abu Dhabi’s GDP by 2027 while creating more than 5,000 employment opportunities, supporting Emiratisation efforts.
+Learn more about
+NVIDIA’s sovereign AI initiatives
+and explore
+Oracle’s AI capabilities
+at Oracle AI World.
+Categories:
+Cloud
+|
+Data Center
+Tags:
+Artificial Intelligence
+|
+Economic Development
+|
+Sovereign AI
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

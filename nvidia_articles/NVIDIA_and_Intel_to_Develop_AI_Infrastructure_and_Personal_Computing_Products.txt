@@ -1,0 +1,15 @@
+Title: NVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products
+Source: https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
+
+---
+
+NVIDIA (NASDAQ: NVDA) and Intel Corporation (NASDAQ: INTC) today announced a collaboration to jointly develop multiple generations of custom data center and PC products that accelerate applications and workloads across hyperscale, enterprise and consumer markets.
+The companies will focus on seamlessly connecting NVIDIA and Intel architectures using NVIDIA NVLink — integrating the strengths of NVIDIA’s AI and accelerated computing with Intel’s leading CPU technologies and x86 ecosystem to deliver cutting-edge solutions for customers.
+For data centers, Intel will build NVIDIA-custom x86 CPUs that NVIDIA will integrate into its AI infrastructure platforms and offer to the market.
+For personal computing, Intel will build and offer to the market x86 system-on-chips (SOCs) that integrate NVIDIA RTX GPU chiplets. These new x86 RTX SOCs will power a wide range of PCs that demand integration of world-class CPUs and GPUs.
+NVIDIA will invest $5 billion in Intel’s common stock at a purchase price of $23.28 per share. The investment is subject to customary closing conditions, including required regulatory approvals.
+“AI is powering a new industrial revolution and reinventing every layer of the computing stack — from silicon to systems to software. At the heart of this reinvention is NVIDIA’s CUDA architecture,” said NVIDIA founder and CEO Jensen Huang. “This historic collaboration tightly couples NVIDIA’s AI and accelerated computing stack with Intel’s CPUs and the vast x86 ecosystem — a fusion of two world-class platforms. Together, we will expand our ecosystems and lay the foundation for the next era of computing.”
+“Intel’s x86 architecture has been foundational to modern computing for decades — and we are innovating across our portfolio to enable the workloads of the future,” said Lip-Bu Tan, CEO of Intel. “Intel’s leading data center and client computing platforms, combined with our process technology, manufacturing and advanced packaging capabilities, will complement NVIDIA’s AI and accelerated computing leadership to enable new breakthroughs for the industry. We appreciate the confidence Jensen and the NVIDIA team have placed in us with their investment and look forward to the work ahead as we innovate for customers and grow our business.”
+Press Conference:
+The CEOs of NVIDIA and Intel will conduct a webcast press conference at 10 a.m. Pacific time (1 p.m. Eastern time) today to discuss the announcement. The webcast will be available for the public to listen in here:
+https://events.q4inc.com/attendee/108505485

@@ -1,0 +1,112 @@
+Title: NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin
+Source: https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin/
+
+---
+
+NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin
+More than 50 NVIDIA MGX partners are gearing up for NVIDIA Vera Rubin NVL144; 20-plus companies will join NVIDIA’s growing ecosystem of partners supporting 800 VDC data centers to enable future gigawatt AI factories.
+October 13, 2025
+by
+Harry Petty
+Share
+Email
+0
+At the OCP Global Summit, NVIDIA is offering a glimpse into the future of gigawatt AI factories.
+NVIDIA will unveil specs of the NVIDIA Vera Rubin NVL144 MGX-generation open architecture rack servers, which more than 50 MGX partners are gearing up for along with ecosystem support for NVIDIA Kyber, which connects 576 Rubin Ultra GPUs, built to support increasing inference demands.
+Some 20-plus industry partners are showcasing new silicon, components, power systems and support for the next-generation, 800-volt direct current (VDC) data centers of the gigawatt era that will support the NVIDIA Kyber rack architecture.
+Foxconn provided details on its 40-megawatt Taiwan data center, Kaohsiung-1, being built for 800 VDC. CoreWeave, Lambda, Nebius, Oracle Cloud Infrastructure and Together AI are among other industry pioneers designing for 800-volt data centers. In addition,
+Vertiv
+unveiled its space-, cost- and energy-efficient 800 VDC MGX reference architecture, a complete power and cooling infrastructure architecture.
+HPE
+is announcing product support for NVIDIA Kyber as well as
+NVIDIA Spectrum-XGS Ethernet
+scale-across technology, part of the
+Spectrum-X Ethernet platform
+.
+Moving to 800 VDC infrastructure from traditional 415 or 480 VAC three-phase systems offers increased scalability, improved energy efficiency, reduced materials usage and higher capacity for performance in data centers. The electric vehicle and solar industries have already adopted 800 VDC infrastructure for similar benefits.
+The Open Compute Project, founded by Meta, is an industry consortium of hundreds of computing and networking providers and more focused on redesigning hardware technology to efficiently support the growing demands on compute infrastructure.
+Vera Rubin NVL144: Designed to Scale for AI Factories
+The Vera Rubin NVL144 MGX compute tray offers an energy-efficient, 100% liquid-cooled, modular design. Its central printed circuit board midplane replaces traditional cable-based connections for faster assembly and serviceability, with modular expansion bays for NVIDIA ConnectX-9 800GB/s networking and NVIDIA Rubin CPX for massive-context
+inference
+.
+The NVIDIA Vera Rubin NVL144 offers a major leap in accelerated computing architecture and AI performance. It’s built for advanced reasoning engines and the demands of AI agents.
+Its fundamental design lives in the MGX rack architecture and will be supported by 50+ MGX system and component partners. NVIDIA plans to contribute the upgraded rack as well as the compute tray innovations as an open standard for the OCP consortium.
+Its standards for compute trays and racks enable partners to mix and match in modular fashion and scale faster with the architecture. The Vera Rubin NVL144 rack design features energy-efficient 45°C liquid cooling, a new liquid-cooled busbar for higher performance and 20x more energy storage to keep power steady.
+The MGX upgrades to compute tray and rack architecture boost AI factory performance while simplifying assembly, enabling a rapid ramp-up to gigawatt-scale AI infrastructure.
+NVIDIA is a leading contributor to OCP standards across multiple hardware generations,
+including key portions
+of the NVIDIA GB200 NVL72 system electro-mechanical design. The same MGX rack footprint supports GB300 NVL72 and will support Vera Rubin NVL144, Vera Rubin NVL144 CPX and Vera Rubin CPX for higher performance and fast deployments.
+If You Build It, They Will Come: NVIDIA Kyber Rack Server Generation
+The OCP ecosystem is also preparing for NVIDIA Kyber, featuring innovations in 800 VDC power delivery, liquid cooling and mechanical design.
+These innovations will support the move to rack server generation NVIDIA Kyber — the successor to NVIDIA Oberon — which will house a high-density platform of 576 NVIDIA Rubin Ultra GPUs by 2027.
+The most effective way to counter the challenges of high-power distribution is to increase the voltage. Transitioning from a traditional 415 or 480 VAC three-phase system to an 800 VDC architecture offers various benefits.
+The transition afoot enables rack server partners to move from 54 VDC in-rack components to 800 VDC for better results. An ecosystem of direct current infrastructure providers, power system and cooling partners, and silicon makers — all aligned on open standards for the MGX rack server reference architecture — attended the event.
+NVIDIA Kyber is engineered to boost rack GPU density, scale up network size and maximize performance for large-scale AI infrastructure. By rotating compute blades vertically, like books on a shelf, Kyber enables up to 18 compute blades per chassis, while purpose-built
+NVIDIA NVLink
+switch blades are integrated at the back via a cable-free midplane for seamless scale-up networking.
+Over 150% more power is transmitted through the same copper with 800 VDC, enabling eliminating the need for 200-kg copper busbars to feed a single rack.
+Kyber will become a foundational element of hyperscale AI data centers, enabling superior performance, efficiency and reliability for state-of-the-art generative AI workloads in the coming years. NVIDIA Kyber racks offer a way for customers to reduce the amount of copper they use by the tons, leading to millions of dollars in cost savings.
+NVIDIA NVLink Fusion Ecosystem Expands
+In addition to hardware, NVIDIA NVLink Fusion is gaining momentum, enabling companies to seamlessly integrate their semi-custom silicon into highly optimized and widely deployed data center architecture, reducing complexity and accelerating time to market.
+Intel and Samsung Foundry are joining the NVLink Fusion ecosystem that includes custom silicon designers, CPU and IP partners, so that AI factories can scale up quickly to handle demanding workloads for model training and agentic AI inference.
+As part of the recently announced
+NVIDIA and Intel collaboration
+, Intel will build x86 CPUs that integrate into NVIDIA infrastructure platforms using NVLink Fusion.
+Samsung Foundry has partnered with NVIDIA to meet growing demand for custom CPUs and custom XPUs, offering design-to-manufacturing experience for custom silicon.
+It Takes an Open Ecosystem: Scaling the Next Generation of AI Factories
+More than 20 NVIDIA partners are helping deliver rack servers with open standards, enabling the future gigawatt AI factories.
+Silicon providers
+: Analog Devices, Inc. (ADI),
+AOS
+,
+EPC
+, Infineon,
+Innoscience
+, MPS, Navitas, onsemi,
+Power Integrations
+,
+Renesas
+, Richtek,
+ROHM
+,
+STMicroelectronics
+and
+Texas Instruments
+Power system component providers
+:
+BizLink
+, Delta,
+Flex
+, GE Vernova, Lead Wealth, LITEON and Megmeet
+Data center power system providers
+:
+ABB
+,
+Eaton
+, GE Vernova,
+Heron Power
+,
+Hitachi Energy
+,
+Mitsubishi Electric
+, Schneider Electric, Siemens and
+Vertiv
+Learn more about NVIDIA and the Open Compute Project at the
+OCP Global Summit
+, taking place at the San Jose Convention Center from Oct. 13-16.
+Categories:
+Data Center
+Tags:
+GB200
+|
+GB300
+|
+NVL72
+|
+NVLink
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

@@ -1,0 +1,125 @@
+Title: NVIDIA Accelerates Robotics Research and Development With New Open Models and Simulation Libraries
+Source: https://nvidianews.nvidia.com/news/nvidia-accelerates-robotics-research-and-development-with-new-open-models-and-simulation-libraries
+
+---
+
+News Summary:
+The open-source Newton Physics Engine — codeveloped with Google DeepMind and Disney Research, and now available in NVIDIA Isaac Lab — helps researchers and developers create more capable and adaptable robots.
+New NVIDIA Isaac GR00T open foundation model brings humanlike reasoning to robots, allowing them to break down complex instructions and execute tasks using prior knowledge and common sense.
+New NVIDIA Cosmos world foundation models enable developers to generate diverse data for accelerating training physical AI models at scale.
+Global researchers at leading universities such as Stanford University, ETH Zurich and the National University of Singapore are tapping NVIDIA accelerated computing and software to advance robotics research.
+Leading robot developers Agility Robotics, Boston Dynamics, Disney Research, Figure AI, Franka Robotics, Hexagon, Skild AI, Solomon and Techman Robot are adopting NVIDIA Isaac and Omniverse technologies.
+NVIDIA today announced that the open‑source
+Newton Physics Engine
+is now available in
+NVIDIA Isaac™ Lab
+, along with the open
+NVIDIA Isaac GR00T N1.6
+reasoning vision language action model for robot skills and new AI infrastructure. Together, these technologies provide developers and researchers with an open, accelerated robotics platform that speeds iteration, standardizes testing, unifies training with on‑robot inference and helps robots transfer skills safely and reliably from simulation to the real world.
+“Humanoids are the next frontier of physical AI, requiring the ability to reason, adapt and act safely in an unpredictable world,” said Rev Lebaredian, vice president of Omniverse and simulation technology at NVIDIA. “With these latest updates, developers now have the three computers to bring robots from research into everyday life — with Isaac GR00T serving as robot’s brains, Newton simulating their body and NVIDIA Omniverse as their training ground.”
+Newton Opens New Standard for Physical Simulation in Robotics
+Robots learn faster and safer in
+simulation
+, but
+humanoid robots
+— with their complex joints, balance and movements — push today’s physics engines to the limit. Over a quarter-million robotics developers worldwide need accurate physics, so the skills they teach robots in simulation can be executed safely and reliably in the real world.
+Today, NVIDIA announced the beta release of Newton, an open-source, GPU-accelerated physics engine,
+managed by the Linux Foundation
+. Built on the
+NVIDIA Warp
+and
+OpenUSD
+frameworks, and codeveloped by Google DeepMind, Disney Research and NVIDIA, Newton is available now.
+With
+Newton
+’s flexible design and ability to work with different types of physics solvers, developers can now simulate extremely complex robot actions, like walking through snow or gravel and handling cups and fruits, and successfully deploy them in the real world.
+The latest adopters of Newton are esteemed research labs and universities such as ETH Zurich Robotic Systems Lab, Technical University of Munich and Peking University, robotics company
+Lightwheel
+, and simulation engine company Style3D.
+Cosmos Reason Improves Robot Reasoning for New Open Isaac GR00T N1.6 Model
+To perform humanlike tasks in the physical world, humanoids must understand ambiguous instructions and deal with the long tail of never-before-seen experiences.
+The latest release of the open Isaac GR00T N1.6 robot foundation model, available soon on Hugging Face, will integrate
+NVIDIA Cosmos™ Reason
+, an open, customizable reasoning vision language model built for
+physical AI
+. Acting as the robot’s deep-thinking brain, Cosmos Reason turns vague instructions into step-by-step plans, using prior knowledge, common sense and physics to handle new situations and generalize across many tasks.
+Cosmos Reason, downloaded over 1 million times and currently at the top of the
+Physical Reasoning Leaderboard
+on Hugging Face, can also curate and annotate large sets of real and synthetic data for model training.
+Cosmos Reason 1 is now available as an easy-to-use NVIDIA NIM
+™ microservice for AI model deployment.
+Isaac GR00T N1.6 now lets
+humanoids
+move and handle objects simultaneously, allowing more torso and arm freedom to complete tough tasks like opening heavier doors.
+Developers can post-train Isaac GR00T N models using the open-source
+NVIDIA Physical AI Dataset
+on Hugging Face. Downloaded over 4.8 million times, the dataset now includes thousands of synthetic and real-world trajectories.
+Leading robot makers such as AeiROBOT, Franka Robotics, LG Electronics, Lightwheel, Mentee Robotics, Neura Robotics, Solomon, Techman Robot and UCR are evaluating
+Isaac GR00T N models
+for building general-purpose robots.
+New Cosmos World Foundation Models for Physical AI Development
+NVIDIA
+announced new updates
+to its open
+Cosmos WFMs
+, downloaded over 3 million times, that let developers generate diverse data for accelerating training physical AI models at scale using text, image and video prompts.
+Cosmos Predict 2.5, coming soon, combines the power of three Cosmos WFMs into one powerful model, cutting complexity, saving time and boosting efficiency. It supports longer video generation — capable of creating up to 30-second videos — as well as multi-view camera outputs for richer world simulations.
+Cosmos Transfer 2.5, coming soon, delivers faster, higher-quality results than previous models, while being 3.5x smaller. It can generate photorealistic synthetic data from ground-truth 3D simulation scenes and spatial control inputs like depth, segmentation, edges and high-definition maps.
+New Workflow for Teaching Robot Grasping
+Teaching a robot to grab an object is one of the most difficult challenges in robotics. It is not just about moving an arm but turning a thought into a precise action — a skill robots must learn through trial and error.
+The new
+dexterous grasping
+workflow in the
+developer preview of Isaac Lab 2.3
+, built on the
+NVIDIA Omniverse
+™ platform,
+trains multi-fingered hand and arm robots
+in a virtual world using an automated curriculum. It starts with simple tasks and gradually ramps up the complexity. The workflow changes aspects like gravity, friction and the weight of an object, training robots to learn skills even in unpredictable environments.
+Boston Dynamics
+’ Atlas robots learned grasping using this workflow to significantly improve its manipulation capabilities.
+Leading robot developers Agility Robotics, Boston Dynamics, Figure AI, Hexagon, Skild AI, Solomon and Techman Robot are adopting NVIDIA Isaac and Omniverse technologies.
+Evaluating Learned Robot Skills in Simulation
+Getting a robot to master a new skill — like picking up a cup or walking across a room — is incredibly difficult, and testing these skills on a physical robot is slow and expensive.
+The solution lies in simulation, which offers a way to test a robot’s learned skills against countless scenarios, tasks and environments. But even in simulation, developers tend to build fragmented, simplified tests that do not reflect the real world. A robot that learns to navigate a perfect, simple simulation will fail the moment it faces real-world complexity.
+To let developers run complex, large-scale evaluations in a simulated environment without having to build the system from scratch, NVIDIA and
+Lightwheel
+are codeveloping Isaac Lab - Arena, an open-source policy evaluation framework for scalable experimentation and standardized testing. The framework will be available soon.
+New NVIDIA AI Infrastructure Powers Robotics Workloads Anywhere
+To enable developers to take full advantage of these advanced technologies and software libraries, NVIDIA announced AI infrastructure designed for the most demanding workloads, including:
+NVIDIA GB200 NVL72
+, a rack-scale system integrating 36
+NVIDIA Grace™ CPUs
+and 72
+NVIDIA Blackwell GPUs
+, which is being adopted by major cloud providers to accelerate AI training and inference, including complex reasoning and physical AI tasks.
+NVIDIA RTX PRO™ Servers
+, which offer a single architecture for every robot development workload across training,
+synthetic data generation
+,
+robot learning
+and
+simulation
+. RTX PRO Servers have been adopted by the RAI Institute.
+NVIDIA Jetson Thor
+™, powered by a Blackwell GPU, which enables robots to run multi-AI workflows for real-time, intelligent interactions and unlocks real-time on-robot inference — a breakthrough for high-performance physical AI workloads and applications such as humanoid robotics. Jetson Thor has been adopted by partners including Figure AI, Galbot, Google DeepMind, Mentee Robotics, Meta, Skild AI and Unitree.
+NVIDIA Advances Robotics Research
+NVIDIA technologies, including GPUs, simulation frameworks and CUDA
+®
+‑accelerated libraries, were referenced in nearly half of CoRL’s accepted papers — with adoption across leading research labs and institutions such as
+Carnegie Mellon
+,
+University of Washington
+,
+ETH Zurich
+and
+National University of Singapore
+.
+Also highlighted at CoRL is
+BEHAVIOR
+, a robotic learning benchmark project by the Stanford Vision and Learning Lab and
+Taccel
+, a high-performance simulation platform for advancing vision-based tactile robotics, developed by Peking University.
+Learn more about NVIDIA’s robotics research work at
+CoRL
+, running Sept. 27-Oct. 2 in Seoul.

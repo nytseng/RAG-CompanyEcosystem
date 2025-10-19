@@ -1,0 +1,203 @@
+Title: Think SMART: How to Optimize AI Factory Inference Performance
+Source: https://blogs.nvidia.com/blog/think-smart-optimize-ai-factory-inference-performance/
+
+---
+
+Think SMART: How to Optimize AI Factory Inference Performance
+The Think SMART framework helps enterprises strike the right balance of accuracy, latency and return on investment when deploying AI at AI factory scale.
+August 21, 2025
+by
+Dion Harris
+Share
+Email
+0
+From
+AI assistants
+doing deep research to autonomous vehicles making split-second navigation decisions, AI adoption is exploding across industries.
+Behind every one of those interactions is
+inference
+— the stage after training where an AI model processes inputs and produces outputs in real time.
+Today’s most advanced
+AI reasoning models
+— capable of multistep logic and complex decision-making — generate far
+more tokens per interaction
+than older models, driving a surge in
+token
+usage and the need for infrastructure that can manufacture intelligence at scale.
+AI factories
+are one way of meeting these growing needs.
+But running inference at such a large scale isn’t just about throwing more compute at the problem.
+To deploy AI with maximum efficiency, inference must be evaluated based on the
+Think SMART framework:
+S
+cale and complexity
+M
+ultidimensional performance
+A
+rchitecture and software
+R
+eturn on investment driven by performance
+T
+echnology ecosystem and install base
+Scale and Complexity
+As models evolve from compact applications to massive, multi-expert systems, inference must keep pace with increasingly diverse workloads — from answering quick, single-shot queries to
+multistep reasoning involving millions of tokens
+.
+The expanding size and intricacy of AI models introduce major implications for inference, such as resource intensity, latency and throughput, energy and costs, as well as diversity of use cases.
+To meet this complexity, AI service providers and enterprises are scaling up their infrastructure, with new AI factories coming online from partners like
+CoreWeave
+,
+Dell Technologies
+,
+Google Cloud
+and
+Nebius
+.
+Multidimensional Performance
+Scaling complex AI deployments means AI factories need the flexibility to serve tokens across a wide spectrum of use cases while
+balancing accuracy, latency and costs
+.
+Some workloads, such as real-time speech-to-text translation, demand
+ultralow latency
+and a large number of tokens per user, straining computational resources for maximum responsiveness. Others are latency-insensitive and geared for sheer throughput,
+such as generating answers to dozens of complex questions simultaneously
+.
+But most popular
+real-time scenarios
+operate somewhere in the middle: requiring quick responses to keep users happy and high throughput to simultaneously serve up to millions of users — all while minimizing cost per token.
+For example, the
+NVIDIA inference platform
+is built to balance both latency and throughput, powering inference benchmarks on models like
+gpt-oss
+,
+DeepSeek-R1
+and
+Llama 3.1
+.
+What to Assess to Achieve Optimal Multidimensional Performance
+Throughput:
+How many tokens can the system process per second? The more, the better for scaling workloads and revenue.
+Latency:
+How quickly does the system respond to each individual prompt? Lower latency means a better experience for users — crucial for interactive applications.
+Scalability:
+Can the system setup quickly adapt as demand increases, going from one to thousands of GPUs without complex restructuring or wasted resources?
+Cost Efficiency:
+Is performance per dollar high, and are those gains sustainable as system demands grow?
+Architecture and Software
+AI inference performance needs to be engineered from the ground up. It comes from hardware and software working in sync — GPUs, networking and code tuned to avoid bottlenecks and make the most of every cycle.
+Powerful architecture without smart orchestration wastes potential; great software without fast, low-latency hardware means sluggish performance. The key is architecting a system so that it can quickly, efficiently and flexibly turn prompts into useful answers.
+Enterprises can use NVIDIA infrastructure to build a system that delivers optimal performance.
+Architecture Optimized for Inference at AI Factory Scale
+The
+NVIDIA Blackwell platform
+unlocks a 50x boost in AI factory productivity for inference —
+meaning enterprises can optimize throughput and interactive responsiveness
+, even when running the most complex models.
+The NVIDIA GB200 NVL72 rack-scale system connects 36 NVIDIA Grace CPUs and 72 Blackwell GPUs with NVIDIA NVLink interconnect, delivering 40x higher revenue potential, 30x higher throughput, 25x more
+energy efficiency
+and
+300x more water efficiency
+for demanding AI reasoning workloads.
+Further,
+NVFP4 is a low-precision format
+that delivers peak performance on NVIDIA Blackwell and slashes energy, memory and bandwidth demands without skipping a beat on accuracy, so users can deliver more queries per watt and lower costs per token.
+Full-Stack Inference Platform Accelerated on Blackwell
+Enabling inference at AI factory scale requires more than accelerated architecture. It requires a full-stack platform with multiple layers of solutions and tools that can work in concert together.
+Modern AI deployments require dynamic autoscaling from one to thousands of GPUs. The
+NVIDIA Dynamo
+platform steers distributed inference to dynamically assign GPUs and
+optimize data flows
+, delivering up to
+4x more performance without cost increases
+.
+New cloud integrations
+further improve scalability and ease of deployment.
+For inference workloads focused on getting optimal performance per GPU, such as speeding up large
+mixture of expert
+models, frameworks like
+NVIDIA TensorRT-LLM
+are helping developers achieve
+breakthrough performance
+.
+With its new PyTorch-centric workflow, TensorRT-LLM streamlines AI deployment by removing the need for manual engine management. These solutions aren’t just powerful on their own — they’re built to work in tandem. For example, using Dynamo and TensorRT-LLM, mission-critical inference providers like Baseten can immediately deliver
+state-of-the-art
+model performance even on new frontier models like gpt-oss.
+On the model side, families like
+NVIDIA Nemotron
+are built with open training data for transparency, while still generating tokens quickly enough to handle advanced reasoning tasks with high accuracy — without increasing compute costs. And with
+NVIDIA NIM
+, those models can be packaged into ready-to-run microservices, making it easier for teams to roll them out and scale across environments while achieving the lowest total cost of ownership.
+Together, these layers — dynamic orchestration, optimized execution, well-designed models and simplified deployment — form the backbone of inference enablement for cloud providers and enterprises alike.
+Return on Investment Driven by Performance
+As AI adoption grows, organizations are increasingly looking to maximize the return on investment from each user query.
+Performance is the biggest driver of return on investment. A 4x increase in performance from the NVIDIA Hopper architecture to Blackwell yields up to 10x profit growth within a similar power budget.
+In power-limited data centers and AI factories, generating more tokens per watt translates directly to higher revenue per rack. Managing token throughput efficiently — balancing latency, accuracy and user load — is crucial for keeping costs down.
+The industry is seeing rapid cost improvements, going as far as reducing
+costs-per-million-tokens by 80%
+through stack-wide optimizations. The same gains are achievable running
+gpt-oss
+and other open-source models from NVIDIA’s inference ecosystem, whether in hyperscale data centers or on
+local AI PCs
+.
+Technology Ecosystem and Install Base
+As models advance — featuring longer context windows, more tokens and more sophisticated runtime behaviors — their inference performance scales.
+Open models
+are a driving force in this momentum,
+accelerating over 70% of AI inference workloads today
+. They enable startups and enterprises alike to
+build custom
+agents, copilots and applications across every sector.
+Open-source communities play a critical role in the generative AI ecosystem — fostering collaboration, accelerating innovation and democratizing access. NVIDIA has over 1,000 open-source projects on GitHub in addition to 450 models and more than 80 datasets on
+Hugging Face
+. These help integrate popular frameworks like
+JAX
+,
+PyTorch
+,
+vLLM
+and
+TensorRT-LLM
+into NVIDIA’s inference platform — ensuring maximum inference performance and flexibility across configurations.
+That’s why NVIDIA continues to contribute to open-source
+projects like llm-d
+and
+collaborate with industry leaders
+on open models, including
+Llama
+,
+Google Gemma
+,
+NVIDIA Nemotron
+,
+DeepSeek
+and
+gpt-oss
+— helping bring AI applications from idea to production at unprecedented speed.
+The Bottom Line for Optimized Inference
+The NVIDIA inference platform, coupled with the Think SMART framework for deploying modern AI workloads, helps enterprises ensure their infrastructure can keep pace with the demands of rapidly advancing models — and that each token generated delivers
+maximum value
+.
+Learn more about how inference drives the
+revenue generating potential of AI factories
+.
+For
+monthly updates
+, sign up for the
+NVIDIA Think SMART newsletter
+.
+Categories:
+Data Center
+Tags:
+AI Factory
+|
+Artificial Intelligence
+|
+dynamo
+|
+Inference
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

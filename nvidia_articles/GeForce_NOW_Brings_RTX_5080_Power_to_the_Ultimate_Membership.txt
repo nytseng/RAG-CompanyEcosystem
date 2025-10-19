@@ -1,0 +1,193 @@
+Title: GeForce NOW Brings RTX 5080 Power to the Ultimate Membership
+Source: https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2025/
+
+---
+
+GeForce NOW Brings RTX 5080 Power to the Ultimate Membership
+August 21, 2025
+by
+GeForce NOW Community
+Share
+Email
+0
+Get a glimpse into the future of gaming.
+The NVIDIA Blackwell RTX architecture is coming to
+GeForce NOW
+in September, marking the service’s biggest upgrade yet. Turn any device into a powerhouse gaming rig with GeForce RTX 5080-class performance, next-generation AI features and a major leap forward in stunning cinematic visuals — all without raising membership prices.
+With the upgrade to the Blackwell RTX architecture, all Premium members will get access to a new feature called Install-to-Play, which expands the GeForce NOW cloud game catalog to nearly 4,500 titles.
+And be on the lookout for an upcoming lineup of this year’s hottest new titles, optimized to take full advantage of the GeForce RTX 5080-gaming rig in the cloud. The list includes
+ARC Raiders
+,
+Borderlands 4
+,
+Call of Duty: Black Ops 7
+,
+Cinder City
+,
+Dying Light: The Beast, Hell Is Us
+,
+The Outer Worlds 2
+,
+Vampire: The Masquerade – Bloodlines 2
+and more
+.
+Members will be able to play these blockbuster titles in the cloud when they launch, streaming instantly from their device of choice.
+NVIDIA will also be launching GeForce NOW in India this November. It follows Thailand as the latest region to gain access to GeForce NOW through GFNA partner Brothers Picture — enabling even more gamers around the world to experience the future of cloud gaming at the same great membership prices.
+Be among the first to tap into GeForce RTX 5080 power from the cloud by upgrading to an Ultimate membership today. Server space will be limited, so be sure to lock it in today.
+There’s even more fun to come — check out the list of 13 new games joining the GeForce NOW library this week.
+Paint It Blackwell
+With the NVIDIA Blackwell RTX architecture, GeForce NOW is beaming GeForce RTX 5080-class power from the cloud straight to nearly any device.
+GeForce RTX 5080-class GPUs bring a staggering 62 teraflops of compute performance, a 48GB frame buffer, more than 3x the performance of current consoles and 2.8x faster frame rates than previous-generation servers. Advanced ray tracing, richer textures and AI-enhanced rendering with AMD “Zen 5” CPUs and NVIDIA ConnectX-7 networking deliver an experience that’s more responsive than ever.
+It isn’t just raw speed either. NVIDIA Blackwell RTX unlocks:
+The highest resolutions and frame rates in the cloud:
+NVIDIA DLSS 4 with Multi Frame Generation unlocks up to 5K streaming at 120 frames per second (fps) — performance once reserved for the most elite PCs.
+NVIDIA Reflex
+technology levels up the cloud for competitive gaming, delivering streams up to 360 fps at 1080p and network latency under 30 milliseconds.
+Vastly improved visual fidelity:
+A new Cinematic Quality Streaming mode delivers richer colors, sharper text and crystal-clear scenes with 4:4:4 chroma sampling, AI sharpening and advanced AV1 encoding — even when network conditions change.
+GeForce NOW support on more devices:
+Premium members will be able to stream at 90 fps on Steam Decks and 4k 120 fps on the Lenovo Legion Go S handheld. Supported LG monitors can stream at up to 5K 120Hz and supported LG TVs at 4K 120Hz — no extra hardware required. Mac users get the full NVIDIA Blackwell RTX upgrade, and there’s expanded support for peripherals like Logitech racing wheels.
+Plus, collaborations with Comcast, Deutsche Telekom AG and others bring enhanced broadband and 5G performance.
+Ultimate memberships remain at $19.99 a month and Performance memberships at $9.99 a month. With the launch of NVIDIA Blackwell RTX on GeForce NOW, upgraded Ultimate memberships will debut with an unchanged $19.99 a month or $199.99 for 12-month plans.
+Newly upgraded Ultimate, who dis?
+Double the Games, Double the Fun
+The biggest expansion yet for the GeForce NOW game library arrives with the launch of Install-to-Play. This new feature harnesses high-performance cloud storage, powered by NVIDIA NVMesh technology, to allow game installations directly in the cloud.
+Members will be able to bring even more of their PC collections to the cloud to play instantly, mirroring the experience of a local PC. Install-to-Play instantly doubles the supported games on GeForce NOW with more than 2,200 Steam titles already opted in for cloud streaming, rocketing the total GeForce NOW library size to over 4,500 accessible games, with more to come.
+The game multiplier.
+Ultimate and Performance members will have 100GB of single-session storage included, with flexible add-ons for persistent storage — 200GB for $2.99 per month, 500GB for $4.99 per month and 1TB for $7.99 per month. Once a game is installed on persistent storage, it remains instantly ready for members to play.
+The Ultimate Party
+The upgrade to NVIDIA Blackwell RTX in the cloud arrives just in time for some of the year’s top-tier game launches. These highly anticipated titles will be among the first to take full advantage of the upgraded platform’s powerful performance — letting members experience cutting-edge gameplay, ultrahigh resolutions and instant day-one access in the cloud.
+The cloud is the best way to play.
+Gear up for all out mayhem in
+Borderlands 4
+. Unleash chaos across the galaxy with outrageous weapons, irreverent humor and the signature co-op action that makes this iconic looter-shooter franchise a fan favorite.
+Own the day, fear the night.
+Get ready for a unique blend of open-world and action-survival horror when
+Dying Light: The Beast
+launches in the cloud on Friday, Sept. 19. Play as Kyle Crane, a hero with the DNA of both man and beast. After escaping brutal experiments, players will feel the thirst for revenge — but soon learn there’s more at stake in the unforgiving wilds of Castor Woods.
+The universe needs a hero, but you’ll have to do.
+Get ready to explore strange new colonies in
+The Outer Worlds 2
+. This highly anticipated sequel brings fresh characters, wild alien planets and Obsidian’s trademark wit — promising even bigger adventures and choices that shape the game’s story.
+Prepare to claim what was lost.
+Action fans can look forward to heart-pounding, squad-based battles in
+Arc Raiders
+. This dynamic co-op shooter drops players into a war for survival against overwhelming mechanized threats, blending teamwork and tactical action in a richly detailed multiplayer world.
+For a dark, atmospheric role-playing game, look no further than
+Vampire: The Masquerade – Bloodlines 2
+, which will bring players back to Seattle’s supernatural underworld. Navigate dangerous alliances, political intrigue and vampire factions to carve a unique path through the city’s shadowy streets.
+The cloud reveals all about the calamity.
+For those in search of mystery and action, look no further than
+Hell Is Us
+. Set in a land torn by conflict and haunted by otherworldly forces, this unique adventure blends fast-paced melee combat and a striking, atmospheric world, challenging gamers to discover what’s real amid human and supernatural threats.
+The mind games never stop.
+And the action of
+Call of Duty: Black Ops 7
+will bring the franchise’s intensity to GeForce NOW. Dive into a high-stakes co-op campaign packed with action, a signature multiplayer experience and the next twisted chapter of Round-Based Zombies.
+Every flame tells a story.
+In
+CINDER CITY
+, a tactical shooter developed in-house by Bigfire Games under NCSOFT, suit up as a futuristic knight and battle through post-apocalyptic Seoul. Players must face brutal choices as they search for their missing daughter — solo or with a squad.
+A Special Squad-Up
+Better together.
+NVIDIA, Discord and Epic are teaming up to change how games are discovered and played together, making it easier than ever to stay connected to friends through gaming.
+Powered by GeForce NOW streaming,
+this new integrated experience
+— demoed behind closed doors at Gamescom — will let players discover and try new games with friends directly on Discord. They can do so with no downloads or installs, and even without owning the game or a GeForce NOW membership. It’s fueled by a limited-time trial of the GeForce NOW Performance experience for streaming at up 1440p 60 fps — all without needing to leave Discord.
+The first game to take advantage of the integrated experience is
+Fortnite.
+Connecting an Epic account is all it takes to join the action. For Discord’s hundreds of millions of users, it’s a faster, simpler way to discover games and play together where gaming conversations are already happening.
+Legendary New Games
+History isn’t written, it’s forged in the cloud.
+Command grand armies and shape history in Creative Assembly’s acclaimed
+Total War
+series, including:
+Total War: MEDIEVAL II – Definitive Edition
+Total War: ATTILA
+A Total War Saga: Troy
+Total War: NAPOLEON – Definitive Edition
+Total War: EMPIRE – Definitive Edition
+Rally knights in
+MEDIEVAL II
+, defy empires in
+ATTILA
+, lead legendary heroes in
+Troy
+, outmaneuver rivals in
+NAPOLEON
+and forge global dominance in
+EMPIRE
+. Epic strategy, monumental battles and world-shaking decisions await as the fate of civilizations is in players’ hands. Gamers can rewrite history — or be swept aside by it.
+Catch the full list of games coming to the cloud this week on GeForce NOW:
+Stick It to the Stickman
+(New release on
+Steam
+, Aug. 18)
+Blacksmith Master
+(New release on
+Xbox
+, available on PC Game Pass, Aug. 19)
+VOID/BREAKER
+(New release on
+Steam
+and
+Xbox
+available on PC Game Pass, Aug. 19)
+The Rogue Prince of Persia
+(New release on
+Ubisoft
+, Aug. 20)
+Funko Fusion
+(
+Steam
+)
+Total War: MEDIEVAL II – Definitive Edition
+(
+Steam
+)
+Total War: ATTILA
+(
+Steam
+)
+A Total War Saga: Troy
+(
+Steam
+)
+Total War: NAPOLEON – Definitive Edition
+(
+Steam
+)
+Total War: EMPIRE – Definitive Edition
+(
+Steam
+)
+Total War: PHARAOH DYNASTIES
+(
+Steam
+)
+Total War: ROME REMASTERED
+(
+Steam
+)
+Total War: SHOGUN 2
+(
+Steam
+)
+Which Gamescom announcement has you most excited this week? Let us know on
+X
+or in the comments below.
+See
+notice
+regarding software product information.
+Categories:
+Gaming
+Tags:
+Cloud Gaming
+|
+GeForce NOW
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

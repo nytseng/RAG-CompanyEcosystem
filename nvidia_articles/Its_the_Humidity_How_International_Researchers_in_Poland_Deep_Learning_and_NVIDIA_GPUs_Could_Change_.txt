@@ -1,0 +1,36 @@
+Title: It’s the Humidity: How International Researchers in Poland, Deep Learning and NVIDIA GPUs Could Change the Forecast
+Source: https://blogs.nvidia.com/blog/humidity/
+
+---
+
+It’s the Humidity: How International Researchers in Poland, Deep Learning and NVIDIA GPUs Could Change the Forecast
+AI sharpens satellite data into 3D maps of water vapor, turning blurry snapshots into storm-spotting detail.
+September 2, 2025
+by
+Brian Caulfield
+Share
+Email
+0
+For more than a century, meteorologists have chased storms with chalkboards, equations, and now, supercomputers. But for all the progress, they still stumble over one deceptively simple ingredient: water vapor.
+Humidity is the invisible fuel for thunderstorms, flash floods, and hurricanes. It’s the difference between a passing sprinkle and a summer downpour that sends you sprinting for cover. And until now, satellites have struggled to capture it with the detail needed to warn us before skies crack open.
+A team from the Wrocław University of Environmental and Life Sciences (UPWr) may help change that.
+In a paper published this month in
+Satellite Navigation
+, researchers describe how deep learning can transform blurry global navigation satellite system (GNSS)-based snapshots of the atmosphere into sharp 3D maps of humidity, revealing the hidden swirls that shape local weather.
+The secret? A super-resolution generative adversarial network (SRGAN), a kind of AI best known for making grainy photos look crisp. Instead of celebrities or landscapes, researchers trained the network on global weather data and powered by NVIDIA GPUs. The result: low-resolution readings from navigation satellites get “upscaled” into high-resolution humidity maps with far fewer errors.
+In Poland, the technique cuts errors by 62%. In California, it delivers a 52% cut in errors, even in rainy conditions when forecasts are most likely to get slippery. Compared with older methods that smeared details into a watercolor blur, the AI produced sharp gradients that actually matched what ground instruments saw.
+And because weather prediction is as much about trust as accuracy, the team added a twist: explainable AI. Using visualization tools like Grad-CAM and SHAP, they demonstrated where the model “looked” when making decisions. The AI’s gaze landed, reassuringly, on storm-prone areas — Poland’s western borders, California’s coastal mountains — exactly where forecasters know the atmosphere can turn nasty.
+“High-resolution, reliable humidity data is the missing link in forecasting the kind of weather that disrupts lives,” said lead author Saeid Haji-Aghajany, assistant professor at  UPWr. “Our approach doesn’t just sharpen GNSS tomography — it also shows us how the model makes its decisions. That transparency is critical for building trust as AI enters weather forecasting.”
+The implications could be enormous. Feed these sharper humidity fields into physics-based or AI-driven weather models, and you get forecasts that can catch sudden downpours or flash floods before they hit. Communities living under skies that turn dangerous in minutes could gain crucial lead time.
+And it all hinges on an element that too often gets ignored. Not the thunder. Not the lightning. It’s the humidity.
+Reference: DOI: 10.1186/s43020-025-00177-6
+Categories:
+Corporate
+|
+Deep Learning
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

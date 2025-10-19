@@ -1,0 +1,153 @@
+Title: NVIDIA Jetson Thor Unlocks Real-Time Reasoning for General Robotics and Physical AI
+Source: https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge/
+
+---
+
+NVIDIA Jetson Thor Unlocks Real-Time Reasoning for General Robotics and Physical AI
+Designed for millions of robotic developers, this NVIDIA Blackwell-powered robotics computer delivers 2,070 FP4 teraflops to tackle complex applications including agentic AI, high-speed sensor processing and general robotics tasks.
+August 25, 2025
+by
+Chen Su
+Share
+Email
+0
+Robots around the world are about to get a lot smarter as physical AI developers plug in
+NVIDIA Jetson Thor
+modules — new robotics computers that can serve as the brains for robotic systems across research and industry.
+Robots demand rich sensor data and low-latency AI processing. Running real-time robotic applications requires significant AI compute and memory to handle concurrent data streams from multiple sensors. Jetson Thor, now in general availability, delivers 7.5x more AI compute, 3.1x more CPU performance and 2x more memory than its predecessor, the
+NVIDIA Jetson Orin
+, to make this possible on device.
+This performance leap will enable roboticists to process high-speed sensor data and perform visual reasoning at the edge — workflows that were previously too slow to run in dynamic real-world environments. This opens new possibilities for multimodal AI applications such as
+humanoid robotics
+.
+Agility Robotics
+, a leader in humanoid robotics, has integrated NVIDIA Jetson into the fifth generation of its robot, Digit — and plans to adopt Jetson Thor as the onboard compute platform for the sixth generation of Digit. This transition will enhance Digit’s real-time perception and decision-making capabilities, supporting increasingly complex AI skills and behaviors. Digit is commercially deployed and performs logistics tasks such as stacking, loading and palletizing in warehouse and manufacturing environments.
+“The powerful edge processing offered by Jetson Thor will take Digit to the next level — enhancing its real-time responsiveness and expanding its abilities to a broader, more complex set of skills,” said Peggy Johnson, CEO of Agility Robotics. “With Jetson Thor, we can deliver the latest physical AI advancements to optimize operations across our customers’ warehouses and factories.”
+Boston Dynamics — which has been building some of the industry’s most advanced robots for over 30 years — is integrating Jetson Thor into its humanoid robot Atlas, enabling Atlas to harness formerly server-level compute, AI workload acceleration, high-bandwidth data processing and significant memory on device.
+Beyond humanoids, Jetson Thor will accelerate various robotic applications — such as surgical assistants, smart tractors, delivery robots, industrial manipulators and
+visual AI agents
+— with real-time inference on device for larger, more complex AI models.
+A Giant Leap for Real-Time Robot Reasoning
+Jetson Thor is built for generative reasoning models. It enables the next generation of
+physical AI
+agents — powered by large
+transformer models
+,
+vision language models
+and vision language action models — to run in real time at the edge while minimizing cloud dependency.
+Optimized with the Jetson software stack to enable the low latency and high performance required in real-world applications, Jetson Thor supports all popular generative AI frameworks and AI reasoning models with unmatched real-time performance. These include
+Cosmos Reason
+, DeepSeek, Llama, Gemini and Qwen models, as well as domain-specific models for robotics like
+Isaac GR00T
+N1.5, enabling any developer to easily experiment and run inference locally.
+NVIDIA Jetson Thor opens new capabilities for real-time reasoning with multi-sensor input. Further performance improvement is expected with FP4 and speculative decoding optimization.
+With
+NVIDIA CUDA
+ecosystem support through its lifecycle, Jetson Thor is expected to deliver even better throughput and faster responses with future software releases.
+Jetson Thor modules also run the full NVIDIA AI software stack to accelerate virtually every physical AI workflow with platforms including
+NVIDIA Isaac
+for robotics,
+NVIDIA Metropolis
+for video analytics AI agents and
+NVIDIA Holoscan
+for sensor processing.
+With these software tools, developers can easily build and deploy applications, such as visual AI agents that can analyze live camera streams to monitor worker safety, humanoid robots capable of manipulation tasks in unstructured environments and smart operating rooms that guide surgeons based on data from multi-camera streams.
+Jetson Thor Set to Advance Research Innovation
+Research labs at Stanford University, Carnegie Mellon University and the University of Zurich are tapping Jetson Thor to push the boundaries of perception, planning and navigation models for a host of potential applications.
+At Carnegie Mellon’s Robotics Institute, a research team uses NVIDIA Jetson to power autonomous robots that can navigate complex, unstructured environments to conduct medical triage as well as search and rescue.
+“We can only do as much as the compute available allows,” said Sebastian Scherer, an associate research professor at the university and head of the
+AirLab
+. “Years ago, there was a big disconnect between computer vision and robotics because computer vision workloads were too slow for real-time decision-making — but now, models and computing have gotten fast enough so robots can handle much more nuanced tasks.”
+Scherer anticipates that by upgrading from his team’s existing NVIDIA Jetson AGX Orin systems to Jetson AGX Thor developer kit, they’ll improve the performance of AI models including their award-winning
+MAC-VO
+model for robot perception at the edge, boost their sensor-fusion capabilities and be able to experiment with robot fleets.
+Wield the Strength of Jetson Thor
+The Jetson Thor family includes a developer kit and production modules. The developer kit includes a Jetson T5000 module, a reference carrier board with abundant connectivity, an active heatsink with a fan and a power supply.
+NVIDIA Jetson AGX Thor Developer Kit
+The
+Jetson ecosystem
+supports a variety of application requirements, high-speed industrial automation protocols and sensor interfaces, accelerating time to market for enterprise developers. Hardware partners including
+Advantech
+,
+Aetina
+,
+ConnectTech
+,
+MiiVii
+and
+TZTEK
+are building production-ready Jetson Thor systems with flexible I/O and custom configurations in various form factors.
+Sensor and Actuator companies including
+Analog Devices, Inc. (ADI
+),
+e-con Systems
+,
+Infineon
+,
+Leopard Imaging
+,
+RealSense
+and
+Sensing
+are using
+NVIDIA Holoscan Sensor Bridge
+— a platform that simplifies sensor fusion and data streaming — to connect sensor data from cameras, radar, lidar and more directly to GPU memory on Jetson Thor with ultralow latency.
+Thousands of software companies can now elevate their traditional vision AI and robotics applications with multi-AI agent workflows running on Jetson Thor. Leading adopters include
+Openzeka
+,
+Rebotnix
+,
+Solomon
+and
+Vaidio
+.
+More than 2 million developers use NVIDIA technologies to accelerate robotics workflows. Get started with Jetson Thor by
+reading the NVIDIA Technical Blog
+and watching the developer kit walkthrough.
+To get hands-on experience with Jetson Thor,
+sign up
+to participate in upcoming hackathons with
+Seeed Studio
+and
+LeRobot
+by Hugging Face.
+The NVIDIA Jetson AGX Thor developer kit is available now starting at $3,499. NVIDIA Jetson T5000 modules are available starting at $2,999 for 1,000 units.
+Buy now
+from authorized NVIDIA partners.
+NVIDIA today also announced that the
+NVIDIA DRIVE AGX Thor
+developer kit, which provides a platform for developing
+autonomous vehicles
+and mobility solutions, is available for
+preorder
+. Deliveries are slated to start in September.
+Categories:
+Generative AI
+|
+Robotics
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+Computer Vision
+|
+Digital Twin
+|
+Embedded Computing
+|
+Isaac
+|
+Jetson
+|
+NVIDIA Isaac Sim
+|
+Omniverse
+|
+Physical AI
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

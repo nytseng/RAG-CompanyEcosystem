@@ -1,0 +1,128 @@
+Title: NVIDIA and United Kingdom Build Nation’s AI Infrastructure and Ecosystem to Fuel Innovation, Economic Growth and Jobs
+Source: https://nvidianews.nvidia.com/news/nvidia-and-united-kingdom-build-nations-ai-infrastructure-and-ecosystem-to-fuel-innovation-economic-growth-and-jobs
+
+---
+
+News Summary:
+NVIDIA partners with Nscale, the U.K. AI infrastructure company, to scale up 300,000 NVIDIA Grace Blackwell GPUs worldwide, with up to 60,000 GPUs in the U.K.
+NVIDIA and AI infrastructure partners Nscale, CoreWeave and others
+are scaling up U.K. AI factories with up to 120,000 NVIDIA Blackwell GPUs and up to £11 billion
+— representing the largest AI infrastructure rollout in the country’s history — and powering initiatives such as OpenAI’s Stargate U.K.
+NVIDIA boosts U.K. quantum computing with multiple initiatives including teaming with Oxford Quantum Circuits (OQC) to build a quantum-GPU AI supercomputing center.
+NVIDIA and techUK launch R&D hub to accelerate the nation’s AI and robotics ecosystem, collaborating with QA to upskill developers.
+NVIDIA today announced that it is accelerating the AI industrial revolution in the United Kingdom, working with partners including CoreWeave, Microsoft and Nscale to build the nation’s next generation of AI infrastructure. By the end of 2026, the companies will build and operate AI factories that will serve leading AI models, including those from OpenAI, to enable the U.K.’s sovereign AI goals for building a platform to power innovation, growth and opportunity across the economy.
+Unveiled three months after U.K. Prime Minister Keir Starmer and NVIDIA founder and CEO Jensen Huang announced a collaboration at London Tech Week, this new infrastructure will foster new job opportunities and support strong, secure and sustainable economic growth across the U.K, as well as serve as a platform for groundbreaking research in priority areas agreed in the U.K.-U.S. tech partnership, including medicine and drug discovery. Unveiled in honor of transatlantic technology and trade partnership during U.S. President Donald Trump’s state visit to the U.K., the AI factories will scale up AI infrastructure in the U.K. with 120,000 NVIDIA Blackwell Ultra GPUs and up to £11 billion for local data centers — the largest rollout in the country’s history. Furthermore, NVIDIA is enabling U.K. cloud partner Nscale to scale up its global expansion with 300,000 NVIDIA Grace Blackwell GPUs worldwide.
+“The United Kingdom is building the infrastructure for the AI industrial revolution — advancing science, transforming industries and creating new economic opportunities,” said Huang. “We are at the big bang of intelligence, and the United Kingdom’s Goldilocks ecosystem of world-class expertise, outstanding universities and vibrant industries is uniquely positioned to thrive in the age of AI. With AI supercomputers powering state-of-the-art models locally, a new generation of U.K. researchers, developers and entrepreneurs will drive discovery and build the companies of tomorrow.”
+“In this age of AI, I want the U.K. to be the destination of choice for companies at the forefront of technological change, and renowned for harnessing homegrown talent and building sovereign capability,” said Starmer. “These major announcements mark a decisive step towards the U.K. becoming a world leader in AI, meaning more jobs and investment, more money in people’s pockets and transformed public services — all part of our Plan for Change.”
+Sovereign AI Infrastructure Expands to Accelerate U.K. Development and Deployments
+Several new AI factories are being built by NVIDIA partners to transform the nation’s economy and unlock opportunities with AI.
+NVIDIA Cloud Partner Nscale, the U.K.-based AI infrastructure company, is deploying 300,000 NVIDIA Grace Blackwell GPUs in AI factories across the United States, Portugal and Norway, with 60,000 NVIDIA GPUs now being established in the U.K.
+Nscale, OpenAI and NVIDIA are establishing Stargate U.K., which will feature NVIDIA Blackwell Ultra GPUs operating in Nscale’s U.K. data centers by 2026, bringing the most advanced U.S. technology to transform the nation’s economy and unlock opportunities with AI. OpenAI is expected to use this NVIDIA infrastructure to serve its models — including its latest and most advanced reasoning model, GPT-5.
+“Sovereign AI infrastructure is key to national resilience, economic growth and strategic autonomy,” said Josh Payne, CEO of Nscale. “This milestone deepens our commitment to providing critical AI infrastructure for the next industrial revolution.”
+“The U.K. has been a longstanding pioneer of AI and is now home to world-class researchers, millions of ChatGPT users and a government that quickly recognized the potential of this technology,” said Sam Altman, CEO of OpenAI. “Stargate U.K. builds on this foundation to help accelerate scientific breakthroughs, improve productivity and drive economic growth. This partnership reflects our shared vision that with the right infrastructure in place, AI can expand opportunity for people and businesses across the U.K.”
+Nscale and Microsoft also announced plans to build the U.K.’s most powerful supercomputer in Loughton. It is expected to feature more than 24,000 NVIDIA Grace Blackwell Ultra GPUs to provide Microsoft Azure services in the U.K.
+"We are focused on ensuring that both the U.S. and the U.K. remain at the forefront of AI and cloud innovation," said Satya Nadella, chairman and CEO of Microsoft. “That is why we are partnering with NVIDIA to bring together our global platform with their latest compute, software and network capabilities so innovators across the country have the most powerful tools to shape the future with AI.”
+Additionally,
+CoreWeave today announced
+that it will establish an advanced data center in Scotland with Grace Blackwell Ultra GPUs, powered by renewable energy.
+“AI innovation and adoption is critical to national competitiveness, and CoreWeave is committed to delivering the infrastructure that makes it possible,” said Michael Intrator, cofounder and CEO of CoreWeave. “This latest phase of CoreWeave investment in the U.K. will bring more advanced infrastructure to data centers across England and Scotland, giving researchers and businesses direct access to cutting-edge resources that strengthen the U.K.’s position in a fast-moving global technology landscape.”
+In addition, BlackRock, the world's largest asset manager, recently announced it will invest up to £500 million to modernize U.K. data centers in partnership with Digital Gravity Partners. These data centers will be refurbished to be NVIDIA-ready, enabling them to be equipped with the latest AI hardware to build the infrastructure for the AI industrial revolution — advancing science, transforming industries and creating new economic opportunities in the U.K.
+NVIDIA Accelerates the U.K. Quantum Ecosystem
+NVIDIA is also collaborating with U.K. quantum computing pioneers to accelerate technology development across quantum applications, error correction, infrastructure and AI integration.
+OQC and Digital Realty
+are establishing a quantum-AI center, working with NVIDIA to deliver the AI supercomputing that will support quantum processors. Based out of Digital Realty’s JFK10 facility in New York City, the OQC GENESIS system in the new center will harness the
+NVIDIA CUDA-Q
+™ platform to bring together OQC’s quantum computing technology, NVIDIA AI infrastructure and Digital Realty’s data center interconnection and colocation expertise to provide businesses with secure, scalable access to integrated quantum-GPU computing.
+ORCA Computing
+, Imperial College London, and the Poznan Supercomputing and Networking Center are announcing hybrid-quantum deep neural networks that combine AI supercomputing with distributed photonic quantum processors.
+The University of Edinburgh is developing GPU-accelerated quantum error-correction software via CUDA-Q. The researchers are planning to benchmark GPU performance against existing CPU implementations.
+The University of Oxford is using AI to control quantum hardware, bringing precision and adaptability to one of the field’s most complex challenges.
+And SEEQC, working with the U.K.’s National Quantum Computing Centre, is tightly integrating QPUs and GPUs via a scalable digital interface system, in collaboration with NVIDIA, to incorporate NVIDIA-accelerated decoders for quantum error correction.
+TechUK Accelerates Robotics, AI and Workforce Skills in Collaboration With NVIDIA
+NVIDIA is collaborating with techUK, alongside robotics and automation leader Quanser and training provider QA, to strengthen the U.K.’s robotics and AI ecosystem.
+Through this initiative, techUK will provide a comprehensive program that connects its members, robotics researchers and startups with funding, training and opportunities to collaborate with other industry leaders. NVIDIA will provide support through its NVIDIA AI Technology Center resources and technical expertise.
+NVIDIA is also teaming with QA to support the U.K. government’s efforts to prepare its future workforce for the AI industrial revolution. Through the program, QA will provide
+NVIDIA Deep Learning Institute
+courses on inference and generative AI, along with access to computing through the
+NVIDIA DGX™ Cloud
+platform. This builds upon the
+AI skills development initiative
+that the U.K. government and NVIDIA announced in June to support workforce upskilling and reskilling across industry, research and the public sector.
+Advancing U.K. Technology Ecosystem
+Work to build the U.K.’s AI foundation has already begun, with support from the nation’s rich research and startup ecosystem and technology industry leaders.
+Built on
+NVIDIA Grace Hopper™ Superchips
+,
+Isambard-AI
+— the U.K.’s most powerful AI supercomputer, based at the University of Bristol, which
+launched in July
+— is accelerating national projects including:
+UK-LLM
+, a
+large language model
+project developed by University College London, Bangor University and NVIDIA;
+Nightingale AI
+, a sovereign, multimodal health
+foundation model
+developed by Imperial College London and trained on National Health Service data;
+PolluGen
+, a new high-resolution pollution dispersion model developed by the University of Manchester; the
+Ultrasound Foundation Model
+, led by researchers at
+Queen Mary University of London
+;
+Gen Model in Ego-Sensed World
+, led by researchers at the University of Bristol; and
+Electrostatics-aware foundation models
+, developed by researchers at the University of Cambridge in collaboration with NVIDIA and SCAN — a technology solutions provider with a strong focus on community, education and innovation.
+NVIDIA is working with other leading U.K. robotics leaders to advance industries with
+physical AI
+, including
+Extend Robotics
+,
+Humanoid
+,
+Materials Innovation Factory
+,
+The National Robotarium
+,
+Opteran
+,
+Oxa
+and
+Wayve
+.
+Many U.K.-based life sciences companies are using NVIDIA technologies to take an AI-first approach to drug discovery, simulating therapies and drug design to achieve faster treatment testing, including:
+Basecamp Research, U.K.
+CEiSRI
+— the U.K. Centre of Excellence for In-Silico Regulatory Science and Innovation, based at the University of Manchester —
+Isomorphic Labs
+,
+Peptone
+,
+Latent Labs
+,
+Relation Therapeutics
+,
+Hologen AI —
+a collaboration between University College London and Kings College London — and
+Oxford Nanopore
+.
+AI model builders and startups are working with NVIDIA to transform the U.K. technology sector with
+agentic
+and
+generative AI
+tools that advance productivity, from financial large language models to AI voice agents. These model builders include
+Aveni, ElevenLabs
+,
+PolyAI
+,
+Recraft
+,
+Speechmatics
+and
+Synthesia
+.
+Read the
+NVIDIA corporate blog
+to learn more about the U.K. AI ecosystem’s latest innovations.

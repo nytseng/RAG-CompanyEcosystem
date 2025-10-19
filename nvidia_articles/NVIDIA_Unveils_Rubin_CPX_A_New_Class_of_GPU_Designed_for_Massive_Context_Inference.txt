@@ -1,0 +1,50 @@
+Title: NVIDIA Unveils Rubin CPX: A New Class of GPU Designed for Massive-Context Inference
+Source: https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference
+
+---
+
+News Summary:
+The NVIDIA Rubin CPX GPU is purpose-built to handle million-token coding and generative video applications.
+The NVIDIA Vera Rubin NVL144 CPX platform packs 8 exaflops of AI performance and 100TB of fast memory in a single rack.
+Companies can monetize at an unprecedented scale, with $5B in token revenue for every $100M invested.
+AI innovators like Cursor, Runway and Magic are exploring how Rubin CPX can accelerate their applications.
+AI Infra Summit—
+NVIDIA® today announced NVIDIA Rubin CPX, a new class of GPU purpose-built for massive-context processing. This enables AI systems to handle million-token software coding and generative video with groundbreaking speed and efficiency.
+Rubin CPX works hand in hand with NVIDIA Vera CPUs and Rubin GPUs inside the new NVIDIA Vera Rubin NVL144 CPX platform. This integrated NVIDIA MGX system packs 8 exaflops of AI compute to provide 7.5x more AI performance than NVIDIA GB300 NVL72 systems, as well as 100TB of fast memory and 1.7 petabytes per second of memory bandwidth in a single rack. A dedicated Rubin CPX compute tray will also be offered for customers looking to reuse existing Vera Rubin NVL144 systems.
+“The Vera Rubin platform will mark another leap in the frontier of AI computing — introducing both the next-generation Rubin GPU and a new category of processors called CPX,” said Jensen Huang, founder and CEO of NVIDIA. “Just as RTX revolutionized graphics and physical AI, Rubin CPX is the first CUDA GPU purpose-built for massive-context AI, where models reason across millions of tokens of knowledge at once.”
+NVIDIA Rubin CPX
+enables the highest performance and token revenue for long-context processing — far beyond what today’s systems were designed to handle. This transforms AI coding assistants from simple code-generation tools into sophisticated systems that can comprehend and optimize large-scale software projects.
+To process video, AI models can take up to 1 million tokens for an hour of content, pushing the limits of traditional GPU compute. Rubin CPX integrates video decoder and encoders, as well as long-context inference processing, in a single chip for unprecedented capabilities in long-format applications such as video search and high-quality generative video.
+Built on the NVIDIA Rubin architecture, the Rubin CPX GPU uses a cost‑efficient, monolithic die design packed with powerful NVFP4 computing resources and is optimized to deliver extremely high performance and energy efficiency for AI inference tasks.
+Advancements Offered by Rubin CPX
+Rubin CPX delivers up to 30 petaflops of compute with NVFP4 precision for the highest performance and accuracy. It features 128GB of cost-efficient GDDR7 memory to accelerate the most demanding context-based workloads. In addition, it delivers 3x faster attention capabilities compared with NVIDIA GB300 NVL72 systems — boosting an AI model’s ability to process longer context sequences without a drop in speed.
+Rubin CPX is offered in multiple configurations, including the Vera Rubin NVL144 CPX, that can be combined with the
+NVIDIA Quantum‑X800 InfiniBand
+scale-out compute fabric or the
+NVIDIA Spectrum-X™ Ethernet
+networking platform with
+NVIDIA Spectrum-XGS Ethernet
+technology and NVIDIA ConnectX®-9 SuperNICs™. Vera Rubin NVL144 CPX enables companies to monetize at an unprecedented scale, with $5 billion in token revenue for every $100 million invested.
+Industry Leaders Look to Rubin CPX
+AI innovators are exploring how Rubin CPX can accelerate their applications, ranging from large-scale software development to the analysis of dynamic visual content to better understand moving images.
+Cursor, an AI-powered software company that offers an advanced code editor, sees the benefits of Rubin CPX to boost developer productivity with intelligent code generation and collaborative tools directly in the coding environment.
+“With NVIDIA Rubin CPX, Cursor will be able to deliver lightning-fast code generation and developer insights, transforming software creation,” said Michael Truell, CEO of Cursor. “This will unlock new levels of productivity and empower users to ship ideas once out of reach.”
+Runway, an American generative AI company, will use NVIDIA technologies to enable creators to produce cinematic content and sophisticated visual effects with unmatched scale and efficiency.
+“Video generation is rapidly advancing toward longer context and more flexible, agent-driven creative workflows,” said Cristóbal Valenzuela, CEO of Runway. “We see Rubin CPX as a major leap in performance, supporting these demanding workloads to build more general, intelligent creative tools. This means creators — from independent artists to major studios — can gain unprecedented speed, realism and control in their work.”
+Magic is an AI research and product company developing foundation models to power AI agents that can automate software engineering.
+“With a 100-million-token context window, our models can see a codebase, years of interaction history, documentation and libraries in context without fine-tuning,” said Eric Steinberger, CEO of Magic. “This enables users to coach the agent at test time through conversation and access to their environments, bringing us closer to autonomous agentic experiences. Using a GPU like NVIDIA Rubin CPX greatly accelerates our compute workloads.”
+Software Support
+NVIDIA Rubin CPX will be supported by the complete NVIDIA AI stack — from accelerated infrastructure to enterprise‑ready software. The
+NVIDIA Dynamo
+platform efficiently scales AI inference, dramatically boosting throughput while cutting response times and model serving costs.
+The processors will be able to run the latest in the NVIDIA Nemotron™ family of multimodal models that provide state-of-the-art reasoning for enterprise-ready AI agents. For production-grade AI, Nemotron models can be delivered with NVIDIA AI Enterprise, a software platform that includes
+NVIDIA NIM
+™ microservices as well as AI frameworks, libraries and tools that enterprises can deploy on NVIDIA-accelerated clouds, data centers and workstations.
+Built on decades of innovation, the Rubin platform extends NVIDIA’s developer ecosystem — with
+NVIDIA CUDA‑X
+™ libraries, a community of over 6 million developers and nearly 6,000 CUDA applications.
+Availability
+NVIDIA Rubin CPX is expected to be available at the end of 2026.
+Learn more by watching NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck’s
+keynote at AI Infra Summit
+on Sept. 9 at 10am PT.

@@ -1,0 +1,108 @@
+Title: ‘Safety First, Always,’ NVIDIA VP of Automotive Says, Unveiling the Future of AI-Defined Vehicles at IAA Mobility
+Source: https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/
+
+---
+
+‘Safety First, Always,’ NVIDIA VP of Automotive Says, Unveiling the Future of AI-Defined Vehicles at IAA Mobility
+September 9, 2025
+by
+Jessica Soares
+Share
+Email
+0
+At this week’s IAA Mobility conference in Munich, NVIDIA Vice President of Automotive Ali Kani outlined how cloud-to-car AI platforms are bringing new levels of safety, intelligence and trust to the road.
+NVIDIA and its partners didn’t just show off cars at the conference — they showed off what cars are becoming: AI-defined machines, built as much in the data center as they are in the factory.
+Kani framed this shift during
+his IAA keynote today
+: vehicles are moving from being dependent on horsepower to compute power, from mechanical systems to software stacks.
+In Germany and around the world, automotive engineering is now infused with silicon acceleration, as automakers and suppliers adopt NVIDIA’s cloud-to-car platform to drive safety, intelligence and efficiency into tomorrow’s vehicles.
+NVIDIA is the only company that offers an end-to-end compute stack for autonomous driving. Its three AI compute platforms critical for autonomy are:
+NVIDIA DGX
+for training AI in data centers
+NVIDIA Omniverse
+and
+Cosmos
+to simulate worlds and generate synthetic data for testing and validation
+NVIDIA DRIVE AGX
+in-vehicle computers to process sensor data in real time
+Together, these platforms form a feedback loop for learning, testing and deployment that tightens the cycle of innovation while keeping safety front and center.
+It’s All About Safety: NVIDIA Halos Sets the Standard
+Safety is a core theme at IAA.
+NVIDIA Halos
+is a full-stack, comprehensive safety system that unifies vehicle architecture, AI models, chips, software, tools and services to ensure the safe development of autonomous vehicles, from cloud to car.
+NVIDIA Halos brings together safety-assessed systems-on-a-chip, the safety-certified
+NVIDIA DriveOS
+operating system and the DRIVE AGX Hyperion architecture into a unified platform for autonomous driving. This platform is backed by the NVIDIA Halos Certified Program and its AI Systems Inspection Lab, which deliver rigorous validation to ensure real-time AI operates with end-to-end reliability.
+With AI-driven workflows and high-fidelity sensor simulations built with NVIDIA Omniverse and Cosmos, automakers can train, test and safely validate vehicle performance — even under conditions that are hard to experiment with in the real world, such as rare or hazardous traffic situations and edge-case events, and in complex environments.
+Simulation tools are increasingly critical for advancing safe, scalable autonomous vehicle development.
+The popular autonomous driving simulator
+CARLA
+now integrates the
+NVIDIA Cosmos Transfer
+world foundation model, along with
+NVIDIA Omniverse NuRec
+reconstruction libraries, to bring diverse, high-fidelity simulations directly into autonomous vehicle testing pipelines.
+Capgemini
+and
+TCS
+are already tapping into this integration to expand their simulation capabilities and push the boundaries of software-defined vehicle development.
+Expanding the Ecosystem: Automotive Leaders Embrace Cloud-to-Car AI
+Automotive leaders are embracing NVIDIA’s cloud-to-car AI platform to transform their next-generation vehicles.
+Lucid
+headlined the IAA showcase with its all-electric Lucid Gravity SUV, which is accelerated by the NVIDIA DRIVE AGX platform, uses the NVIDIA Blackwell architecture and operates on NVIDIA DriveOS.
+Mercedes-Benz
+introduced its all-new GLC with EQ-technology and announced expansions to its CLA family with the first fully electric shooting brake — all built on NVIDIA AI, DRIVE AV software and accelerated compute.
+Lotus
+is featuring the all-electric Eletre SUV, the hyper-GT Emeya and the Theory 1 concept — all accelerated by NVIDIA DRIVE AGX to deliver high-performance, AI-driven functions for intelligent and safer mobility.
+ZYT
+is showcasing its autonomous vehicle software platforms built on NVIDIA DRIVE AGX, highlighting how this advanced technology accelerates safer and smarter mobility.
+Volvo Cars
+highlighted its ES90 Single Motor Extended Range Ultra and EX90 Twin Motor Performance Ultra models, equipped with enhanced safety and driver-assistance capabilities and powered by NVIDIA DRIVE AGX and DriveOS for improved AI performance and safety.
+XPENG
+showcased how NVIDIA DRIVE AGX underpins its G6, G9 and X9 models, delivering XPILOT smart driving assistance, advanced autonomy and intelligent cockpit features.
+Global Tech Leaders Accelerate Software-Defined Vehicles With NVIDIA
+Beyond automakers, technology leaders across the globe are building on NVIDIA AI to accelerate the development of software-defined vehicles.
+MediaTek
+is working closely with NVIDIA to bring GPU-powered intelligence into its Dimensity Auto Cockpit solutions, enabling advanced in-car experiences through premium graphics and intelligent assistants.
+ThunderSoft
+introduced its new AI Box built on DRIVE AGX, designed to run large-scale AI models for intelligent cockpits. The AI Box is complete with personalized copilots, safety monitoring and immersive cabin experiences.
+Cerence
+is presenting its xUI AI assistant at IAA, built on CaLLM models and running on NVIDIA DRIVE AGX with DriveOS. With NVIDIA NeMo Guardrails, it ensures safe, context-aware, brand-specific voice interactions across both edge and cloud.
+ZF Group
+is showcasing its ProAI supercomputer accelerated by NVIDIA DRIVE AGX. The supercomputer unifies advanced driver-assistance systems, automated driving or chassis control into a scalable architecture to unlock capabilities, from entry-level deployments to full autonomy.
+RoboSense
+is integrating its high-performance automotive-grade digital lidar with the DRIVE AGX platform, enhancing system performance, while Desay SV is showcasing its NVIDIA DRIVE Thor-based domain controller, a next-generation smart mobility solution shaped by advanced AI.
+Magna
+is showcasing its future-ready, centralized advanced driver-assistance system platform designed for flexibility and scalability. This advanced system integrates a comprehensive suite of sensors, accelerated by NVIDIA DRIVE AGX Thor.
+Watch
+Kani’s IAA keynote
+to see how NVIDIA is accelerating the future of autonomous driving with a cloud-to-car platform.
+Plus, watch the session on
+generative and agentic AI in the automotive industry
+by Sri Subramanian, global head of generative AI, automotive, at NVIDIA, as well as the session on
+industrial AI for the automotive industry
+by Norm Marks, vice president of automotive enterprise at NVIDIA.
+Learn more about NVIDIA’s work in
+autonomous vehicles
+and the
+NVIDIA automotive partner ecosystem
+.
+Follow NVIDIA DRIVE on
+LinkedIn
+and
+X
+.
+Categories:
+Driving
+|
+Software
+Tags:
+Artificial Intelligence
+|
+NVIDIA DRIVE
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

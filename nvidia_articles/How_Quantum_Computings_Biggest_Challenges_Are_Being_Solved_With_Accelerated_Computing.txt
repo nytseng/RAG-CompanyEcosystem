@@ -1,0 +1,70 @@
+Title: How Quantum Computing’s Biggest Challenges Are Being Solved With Accelerated Computing
+Source: https://blogs.nvidia.com/blog/how-quantum-computings-biggest-challenges-solved-accelerated-computing/
+
+---
+
+How Quantum Computing’s Biggest Challenges Are Being Solved With Accelerated Computing
+NVIDIA CUDA-X libraries bring the power of accelerated computing to quantum computing.
+September 30, 2025
+by
+Nicholas Harrigan
+Share
+Email
+0
+Quantum computing
+promises to reshape industries — but progress hinges on solving key problems. Error correction. Simulations of qubit designs. Circuit compilation optimization tasks. These are among the bottlenecks that must be overcome to bring quantum hardware into the era of useful applications.
+Enter accelerated computing. The parallel processing of accelerated computing offers the power needed to make the quantum computing breakthroughs of today and tomorrow possible.
+NVIDIA CUDA-X libraries
+form the backbone of quantum research. From faster decoding of quantum errors to designing larger systems of qubits, researchers are using GPU-accelerated tools to expand classical computation and bring useful quantum applications closer to reality.
+Accelerating Quantum Error Correction Decoders With NVIDIA CUDA-Q QEC and cuDNN
+Quantum error correction (QEC) is a key technique for working with unavoidable noise in quantum processors. It’s how researchers distill thousands of noisy physical qubits into a handful of noiseless, logical ones by decoding data in real time, spotting and correcting errors as they emerge.
+Among the most promising approaches to QEC are quantum low-density parity-check (qLDPC) codes, which can mitigate errors with low qubit overhead. But decoding them requires computationally expensive conventional algorithms running at extremely low latency with very high throughput.
+The Quantum Software Lab, hosted at the School of Informatics at the
+University of Edinburgh
+, used the
+NVIDIA CUDA-Q QEC library
+to build a new qLDPC decoding method called AutoDEC — and saw a 2x boost in speed and accuracy. It was developed using CUDA-Q’s GPU-accelerated BP-OSD decoding functionality, which parallelizes the decoding process, increasing the odds that error correction works.
+In a separate
+collaboration with QuEra
+, the NVIDIA PhysicsNeMo framework and cuDNN library were used to develop an AI decoder with a transformer architecture. AI methods offer a promising means to scale decoding to the larger-distance codes needed in future quantum computers. These codes improve error correction — but they come with a steep computational cost.
+AI models can frontload the computationally intensive portions of the workloads by training ahead of time and running more efficient inference at runtime. Using an AI model developed with NVIDIA CUDA-Q, QuEra achieved a 50x boost in decoding speed — along with improved accuracy.
+Optimizing Quantum Circuit Compilation With cuDF
+One way to improve an algorithm that works even without QEC is to compile it to the highest-quality qubits on a processor. The process of mapping qubits in an abstract quantum circuit to a physical layout of qubits on a chip is tied to an extremely computationally challenging problem known as graph isomorphism.
+In collaboration with
+Q-CTRL and Oxford Quantum Circuits
+, NVIDIA developed a GPU-accelerated layout selection method called ∆-Motif, providing up to a 600x speedup in applications like quantum compilation, which involve graph isomorphism. To scale this approach, NVIDIA and collaborators used cuDF — a GPU-accelerated data science library — to perform graph operations and construct potential layouts with predefined patterns (aka “motifs”) based on the physical quantum chip layout.
+These layouts can be constructed efficiently and in parallel by merging motifs, enabling GPU acceleration in graph isomorphism problems for the first time.
+Accelerating High-Fidelity Quantum System Simulation With cuQuantum
+Numerical simulation of quantum systems is critical for understanding the physics of quantum devices — and for developing better qubit designs. QuTiP, a widely used open-source toolkit, is a workhorse for understanding the noise sources present in quantum hardware.
+A key use case is the high-fidelity simulation of open quantum systems, such as modeling superconducting qubits coupled with other components within the quantum processor, like resonators and filters, to accurately predict device behavior.
+Through a collaboration with the
+University of Sherbrooke and Amazon Web Services (AWS
+), QuTiP was integrated with the
+NVIDIA cuQuantum
+software development kit via a new QuTiP plug-in called
+qutip-cuquantum
+. AWS provided the GPU-accelerated Amazon Elastic Compute Cloud (Amazon EC2) compute infrastructure for the simulation. For large systems, researchers saw up to a 4,000x performance boost when studying a transmon qubit coupled with a resonator.
+Learn more about the
+NVIDIA CUDA-Q
+platform. Read this
+NVIDIA technical blog
+for more details on how CUDA-Q powers quantum applications research.
+Explore
+quantum computing sessions
+at NVIDIA GTC Washington, D.C,
+running Oct. 27-29
+.
+Categories:
+Data Center
+Tags:
+Artificial Intelligence
+|
+CUDA
+|
+Quantum Computing
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

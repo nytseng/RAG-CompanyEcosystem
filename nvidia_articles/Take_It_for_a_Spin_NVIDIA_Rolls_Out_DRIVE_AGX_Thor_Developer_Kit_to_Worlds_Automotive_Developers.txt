@@ -1,0 +1,115 @@
+Title: Take It for a Spin: NVIDIA Rolls Out DRIVE AGX Thor Developer Kit to World’s Automotive Developers
+Source: https://blogs.nvidia.com/blog/drive-agx-developer-kit-general-availability/
+
+---
+
+Take It for a Spin: NVIDIA Rolls Out DRIVE AGX Thor Developer Kit to World’s Automotive Developers
+The developer kit, powered by NVIDIA DriveOS 7, enables the development of safer, smarter autonomous vehicles and transportation solutions.
+August 25, 2025
+by
+Ali Kani
+Your browser doesn't support HTML5 video. Here is a
+link to the video
+instead.
+Share
+Email
+0
+As
+autonomous vehicle
+systems rapidly grow in complexity, equipped with reasoning vision language action models, generative AI and advanced sensor technologies, developers need tools that are powerful, efficient and built to meet automotive-grade safety requirements.
+The NVIDIA DRIVE AGX Thor developer kit — now available for
+preorder
+today, with delivery in September — provides developers and researchers worldwide an advanced platform to accelerate the design, testing and deployment of AVs and intelligent mobility solutions.
+The developer kit is built on the
+NVIDIA Blackwell architecture
+, next-generation
+Arm Neoverse V3AE CPUs
+and the
+NVIDIA DriveOS
+7 software stack. It’s purpose-built for reasoning vision language action models and ideal for automotive development, with sufficient I/O to support surround cameras, radars and lidars, as well as common vehicle interfaces including GbE/10GbE and PCI-Express. DRIVE AGX Thor also meets the automotive industry’s stringent functional safety (ISO 26262) and cybersecurity requirements (ISO 21434).
+The Growing DRIVE AGX Thor Ecosystem
+The world’s leading automotive companies are building on NVIDIA DRIVE AGX Thor, including
+BYD
+, GAC, IM Motors,
+Li Auto
+,
+Volvo Cars
+, Xiaomi and Zeekr. Autonomous trucking companies building on NVIDIA DRIVE AGX Thor include
+Aurora
+,
+Gatik,
+PlusAI
+and
+Waabi
+.
+NVIDIA AV partners
+DeepRoute.ai
+,
+Nuro
+,
+WeRide
+and ZYT are using DRIVE AGX Thor for their AV software platforms. DRIVE AGX Thor production systems are available from Tier 1 suppliers
+Continental Automotive
+,
+Desay SV
+,
+Lenovo
+,
+Magna
+and
+Quanta
+.
+DRIVE AGX Thor is supported by a growing number of sensor and embedded technology pioneers, including
+AdaCore
+,
+Lauterbach
+,
+OMNIVISION
+,
+QNX
+and
+Vector
+.
+AV Safety From Cloud to Car
+Designed for automotive-grade safety and security, DRIVE AGX Thor and DriveOS are key elements of
+NVIDIA Halos
+, a comprehensive safety system that brings together NVIDIA’s automotive hardware and software safety technologies with cutting-edge AI research in AV safety.
+Halos offers a holistic approach to automotive safety:
+At the technology level, it spans platform, algorithmic and ecosystem safety.
+At the development level, it includes design-, deployment- and validation-time guardrails.
+At the computational level, it spans AI training to deployment, using three powerful computers —
+NVIDIA DGX
+for AI training,
+NVIDIA Omniverse
+and
+NVIDIA Cosmos
+running on
+NVIDIA OVX
+for simulation, and
+NVIDIA DRIVE AGX
+for deployment.
+Get Started
+Watch the
+NVIDIA DRIVE AGX Thor unboxing video
+and join the
+NVIDIA DRIVE AGX SDK Developer Program.
+Plus, learn more about
+NVIDIA Jetson AGX Thor developer kit
+and
+NVIDIA Jetson T5000 modules
+— available today — empowering robotics developers everywhere to build the future of
+physical AI
+.
+See
+notice
+regarding software product information.
+Categories:
+Driving
+Tags:
+NVIDIA DRIVE
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

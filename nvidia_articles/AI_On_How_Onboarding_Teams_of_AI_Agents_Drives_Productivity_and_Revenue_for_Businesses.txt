@@ -1,0 +1,128 @@
+Title: AI On: How Onboarding Teams of AI Agents Drives Productivity and Revenue for Businesses
+Source: https://blogs.nvidia.com/blog/onboarding-teams-ai-agents-productivity-revenue-businesses/
+
+---
+
+AI On: How Onboarding Teams of AI Agents Drives Productivity and Revenue for Businesses
+Learn how AI agents spark smarter decision-making across teams.
+September 19, 2025
+by
+Amanda Saunders
+Share
+Email
+0
+AI is no longer solely a back-office tool. It’s a strategic partner that can augment decision-making across every line of business.
+Whether users aim to reduce operational overhead or personalize customer experiences at scale, custom
+AI agents
+are key.
+As AI agents are adopted across enterprises, managing their deployment will require a deliberate strategy. The first steps are architecting the enterprise AI infrastructure to optimize for fast, cost-efficient inference and creating a data pipeline that keeps agents continuously fed with timely, contextual information.
+Alongside human and hardware resourcing, onboarding AI agents will become a core strategic function for businesses as leaders orchestrate digital talent across the organization.
+Here’s how to onboard teams of AI agents:
+1. Choose the Right AI Agent for the Task
+Just as human employees are hired for specific roles, AI agents must be selected and trained based on the task they’re meant to perform. Enterprises now have access to a variety of AI models — including for language, vision, speech and reasoning — each with unique strengths.
+For that reason, proper model selection is critical to achieving business outcomes:
+Choose a
+reasoning agent
+to solve complex problems that require puzzling through answers.
+Use a code-generation copilot to assist developers with writing, changing and merging code.
+Deploy a
+video analytics AI agent
+for analyzing site inspections or product defects.
+Onboard a customer service
+AI assistant
+that’s grounded in a specific knowledge base — rather than a generic
+foundation model
+.
+Model selection affects agent performance, costs, security and business alignment. The right model enables the agent to accurately address business challenges, align with compliance requirements and safeguard sensitive data. Choosing an unsuitable model can lead to overconsumption of computing resources, higher operational costs and inaccurate predictions that negatively impact agent decision-making.
+With software like
+NVIDIA NIM
+and
+NeMo
+microservices, developers can swap in different models and connect tools based on their needs. The result: task-specific agents fine-tuned to meet a business’ goals, data strategy and compliance requirements.
+2. Upskill AI Agents by Connecting Them to Data
+Onboarding AI agents requires building a strong data strategy.
+AI agents work best with a consistent stream of data that’s specific to the task and the business they’re operating within.
+Institutional knowledge — the accumulated wisdom and experience within an organization — is a crucial asset that can often be lost when employees leave or retire. AI agents can play a pivotal role in capturing and preserving this knowledge for employees to use.
+Connecting AI to data sources
+: To function at their best, AI agents must interpret a variety of data types, from structured databases to unstructured formats such as PDFs, images and videos. Such connection enables the agents to generate tailored, context-aware responses that go beyond the capabilities of a standalone foundation model, delivering more precise and valuable outcomes.
+AI as a knowledge repository
+: AI agents benefit from systems that capture, process and reuse data. A
+data flywheel
+continuously collects, processes and uses information to iteratively improve the underlying system. AI systems benefit from
+this flywheel
+, recording interactions, decisions and problem-solving approaches to self-optimize their model performance and efficiency. For example, integrating AI into customer service operations allows the system to learn from every conversation, capturing valuable feedback and questions. This data is then used to refine responses and maintain a comprehensive repository of institutional knowledge.
+NVIDIA NeMo supports the development of powerful data flywheels, providing the tools for continuously curating, refining and evaluating data and models. This enables AI agents to improve accuracy and optimize performance through ongoing adaptation and learning.
+3. Onboard AI Agents Into Lines of Business
+Once enterprises create the cloud-based, on-premises or hybrid AI infrastructure to support AI agents and refine the data strategy to feed those agents timely and contextual information, the next step is to systematically deploy AI agents across business units, moving from pilot to scale.
+According to a
+recent IDC survey of 125 chief information officers
+, the top three areas that enterprises are looking to integrate agentic AI are IT processes, business operations and customer service.
+In each area, AI agents help enhance the productivity of existing employees, such as by automating the ticketing process for IT engineers or giving employees easy access to data to help serve customers.
+AI agents in the enterprise could also be onboarded for:
+For telecom operations,
+Amdocs builds verticalized AI agents
+using its amAIz platform to handle complex, multistep customer journeys — spanning sales, billing and care — and advance autonomous networks from optimized planning to efficient deployment. This helps ensure performance of the networks and the services they support.
+NVIDIA has partnered with various enterprises,
+such as enterprise software company ServiceNow
+, and global systems integrators, like
+Accenture
+and
+Deloitte
+, to build and deploy AI agents for maximum business impact across use cases and lines of business.
+4. Provide Guardrails and Governance for AI Agents
+Just like employees need clear guidelines to stay on track, AI models require well-defined guardrails to ensure they provide reliable, accurate outputs and operate within ethical boundaries.
+Topical guardrails
+: Topical guardrails prevent the AI from veering off into areas where they aren’t equipped to provide accurate answers. For instance, a customer service AI assistant should focus on resolving customer queries and not drift into unrelated topics such as upsells and offerings.
+Content safety guardrails
+: Content safety guardrails moderate human-
+LLM
+interactions by classifying prompts and responses as safe or unsafe and tagging violations by category when unsafe. These guardrails filter out unwanted language and make sure references are made only to reliable sources, so the AI’s output is trustworthy.
+Jailbreak
+guardrails
+: With a growing number of agents having access to sensitive information, the agents could become vulnerable to data breaches over time. Jailbreak guardrails are designed to help with adversarial threats as well as detect and block jailbreak and prompt injection attempts targeting LLMs. These help ensure safer AI interactions by identifying malicious prompt manipulations in real time.
+NVIDIA NeMo Guardrails
+empower enterprises to set and enforce domain-specific guidelines by providing a flexible, programmable framework that keeps AI agents aligned with organizational policies, helping ensure they consistently operate within approved topics, maintain safety standards and comply with security requirements with the least latency added at inference.
+Get Started Onboarding AI Agents
+The best AI agents are not one-size-fits-all. They’re custom-trained, purpose-built and continuously learning.
+Business leaders can start their AI agent onboarding process by asking:
+What business outcomes do we want AI to drive?
+What knowledge and tools does the AI need access to?
+Who are the human collaborators or overseers?
+In the near future, every line of business will have dedicated AI agents — trained on its data, tuned to its goals and aligned with its compliance needs. The organizations that invest in thoughtful onboarding, secure data strategies and continuous learning are poised to lead the next phase of enterprise transformation.
+Watch this
+on-demand webinar
+to learn how to create an automated data flywheel that continuously collects feedback to onboard, fine-tune and scale AI agents across enterprises.
+Stay up to date on agentic AI, NVIDIA Nemotron and more by subscribing to
+NVIDIA AI news
+,
+joining the community
+and following NVIDIA AI on
+LinkedIn
+,
+Instagram
+,
+X
+and
+Facebook
+.
+Explore the self-paced
+video tutorials and livestreams
+.
+Categories:
+Generative AI
+|
+Software
+Tags:
+Agentic AI
+|
+AI On
+|
+NVIDIA NeMo
+|
+NVIDIA NIM
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

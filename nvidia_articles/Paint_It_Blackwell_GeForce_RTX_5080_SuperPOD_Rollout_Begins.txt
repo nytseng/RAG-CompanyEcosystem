@@ -1,0 +1,113 @@
+Title: Paint It Blackwell: GeForce RTX 5080 SuperPOD Rollout Begins
+Source: https://blogs.nvidia.com/blog/geforce-now-thursday-blackwell-rtx-launch/
+
+---
+
+Paint It Blackwell: GeForce RTX 5080 SuperPOD Rollout Begins
+Kick off the biggest cloud upgrade with three new games, including the launch of ‘Borderlands 4,’ with a new membership offer.
+September 10, 2025
+by
+GeForce NOW Community
+Share
+Email
+0
+GeForce NOW Blackwell RTX 5080-class SuperPODs
+are now rolling out, unlocking a new level of ultra high-performance, cinematic cloud gaming.
+GeForce NOW
+Ultimate members will see GeForce RTX 5080 performance arriving to a server near them, enabling even richer experiences in blockbuster titles like
+DUNE: Awakening, Borderlands 4, Hell Is Us, Dying Light: The Beast, Cronos: The New Dawn, Clair Obscur: Expedition 33
+and more.
+They all come with breathtaking graphics and lowest-latency gameplay, thanks to
+NVIDIA DLSS 4
+technology and next-generation AI features. Experience the new Cinematic-Quality Streaming mode for stunning color and fidelity across the latest devices.
+Look at all the room for
+activities
+gaming.
+The new Install-to-Play feature is expanding the cloud library to nearly 4,500 games for Ultimate and Performance members.
+This week kicks it off with three new games, including the launch of
+Borderlands 4.
+GeForce NOW is the ultimate way to play the
+Borderlands
+franchise’s latest entry — free with the purchase of a new 12-month Ultimate membership bundle.
+Make sure to follow along on GFN Thursdays for server updates.
+Blackwell to the Future
+Game-changer.
+The future of cloud gaming has arrived. With the NVIDIA Blackwell RTX upgrade, GeForce NOW brings GeForce RTX 5080-class performance to the cloud for the first time. Ultimate members can harness DLSS 4 Multi-Frame Generation, cutting-edge AI enhancements and ultralow click-to-pixel latency, enabling up to 5K at 120 frames per second for premium, responsive gameplay.
+Members will also see the GeForce NOW library instantly double. Over 2,200 Steam titles opted in by publishers for cloud streaming are hitting the cloud today, with more to come, letting members build and manage their own cloud gaming library. Alongside new Install-to-Play titles, GeForce NOW will continue to roll out ready-to-play titles each week.
+Coming to a zone near you.
+NVIDIA Blackwell RTX servers are starting to power up worldwide, so more members can start streaming with unprecedented performance on virtually any device, including PCs, Macs, Chromebooks, LG TVs (4K at 120Hz) and even Steam Decks (now up to 90 fps). Keep an eye on GFN Thursday updates and check the
+server rollout webpage
+for new regions going live.
+Ultimate members will soon see GeForce RTX 5080 performance in their area, with AAA titles like
+DUNE: Awakening, Borderlands 4
+,
+Hell Is Us, Dying Light: The Beast
+,
+Cronos: The New Dawn
+,
+Clair Obscur: Expedition 33
+and more playable at ultimate quality. Look for the new “GeForce RTX 5080 Ready” row in the app for the full list of
+GeForce RTX 5080-optimized games
+, updated weekly with fresh additions.
+New row, who ‘dis?
+Don’t let this cloud pass by. The Blackwell RTX upgrade is ready for gamers to secure their spots — no downloads, no hardware upgrades, just next-level gaming for the same $19.99 per month. Or members can choose to subscribe to the 12-month membership for $199.99 — providing more value at less than $17 a month.
+Break Free With ‘Borderlands 4
+’
+Welcome to Border-LOL-lands.
+Get ready for a blast of chaos, color and fun as
+Borderlands 4
+launches on GeForce NOW. The galaxy’s wildest looter shooter is back, sending four new Vault Hunters on a loot-crazed rampage jam-packed with quippy dialogue and sci-fi shenanigans, all wrapped in the franchise’s signature mayhem.
+Gameplay turns the dial to 11 with new double jumps, dashes, grappling hooks and air-glide moves that make every firefight a circus act. Experience a world with sprawling landscapes and nonstop dynamic events.
+Build the perfect Vault Hunter with deep skill trees and use different weapons — each with unique behaviors and effects, now with a revamped loot system where every Legendary feels special. Play it solo or with up to three friends.
+Play the frantic co-op looter shooter on GeForce NOW with the NVIDIA Blackwell RTX upgrade for cinematic-quality visuals, ultrafast load times and stunning performance. Enjoy NVIDIA DLSS 4-fueled graphics and low-latency gameplay streaming from GeForce RTX 5080 gaming rigs in the cloud.
+The cloud is the best way to play.
+The title lands in the cloud on Thursday, Sept. 11. Gamers who upgrade to or purchase a 12-month GeForce NOW Ultimate membership — between now and Tuesday, Sept. 25 — will get the title for free, available to play as soon as it launches. Unleash chaos across the galaxy with outrageous weapons, irreverent humor and the signature co-op action that makes this iconic looter-shooter franchise a fan favorite.
+Game On
+Set sail for moonlit mystery in Nod-Krai.
+Genshin Impact
+“Version Luna I: Song of the Welkin Moon” is available to play instantly on GeForce NOW — no need to wait for downloads or updates. Head on a new adventure through the magical new region of Nod-Krai, where the story, exploration and battles are all shaped by the mysterious power of the moon. Play as three new characters — animal-loving Lauma, energetic Flins and inventive Aino — as they face off against rival factions, unravel secrets and wield creative new abilities in a world full of quirky creatures and vibrant islands. Plus, anniversary rewards await for everyone who jumps in.
+In addition, members can look for the following:
+Firefighting Simulator: Ignite
+(New release on
+Steam
+, Sept. 9)
+Borderlands 4
+(New release on
+Steam
+and
+Epic Games Store
+, Sept. 11)
+Professional Fishing 2
+(New release on
+Steam
+, Sept. 11)
+What are you planning to play this weekend? Let us know on
+X
+or in the comments below.
+Keep your responses coming—win this bundle! 🎮
+🔥Steam Deck,
+@ASUS
+ROG Swift 27" 4K 240Hz G-SYNC Monitor,
+@Logitech
+G920 racing wheel, & more!🔥
+How to enter:
+1. Follow
+@NVIDIAGFN
+2. Reply using
+#BlackwellonGFN
+3. Share: What device are you turning into an RTX 5080 GPU?
+pic.twitter.com/TwSpTyFUze
+— 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN)
+September 8, 2025
+Categories:
+Gaming
+Tags:
+Cloud Gaming
+|
+GeForce NOW
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

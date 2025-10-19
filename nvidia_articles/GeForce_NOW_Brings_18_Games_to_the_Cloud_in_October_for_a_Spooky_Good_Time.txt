@@ -1,0 +1,205 @@
+Title: GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time
+Source: https://blogs.nvidia.com/blog/geforce-now-thursday-oct-2025/
+
+---
+
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time
+Start with the six games available this week.
+October 2, 2025
+by
+GeForce NOW Community
+Share
+Email
+0
+Editor’s note: This blog has been updated to include an additional game for October, The Outer Worlds 2.
+October is creeping in with plenty of gaming treats. From thrilling adventures to spine‑tingling scares, the cloud gaming lineup is packed with 18 new games, including the highly anticipated shooter
+Battlefield 6
+, launching on
+GeForce NOW
+this month. But first, catch the six games coming this week.
+Miami and Warsaw, Poland, are the latest regions to get GeForce RTX 5080-class power, with Portland and Ashburn coming up next. Stay tuned to GFN Thursday for updates as more regions upgrade to Blackwell RTX. Follow along with the latest progress on the
+server rollout page
+.
+Portland and Ashburn will be the next regions to light up with GeForce RTX 5080-class power.
+This week,
+inZOI
+and
+Total War: Warhammer III
+join the lineup of GeForce RTX 5080-ready titles, both already available on the service. Look for the “GeForce RTX 5080 Ready” row in the app or check out the
+full list
+.
+Falling for New Games
+Catch the games ready to play today:
+Train Sim World 6
+(New release on
+Steam
+, Sept. 30)
+Alien: Rogue Incursion Evolved Edition
+(New release on
+Steam
+, Sept. 30)
+Car Dealer Simulator
+(
+Steam
+)
+Nightingale
+(
+Epic Games Store
+)
+Ready or Not
+(
+Epic Games Store
+)
+STALCRAFT: X
+(
+Steam
+)
+New GeForce RTX 5080-ready games:
+inZOI
+(
+Steam
+)
+Total War: Warhammer III
+(
+Steam
+and
+Epic Games Store
+)
+Catch the full list of games coming to the cloud in October:
+King of Meat
+(New release on
+Steam
+, Oct. 7)
+Seafarer: The Ship Sim
+(New release on
+Steam
+, Oct. 7)
+Little Nightmares III
+(New release on
+Steam
+, Oct. 9)
+Battlefield 6
+(New release on
+Steam
+and
+EA app
+, Oct. 10)
+Ball x Pit
+(New release on
+Steam
+, Oct. 15)
+Fellowship
+(New release on
+Steam
+, Oct. 16)
+Jurassic World Evolution 3
+(New release on
+Steam
+, Oct. 21)
+Painkiller
+(New release on
+Steam
+, Oct. 21)
+Vampire: The Masquerade – Bloodlines 2
+(New release on
+Steam
+, Oct. 21)
+Tormented Souls 2
+(New release on
+Steam
+, Oct. 23)
+Super Fantasy Kingdom
+(New release on
+Steam
+, Oct. 24)
+Earth vs. Mars
+(New release on
+Steam
+, Oct. 29)
+The Outer Worlds 2
+(New release on
+Steam
+,
+Battle.net
+and Xbox, available on
+PC Game Pass
+, Oct. 29)
+ARC Raiders
+(New release on
+Steam
+, Oct. 30)
+Stacked September
+In addition to the 17 games announced in September, an extra dozen joined over the month, including the newly added
+Train Sim World 6
+this week:
+Call of Duty: Modern Warfare III
+(
+Steam
+,
+Battle.net
+and
+Xbox
+, available on PC Game Pass)
+Field of Glory II: Medieval
+(
+Steam
+)
+Goblin Cleanup
+(New release on
+Steam
+)
+Phoenix Wright: Ace Attorney Trilogy
+(
+Steam
+)
+Professional Fishing 2
+(New release on
+Steam
+)
+Project Winter
+(New release on
+Epic Games Store
+)
+Renown
+(New release on
+Steam
+)
+Sworn
+(New release on
+Xbox
+, available on PC Game Pass)
+Two Point Campus
+(
+Steam
+,
+Epic Games Store
+)
+Two Point Museum
+(
+Steam
+,
+Epic Games Store
+)
+Town to City
+(New release on
+Steam
+)
+What are you planning to play this weekend? Let us know on
+X
+or in the comments below.
+If you could only play one genre of game for the rest of your life, what would it be and why? 🎮
+Extra credit: screenshots or clips of that genre in action! 😌
+— 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN)
+October 1, 2025
+Categories:
+Gaming
+Tags:
+Cloud Gaming
+|
+GeForce NOW
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

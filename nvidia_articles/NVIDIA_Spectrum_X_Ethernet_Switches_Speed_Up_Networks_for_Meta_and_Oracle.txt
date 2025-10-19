@@ -1,0 +1,26 @@
+Title: NVIDIA Spectrum-X Ethernet Switches Speed Up Networks for Meta and Oracle
+Source: https://nvidianews.nvidia.com/news/nvidia-spectrum-x-ethernet-switches-speed-up-networks-for-meta-and-oracle
+
+---
+
+News Summary:
+Meta to introduce switches built on NVIDIA Spectrum Ethernet for its Facebook Open Switching System platform.
+Oracle to build giga-scale AI supercomputers with Spectrum-X Ethernet switches.
+OCP
+—NVIDIA today announced that Meta and Oracle will boost their AI data center networks with
+NVIDIA Spectrum-X
+™ Ethernet networking switches.
+Meta and Oracle are utilizing Spectrum-X Ethernet switches within their ecosystem as an open, accelerated networking architecture that speeds deployment at scale, unlocks exponential gains in AI training efficiency and shortens time to insights.
+“Trillion-parameter models are transforming data centers into giga-scale AI factories, and industry leaders like Meta and Oracle are standardizing on Spectrum-X Ethernet to drive this industrial revolution,” said Jensen Huang, founder and CEO of NVIDIA. “Spectrum-X is not just faster Ethernet — it’s the nervous system of the AI factory, enabling hyperscalers to connect millions of GPUs into a single giant computer to train the largest models ever built.”
+Oracle will build giga-scale AI factories accelerated by the NVIDIA Vera Rubin architecture and interconnected by Spectrum-X Ethernet.
+“Oracle Cloud Infrastructure is designed from the ground up for AI workloads, and our partnership with NVIDIA extends that AI leadership,” said Mahesh Thiagarajan, executive vice president of Oracle Cloud Infrastructure. “By adopting Spectrum-X Ethernet, we can interconnect millions of GPUs with breakthrough efficiency so our customers can more quickly train, deploy and benefit from the next wave of generative and reasoning AI.”
+Meta will integrate Spectrum Ethernet switches into its networking infrastructure for the Facebook Open Switching System (“FBOSS”), a software platform developed to manage and control network switches at massive scale. This integration will speed deployment at scale to unlock gains in AI training efficiency and shorten time to insights.
+“Meta’s next-generation AI infrastructure requires open and efficient networking at a scale the industry has never seen before,” said Gaya Nagarajan, vice president of networking engineering at Meta. “By integrating NVIDIA Spectrum Ethernet into the Minipack3N switch and FBOSS, we can extend our open networking approach while unlocking the efficiency and predictability needed to train ever-larger models and bring generative AI applications to billions of people.”
+NVIDIA Spectrum-X Ethernet Platform
+Designed for the trillion-parameter model era, the NVIDIA Spectrum-X Ethernet platform, consisting of Spectrum-X Ethernet switches and Spectrum-X Ethernet SuperNICs, is the first Ethernet platform purpose-built for AI, enabling hyperscalers to interconnect millions of GPUs with unprecedented efficiency and scale.
+Trillion-parameter models and generative AI are redefining the scale of data centers. Spectrum-X Ethernet enables AI at scale, delivering the performance and scalability needed to build the world’s most advanced AI infrastructure.
+Spectrum-X Ethernet has already demonstrated record-setting efficiency, enabling
+the world’s largest AI supercomputer
+to achieve 95% data throughput with its congestion-control technology. By contrast, off-the-shelf Ethernet at scale suffers from thousands of flow collisions, limiting throughput to roughly 60%.
+This leap in efficiency marks a breakthrough in the economics and performance of AI-scale networking. NVIDIA Spectrum-XGS Ethernet technology, part of the Spectrum-X Ethernet networking platform, enables scale-across capabilities to link data centers across cities, nations and continents into vast, giga-scale AI super-factories.
+Spectrum-X builds on NVIDIA’s full-stack platform — including GPUs, CPUs, NVIDIA NVLink™ and software — to deliver seamless performance from compute to network. Its advanced congestion control, adaptive routing and AI-driven telemetry capabilities ensure efficiency and predictability for massive AI training and inference clusters.

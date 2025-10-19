@@ -1,0 +1,197 @@
+Title: The AI Makers: NVIDIA Partners in UK Advance Physical and Agentic AI, Robotics, Life Sciences and More
+Source: https://blogs.nvidia.com/blog/uk-partner-ecosystem-ai-makers/
+
+---
+
+The AI Makers: NVIDIA Partners in UK Advance Physical and Agentic AI, Robotics, Life Sciences and More
+September 16, 2025
+by
+Anthony Hills
+Share
+Email
+0
+The U.K. is driving investments in
+sovereign AI
+, using the technology to advance industries like manufacturing, life sciences and more.
+During NVIDIA founder and CEO Jensen Huang’s visit to the U.K. this week, NVIDIA highlighted how it is working with a broad ecosystem of AI makers across the nation on applications in physical and agentic AI, robotics and healthcare.
+Such partner advancements support the U.K.’s AI Action Opportunities Plan,
+published
+earlier this year, which includes these key pillars:
+Advancing the UK Technology Ecosystem
+Work to build the U.K.’s AI foundation has already begun, with support from the nation’s rich research and startup ecosystem along with technology leaders.
+Funded by U.K. Research and Innovation and built on
+NVIDIA Grace Hopper Superchips
+,
+Isambard-AI
+— the U.K.’s most powerful AI supercomputer based at the University of Bristol, which
+launched in July
+— is accelerating national projects including:
+UK-LLM
+, a
+large language model
+project developed by University College London, Bangor University and NVIDIA. UK-LLM uses
+NVIDIA Nemotron
+reasoning models to support national languages like Welsh, as well as English, to improve public service delivery in sectors like healthcare and education.
+Nightingale AI
+, a sovereign, multimodal health
+foundation model
+led by Imperial College London and trained on U.K. and US health data, which is designed to be used for numerous health applications including earlier diagnoses and personalized care.
+PolluGen
+, a new high-resolution pollution dispersion model developed by the University of Manchester, using
+NVIDIA CorrDiff
+and
+Earth-2
+Studio. The model can use regional health and other data to help inform citizens and policymakers of air-quality impacts.
+The
+Ultrasound Foundation Model
+, led by researchers at
+Queen Mary University of London
+. The model is built for ultrasound imaging, focusing on rheumatoid arthritis patient analysis and creating a reproducible, publicly accessible AI model for medical imaging.
+Gen Model in Ego-Sensed World
+, led by researchers at the University of Bristol, is analyzing visual data from more than 900 participants to train an AI model to better understand everyday tasks. The AI model could help predict future real-world interactions and support memory to aid independent living for dementia patients.
+Electrostatics-aware foundation models,
+developed by researchers at the University of Cambridge in collaboration with NVIDIA. These are being trained as the first foundation models for atomic interactions that understand electrostatics in chemistry at the atomic level. To do this, the researchers are using more than 200 million molecular and material structures from the OMOL and OMAT databases with NVIDIA’s cuEquivariance library. The model will allow scientists to simulate materials and molecules that were previously too large or complex to handle.
+In addition, SCAN — a technology solutions provider with a strong focus on community, education and innovation — is collaborating with NVIDIA to address the growing AI skills gap across the U.K. through
+NVIDIA Deep Learning Institute
+courses and SCAN Springboard U.K., a community-driven initiative designed to foster peer-to-peer learning, market awareness, and mass training in AI and specialized workloads.
+AI for Robotics
+NVIDIA
+announced separately today
+it is collaborating with techUK, alongside educational autonomous systems leader Quanser and training provider QA, to strengthen the U.K.’s robotics and AI ecosystem.
+NVIDIA is also working with other leading U.K. robotics leaders to advance industries with
+physical AI
+.
+Extend Robotics
+is accelerating safe, scalable robot deployment in vehicle manufacturing by combining extended reality-based teleoperation and advanced training systems — powered by
+NVIDIA Jetson AGX Orin
+modules, the
+NVIDIA Isaac Lab
+framework and
+NVIDIA Isaac GR00T
+models — enabling rapid skill acquisition and boosting safety and productivity.
+Humanoid
+is developing a modular humanoid robot called HMND 01 for general tasks in warehouses and retail spaces. The robot is designed for seamless integration with human environments.
+Materials Innovation Factory
+at the University of Liverpool is using NVIDIA tools and libraries to train a foundations model to predict material properties, as well as train robot scientists using
+NVIDIA Jetson Orin Nano
+modules to test these hypotheses within a fully automated lab environment.
+The National Robotarium
+, a U.K. hub for robotics innovation, is using NVIDIA robotics and AI frameworks to support cutting-edge, practical research and help early-stage robotics businesses grow.
+Opteran
+is creating autonomy algorithms for robots that mirror how the brains of insects and animals process information, harnessing knowledge on 600 million years of evolution to make robotic systems as robust and efficient as nature.
+Oxa
+is creating full-stack AI self-driving software for industrial and commercial fleets with the
+NVIDIA DRIVE
+platform. The software works in all weather and locations — even where GPS is unreliable. Through its collaboration with NVIDIA, Oxa is able to generate vast amounts of diverse and realistic synthetic data to support training and validation — significantly accelerating the development and deployment of its solutions.
+Wayve
+is pioneering end-to-end deep learning for autonomous driving. Its next-generation AV2.0 Platform enables vehicles to quickly and safely adapt its driving intelligence to new, unseen environments without needing expensive sensors and high-definition maps
+.
+AI for Life Sciences
+Many U.K.-based life sciences companies are using NVIDIA technologies to take an AI-first approach to drug discovery, simulating therapies and drug design to achieve faster treatment testing.
+Basecamp Research
+’s BaseData — a proprietary evolutionary dataset that’s 10x larger than comparable public sources — is now powering a new generation of large foundation models across diverse biological data types, accelerating the development of curative, programmable medicines.
+U.K. CEiRSI
+— the U.K. Centre of Excellence for In-Silico Regulatory Science and Innovation,  headquartered at the University of Manchester — is developing complex digital twins with NVIDIA technologies to test new treatments on large and diverse patient populations.
+Isomorphic Labs
+has built a leading AI drug design engine comprising foundational AI models that can work across multiple therapeutic areas and drug modalities.
+Peptone
+is pioneering a new class of safer, more effective medicines by applying its physics-driven AI platform to unlock the therapeutic potential of the entire proteome, with a focus on historically “undruggable” intrinsically disordered proteins.
+Latent Labs
+’ generative AI model, Latent-X, allows scientists to create and test therapeutic molecules in silico, speeding up drug design for researchers.
+Relation Therapeutics
+offers a foundational AI platform for target drug discovery, integrating lab-in-the-loop experimentation to understand disease biology and accelerate the discovery and development of new therapies.
+Hologen AI
+, a spinout with cofounders from University College London and King’s College London, represents a new breed of AI-native companies — ones harnessing the power of AI to model complex human biology and medical interventions with high precision, making new drugs available for patients rapidly and at lower cost.
+Oxford Nanopore
+is delivering information-rich, rapid, affordable and accessible molecular information — such as DNA and RNA sequence data — to scientific researchers, as well as users in clinical, biopharma and applied industrial communities.
+Agentic and Generative AI Innovations
+AI model builders and startups are working with NVIDIA to transform the U.K. technology sector with
+agentic
+and
+generative AI
+tools that advance productivity, from financial large language models to AI voice agents.
+Aveni
+created a financial LLM using the
+NVIDIA NeMo software suite to power
+its next-generation agentic framework that can interact with live financial systems, communicate with customers and advise on risk outcomes while ensuring compliance, transparency and control.
+ElevenLabs
+develops AI voice technology that generates natural, ultrarealistic speech in over 70 languages using NVIDIA software and
+NVIDIA DGX B200
+systems. Its models power real-time conversational agents, localization, storytelling and accessibility tools for people who have lost their voices, in addition to voicing audiobooks and animating video game characters.
+PolyAI
+deployed advanced conversational AI agents using
+NVIDIA Riva
+automatic speech recognition
+NVIDIA NIM
+microservices. The AI agents automate customer support, speak naturally over the phone and handle complex tasks such as authentication, order management, billing and reservations on a massive scale.
+Recraft
+is producing state-of-the-art image generation and editing models, built with advanced design capabilities to support professional creative workflows. Recraft is using the
+NVIDIA TensorRT
+software development kit, enabling users to generate and edit images and graphics to speed workflows such as producing marketing materials, generating product mockups and editing visual content.
+Speechmatics
+developed speech-to-text software using
+NVIDIA Dynamo-Triton
+and
+NVIDIA cuDNN
+software. Its automatic speech recognition software lets businesses and developers convert spoken language into written text, with support for dozens of languages.
+Synthesia
+built an enterprise-focused AI video platform using NVIDIA Dynamo-Triton and other NVIDIA software. With the platform, businesses create professional-quality training, marketing, sales and customer support videos from text, using AI avatars and voiceovers in over 140 languages.
+Learn more about how
+NVIDIA is bolstering Europe’s technology ecosystem
+.
+Categories:
+Data Center
+|
+Generative AI
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+Customer Stories
+|
+Deep Learning Institute
+|
+Economic Development
+|
+Education
+|
+Events
+|
+Healthcare and Life Sciences
+|
+High-Performance Computing
+|
+Industrial and Manufacturing
+|
+Isaac
+|
+Jetson
+|
+NVIDIA DGX
+|
+NVIDIA in Europe
+|
+NVIDIA NeMo
+|
+NVIDIA NIM
+|
+Physical AI
+|
+Riva
+|
+Robotics
+|
+Simulation and Design
+|
+Social Impact
+|
+Sovereign AI
+|
+TensorRT
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

@@ -1,0 +1,190 @@
+Title: At Climate Week NYC, NVIDIA Details AI’s Key Role in Energy Efficiency
+Source: https://blogs.nvidia.com/blog/ai-energy-innovation-climate-research/
+
+---
+
+At Climate Week NYC, NVIDIA Details AI’s Key Role in Energy Efficiency
+New research highlights how energy-efficient infrastructure and AI models can propel innovation in climate, energy and beyond.
+September 23, 2025
+by
+Josh Parker
+Share
+Email
+0
+Energy efficiency in large language model inference has improved
+100,000x
+in the past 10 years — demonstrating that accelerated computing is sustainable computing.
+At
+Climate Week NYC
+, taking place through Sept. 26 in New York City, NVIDIA is showcasing how accelerated computing is propelling energy savings and advancing climate research.
+The summit brings together researchers, startups, scientists, technologists, nonprofits and policymakers to discuss bold ideas for climate action. This year’s theme is energy: where it comes from, how to scale it and how AI can optimize the grid in newfound ways.
+Throughout the week, NVIDIA will be highlighting its own innovative climate technologies, as well as a pair of recently published product carbon footprint reports on the emissions intensity of NVIDIA GPUs.
+AI Usage Isn’t Black and White — It Can Actually Be Green
+AI can play a critical role in stabilizing energy grids by pinpointing anomalies at a rapid rate. These timely insights can allow operators to respond to issues efficiently before they affect the larger grid.
+Forecasted AI-Induced Energy Savings Across Energy-Intensive Sectors by 2035
+Sector
+Subsector
+2035 AI Energy Savings (%)
+2035 Demand: Reference Case Scenario (in petajoules)
+Industry
+Iron and Steel
+3
+1,160
+Industry
+Cement
+4
+500
+Industry
+Chemicals
+2
+10,440
+Industry
+Aluminum
+4
+260
+Industry
+Paper
+2
+1,860
+Industry
+Other
+8
+13,650
+Transportation
+Light commercial vehicles
+6
+8,160
+Transportation
+Heavy duty trucks
+3
+3,670
+Transportation
+Cars
+3
+4,460
+Transportation
+Buses
+6
+1,690
+Transportation
+Aviation
+4
+3,120
+Transportation
+Shipping
+4
+940
+Transportation
+Rail
+7
+530
+Buildings
+Residential
+1
+4,780
+Buildings
+Non-residential
+4
+1,760
+Data Sources: Davide D’Ambrosio et al.,
+Energy and AI
+(Paris: International Energy Agency, April 2025) and “
+Net Zero America: Potential Pathways, Infrastructure, and Impacts
+,” Princeton University, as featured in CSIS’ report “
+AI for the Grid
+.”
+According to
+Net-Zero America Project’s
+calculations, if AI applications are fully adopted, nearly
+4.5%
+of projected energy demand in 2035 will be saved across the three most energy-intensive sectors — industry, transportation and buildings.
+NVIDIA joined a Climate Week panel discussion on
+AI: Powering a More Productive Energy Future
+yesterday following the release of
+Center for Strategic and International Studies
+findings on AI and energy. Panelists included Crusoe Energy Systems, a company that builds and operates clean computing infrastructure, and Emerald AI, a startup developing an AI solution to control data center power use during times of peak grid demand.
+This discussion centered around how AI will advance sustainability solutions at an unprecedented pace–from responsible grid and power infrastructure scaling  to reliable transportation and nuclear energy optimization.
+Startup Ecosystem Advances AI Energy Efficiency, Sustainability Projects
+Emerald AI
+, a
+NVIDIA NVentures
+portfolio company, is collaborating with NVIDIA on a recently unveiled
+NVIDIA Omniverse Blueprint
+for building high-performance, grid-friendly and energy-efficient AI infrastructure.
+This new reference design
+enables the transformation of data centers into fully integrated AI factories — optimized so that every watt of energy contributes to intelligence generation.
+“As a collaborator on NVIDIA’s reference design for giga-scale AI factories, we’re helping prove that AI compute can be power-flexible,” said Varun Sivaram, founder and CEO of Emerald AI. “It’s a paradigm shift with a massive prize: unlocking 100 gigawatts of untapped power grid capacity and resolving AI’s energy bottleneck while promoting affordable, reliable and clean power grids.”
+Emerald AI is a member of the NVIDIA Inception program for startups, within the Sustainable Futures initiative. These companies are pioneering developments in fields such as green computing, sustainable infrastructure, wildlife conservation and more.
+Sustainable Futures members
+Vibrant Planet
+,
+FortyGuard
+,
+Pachama
+and
+Wherobots
+are also attending this week’s summit.
+Decreasing the Carbon Footprint of NVIDIA Products and Operations
+NVIDIA is continuously working to decrease its own carbon footprint.
+Its first
+product carbon footprint summary comparison
+was recently released — revealing a
+24%
+reduction in embodied carbon emissions intensity between
+NVIDIA HGX H100
+and
+HGX B200
+baseboards.
+Scope and methodology of the product carbon footprint analysis for NVIDIA HGX B200.
+NVIDIA will continue to publish product carbon footprint summaries of newly released products to spotlight improvements in energy efficiency and sustainability.
+In terms of NVIDIA’s physical footprint, all offices and data centers under the company’s operational control run on
+100%
+renewable energy — and carbon-free electricity is purchased to cover
+100%
+of the company’s leased data centers’ footprint.
+NVIDIA headquarters in Santa Clara, California
+Applying AI to Climate and Weather Research
+High-resolution, AI-powered weather models are helping strengthen energy systems and reduce vulnerability to unpredictable climate events.
+When used to support energy grid stability, these simulations can help utilities more precisely direct maintenance crews to remove obstacles close to power lines ahead of storms.
+AI-driven climate models are also poised to increase the adoption and usage of renewables across the energy grid by lowering costs and ramping up efficiency.
+Josh Parker, head of sustainability at NVIDIA, and Holly Paeper, president of commercial HVAC Americas for Trane Technologies, spoke during a Climate Week NYC fireside chat at the Nest Climate Campus.
+With these climate models, grid operators can accurately determine factors like the amount of power wind turbines will generate on a given day, or how much energy collected in solar batteries will need to be saved to compensate and keep a city’s lights on and stable.
+These insights can help energy providers manage load and lower the cost of adopting renewables, presenting a path forward to decarbonize the grid.
+The
+NVIDIA Earth-2
+platform offers tools, microservices, and reference implementations that help developers build applications to simulate and visualize weather and climate predictions at a global scale.
+Mike Pritchard, director of climate simulation research at NVIDIA, spoke on a Climate Week panel about AI and climate science at the Columbia Engineering Innovation Hub.
+Work powered by Earth-2 is featured on an array of panels at Climate Week, including
+Columbia University’s GenAI for Climate Science
+,
+AI for Energy and Energy for AI
+,
+Where the Internet Lives, Presented by Google
+, and the
+AWS Climate Tech & AI Forum
+.
+Learn more about
+NVIDIA Earth-2
+and
+sustainable computing
+solutions.
+Categories:
+Corporate Sustainability
+|
+Data Center
+|
+Generative AI
+Tags:
+Artificial Intelligence
+|
+Climate
+|
+Earth-2
+|
+Energy
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

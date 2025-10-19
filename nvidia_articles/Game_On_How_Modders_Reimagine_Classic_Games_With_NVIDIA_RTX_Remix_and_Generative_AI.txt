@@ -1,0 +1,156 @@
+Title: Game On: How Modders Reimagine Classic Games With NVIDIA RTX Remix and Generative AI
+Source: https://blogs.nvidia.com/blog/rtx-ai-garage-rtx-remix-mod-contest-gen-ai/
+
+---
+
+Game On: How Modders Reimagine Classic Games With NVIDIA RTX Remix and Generative AI
+Learn how generative AI workflows are turning passion projects into next-generation video game remasters.
+August 28, 2025
+by
+Nyle Usmani
+Share
+Email
+0
+Last week at Gamescom, NVIDIA announced the winners of the
+NVIDIA and ModDB RTX Remix Mod Contest
+, a $50,000 competition celebrating community-made projects that reimagine classic games with modern fidelity.
+The entries showed how far video game modding has come, with individual modders and small teams pulling off overhauls of similar quality to those created by entire studios.
+At the heart of these projects was
+NVIDIA RTX Remix
+, a platform that lets creators capture assets from classic titles and rebuild them with modern lighting, geometry and materials. Paired with generative AI tools like PBRFusion and ComfyUI, modders can now upscale or generate thousands of textures and automate repetitive tasks so they can focus on their artistry.
+Plus, with NVIDIA RTX GPUs accelerating these AI-driven workflows, ambitious remasters that once took years can now come together in months.
+There are currently 237 RTX Remix projects in development, building on over 100 finished mods and 2 million downloads across fan favorites like
+Half-Life 2
+,
+Need for Speed: Underground
+,
+Portal
+and
+Deus Ex
+.
+Transforming Classics With Generative AI
+The RTX Remix Mod Contest crowned Merry Pencil Studios’
+Painkiller RTX Remix
+with several awards, but it wasn’t the only mod worth celebrating.
+Here’s a closer look at the winning submission, along with other standout projects that showcase how RTX Remix and AI-powered tools are redefining what’s possible with modding on PCs.
+‘Painkiller’ RTX Remix: Winner in Best Overall, Best Use of RTX and Most Complete Categories
+The mod team Merry Pencil Studios rebuilt more than 35 levels of the gothic shooter
+Painkiller
+using AI-assisted workflows and handcrafted artistry. The team batch-processed thousands of low-resolution textures and generated high-resolution physically based rendering (PBR) materials that automatically got imported into RTX Remix.
+The team’s AI model of choice was
+PBRFusion
+, a model trained by the RTX Remix community that can upscale textures by 4x and generate high-quality normal, roughness and height maps.
+This workflow provided a consistent foundation for the game’s complex environments, freeing up time for creative polish. From there, the team used tools like Blender and InstaMAT to craft assets like lanterns and other gothic details that define the game’s atmosphere.
+“Generative AI has completely expanded what feels possible in modding. Beyond texture upscaling, we’re now seeing it generate 3D models, refine complex multi-material surfaces and assist with coding tasks like building workflow tools, writing documentation and catching errors.” — Merry Pencil Studios
+RTX Remix transforms the gothic cathedral in “Painkiller”: RTX OFF (left) shows the original look, while RTX ON (right) fills the hall with stained glass reflections, volumetric beams and realistic shadows.
+“PBRFusion and other AI tools made it possible for a small team to convert an entire game into PBR. It set the baseline look, while we focused our manual efforts on the assets players notice most.” — Merry Pencil Studios
+With RTX Remix, gothic churches now glow with volumetric light pouring through stained glass, marble statues scatter colored light and combat scenes erupt with particle effects that cast realistic shadows.
+NVIDIA GeForce RTX GPUs
+powered the workflow from start to finish, with real-time path tracing and
+NVIDIA DLSS
+technology ensuring smooth iteration while editing even on massive scenes.
+“The NVIDIA GeForce RTX 5090 GPU was a dream for our workflow: speed, fluidity, everything felt seamless. DLSS Frame Generation doubled or even tripled frame rates, making the game look incredible on high-refresh displays.” — Merry Pencil Studios
+What makes the
+Painkiller
+RTX Remix notable is its scope, featuring over 35 remastered levels. This amount of work couldn’t have been completed in such a short time without RTX Remix and the generative AI tools the team used.
+By combining generative AI automation with careful craftsmanship, Merry Pencil Studios delivered a project that feels both ambitious and polished.
+‘Unreal’ RTX Remix: An Ambitious AI Texture Rebuild
+“I wouldn’t have been able to create PBR textures without AI. I could have maybe created emissive maps and height maps, but I wouldn’t have been able to do the roughness or normal maps myself.” — mstewart401
+UnrealRTX
+demonstrates the scale of generative AI’s impact in modding. Modder mstewart401 set out to remaster the entire 1998 classic, with 14 levels completed by the contest deadline and more in progress.
+With RTX Remix’s built-in AI texture tools, plus experimental methods like generating animations from AI video tools and hand-editing light maps, whole environments were reimagined with new detail and atmosphere.
+The results are striking: glowing crystals pulse with emissive light, alien landscapes shimmer with modern materials and the game’s otherworldly maps feel richer and more alive. By leaning on AI for the bulk of the texture work, mstewart401 could focus on creative polishing — delivering an overhaul that feels ambitious even by professional standards.
+RTX Remix transforms the alien environments in “Unreal”: RTX OFF (left) shows the original flat look, while RTX ON (right) adds detailed PBR materials, emissive lighting and realistic reflections.
+“If someone like me can make a mod like this, anyone can. I only get an hour here and an hour there, but with generative AI and RTX, I’ve been able to push ‘Unreal’ further than I ever thought possible.” — mstewart401
+‘Need for Speed: Underground’ RTX Remix: Blending AI and 3D Artistry
+In the
+Need for Speed: Underground
+RTX Remix
+, modder Alessandro893 used AI and 3D artistry to remaster every race course in the game with new textures, materials and lighting.
+“In racing games, generative AI opens up new possibilities for creating realistic and immersive environments. In a racing game like ‘Need for Speed: Underground,’ the visual environment is crucial for player immersion, but it also needs to feel responsive and varied.” — Alessandro893
+Using ComfyUI, Alessandro893 generated more than 500 new textures, then refined them in Adobe Photoshop for consistency and realism. In addition, the modder built over 30 new high-poly car and environment models in Blender, upgrading older assets with smoother, more lifelike detail.
+“Generative AI was mainly used for texture generation. The original look was preserved by using the original textures as input for AI. It’s impossible to create such a large number of textures in such a short period of time alone without AI.” — Alessandro893
+With RTX GPUs driving AI texture conversion, path-traced reflections and DLSS acceleration, the team could reimagine racing environments with faster iteration and higher fidelity than ever. But as the modder emphasized, AI didn’t replace artistry. It created room for it.
+RTX Remix reimagines “Need for Speed: Underground’s” Chinatown: RTX OFF (left) shows low-resolution textures and flat lighting, while RTX ON (right) adds neon reflections, detailed materials and fully path-traced streets.
+The overhaul is most striking on the Chinatown track, which was rebuilt with new buildings, vegetation and fully path-traced lighting that makes neon reflections pop against wet pavement.
+By leaning on AI to handle the repetitive work of texture generation, the modder could focus on creative refinements — giving Olympic City a modern, cinematic twist while preserving its nostalgic feel.
+‘Portal 2’ RTX Remix: An Innovative AI-Powered Workflow
+“AI opened up new opportunities and drastically accelerated my workflow, allowing me to focus on more ambitious creative tasks.”
+— Skurtyyskirts
+Skurtyyskirts, the modder behind
+Portal 2
+RTX Remix
+, used a unique workflow — tapping a
+large language model
+to build a custom plug-in called Substance2Remix, bridging Adobe Substance Painter directly to RTX Remix.
+This flow allowed the modder to pull in an asset, apply AI-assisted materials, hand-paint details and push it straight back into the game, all in one rapid loop. What would normally take days of exporting and importing was done in minutes.
+“Once I saw the potential of Remix’s REST application programming interface, I realized I could create a more integrated workflow between tools like Substance Painter and RTX Remix. I didn’t want to deal with a manual, tedious export-import process for my handmade textures, so I developed a simple plug-and-play plug-in. This completely shifted the role of AI from a simple upscaling tool to a core component of my creative pipeline, enabling me to focus on creating detailed, high-quality textures by hand.”
+— Skurtyyskirts
+RTX Remix modernizes “Portal 2’s” test chambers: RTX ON highlights realistic reflections, detailed materials, and atmospheric lighting that transform Aperture Science into a more immersive environment.
+Early on, the project leaned on AI upscalers like
+PBRFusion
+, but over time the workflow evolved into a mix of AI and manual artistry. The result is a sharper, more atmospheric game environment — enhanced further by RTX Remix’s volumetrics and fog systems, which make the decaying test chambers feel more alive.
+RTX Remix modernizes “Portal 2’s” test chambers: RTX ON highlights realistic reflections, detailed materials, and atmospheric lighting that transform Aperture Science into a more immersive environment.
+By creating a new pipeline, the project opens the door for other modders to experiment with faster, AI-powered workflows of their own.
+Press Start: Remaster With RTX Remix
+To get started creating RTX Remix mods, download NVIDIA RTX Remix from the home screen of the
+NVIDIA App
+and check out our
+tutorials
+and
+documentation
+.
+PBRFusion on Hugging Face
+also offers a plug-and-play setup with ComfyUI, letting modders batch-process textures into high-quality, PBR maps in just a few clicks.
+PBRFusion is a generative AI tool built by modder NightRaven109 (and shared on Hugging Face) that helps convert old, low-res game textures into full PBR (Physically Based Rendering) materials.
+Check out all of the mods submitted to the RTX Remix Modding Contest, as well as 100 more Remix mods, available to download from
+ModDB
+. Read the
+RTX Remix article
+to learn more about the contest and winners. For a sneak peek at RTX Remix projects under active development, join the community over at the
+RTX Remix Showcase Discord server
+— it’s a great place to get a helping hand.
+Each week, the
+RTX AI Garage
+blog series features community-driven AI innovations and content for those looking to learn more about NVIDIA NIM microservices and AI Blueprints, as well as building
+AI agents
+, creative workflows, productivity apps and more on AI PCs and workstations.
+Plug in to NVIDIA AI PC on
+Facebook
+,
+Instagram
+,
+TikTok
+and
+X
+— and stay informed by subscribing to the
+RTX AI PC newsletter
+. Join NVIDIA’s
+Discord server
+to connect with community developers and AI enthusiasts for discussions on what’s possible with RTX AI.
+Follow NVIDIA Workstation on
+LinkedIn
+and
+X
+.
+See
+notice
+regarding software product information.
+Categories:
+Generative AI
+Tags:
+Artificial Intelligence
+|
+Conversational AI
+|
+GeForce RTX
+|
+NVIDIA RTX
+|
+RTX AI Garage
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

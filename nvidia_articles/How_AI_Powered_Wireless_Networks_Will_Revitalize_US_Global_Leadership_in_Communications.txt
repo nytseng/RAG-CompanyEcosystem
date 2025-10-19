@@ -1,0 +1,77 @@
+Title: How AI-Powered Wireless Networks Will Revitalize US Global Leadership in Communications
+Source: https://blogs.nvidia.com/blog/ai-6g-telecommunications/
+
+---
+
+How AI-Powered Wireless Networks Will Revitalize US Global Leadership in Communications
+October 8, 2025
+by
+Kanika Atri
+Share
+Email
+0
+Telecommunication networks are critical infrastructure for every nation, underpinning the global flow of communications and data across billions of smartphones and connected devices. The next generation of these networks, known as 6G, will for the first time be built to support AI traffic — and can be powered by AI from the ground up.
+The nations and companies leading this shift, known as AI-native 6G, are poised to lead the global AI economy and lead in the AI era.
+Unlike previous network evolutions, the development and deployment of 6G will fundamentally redefine the architecture and functionality of global communications networks to go beyond connectivity. For the first time, AI will enable these networks to sense and infer at the edge, serving hundreds of billions of AI-powered endpoints and supporting AI-driven applications such as autonomous vehicles, precision agriculture and advanced manufacturing.
+How these next-generation networks are designed, deployed and managed has important implications for the economy as well as for national security. Since 6G networks will power billions of devices and run mission-critical applications, it’s more important than ever to determine who builds and operates these networks.
+NVIDIA is leading a coalition of U.S. companies
+committed to developing a high-performance, secure and reliable AI-native 6G solution under the AI-Native Wireless Networks project, aka AI-WIN. By designing a powerful 6G network solution running on American technology, the U.S. has an opportunity to regain global leadership by accelerating the path to AI-native 6G across the nation and worldwide.
+From 1G to 6G: The Evolution of Networks and Connected Devices
+As the technology and the types of data being transmitted over networks evolved, each generation of networks — and the standards that guide them — progressed to handle new use cases and complexity.
+While 1G supported analog voice services, 2G introduced text. In the 3G era, the first smartphones were enabled, and internet browsing became mainstream. In 4G, users experienced true mobile broadband — while 5G brought faster data transfers and greater throughput, enabling many telecom operators to offer unlimited data as part of their wireless services.
+The evolution of 5G. Source:
+OKportal Technology, via ResearchGate
+Today, the
+number of mobile phone subscriptions around the world
+exceeds the human population, and AI services are expected to proliferate at all points in the network, including at the edge. To support these billions of devices, the world will need AI-native 6G.
+Five Advantages of AI-Native 6G Development
+The convergence of AI and wireless infrastructure will fundamentally reshape the global telecommunications and AI landscape. Building 6G networks on a foundation of AI will make networks more efficient and enable them to bring AI services closer to end users.
+Here are five benefits of building AI into 6G infrastructure from the ground up.
+Built-In Capability to Deliver AI Services at the Edge
+Telecommunications networks traditionally delivered voice, data and video.  In the future, 6G networks will also be called upon to support a new kind of traffic: AI traffic.
+AI built into 6G infrastructure will enable the delivery of AI services through inference at the edge. This means that when a consumer interacts with an AI service, that workload can be handled by edge data centers in the 6G network, as well as centralized data centers when required.
+Mobile networks will support data-intensive, AI-powered use cases including autonomous vehicle fleet management, smart glasses, generative AI services and AI agents on phones or other devices, integrated sensing, interactive web and video streaming, collaborative robots, drone detection and other applications that are yet to be invented.
+The transmission of this massive increase in uplink and bursty data needs to be resilient, secure and purpose-built.
+Extreme Efficiency Across Spectrum Usage, Energy Usage and Operations
+The most important raw material for wireless networks is spectrum: the airwaves over which two-way data transmission takes place.
+Since the amount of spectrum available to serve the exponential rise in AI traffic is finite, new, AI-based techniques are needed to optimize the usage of every bit of spectrum.
+AI-native algorithms deployed with 6G networks will deliver extreme spectrum efficiency, enabling billions of dollars in cost savings while improving user experience for all connected devices.
+AI-native hardware and software will also enable extreme energy efficiency at scale, reducing the overall operational costs for telcos. And agentic AI will improve and automate network management and operations, greatly improving reliability, resiliency and network performance.
+New Revenue Opportunities for Carriers
+6G networks built on AI will
+create new revenue streams for telecommunications companies. Accelerated computing as the backbone of telecommunications infrastructure will drive new returns on capital investments that extend far beyond providing data connectivity.
+One estimate suggests that telco operators can earn roughly $5 in AI inference revenue from every $1 invested in new AI radio access network (AI-RAN) infrastructure. And, with the network efficiency gains provided by AI, operators will be able to harness excess capacity to run AI workloads concurrently with cellular services.
+Software-Defined Infrastructure
+Wireless networks can now innovate at the pace of AI, without having to make new hardware investments with every generation.
+Telecommunications infrastructure today largely consists of single-purpose, hardware-defined systems that are built to deliver voice, video and data services. With this setup, innovation cycles are long and tied to hardware upgrades with each new generation — and companies must still invest in different infrastructure to handle AI computing.
+Moving toward software-defined RAN architecture will enable one common infrastructure stack to run mobile wireless services and AI applications, while making it easy to evolve to the next generation with a software upgrade. This will enable a rapid pace of innovation in telecoms, opening the field for many to participate and collectively deliver new capabilities and services for humans, AI agents and machines.
+Shifting a network’s underlying infrastructure from single-purpose technology to off-the-shelf, multi-purpose infrastructure is a game changer that can enable telcos to maximize every new dollar spent.
+Enhanced Cybersecurity
+In the 6G era, cybersecurity enters a new dimension where AI is a critical requirement across the network’s topology and deeply embedded into every layer of the technology stack.
+As 6G networks connect billions of IoT devices, AI is essential for real-time threat detection and automated remediation and incident response. AI models can process massive data streams to quickly identify and neutralize attacks, whether they’re occurring on the device, at the network edge or in the cloud.
+AI-driven cybersecurity can help keep hyper-connected systems — such as self-driving vehicles and massive factories — resilient, secure and adaptive. And to ensure that security, it’s imperative that 6G networks deployed across the world are operated by trusted companies committed to the principles of transparency and openness.
+Meeting the 6G Moment
+International standards committees have already started the work to define the upcoming standards for 6G. These standards are set by industry, academia and government experts who agree on technical specifications for each new generation of wireless technology.
+For the past several decades, international competitors have dominated global network deployments. They’re racing to do the same with 6G, building on their existing technology stacks and rapidly integrating AI compute and sensing capabilities to create a fabric for massively distributed intelligence.
+By developing a strong, AI-powered 6G network running on American technology, the U.S. will have a powerful tool to compete worldwide and advance open and transparent technology ecosystems.
+Learn about
+NVIDIA solutions for 5G and 6G networks
+and join the
+NVIDIA 6G Developer Program
+.
+Categories:
+Data Center
+Tags:
+6G
+|
+Artificial Intelligence
+|
+Public Sector
+|
+Telecommunications
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

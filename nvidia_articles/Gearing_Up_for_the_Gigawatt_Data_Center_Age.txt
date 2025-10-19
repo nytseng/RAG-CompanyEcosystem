@@ -1,0 +1,94 @@
+Title: Gearing Up for the Gigawatt Data Center Age
+Source: https://blogs.nvidia.com/blog/networking-matters-more-than-ever/
+
+---
+
+Gearing Up for the Gigawatt Data Center Age
+Inside the AI factories powering the trillion‑parameter era — and why the network matters more than ever.
+August 21, 2025
+by
+Gilad Shainer
+Share
+Email
+0
+Across the globe, AI factories are rising — massive new data centers built not to serve up web pages or email, but to train and deploy intelligence itself. Internet giants have invested billions in cloud-scale AI infrastructure for their customers. Companies are racing to build AI foundries that will spawn the next generation of products and services. Governments are investing too, eager to harness AI for personalized medicine and language services tailored to national populations.
+Welcome to the age of AI factories — where the rules are being rewritten and the wiring doesn’t look anything like the old internet. These aren’t typical hyperscale data centers. They’re something else entirely. Think of them as high-performance engines stitched together from tens to hundreds of thousands of GPUs — not just built, but orchestrated, operated and activated as a single unit. And that orchestration? It’s the whole game.
+This giant data center has become the new unit of computing, and the way these GPUs are connected defines what this unit of computing can do. One network architecture won’t cut it. What’s needed is a layered design with bleeding-edge technologies — like co-packaged optics that once seemed like science fiction.
+The complexity isn’t a bug; it’s the defining feature. AI infrastructure is diverging fast from everything that came before it, and if there isn’t rethinking on how the pipes connect, scale breaks down. Get the network layers wrong, and the whole machine grinds to a halt. Get it right, and gain extraordinary performance.
+With that shift comes weight — literally. A decade ago, chips were built to be sleek and lightweight. Now, the cutting edge looks like the multi‑hundred‑pound copper spine of a server rack. Liquid-cooled manifolds. Custom busbars. Copper spines. AI now demands massive, industrial-scale hardware. And the deeper the models go, the more these machines scale up, and out.
+The NVIDIA NVLink spine, for example, is built from over 5,000 coaxial cables — tightly wound and precisely routed. It almost as much data per second as the entire internet. That’s 130 TB/s of GPU-to-GPU bandwidth, fully meshed.
+This isn’t just fast. It’s foundational. The AI super-highway now lives inside the rack.
+The Data Center Is the Computer
+Training the modern large language models (
+LLMs
+) behind AI isn’t about burning cycles on a single machine. It’s about orchestrating the work of tens or even hundreds of thousands of GPUs that are the heavy lifters of AI computation.
+These systems rely on distributed computing, splitting massive calculations across nodes (individual servers), where each node handles a slice of the workload. In training, those slices — typically massive matrices of numbers — need to be regularly merged and updated. That merging occurs through collective operations, such as “all-reduce” (which combines data from all nodes and redistributes the result) and “all-to-all” (where each node exchanges data with every other node).
+These processes are susceptible to the speed and responsiveness of the network — what engineers call latency (delay) and bandwidth (data capacity) — causing stalls in training.
+For inference — the process of running trained models to generate answers or predictions — the challenges flip.
+Retrieval-augmented generation
+systems, which combine LLMs with search, demand real-time lookups and responses. And in cloud environments, multi-tenant inference means keeping workloads from different customers running smoothly, without interference. That requires lightning-fast, high-throughput networking that can handle massive demand with strict isolation between users.
+Traditional Ethernet was designed for single-server workloads — not for the demands of distributed AI. Tolerating jitter and inconsistent delivery were once acceptable. Now, it’s a bottleneck. Traditional Ethernet switch architectures were never designed for consistent, predictable performance — and that legacy still shapes their latest generations.
+Distributed computing requires a scale-out infrastructure built for zero-jitter operation — one that can handle bursts of extreme throughput, deliver low latency, maintain predictable and consistent RDMA performance, and isolate network noise. This is why InfiniBand networking is the gold standard for high-performance computing supercomputers and AI factories.
+With NVIDIA Quantum InfiniBand, collective operations run inside the network itself using
+Scalable Hierarchical Aggregation and Reduction Protocol
+technology, doubling data bandwidth for reductions. It uses adaptive routing and telemetry-based congestion control to spread flows across paths, guarantee deterministic bandwidth and isolate noise. These optimizations let InfiniBand scale AI communication with precision. It’s why NVIDIA Quantum infrastructure connects the majority of the systems on the TOP500 list of the world’s most powerful supercomputers, demonstrating 35% growth in just two years.
+For clusters spanning dozens of racks,
+NVIDIA Quantum‑X800
+Infiniband switches push InfiniBand to new heights. Each switch provides 144 ports of 800 Gbps connectivity, featuring hardware-based SHARPv4, adaptive routing and telemetry-based congestion control. The platform integrates
+co‑packaged silicon photonics
+to minimize the distance between electronics and optics, reducing power consumption and latency. Paired with NVIDIA ConnectX-8 SuperNICs delivering 800 Gb/s per GPU, this fabric links trillion-parameter models and drives in-network compute.
+But hyperscalers and enterprises have invested billions in their Ethernet software infrastructure. They need a quick path forward that uses the existing ecosystem for AI workloads. Enter
+NVIDIA Spectrum‑X
+: a new kind of Ethernet purpose-built for distributed AI.
+Spectrum‑X Ethernet: Bringing AI to the Enterprise
+Spectrum‑X reimagines Ethernet for AI. Launched in 2023
+Spectrum‑X delivers lossless networking, adaptive routing and performance isolation
+. The SN5610 switch, based on the Spectrum‑4 ASIC,
+supports port speeds up to 800 Gb/s and uses NVIDIA’s congestion control to maintain 95% data throughput at scale
+.
+Spectrum‑X is fully standards‑based Ethernet. In addition to supporting Cumulus Linux, it supports the open‑source
+SONiC network operating system
+— giving customers flexibility. A key ingredient is NVIDIA SuperNICs — based on NVIDIA BlueField-3 or ConnectX-8 —
+which provide up to 800 Gb/s RoCE connectivity
+and offload packet reordering and congestion management.
+Spectrum-X brings InfiniBand’s best innovations — like telemetry-driven congestion control, adaptive load balancing and direct data placement — to Ethernet, enabling enterprises to scale to hundreds of thousands of GPUs. Large-scale systems with Spectrum‑X, including the
+world’s most colossal AI supercomputer
+, have
+achieved 95% data throughput with zero application latency degradation
+. Standard Ethernet fabrics would deliver only
+~60% throughput due to flow collisions
+.
+A Portfolio for Scale‑Up and Scale‑Out
+No single network can serve every layer of an AI factory. NVIDIA’s approach is to match the right fabric to the right tier, then tie everything together with software and silicon.
+NVLink: Scale Up Inside the Rack
+Inside a server rack, GPUs need to talk to each other as if they were different cores on the same chip. NVIDIA NVLink and NVLink Switch extend GPU memory and bandwidth across nodes. In an NVIDIA GB300 NVL72 system, 36 NVIDIA Grace CPUs and 72 NVIDIA Blackwell Ultra GPUs are
+connected in a single NVLink domain, with an aggregate bandwidth of 130 TB/s
+. NVLink Switch technology further extends this fabric: a single GB300 NVL72 system can offer 130 TB/s of GPU bandwidth,
+enabling clusters to support 9x the GPU count of a single 8‑GPU server
+. With NVLink, the entire rack becomes one large GPU.
+Photonics: The Next Leap
+To reach million‑GPU AI factories, the network must break the power and density limits of pluggable optics. NVIDIA Quantum-X and Spectrum-X Photonics switches integrate silicon photonics directly into the switch package,
+delivering 128 to 512 ports of 800 Gb/s with total bandwidths ranging from 100 Tb/s to 400 Tb/s
+. These switches offer
+3.5x more power efficiency and 10x better resiliency compared with traditional optics
+, paving the way for gigawatt‑scale AI factories.
+Delivering on the Promise of Open Standards
+Spectrum‑X and NVIDIA Quantum InfiniBand are built on open standards.
+Spectrum‑X is fully standards‑based Ethernet with support for open Ethernet stacks like SONiC, while NVIDIA Quantum InfiniBand and Spectrum-X conform to the InfiniBand Trade Association’s InfiniBand and RDMA over Converged Ethernet (RoCE) specifications. Key elements of NVIDIA’s software stack — including NCCL and DOCA libraries — run on a variety of hardware, and partners such as Cisco, Dell Technologies, HPE and Supermicro integrate Spectrum-X into their systems.
+Open standards create the foundation for interoperability, but real-world AI clusters require tight optimization across the entire stack — GPUs, NICs, switches, cables and software.
+Vendors that invest in end‑to‑end integration deliver better latency and throughput. SONiC, the open‑source network operating system hardened in hyperscale data centers, eliminates licensing and vendor lock‑in and allows intense customization, but operators still choose purpose‑built hardware and software bundles to meet AI’s performance needs. In practice, open standards alone don’t deliver deterministic performance; they need innovation layered on top.
+Toward Million‑GPU AI Factories
+AI factories are scaling fast. Governments in Europe are building seven national AI factories, while
+cloud providers and enterprises across Japan, India and Norway are rolling out NVIDIA‑powered AI infrastructure
+. The next horizon is gigawatt‑class facilities with a million GPUs. To get there, the network must evolve from an afterthought to a pillar of AI infrastructure.
+The lesson from the gigawatt data center age is simple: the data center is now the computer. NVLink stitches together GPUs inside the rack. NVIDIA Quantum InfiniBand scales them across it. Spectrum-X brings that performance to broader markets. Silicon photonics makes it sustainable. Everything is open where it matters, optimized where it counts.
+Categories:
+Corporate
+|
+Data Center
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
