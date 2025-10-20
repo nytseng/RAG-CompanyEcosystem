@@ -1,0 +1,406 @@
+Eric Veiel
+
+Welcome back to “The Angle from T. Rowe Price”, a podcast for curious investors. I'm Eric Veiel, head of global investments and chief investment officer here at T. Rowe Price Associates. In these special episodes of “The Angle”, we bring you candid conversations with CEOs and industry leaders as they share their personal stories, leadership strategies, and lessons learned from running successful companies.
+
+In this episode, I am excited to welcome Jensen Huang, the Founder and CEO of NVIDIA, the company at the heart of the artificial intelligence revolution. Jensen is a true visionary and someone who is at helm of a company that is potentially reshaping all our lives in ways that we can’t even imagine right now.
+
+Thank you, Jensen, for taking the time to be on “The Angle” today. Really appreciate your time.
+
+Jensen Huang
+
+Thank you. It's great to be here.
+
+Eric Veiel
+
+So I wanted to start, you know, we just, you just wrapped up the GTC[1], your flagship conference, and, one of my colleagues, Sebastian Page, likes to say when you give a presentation and people can only remember 10%. So, your keynote was fantastic, but if you had to give us the 10% or less that you thought people really needed to take away from that, how would you, how would you summarize what you hoped people got out of your keynote?
+
+Jensen Huang
+
+We're in the third wave of AI. It started out with perception AI, where the software where AI can understand the world, recognize the world. The second wave was generative AI. That's where AI can generate content based on some input. And over the last three, four or 5 years, that's been where the focus of the industry.
+
+The third wave is, called Agentic AI, and the technology that makes it possible is reasoning. Agentic AI is an AI that can perceive, reason, and use tools, plan, take action. And then the third wave leads to the fourth wave, which is called a physical AI, where AI interacts with the physical world. The actions it takes. The tools it uses are a physical nature, physical AI, otherwise known as robotics. And so, in the last decade and a half or so, we've moved from perception generative Agentic to now physical AI.
+
+That, that's the first thing. The second thing is, is how AI is scaling. Whereas most of perception and generative, relied on, on a training paradigm called pre-training. It looked at a whole bunch of examples and, and from those examples, recognize patterns, relationships, and train a large model to be able to perceive and generate perception can largely can be accomplished with pre-training.
+
+And so the question is, how do we now scale? And we we demonstrated that the more computing you use, the more data that you have, the more effective the AI model is. The larger the model, the more data, the more compute. And so it's scale. So the harder you worked, the more effective it is. And that scaling law held up for quite a long time. And, and now the question is, are we going to continue to be able to reach the next levels of intelligence by just using pre-training? And the answer is obviously not. Pre-training is still very important. The more you read, the more you experience, which is data, you know, biological data, human data. The more you read, the more you, you experience, likely the smarter you'll be. However, the world's changing all the time, and you have to have some rules, some theorems, some principles from which when you engage experiences that you've never had before, you can reason about whether there's an opportunity, a threat, what does this mean to you? What should you do next? So on and so forth. The basis of intelligence. And so reasoning, the ability to reason is fairly foundational. So the question is how do you learn reasoning.
+
+Eric Veiel
+
+Right.
+
+Jensen Huang
+
+And so, there's a lot of different methods for doing that. And so I talked about reasoning. The computation of reasoning and how you scale computation to be a better reasoner. And then after that, when you learn reasoning, you have to apply reasoning. And reasoning applied is called thinking. And so thinking time, thinking scaling. And so I talked about these three scaling laws. We went from one scaling law a few years ago, and people were excited about that. And it gave them a mental model of how to create better and better AI, but there's a limitation to that. And now we need a two more scaling laws. And so I talked about pre-training scaling law post-training scaling law and then test time scaling law.
+
+And so I would say that that's the, that's the the second thing. And the third thing is recognizing that, Nvidia’s position in the world has really changed. And so the early days was was really about science. Then we moved to industry developers. And that was really about the first phase of creating the computing platform. Then, then it was really about creating the computing systems. And this is, this is where, where, Nvidia became a company where we're interacting with the entire computer industry on how to scale up these giant super computers. And I call them AI factories. And, this, this GTC really, really, is the beginning. Last one and this one is really where we're helping now the world build AI infrastructure. And what that means with the implication of that, has a lot to do with, with, ecosystem planning, supply chain planning, up and down from us, backwards from us, forwards from us. And the reason for that is because infrastructure takes a long time to build.
+
+You know, whereas back in the old days when we built a chip and people bought the chip, the, the purchasing cycle is about six months. And they knew exactly where to put it. They had computers, they could ship it. And then, then the second phase of us becoming an AI factory, if you will, the planning cycle went from six months to probably, you know, call it a couple of years, maybe a year and a half or so. But now we're a foundational part, a fundamental part of the world's infrastructure. You've got to go secure land, secure power, power generators, connection to the grid, planning for the entire AI infrastructure, financing. And so now we're talking about working backwards in the supply chain, probably three to four years. And that's the reason why I laid out Nvidia’s roadmap. You know, no technology company ever lays out a roadmap three to four years.
+
+Eric Veiel
+
+Right.
+
+Jensen Huang
+
+And the reason for that is because the, my last concern, my least concern is that people learn about Nvidia’s secrets and what I whatnot. We still have plenty of innovation. That's inside, that that ultimately goes into our systems and software. And so, so I'm not too concerned about describing our IP too early. I'm mostly focused on making sure that the world is prepared for the type of computing systems that we're building.
+
+Eric Veiel
+
+So many interesting threads to pull on that. Maybe start with the first of the three that you laid out, and let's go a little bit deeper on Agentic AI, because I think at this point, you know, almost everybody's used a chat bot and it's kind of done the first, you know, the first two that you talked about. But the the concept of, of an agent, you reference, there's a billion knowledge workers in the world. And at some point in the not too distant future, there could be 10 billion agents working for those people. Can you give us a tangible example of, you know, how that might affect the lives of somebody in, you know, the health care industry or the travel industry or anyone that that's of interest to you?
+
+Jensen Huang
+
+Let me give you two examples. The single most important thing we do as a company is programing software. Designing chips is a software exercise today, verifying chips is a software exercise, developing software and algorithms that sit on our chips is a software exercise. So, the vast majority of Nvidia engineers are software engineers, chip designers are software engineers today. And 100% of our engineers are going to be, supported by software AI agents before long. The vast majority of them already are. And, and, enables them to be more productive, allows them to do bigger things, prototype big ideas, more quickly, develop software that's more, higher quality, less buggy, more secure. And these AI agents are sitting along with our software engineers and, and of course, we know some of the characteristics of the software AI agents, because of autocomplete, right, when we're tapping typing, it might, you know, just fix our spelling error, or predict the next word. And so, so, for example, all of our software engineers, 100% of our software engineers will have AI agents. All of our, all of our marketing people, all of our salespeople, analysts, we all use, researchers now. Deep research, of course, is an incredible tool.
+
+Eric Veiel
+
+Yeah, we're using it as well. Absolutely amazing.
+
+Jensen Huang
+
+That’s right.
+
+Eric Veiel
+
+In at GTC, you know, one of the things that really struck me was, as you were talking about the use cases and the growth of the AI factories and, the the overall increase in compute. You mentioned that power and energy are the ultimate limiting factors as we kind of sit here today. Talk a little bit about that and how you, how you solve that problem.
+
+Jensen Huang
+
+Yeah. It's really, a really good question. So, so there's a, what Nvidia did, and if I could just take this back a bit. 30 years ago, we had the idea that, that we can create a type of computing platform that it augments the classical general purpose computing systems, could accelerate very heavy-duty algorithms by orders of magnitude. Okay, is the idea is it's sensible in the sense that you, you use the right tools for the right jobs. The computer that we knew that was invented by IBM, and really, really modernized by the system 360, uses a central processing unit, a CPU. It's a general-purpose computer. It's like one single tool that we use for everything. It's like you go into a garage, you got one tool.
+
+Eric Veiel
+
+Yeah, there's a hammer. Start pounding.
+
+Jensen Huang
+
+That's it. Yeah. And so that's it. That's general purpose computing as we know it. Everything is expressed in, instructions that the CPU executes. And that's a strength. But the weakness is that, and we observe that are certain classes of applications - scientific simulations, artificial intelligence, fluid dynamics, seismic processing, CT reconstruction for, you know, x-rays and, and seismic processing, you know, molecular dynamics. I mean, the list of applications, image processing, computer graphics, these there's a domain of applications where if we could create a processor that can, if I can simply describe it as a parallel processor, we can offload a lot of the algorithms that the CPU is working through, you know, inefficiently. And we could take those algorithms and do them incredibly efficiently. And it turns out that those algorithms are 5% of the, 5% of the code of most programs, 5% of the code, but represents 99% of the compute time.
+
+Eric Veiel
+
+Interesting.
+
+Jensen Huang
+
+And so we take 5% of the code, and we offload it into our GPU. And we as a result free accelerate the application 100x. Okay. And so that's the that's the really the big breakthrough. And it took a long time for us to invent this algorithm, this architecture called Cuda. The benefit that we bring is that for many of these applications they either take too long, and so we make them run a lot faster. Or they consume too much energy, and we can reduce the amount of energy necessary to compute them. And as a result, we can take a large supercomputer and put them into a little one. And so, what happened was, the in the early days of deep learning, the AI researchers were using these giant hyperscale clusters to train how to recognize cats. And a couple of a couple of, a couple of, researchers, some in Toronto, some in New York, some here in California, simultaneously discovered that you could use Nvidia GPUs and take those giant supercomputers, which took megawatts of power, and shrink it into a little tiny PC. That's how we discovered deep learning.
+
+And so what Nvidia does, step one is we accelerate software. The benefit of that is reduce the amount of energy used. The benefit of that is to reduce the amount of cost necessary. So, the accelerated computing directly translates to energy efficiency. Energy efficiency is the reason why we go fast. It's hard to go fast when you're not efficient. And so energy efficiency is at the core of everything that we do.
+
+All of our data centers are designed to be maximally energy efficient because otherwise, the throughput of a data centers limited. And so performance per unit energy per, performance per watt is our is our metric for success. So, everything starts with energy efficiency.
+
+Well, the benefit, the indirect benefit of energy efficiency is if you're so efficient, then at any given amount of energy, you could do more. And as a result, we started the machine learning revolution of software. What used to be used to be, use to be hand coding, running on CPUs. Now, because of what we've done, enabled machine learning running on GPUs. We do things so energy efficiently now. We do things so fast now. You might as well just let the computer go figure out what the patterns and relationships are. That's the machine learning and the AI revolution that resulted.
+
+Eric Veiel
+
+One of the things that that people talk about in this concept is of course, Jevons paradox, right. So you become more efficient and then there's more demand because it's, it's lower cost, it's more, you know, accessible. But then that, in and of itself, creates higher usage ultimately, in the end. Is that something that you're.
+
+Jensen Huang
+
+Fantastic.
+
+Eric Veiel
+
+Focused on? Yeah.
+
+Jensen Huang
+
+Fantastic. So what happened? The thing that you said was because we made things so efficient, because we made algorithms so cost effective and, we're cost reducing, we're reducing the cost of inference about 100 times every two years. Now, just take a step back for a second. Moore's law is two times every couple of years. And Moore's Law, compounded over time, was the single most powerful technology force the world has ever known. Nvidia has enabled 100 times every two years.
+
+Eric Veiel
+
+Shattering Moore's Law.
+
+Jensen Huang
+
+Unbelievable. Isn't that right? Now, as a result, the energy used for AI is reducing by 100 times every two years. And if you're interested, I'll explain how. And so we reduce the amount of energy, but simultaneously we reduce the cost. Which then leads to the second thing that you described. So the first thing that we do was actually reduce costs. First thing we actually did was just reduce the energy. But we made something so cost effective that all of a sudden something new was created. And so what was created? And so, if you step back and look at, look at it from the, from the context of, of data centers, the first thing that we did was we reduced the energy necessary for data centers. So the world consumes about $1 trillion worth of data centers doing classical computing of the past, using general purpose computing, that trillion dollars of data centers and all of the associated power, the first thing that we should do is we should go move all of that to accelerated computing.
+
+That trillion dollars of of spend, and all of the energy that's used in general purpose computing would be reduced. And so, so is it true then that we're going to reduce the total spend of computing? Well, it turns out this is the paradox you described. What happened was, on the one hand we revolutionized the way that computing is done and drove energy efficiency. On the other hand, we made computing so cost effective it created something new. And so a new type of data center emerged. And this new type of data center is called AI factories.
+
+And so this is the paradox. On the one hand, where we made possible this incredible shift to low power or high and high efficient, high efficiency computing, but it created a new industry. And because this new industry emerged, called AI, a new industry requires energy to create a new industry. And so, what's going to what's going to be the result and why everybody's so excited now is a new industry has emerged. It's kind of like a new automotive industry. It's not cars, but it's something new. And obviously one of the new things that's going to get created are physical AI’s or robots.
+
+Those robots never existed in society before. And so we've got this multi-trillion dollar industry in front of us, but it needs energy to do so. And so the question now for society is does it want a new industry? Does it want more GDP growth? And if you want more industrial growth then it's going to take energy. And I think people are getting much more. At first, they were they thought what AI was doing was increasing the power necessary for data centers. But now they realize, in fact, it's not so. We're making data centers more efficient. But we created a new type of data centers called AI factories.
+
+Eric Veiel
+
+And people are going to want more and more of them as we continue because find.
+
+Jensen Huang
+
+It creates prosperity and solves problems. And and it's a strange idea in the sense that, that how is it how is it that this is a new industry and it's just pumping out, generating these things called tokens, numbers. And how is it possible that an industry could be formed with numbers, and how, why would these numbers revolutionize health care, financial services, transportation, retail, logistics? Why would it do so? Well, the reason for that is it's called intelligence. We, human intelligence, go into each and every one of these industries and we somehow revolutionized it, transformed it, made it better, innovated. And so now we have this instrument called AI factories. And it's going to produce tokens. And depending on which industry it is, those tokens would be reformulated into the appropriate intelligence of that industry. Sometimes it comes out as, financial services recommendations, or financial services fraud detection capability. Or, or. erm.
+
+Eric Veiel
+
+Well, last month I had Gary Goodhart from Intuitive Surgical, as my, as my guest. And he, without prompting, didn't know that I was chatting with you this month, mentioned Nvidia and how much it's helping his company create better and better tools for surgeons to use as their as their engaging.
+
+Jensen Huang
+
+And so their tokens we generate there are reformulated into robotic action. That's interesting. And so in some, in some area, in some industries, the tokens are reformulated into video sequences, video generation. In some cases the video, you know, instead of, a hand reaching out to pick up a cup in a video, it's actually a robotic hand reaching out to pick up a physical cup. And so, so to the AI, it doesn't really understand the difference, and if it understands the difference it doesn't care, and so.
+
+Eric Veiel
+
+Can we spend a minute because you really, I don't think it was a coincidence that you ended your GTC keynote with a robot coming out, and you certainly talked about that already today. The, the merger of Agentic AI and physical robots, I think is fascinating for, for people and brings in all kinds of exciting use cases. And if you want to go in a different place, it can be less exciting use cases. But where do you think we are in that journey? How far away are we from the manifestation of Agentic AI into functioning robots that we just see as we're going about our daily lives?
+
+Jensen Huang
+
+This year, enterprises will have, all types of Agentic AI's in digital forms.
+
+Eric Veiel
+
+We're actually using them at T. Rowe right now.
+
+Jensen Huang
+
+Fantastic. Yeah, exactly. And so Agentic AI, in the digital form, is going to, it is going to spread across enterprises everywhere. And that's happening right now as we speak. Prototypes, early prototypes, and I would say generation three prototypes of robotic Agentic AI's, physical Agentic AI’s are in engineering use, probably in ten, 15 companies around the world today. And I would say, early production will happen next year. And, and if you go back and think about how engineering works from the moment iPhone one came out, to iPhone three taking off. Because it'd take us a couple of 2 or 3 iterations in volume production to do things right. You know, we get all the kinks out of, if you will. So three iterations out for a robot - four years. And it's going to be incredible. And it will largely just do what you tell it to do.
+
+Eric Veiel
+
+Yeah. So maybe, if I came back here in four or five years, we might see some of these Agentic robots walking around.
+
+Jensen Huang
+
+No, no question about it. In fact in our labs we already have them here.
+
+Eric Veiel
+
+One of the things that we do in investing, is try to do pre mortems. Right. So before we make an investment, hey, if we if we make this investment and it goes wrong, let's do that upfront. It's common practice right. If we did a pre mortem on this concept. So, five years from now I actually come in. There are there are no robots walking around. What do you think would be the reason that that happened, or in this case didn't happen.
+
+Jensen Huang
+
+Well in in the case of humanoid robots, I would say that circumstance is very low, very low probability. And so, it's more likely when you say maybe the risk there is, are they walking around, doing very general things? Or, or meaning that they, they, they do more than just logistics. They do more than just manufacturing. They do more than just, you know, back of the restaurant work. That they're really in the front and just interacting with people in general. I think, I think the odds of the odds of it not being used in, in assembly, warehouse logistics, back of the restaurant type work, it's very low probability. And the reason for that is because the world is, is lacking, labor force severely.
+
+Eric Veiel
+
+And the demographic issues aren't getting any better.
+
+Jensen Huang
+
+And exactly. And every single direction, whether it's the the joy, the the preference of that type of work, you know, or the just the population. Right. And so we're, we're short some ten, 20, 30 million workers around the world. And that's holding back GDP, causing inflation, making it almost impossible for us to, to find a way out, you know. And so, so, robots are going to make a big difference. And people are, you know, companies would love to be able to hire a robot for $100,000 a year. And that robots working all the time and, and the robots getting better and better at the work. And so I think the, the, the odds of humanoid robots or, you know, artificial general robotics, just as that there's artificial general intelligence, artificial general robotics – AGR - is likely to be in domain specific applications quite high.
+
+Now, are we going to have them just wandering around our lobbies? And, in some companies and of course, in some families, probably so, you know, and it's it's probably the early adopters, like the autonomous vacuum cleaners and, you know, people who just love gadgets. And, you know, I'll probably have it and, and, and, you know, can't wait to get it.
+
+Eric Veiel
+
+That's. Yeah, that's it's a, it's fascinating and exciting. But maybe let's pivot just a little bit. One of the things that, I think is incredible about Nvidia and that our team really, our analyst's team, really respects is, you know, you you are the sort of ultimate partner, right? You work with companies across, across the world. And what you do requires a supply chain that's very complex, right? You're using so many different vendors to help create what you do.
+
+Jensen Huang
+
+Each of our computers; ton and a half, a ton and a half.
+
+Eric Veiel
+
+A ton and a half is a lot. And we've seen different scenarios, right? Whether it's Covid, whether it's tariffs like testing the resiliency of supply chains. So maybe talk a little bit about how you view the resiliency of your supply chain now. And, and a little bit about how you had the vision to protect yourself, because you really have done an amazing job at that.
+
+Jensen Huang
+
+Resilience starts with diversity and redundancy. It starts with building upon, transparency, explainability, and the ability to monitor. And if you're, if you're, if you're way of working with your, partners, has a basis of trust and transparency. Notice, notice what I was just saying earlier about GTC. I was transparent about Nvidia's roadmap, three years out. Now, we could be very secretive about that. But in so doing, we we prevented everybody else from preparing for us.
+
+Eric Veiel
+
+Coming along, doing what they have to do.
+
+Jensen Huang
+
+Just based on that one slide that I used, hundreds of thousands of decisions are being made around the world.
+
+Eric Veiel
+
+Does that ever freak you out, that amount of power, on one slide.
+
+Jensen Huang
+
+No, no.
+
+Eric Veiel
+
+I put up a lot of slides. It has never had that kind of impact.
+
+Jensen Huang
+
+And so they're they're, chip designers, power delivery providers, people who are trying to secure real estate, trying to figure out how much cooling to provide. You know, what is the peak power to provide to a data center? Where to build a data center. You know, the number of questions that we answered it was incredible. And so, so transparency. When you're transparent with your suppliers and partners, they become transparent back. Then they start telling you, okay, based on what you said you were going to do and what you said about Rubin and Rubin Ultra and Fineman, based on what you said, our interpretation is, you need this! Is that correct? Now you're talking to each other.
+
+And so, this level of communications transparency, up and down the supply chain is really important for resilience. Other than that, we do very, very, we're rigorous about, about redundancy. Having multiple vendors. We're we're rigorous about, helping our vendors be successful. We want our vendors to be profitable. Because a vendor, a supplier, a partner, a vendor, who is not profitable is probably not dependable. And so, we want them to be resilient. And so we make sure that that, we leave a profit enough for everybody to, to thrive. And so we make sure that the supply chain isn't squeezed to its limit. You want you want them to be to be high performing, you want them to, to, be cost effective, but you also want them to be very profitable. And so those that that philosophy about taking care of the supply chain is something that Nvidia is really well known for. And it comes along with the need for diversity, redundancy and, and resilience.
+
+And and so we're, we advocated for, and we, a large proponent for TSMC, for example, setting up manufacturing here. And then there's the associated supply chain around TSMC. You know, we think about, about the fabs, the, the chipmaking supply chain. It's enormously complex. From the way the packaging is done, the way that it's tested, and all of the other ecosystem. Don’t forget, if you're testing a chip, then what about the ecosystem of people who build testers for the chip and the ecosystem of chips who build testers chips that go into the testers that you use to test your chip? Does that make sense?
+
+Eric Veiel
+
+Yeah, no it does.
+
+Jensen Huang
+
+And you can't just have the testers. You have to have the sockets and not the sockets and, you know, so on and so forth. And just keep working your, your, from whatever you're doing, work your way back. The supply chain is really vast, and really complicated. And so we're working on systematically bringing pieces on, you know, each one of the critical components here. And we've got great partners, and they're going to help us do onshore manufacturing here, and they'll give us yet another source of resilience.
+
+Eric Veiel
+
+That's great. One of the things that I find in and our team is also really impressed with, with your company and with you, is just the way you've been able to maintain, you know, you struck that balance between an engineer, right? Somebody who loves and knows the technology, but that people gravitate to as well. I think I read somewhere that you have somewhere between 50 and 60 direct reports, which blows my mind, as somebody who's had half that at one point and couldn't do it. How do you, how do you manage that balance between the business and the engineering and the people side of being a leader?
+
+Jensen Huang
+
+Well, first, first, the way Nvidia’s built, is is, should represent, it should be optimized for, architected for and optimized for, the work that we do. What is that we build, for the, for the customers and partners that we build it for and the methods by which we build it. And, if you want to build a one-of-a-kind company that builds a one-of-a-kind thing the world's ever known, then building a company's architecture to be a mirror of somebody else's company makes no sense to me. And so you have to start from first principles and say, you know, what is what is it that you're trying to build, and how is it different from what anybody has ever built before? And how would you reason about, the architecture of the most efficient system, the most optimized system for doing this, so that you could create these things, and you take a step back, and you think about what we build. We build GPUs, CPUs, network super NICs, switches of four different kinds. Supercomputing systems. The systems are a miracle. The software that runs is unique. The algorithms that we run on top of our computers; never done before.
+
+And so so you take a step back and you say to yourself, just break it all down, you know, what is it that you're building? And what is the type of, organization? What factory? The organization is just a factory, a knowledge factory. What kind of factory would do it best? And so, Nvidia has to build these complicated systems going across compute and networking and storage, and software and algorithms, and so on. On the one hand, on the other hand, we have to apply it, because we're a partner, a platform for every industry, as you mentioned. We're practically the only AI company in the world that works with every AI company in the world.
+
+And so in the application of AI for health care, application of AI for financial services, application of AI for robotics and manufacturing and logistics, and so on, and so forth. Each one of these, also need to have their domain expertise. And then and then, of course, you want, you want, a company that has, has, sufficient management so that it could be, it could have a reliable system, resilient system and predictable system for building all of those, and make promises to customers. And so you need to have sufficient management on the one hand. But you don't want it to be so bureaucratic, bureaucratic that you can't be agile.
+
+Eric Veiel
+
+Right.
+
+Jensen Huang
+
+And so you got to find that balance between agility and predictability. You know, predictability, guaranteed predictable is the enemy of agility. And so you have to find, you know, here now you're here, you're on the one hand, you designed a, an architecture of a company that can do what you wanted to do. On the other hand, you're designing the personality, the culture of a system, so that the behavior is consistent with, with, you know, doing great things. And so, so you've got, you've got this balance that you're working through. And that's, that's ultimately the job of the CEO is to figure out how to architect the company to do these things. And it has to be ultimately, one thing I heard a long time ago that made a lot of sense to me is the race car had to be built for the driver. You don't build a generically good race car irrespective of the driver. And so, you start with great technology of course. But at some point, all that matters is the race car has to be a car that the driver can drive. And so in a lot of ways this Nvidia’s architecture has to be a machinery, if you will, a system that the management team knows how to drive.
+
+Eric Veiel
+
+Right.
+
+Jensen Huang
+
+And and it was created for us. And one of these days, you know, when we're not here, hopefully, hopefully somebody else will go create, you know, based on the machinery that we created and, and the platform and the ecosystem reach that we have, you know, they'll adjust it for their personality and their nature.
+
+Eric Veiel
+
+It's, it's a fascinating metaphor and one that really kind of begs the question as you think about this amazing, you know, race car that that you've built, that you know, you're driving right now, but you obviously have a team helping you drive, when you think ahead five, ten, 15 years, is it a, is it a race car that looks totally different than, than today because of how just some of the things we talked about earlier have impacted your business? Is that possible?
+
+Jensen Huang
+
+In ten years, there's no question that Nvidia will look totally different. And and in fact, that's one of our strengths. That's one of the beauties of Nvidia. If you go back and look at GTC, and GTC is the is the platform where I tell the story of of Nvidia. And so I think the, the reason if you go back and look at GTC, Eric, every couple of years, it looks completely different. And it's not completely different, as in like some new person came in. It's completely different in the sense that that the things that we talked about in the previous years now came to be! You know, it's almost I love when people say, Jensen, you've been describing Nvidia today for ten years. It's just that finally, we realized how it manifested. And so that's that's exactly true. You know we're we're describing the future. And so when you finally get to the future and you look at what Nvidia is at that moment and compared to ten years ago, the company is different. The technology, we've invented a whole bunch of new things. What matters is different, is formulated in a different way. And so I love that about us. We're changing all the time.
+
+Eric Veiel
+
+And it's amazing because, you know, I think it was around 2014 where you sort of first put out this AI vision. And I think, you know, to say that it was met with some skepticism would be an understatement. Our analyst Tony Wang, who you know really well, still tells a story about in, you know, in late 22 when he saw you at a conference and ChatGPT had just really hit and how you are just so excited that - this is it! This is what we've been talking about. How many of those moments have you had, where it’s like you’ve really felt like, we got it, like, this is the vision that we saw. There's obviously that one. Are there others?
+
+Jensen Huang
+
+There's a whole bunch. There's a, one of my favorite moments was, was, CT reconstruction and, GE telling us that, that they reduced the dosage of x-ray by 99% because of Nvidia, and and, I would have said, wow! Dream come true. Yeah. I, you know, always imagined it. So happy it happened.
+
+Another moment was, was, a quantum chemist in Asia reached out to me and said, Jensen, because of your life's work, because of your work, I can do my life's work in my lifetime. Was I deeply touched that he said that. Yes. Was I hoping that that would happen? And that was the the impact we would have in science. Absolutely.
+
+Another moment was, was, when researchers, realized that, that using AI for, for weather forecasting, not only does it reduce the amount of energy used, you know, right now, as we speak, supercomputers all over the world are trying to predict tomorrow's weather. And they get one day to finish it. And they're trying to predict it out every, you know, about seven days. And it's happening in different regions around the world. Supercomputers are fired up, running continuously all the time doing this, and using AI we, instead of simulating the principled physics of weather, which we understand, we understand physics. We understand how how atmospheres work. We understand that reason why we can predict weather, and and instead of simulating it from principle physics, every single time, we teach an AI how to predict the physics.
+
+And it's almost like it's almost like, teaching a dog how to catch, you know. Yeah, my dogs don't know Newtonian physics. And it doesn't understand string theory, but somehow it catches the ball.
+
+Eric Veiel
+
+It knows how to do that.
+
+Jensen Huang
+
+Yeah. And so and it does it incredibly well. And so, so I think the, so when we first applied AI to, predict weather most people were very skeptical about it and, and then all of a sudden one day they realized not only did we reduce the amount of energy by 10,000 times, we could predict many more ensembles because the the future is chaotic no matter what. There is no one equation for the future. And so you have to take a lot of different shots at the future, different samples, if you will, of the future. And our ensemble is much larger as a result. And because our ensemble is so much larger, and because generative AI can, even though we simulated down to 25km, we can use generative AI to predict what it would have been at one kilometer. So not only do we reduce the energy, improve the precision, we actually increase the resolution of the weather prediction. And so now weather prediction is revolutionized because of it.
+
+Eric Veiel
+
+Right, amazing. And the use cases are beyond. And you know there's really no area that it feels like won't have some impact here.
+
+Jensen Huang
+
+Not that we've thought, not that we've imagined or thought of yet.
+
+Eric Veiel
+
+And it's almost like kind of pointless to decide, oh, this one's going to matter more in the next year than this one, because eventually it's going to impact everything. And.
+
+Jensen Huang
+
+You know, if you if you look at, look at when search first came out, search first came out and we started using search probably call in 19, you know, maybe 1997, 1998, early versions of it. And, and we used search back then, way less than we used ChatGPT and Gemini Pro, and perplexity today. Yeah. I mean, I use them every day.
+
+Eric Veiel
+
+I use them to prepare for this.
+
+Jensen Huang
+
+Okay. Yeah. There you go.
+
+Eric Veiel
+
+I asked perplexity. I don't usually get nervous doing these kinds of things. I'm a little nervous for this one. It gave me an unbelievable answer. Who my psychologist wife said. Wow, that's really good.
+
+Jensen Huang
+
+Oh, well, you're doing great. You're doing great. And and, and so, so if you just look at, look at that, it took, it took a whole generation of, of, of, young people before search just became something they did every single day. But I can't imagine somebody going to school today who's not using AI to help them in school.
+
+Eric Veiel
+
+So, you know, we both have, two kids. Mine are a little younger than yours, but are right, you know, in early college, late high school. And it's been fascinating to watch how the education system has changed on this topic. So not that long ago it was - can't use this stuff. It's going to help you cheat, right, to write your paper or do whatever. Fast forward just a little bit amount of time. And well, we've got to teach kids.
+
+Jensen Huang
+
+How to use. That's right.
+
+Eric Veiel
+
+As a really strong and powerful tool. And it's.
+
+Jensen Huang
+
+This is quite amazing. So we built this supercomputer. The energy efficiency of it is so incredible that we're able to do something called artificial intelligence. Artificial intelligence first came out. Everybody was concerned about, you know, all the things that that that are associated that with AI that you see in movies. We realized that, that what we really need is to develop a whole bunch of technology to keep it safe, just as we developed a whole bunch of technology to, to, make, computers more, tolerant, more resilient to cybersecurity.
+
+And, and so we develop cybersecurity technology, we develop AI safety technology, we develop automotive robotics AI safety technology. And so all of that requires a bunch of technology. And and then, what people are now starting to realize is, in fact, AI is the potentially the single greatest source of, of the single greatest technology that could close the social divide. And so let's talk about what that means. If you look at my generation, because programing a computer is so hard, it's only, only ten, 20, 30 million people in the world do it. That's 30 million people out of 7.5 billion.
+
+And so, 30 million people know how to use this instrument to apply it for their livelihood. And as a result, we create a great technology divide. Well, how many people know how to program a computer versus how many people know how to program an AI? Everybody knows how to ask questions. Just ask it a question. And if you're not sure how to program it, say, how do I program I right? How do I use an AI?
+
+Eric Veiel
+
+Yeah, the gift of prompt skill and prompt skills are going to become an important tool I think that's changing people.
+
+Jensen Huang
+
+And that's the new programing of computers. The way that you program computers in the future is prompting. It's no different than interacting with people, giving instructions, managing, managing people is about prompting, expressing problems in a way that could, that could activate large, large industries and organizations. Leadership is prompting, you know, prompting, learning how to prompt is a level of intelligence that now everybody is learning is quite easy to do. It's easy to engage, it's easy to try. And that's the way you program computers in the future. 100% of society knows how to program in AI now.
+
+Eric Veiel
+
+Yeah, and different people are going to are going to take that into different places. I was sitting with one of our portfolio managers the other day, and he was using deep research, and the prompt that he created was like a paragraph. And it dawned on me, I'm not using this tool nearly to its capability.
+
+Jensen Huang
+
+That's right.
+
+Eric Veiel
+
+Jensen, I want to be respectful of your time. This has been a fascinating conversation.
+
+Jensen Huang
+
+I have enjoyed it very much.
+
+Eric Veiel
+
+Anything that you would, you would leave us with any final thought that, as you think about, you know, the next coming one, two, three, five years that.
+
+Jensen Huang
+
+I think we covered a lot of things that, that, that, is important about about where we are in computing. You know, I think I think at the highest level, we have reinvented the single most important instrument of society called the computer for the first time in 60 years. Everything about how you programed the computer, how you build a computer, and how you operate the computer fundamentally revolutionized. And so in a lot of ways, we've taken one of the largest industries in the world, and we reset it, as a reset, which is, the economic opportunity, the technology opportunity, the innovation opportunity, that we're at the epicenter of.
+
+The next thing is to realize that, that the technology is so incredible, that its ability to revolutionize all the industries that we talked about is really exciting. And for the very first time, the computer is going to, emerge, not only, evolve, not only in, not only as a tool, but because of what it does. It produces intelligence. It's able to engage directly a $100 trillion industry, not just a tool for $100 trillion industry, not $1 trillion tool for $100 trillion industry. But it's now part of the $100 trillion industry. That's right, Agentic AI and physical AI.
+
+Eric Veiel
+
+Embedded.
+
+Jensen Huang
+
+Embedded into the $100 trillion industry. And we just said very clearly just now, that the world would be larger, economically larger today if we had 30 million more workers. And it's actually provable. We know we could be larger. We know we would have less inflation. We know that there would be more economic prosperity if we had 30 million, 40 million, 50 million, more workers. Some of them are information workers, some of them are physical workers. So, the agentic AI opportunity that we're pursuing, the physical robotics AI opportunity that we're pursuing is really about embedding for the very first time computer technology into all of these industries to enable it to grow.
+
+You know, a lot of people first, their first thought is that AI is going to take jobs. AI's first thing I just said is to augment all of the people that I have today. Every software engineers augmented by five six AI agents. Well, every single, every single professional in the future will do so. And my my prediction is that we're going to, frankly, be a little bit busier than ever. And industries will grow, productivity will improve.
+
+Eric Veiel
+
+And people will be doing the parts of the jobs they like.
+
+Jensen Huang
+
+They like. Exactly. We're going to do we're going to be doing a lot of prompting. That's a great way to close it.
+
+Eric Veiel
+
+That's great. Thanks so much, Jensen. It's really been my pleasure.
+
+Jensen Huang
+
+Thank you.
+
+Eric Veiel
+
+Again. I'm Eric Veiel. Thank you for listening to The Angle. We look forward to your company on future episodes. You can find more information about this and other topics on our website. Please rate and subscribe wherever you get your podcasts. The Angle. Better questions, better insights. Only from T Rowe Price.
+

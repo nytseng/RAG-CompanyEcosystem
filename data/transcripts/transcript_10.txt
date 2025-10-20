@@ -1,0 +1,155 @@
+ZAKARIA: This week, Nvidia hit a historic milestone. It became the first company in history to hit $4 trillion in value, surpassing other tech giants like Apple and Microsoft. The success comes from its computer chips that drive today's artificial intelligence revolution. They power everything from chatbots like ChatGPT to robotics to self- driving cars.
+
+I sat down with the man behind it all, Jensen Huang. He founded Nvidia more than three decades ago and still leads the company as CEO.
+
+We'll get to his thoughts on the future of A.I., but I first want to show you what he had to say about the extraordinary competition developing between the United States and China for dominance in this field.
+
+(BEGIN VIDEO CLIP)
+
+ZAKARIA: Jensen, let me ask you about this U.S.-China race that everyone talks about. And let me put it to you this way. For the last three administrations, Trump one, Biden and Trump two, there's been actually a bipartisan consensus that what we should be doing is denying China high-end computing power and capacity by denying them the highest end chips.
+
+You have said that this strategy has backfired. Explain what you mean.
+
+JENSEN HUANG, CEO, NVIDIA: Because depriving someone of technology is not a goal. It's a tactic. And that tactic did not -- was not in service of the goal. The goal, of course, is that -- that United States and China now represent a unique relationship that hasn't existed in the world for a long time. Two incredible countries, both would like to succeed, both would love to prosper, both would love to win. We would like the United States to be the world leader. There's nothing wrong with that aspiration, and we should definitely try to achieve that and strive for that.
+
+In order for America to be the world leader, just like we want the world to be built on the American dollar, using the American dollar as a global standard, we want the American tech stack to be the global standard. We love that the internet was created by American technology and is built on American technology. And so, we should continue to aspire for that. In order for us to do that, we have to be in search of all the A.I. developers in the world. And as it turns out, China is incredible in A.I. because 50 percent of the world's A.I. developers are in China and Chinese.
+
+And so, our mission properly expressed, in order for America to have A.I. leadership, is to make sure that the American tech stack is available to markets all over the world so that amazing developers, including the ones in China, are able to build on American tech stack so that A.I. runs best on the American tech stack.
+
+ZAKARIA: But what if, in doing that, you also are providing the Chinese military, Chinese intelligence with the capacity to supercharge, to turbocharge their weapons with the very best American chips, which are yours?
+
+HUANG: We don't have to worry about that because the Chinese military, no different than the American military, will not seek each other's technology out to be built on top of it. They simply can't rely on it. It could be, of course, limited at any time.
+
+Not to mention, there's plenty of computing capacity in China already. If you just think about the amount of -- number of supercomputers that are in China built by amazing Chinese engineers that are already in operation, they don't -- they don't need Nvidia's chips, certainly, or American tech stacks in order to build their military. ZAKARIA: Let me ask you a broader question. What difference does it make who gets there first? Because at some level, you've described this as electricity. So, if it's a kind of resource that's going to be sprinkled into every industry, everywhere, just like, yes, Edison invented electricity, but the Soviet Union started to use it. Everyone will use A.I., particularly given that there are open source models now.
+
+Let's say I'm a company. I want to use A.I. to make my, you know, my sales force better. I use DeepSeek, or I use Llama, or I use OpenAI. Does it matter whether it's American or Chinese?
+
+HUANG: In the end, I don't think it does. The DeepSeek R1 model is revolutionary. It's the world's first advanced open reasoning model. It's used. It's downloaded millions of times. It's used all over the world.
+
+There were concerns about -- that it was trained in China and that it could be dangerous for that reason. First of all, there's no evidence of that. And whatever evidence there is, if anybody has it, you could just fine tune and distill it out. And so, so the technology itself is really completely incredible. The open source nature of it empowered startup companies, new industries, countries to be able to engage A.I.
+
+Your question about, does it really matter who gets there first? I think in the final analysis, I don't think it does. However, I believe it is core to the American spirit to want to be the world's best. We should want to be the world's best in computing technology.
+
+The computer industry is one of America's national treasures. There is little doubt that this industry that I'm part of is the world's best. And the computer industry is an industry by which every industry is built on.
+
+ZAKARIA: So, I asked Bill Gates this question of whether these -- putting these bans on China actually had the effect of spurring China to develop its own industry at the high-end, and that therefore it was counterproductive.
+
+[10:35:06]
+
+He said, yes, I believe it's been counterproductive. Do you think the same thing?
+
+HUANG: Let me give you an analogy. The recent ban on rare earth minerals has spurred the American industries to as quickly as possible gain independence of rare earth and magnets at a level that I don't think we've ever seen. And so, there's case in point.
+
+ZAKARIA: So, if it happens to us, it must --
+
+HUANG: That's right.
+
+ZAKARIA: -- happen to them.
+
+HUANG: That's right. The fact of the matter is, we are -- we are -- we are competitors but we are highly interdependent and -- to the extent that we can compete and both aspire to win. It is it is fine to respect our competitors. They're not -- they're not doing anything that we don't want to do for our own people. They're not doing anything that we don't aspire for ourselves. And so, we ought to go and compete and innovate and race fast.
+
+(END VIDEOTAPE)
+
+ZAKARIA: Next on GPS, should you be concerned that A.I. will take your job? I asked Jensen Huang that when we come back.
+
+(COMMERCIAL BREAK)
+
+[10:40:45]
+
+ZAKARIA: More now with Nvidia's visionary CEO Jensen Huang to talk about what's next in the A.I. revolution.
+
+(BEGIN VIDEOTAPE)
+
+ZAKARIA: Demis Hassabis says that he thinks A.I. is going to cure all diseases. There are other people who say there's going to be kind of physical A.I. The A.I. will be able to interact with the physical world and, you know, kind of like begin to move things. What are you expecting?
+
+HUANG: OK. Perfect. First of all, Demis is a genius and a really good friend and I'm really proud of him. If we could teach an A.I. how to understand language and images and videos and things like that, you would think that we can also teach A.I. proteins and chemicals, not just the -- not just the structure of them, but the meanings of them. Just like we can teach A.I. vocabulary, but also grammar and semantics, meaning.
+
+And so, we could teach an A.I. the meaning of proteins, the meaning of a chemical and how they interact. And so, that what I just described is essentially the process of drug discovery. Now, in terms of physical, I question that you asked, if you could use a sentence you say, generate a video of a person picking up a glass on a kitchen counter. All of us now have seen, you know, incredible generative models like Google's Veo 3, where you can describe what I just said. And there's a video of a person picking up the glass.
+
+Now, if you can generate a video of a person picking up the glass, why can't you generate now the actions for a robot to pick up the glass. So, the computer I think -- I think you could imagine that we're seeing the art of the possible now.
+
+ZAKARIA: Dario Amodei, the head of Anthropic, says because it's going to be so revolutionary and so disruptive, you're going to see a massacre of white-collar jobs. The people who do, you know, all the routine things in accounting and law and even consulting. What do you think?
+
+HUANG: I would say if the world runs out of ideas, then productivity gains translates to job loss. But over the course of the last 300 years, a hundred years, 60 years even in the era of computers, not only did productivity go up, employment also went up.
+
+Now, the reason for that is because if we're -- if we have an abundance of ideas, ways that we could build a better future, if we were more productive, we could realize that better. Now, of course, in a world of zero-sum games, if you have no more ideas and all you want to do is this, then productivity drives down, drives -- you know, it results in job loss.
+
+The thing that I will say is this on first principles, remember that A.I. is the greatest technology equalizer we have ever seen. It lifts the people who don't understand technology. And the way you prove it is you just look at ChatGPT, look at how many people are using ChatGPT for the very first time, and the first time you use it, you're getting something out of it.
+
+And if you're not sure how to use it, you ask ChatGPT, how do I use you? And how do I formulate this question? It'll -- it'll write the question nicely for you, and then you ask it to answer the question.
+
+And so, A.I. empowers people. It lifts people. It closes the gap, the technology gap. And as a result, more and more people are going to be able to do more things.
+
+I'm certain, a hundred percent of everybody's jobs will be changed. The work that we do in our jobs will be changed. The work will change, but it's very likely -- well, my job has already changed. The work that I do, the work that I do has changed, but I'm still doing my job.
+
+[10:45:00]
+
+And so, I think that everybody's jobs will be affected. Some jobs will be lost. Many jobs will be created. And what I hope is that the productivity gains that we see in all the industries will lift society.
+
+Now, one more last fact. Around the world we're about 30 -- 40 million skilled labor short. If we fill those jobs with robots, the industries will grow, the economy will grow. It'll create more prosperity. It'll create more opportunity.
+
+And so, I think the fundamental thing is this, do we have more ideas left in society? And if we do, if we're more productive, we'll be able to grow.
+
+ZAKARIA: And presumably A.I. will give us more ideas.
+
+HUANG: That's right. Exactly.
+
+(END VIDEOTAPE)
+
+ZAKARIA: Next on GPS, how can A.I. change your life and for the better? I'll ask Nvidia CEO Jensen Huang what each of us can do to harness its power best when we come back.
+
+(COMMERCIAL BREAK)
+
+[10:50:25]
+
+ZAKARIA: With all the hype and fear around A.I., it's easy to lose sight of what it can actually do for you. I ask Nvidia's CEO Jensen Huang just that question.
+
+(BEGIN VIDEOTAPE)
+
+ZAKARIA: Jensen, everyone looks at A.I. and they're fascinated. They're dazzled, but they're scared. What do you say to people if somebody were to say to you, I'm entering this world of A.I. and I'm, you know, 20 years old, I'm 40 years old, what should I do?
+
+HUANG: First of all, recognizing that this technology is the most extraordinary of technologies that the world has ever created. It's the reason why its created now and not a hundred years ago. The ability for us to create a computer that can be seemingly intelligent and to manufacture intelligence of such a broad range of capabilities and do it at such a large scale, of course, is something that is really impactful.
+
+The thing that I would do, and I encourage everybody, a hundred percent of Nvidia employees are encouraged to use A.I. One hundred percent of our software engineers already use A.I. A hundred percent of our chip designers use A.I. It is -- I encourage it to the point of mandating it.
+
+ZAKARIA: You once said that this is the revenge of the English major. Meaning that you can now code just using English, right?
+
+HUANG: The programing language of computers in the future is English, you know, or whatever language you choose. And this is really just such an extraordinary thing. So, what I would recommend for anybody who's concerned about A.I., go use A.I. You know, ChatGPT is so incredibly useful and -- there's ChatGPT. There's Gemini Pro. You know, there's Perplexity. There's Grok. There's -- there's a lot of different -- and I use all four of them.
+
+ZAKARIA: What do you make of this MIT study where they had people use A.I., use just search and not use it. And then at the end of it, they asked them to do cognitive tasks. And the people who had used A.I. scored the worst, which sort of makes some intuitive sense. If you rely a lot on a machine to do all the thinking for you when you're then asked to think, you know, maybe those muscles have gotten slower. How should we -- what would you do in a situation like that?
+
+HUANG: Well, first of all, I haven't looked at that research yet, but I have to admit I'm using A.I. literally every single day, and I think my cognitive skills are actually advancing.
+
+ZAKARIA: Yes.
+
+HUANG: And so -- and the reason for that is because I'm not -- I'm not asking it to think for me. I'm asking it to teach me things that I don't know or help me solve problems that I otherwise wouldn't be able to solve reasonably. The research --
+
+ZAKARIA: So, that's important. So, you say don't use it as a crutch for things you can do. Use it for things you can't do.
+
+HUANG: Yes. I'm not exactly sure what people are using it for that would cause you to not have to think, but you have to think in order -- for example, the idea of prompting an A.I., the idea of asking questions -- for example, you're spending most of your time today asking me questions. In order to ask good questions, it's a highly cognitive skill.
+
+And as a CEO, I spend most of my time asking questions and 90 percent of my instructions are actually, you know, conflated with questions. It is -- it is veiled within questions. And when I'm interacting with A.I., it's a questioning system. You're asking it questions.
+
+And so, I think that in order to formulate good questions you have to be -- you have to be thinking. You have to be analytical. You have to be reasoning yourself.
+
+In order to -- when you receive an answer from an A.I., I wouldn't -- I wouldn't just receive it. Usually what I do is I say, are you sure this is the best answer you can provide? I take the answer from one A.I. I give it to the other A.I. I ask them to critique itself.
+
+You know this is no different than getting three opinions. Three doctors' opinions. I do the same thing. I ask the same question of multiple AIs. And I ask them to compare each other's notes and then, you know, give me the best of all the answers.
+
+And so, I think that process of critiquing, criticizing the answers that you're -- you know, critical thinking enhances cognitive skills. And so, all of the people who are taking those tests, I would advise that they apply critical thinking.
+
+[10:55:01]
+
+ZAKARIA: So, we're going to be OK?
+
+HUANG: We are going to have to stay diligent, never take our eyes off the ball, just like we do with all things that we build, that we're excited about. Most technologies that are revolutionary, the truth of the matter is the engineers take it very seriously and they're doing a good job to try -- to try to build it safely, advance it safely.
+
+I think we need to have global standards. I think we ought to talk about safety. We ought to have amazing people like Geoff Hinton remind us that the technology is incredibly powerful, that we have to dedicate as much attention to advancing its capability, as well as advancing its safety.
+
+All of this is helpful. All of this is helpful and -- but my prediction is that it will be overwhelmingly positive. Some harm will be done. The world has to jump on top of it when that happens, but it will be overwhelmingly, overwhelmingly, incredibly powerful.
+
+ZAKARIA: Jensen Huang, thank you so much for doing this.
+
+HUANG: Thank you very much, Fareed. Thank you. (END VIDEOTAPE)
+
+ZAKARIA: Thanks to all of you for being part of my program this week. I will see you next week.

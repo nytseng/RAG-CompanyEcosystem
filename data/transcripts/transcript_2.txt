@@ -1,0 +1,479 @@
+Speaker 1 (00:00):
+
+(Upbeat music).
+
+Blue (28:17):
+
+This is how intelligence is made, a new kind of factory generator of tokens, the building blocks of AI. Tokens have opened a new frontier, the first step into an extraordinary world where endless possibilities are born. Tokens transform images into scientific data charting alien atmospheres and guiding the explorers of tomorrow. They turn raw data into foresight, so next time we'll be ready. Tokens decode the laws of physics to get us there faster and take us further. Tokens see disease before it takes hold. They help us unravel the language of life and learn what makes us tick. Tokens connect the dots so we can protect our most noble creatures. They turn potential into plenty. And help us harvest our bounty. Tokens don't just teach robots how to move, but to bring joy, to lend us a hand, and put life within reach. Together we take the next great leap to bravely go where no one has gone before. And here is where it all begins.
+
+Speaker 2 (31:24):
+
+Welcome to the stage NVIDIA founder and CEO, Jensen Huang.
+
+Jensen Huang (31:30):
+
+Welcome to GTC. What an amazing year. We wanted to do this at NVIDIA so through the magic of artificial intelligence, we're going to bring you
+
+Jensen Huang (32:00):
+
+…to NVIDIA's headquarters. I think I'm bringing you to NVIDIA's headquarters. What do you think? [inaudible 00:32:15] This is where we work. This is where we work. What an amazing year it was, and we have a lot of incredible things to talk about, and I just want you to know that I'm up here without a net. There are no scripts, there's no teleprompter, and I've got a lot of things to cover. So, let's get started. First of all, I want to thank all of the sponsors, all the amazing people who are part of this conference. Just about every single industry is represented. Healthcare is here, transportation, retail, gosh, the computer industry, everybody in the computer industry is here, and so it's really, really terrific to see all of you, and thank you for sponsoring it. GTC started with GeForce. It all started with GeForce, and today [inaudible 00:33:07] I have here a GeForce 5090, and 5090, unbelievably 25 years later, 25 years after we started working on GeForce, GeForce is sold out all over the world.
+
+(33:23)
+This is the 5090, the Blackwell generation, and comparing it to the 4090, look how it's 30% smaller in volume, it's 30% better at dissipating energy, and incredible performance. Hard to even compare, and the reason for that is because of artificial intelligence. GeForce brought CUDA to the world. CUDA enabled AI, and AI has now come back to revolutionize computer graphics. What you're looking at is real-time computer graphics, 100% path traced for every pixel that's rendered. Artificial intelligence predicts the other 15. Think about this for a second, for every pixel that we mathematically rendered, artificial intelligence inferred the other 15, and it has to do so, with so much precision that the image looks right, and it's temporally accurate, meaning that from frame to frame to frame going forward, or backwards, because it's computer graphics, it has to stay temporally stable. Incredible. Artificial intelligence has made extraordinary progress. It has only been 10 years. Now, we've been talking about AI for a little longer than that, but AI really came into the world's consciousness about a decade ago.
+
+(34:49)
+Started with perception AI, computer vision, speech recognition, then generative AI. The last five years, we've largely focused on generative AI, teaching an AI how to translate from one modality to another, another modality, text to image, image to text, text to video, amino acids to proteins, properties to chemicals, all kinds of different ways that we can use AI to generate content. Generative AI fundamentally changed how computing is done. From a retrieval computing model, we now have a generative computing model, whereas almost everything that we did in the past was about creating content in advance, storing multiple versions of it, and fetching whatever version we think is appropriate at the moment of use. Now, AI understands the context, understands what we're asking, understands the meaning of our request, and generates what it knows. If it needs, it'll retrieve information, augments its understanding, and generate answer for us. Rather than retrieving data, it now generates answers. Fundamentally changed how computing is done. Every single layer of computing has been transformed. The last several years, the last couple, two, three years, major breakthrough happened.
+
+(36:20)
+Fundamental advance in artificial intelligence. We call it agentic AI. Agentic AI basically means that you have an AI that has agency. It can perceive, and understand the context of the circumstance. It can reason, very importantly, it can reason about how to answer, or how to solve a problem, and it can plan an action, it can plan, and take action. It can use tools, because it now understands multimodality information, it can go to a website, and look at the format of the website, words, and videos, maybe even play a video, learns from what it learns from that website, understands it, and come back, and use that information, use that newfound knowledge to do its job. Agentic AI. At the foundation of agentic AI, of course, something that's very new, reasoning. And then of course the next wave is already happening. We're going to talk a lot about that today. Robotics, which has been enabled by physical AI, AI that understands the physical world. It understands things like friction, and inertia, cause, and effect. Object permanence. When [inaudible 00:37:38] doesn't mean it's disappear from this universe, it's still there, just not seeable.
+
+(37:43)
+And so that ability to understand the physical world, the three-dimensional world, is what's going to enable a new era of AI we called physical AI, and it's going to enable robotics. Each one of these phases, each one of these waves opens up new market opportunities for all of us. It brings more, and new partners to GTC. As a result, GTC is now jam-packed. The only way to hold more people at GTC is we're going to have to grow San Jose, and we're working on it. We've got a lot of land to work with. We've got to grow San Jose. So that we can make GTC… Just know as I'm standing here, I wish all of you could see what I see, and we're in the middle of a stadium, and last year was the first year back that we did this live, and it was like a rock concert, and it was described, GTC was described as the Woodstock of AI, and this year it's described as the Super Bowl of AI. The only difference is everybody wins at this Super Bowl. Everybody's a winner. And so, every single year, more people come, because AI is able to solve more interesting problems for more industries, and more companies, and this year we're going to talk a lot about agentic AI, and physical AI. At its core, what enables each wave, and each phase of AI, three fundamental matters are involved. The first is how do you solve the data problem? And the reason why that's important is because AI is a data-driven computer science approach. It needs data to learn from. It needs digital experience to learn from. To learn knowledge, and to gain digital experience. How do you solve the data problem? The second is, how do you solve the training problem without human in the loop? The reason why human in the loop is fundamentally challenging is because we only have so much time, and we would like an AI to be able to learn at super human rates, at super real-time rates, and to be able to learn at a scale that no humans can keep up with.
+
+(40:18)
+And so the second question is, how do you train the model? And the third is how do you scale? How do you create? How do you find an algorithm whereby the more resource you provide, whatever the resource is, the smarter the AI becomes. The scaling law? Well, this last year, this is where almost the entire world got it wrong. The computation requirement, the scaling law of AI is more resilient, and in fact, hyper accelerated. The amount of computation we need at this point as a result of agentic AI as a result of reasoning, is easily 100 times more than we thought we needed this time last year, and let's reason about why that's true. The first part is let's just go from what the AI can do. Let me work backwards. Agentic AI, as I mentioned at this foundation is reasoning. We now have AIs that can reason, which is fundamentally about breaking a problem down step by step. Maybe it approaches a problem in a few different ways, and selects the best answer.
+
+(41:44)
+Maybe it solves the problems the same problem in a variety of ways, and ensure it has the best, the same answer, consistency, checking, or maybe after it's done deriving the answer, it plugs it back into the equation. Maybe a quadratic equation to confirm that in fact it's the right answer instead of just one shot, blurbing it out. Remember, two years ago when we started working with ChatGPT, a miracle as it was, many complicated questions, and many simple questions, it simply can't get right, and it's understandably so. It took a one shot, whatever it learned by studying pre-trained data, whatever it saw from other experiences, pre-trained data, it does a one shot, blurbs it out like a [inaudible 00:42:36] Now we have AIs that can reason step by step by step using a technology called chain of thought, best of end, consistency checking, a variety of different path planning, a variety of different techniques. We now have AIs that can reason. Break a problem down, reason. Step by step by step.
+
+(42:57)
+Well, you could imagine as a result, the number of tokens we generate, and the fundamental technology of AI still the same, generate the next token, predict the next token. It's just that the next token now makes up step one. Then the next token after that, after it generates step one, that step one has gone into the input of the AI again, as it generates step two, and step three, and step four. So, instead of just generating one token, or one word after next, it generates a sequence of words that represents a step of reasoning. The amount of tokens that's generated as a result is substantially higher, and I'll show you in a second, easily 100 times more. Now, 100 times more, what does that mean? Well, it could generate 100 times more tokens, and you can see that happening, as I explained previously, or the model is more complex. It generates 10 times more tokens, and in order for us to keep the model responsive, interactive, so that we don't lose our patience waiting for it to think, we now have to compute 10 times faster.
+
+(44:10)
+And so 10 times tokens, 10 times faster, the amount of computation we have to do is 100 times more easily. And so you're going to see this in the rest of the presentation the amount of computation we have to do for inference is dramatically higher than it used to be. Well, the question then becomes how do we teach an AI how to do what I just described? How to execute this chain of thought? Well, one method is you have to teach the AI how to reason, and as I mentioned earlier in training, there are two fundamental problems we have to solve. Where does the data come from? Where does the data come from, and how do we not have it be limited by human in the loop? There's only so much data, and so much human demonstration we can perform, and so this is the big breakthrough in the last couple of years. Reinforcement learning, verifiable results. Basically reinforcement learning of an AI as it attacks, or tries to engage, solving a problem step by step.
+
+(45:16)
+Well, we have many problems that have been solved in the history of humanity where we know the answer. We know the equation of a quadratic equation, how to solve that. We know how to solve a Pythagorean theorem, the rules of a right triangle. We know many, many rules of math, and geometry, and logic, and science. We have puzzle games that we could give it. Constraint type of problems like Sudoku, those kind of problems, on, and on, and on. We have hundreds of these problem spaces where we can generate millions of different examples, and give the AI hundreds of chances to solve it step by step by step as we use reinforcement learning to reward it as it does a better, and better job. So, as a result, you take hundreds of different topics, millions of different examples, hundreds of different tries, each one of the tries generating tens of thousands of tokens. You put that all together.
+
+(46:29)
+We're talking about trillions, and trillions of tokens in order to train that model, and now with reinforcement learning, we have the ability to generate an enormous amount of tokens, synthetic data generation, basically using a robotic approach to teach an AI. The combination of these two things has put an enormous challenge of computing in front of the industry, and you can see that the industry is responding. This is what I'm about to show you, is hopper shipments of the top four CSPs, the top four CSPs. They're the ones with the public clouds, Amazon, Azure, GCP, and OCI. The top four CSPs, not the AI companies. That's not included. Not all the startups, not included, not enterprise, not included, a whole bunch of things, not included just those four. Just to give you a sense of comparing the peak year of Hopper, and the first year of Blackwell, okay? The peak year of Hopper, and the first year of Blackwell. So, you can kind of see that in fact, AI is going through an inflection point. It has become more useful because it's smarter. It can reason. It is more used.
+
+(47:52)
+You can tell it's more used because whenever you go to ChatGPT these days, it seems like you have to wait longer, and longer, and longer, which is a good thing. It says a lot of people are using it with great effect, and the amount of computation necessary to train those models, and to inference those models has grown tremendously. So, in just one year, and Blackwell has just started shipping in just one year, you could see the incredible growth in AI infrastructure. Well, that's been reflected in computing across the board. We're now seeing, and the purple is the forecast of analysts about the increase of capital expense of the world's data centers, including CSPs, and enterprise, and so on. The world's data centers through the end of the decade, so 2030. I've said before that I expect data center build out to reach a trillion dollars, and I am fairly certain we're going to reach that very soon. Two dynamics is happening at the same time.
+
+(48:59)
+The first dynamic is that the vast majority of that growth is likely to be accelerated, meaning we've known for some time that general purpose computing has run its course, and that we need a new computing approach, and the world is going through a platform shift from hand-coded software running on general purpose computers to machine learning software running on accelerators, and GPUs. This way of doing computation is at this point, past this tipping point, and we are now seeing the inflection point happening, the inflection happening in the world's data center buildouts. So, the first thing is a transition in the way we do computing. Second is an increase in recognition that the future of software requires capital investment. Now, this is a very big idea, whereas in the past, we wrote the software, and we ran it on computers. In the future, the computer's going to generate the tokens for the software, and so the computer has become a generator of tokens, not a retrieval of files.
+
+(50:19)
+From retrieval based computing to generative based computing from the old way of doing data centers to a new way of building these infrastructure, and I call them AI factories. They're AI factories because it has one job, and one job only generating these incredible tokens that we then reconstitute into music, into words, into videos, into research, into chemicals, or proteins. We reconstitute it into all kinds of information of different types. So, the world is going through a transition in not just the amount of data centers that will be built, but also how it's built. Well, everything in the data center will be accelerated. Not all of its AI, and I want to say a few words about this slide. This slide is genuinely my favorite, and the reason for that is because for all of you who been coming to GTC all of these years, you've been listening to me talk about these libraries this whole time.
+
+(51:24)
+This is in fact what GTC is all about. This one slide, and in fact, a long time ago, 20 years ago, this is the only slide we had. One library after another library after another library. You can't just accelerate software just as we needed an AI framework in order to create AIs, and we accelerate the AI frameworks, you need frameworks for physics, and biology, and multiphysics, and all kinds of different quantum physics. You need all kinds of libraries, and frameworks. We call them CUDA-x libraries acceleration frameworks for each one of these fields of science, and so this first one is incredible. This is KooPy numeric. NumPy is the number one most downloaded Python library. Most used Python library in the world. Downloaded 400 million times this last year. cuLitho is compute, and KooPy numeric is a zero change drop-in acceleration for NumPy.
+
+(52:29)
+So, if any of you are using NumPy out there, give KooPy numeric a try. You're going to love it. A cuLitho, a computational lithography library. Over the course of four years, we've now taken the entire process of processing lithography, computational lithography, which is the second factory in a fab. There's the factory that manufactures the wafers, and then there's the factory that manufactures the information to manufacture the wafers. Every industry, every company that has factories will have two factories in the future. The factory for what they build, and the factory for the mathematics, the factory for the AI. Factory for cars, factory for AIs for the cars. Factory for smart speakers, and factories for AI for the smart speakers. And so cuLitho is our computational lithography, TSMC, Samsung, ASML, our partners Synopsys, Mentor, incredible support all over. I think that this is now at its tipping point. In another five years time, every mask, every single lithography will be processed on Nvidia CUDA. Aerial is our library for 5G, turning a GPU into a 5G radio. Why not?
+
+(53:45)
+Signal processing is something we do incredibly well. Once we do that, we can layer on top of it AI, AI for RAN, or what we call AI-RAN. The next generation of radio networks will have AI deeply inserted into it. Why is it that we're limited by the limits of information theory? Because there's only so much information spectrum we can get. Not if we add AI to it. Co-opt numerical, or mathematical optimization. Almost every single industry uses this when you plan seats, and flights, inventory, and customers, workers, and plants, drivers, and riders, so on, and so forth, where we have multiple constraints, multiple constraints, a whole bunch of variables, and you're optimizing for time, profit, quality of service, usage of resource, whatever it happens to be. Nvidia uses it for our supply chain management. cuOPT is an incredible library. It takes what would take hours, and hours, and it turns it into seconds. The reason why that's a big deal is so that we can now explore a much larger space. We announced that we are going to open source cuOPT.
+
+(55:15)
+Almost everybody, everybody's using either Gurobi, or IBM CPLEX, or FICO. We're working with all three of them. The industry is so excited we're about to accelerate the living daylights out of the industry. Parabricks for gene sequencing, and gene analysis. MONAI is the world's leading medical imaging library. EARTH-2 multiphysics for predicting in very high resolution local weather, cuQuantum, and CUDAcu. We're going to have our first quantum day here at GTC. We're working with just about everybody in the ecosystem, either helping them research on quantum architectures, quantum algorithms, or in building a classical accelerated quantum heterogeneous architecture, and so really exciting work there. cuEquivariance, and cuTENSOR for tensor contraction, quantum chemistry. Of course, this stack is world-famous. People think that there's one piece of software called CUDA, but in fact, on top of CUDA is a whole bunch of libraries that's integrated into all different parts of the ecosystem, and software, and infrastructure in order to make AI possible.
+
+(56:33)
+I've got a new one here to announce today. cuDSS, our sparse solvers really important for CAE. This is one of the biggest things that has happened in the last year. Working with Cadence, and Synopsys, and Ansys, and DASO, and all of the systems companies. We've now made possible just about every important EDA, and CAE library to be accelerated. What's amazing is, until recently, NVIDIA has been using general purpose computers, running software super slowly to design accelerated computers for everybody else, and the reason for that is because we never had that software, that body of software optimized for CUDA until recently, and so now our entire industry is going to get supercharged as we move to accelerated computing. cuDF a data frame for structured data, we now have a drop in acceleration for Spark, and drop in acceleration for Pandas. Incredible. And then we have Warp a library for physics that runs in a Python library for physics for CUDA. We have a big announcement there. I'll save it in just a second.
+
+(57:59)
+This is just a sampling of the libraries that make possible accelerated computing. It's not just CUDA. We're so proud of CUDA, but if not for CUDA, and the fact that we have such a large installed base, none of these libraries would be useful for any of the developers who use them. For all the developers that use them, you use it because one, it's going to give you incredible speed up. It's going to give you incredible scale up, and two, because the install base of CUDA is now everywhere. It's in every cloud, it's in every data center, it's available from every computer company in the world. It's literally everywhere, and therefore, by using one of these libraries, your software, your amazing software can reach everyone, and so we've now reached the tipping point of accelerated computing. CUDA has made it possible, and all of you, this is what GTC is about, the ecosystem. All of you made this possible, and so we made a little short video for you. Thank you.
+
+Speaker 3 (59:08):
+
+To the creators, the pioneers, the builders of the future. CUDA was made for you. Since 2006, six million developers in over 200 countries have used CUDA, and transformed computing. With over 900 CUDA X libraries, and AI models, you're accelerating science reshaping industries, and giving machines the power to see, learn, and reason. Now, Nvidia Blackwell is 50,000 times faster than the first CUDA GPU. These orders of magnitude gains in speed, and scale are closing the gap between simulation, and real-time digital twins. And for you, this is still just the beginning. We can't wait to see what you do next.
+
+Jensen Huang (01:00:44):
+
+I love what we do. I love even more what you do with it, and one of the things that most touch me in my 33 years doing this, one scientist said to me, " Jensen, because of the work, because of your work, I can do my life's work in my lifetime", and boy, if that doesn't touch you well, you got to be a corpse. So, this is all about you guys. Thank you. All right, so we're going to talk about AI, but AI started in the cloud. It started in the cloud for good reason, because it turns out that AI needs infrastructure. It's machine learning. If the science says machine learning, then you need a machine to do the science, and so machine learning requires infrastructure, and the cloud data centers had infrastructure. They also have extraordinary computer science, extraordinary research, the perfect circumstance for AI to take off in the cloud, and the CSPs. But that's not where AI is limited to. AI will go everywhere, and we're going to talk about AI in a lot of different ways, and the cloud service providers, of course, they like our leading edge technology.
+
+(01:02:10)
+They like the fact that we have full stack because accelerated computing, as you know, as I was explaining earlier, is not about the chip. It's not even just the chip in the library, the programming model, it's the chip, the programming model, and a whole bunch of software that goes on top of it. That entire stack is incredibly complex. Each one of those layers, each one of those libraries is essentially like SQL. SQL, as you know, is called in storage computing. It was the big revolution of computation by IBM. SQL is one library. Just imagine, I just showed you a whole bunch of them, and in the case of AI, there's a whole bunch more. So, the stack is complicated. They also love the fact that CSPs love that Nvidia CUDA developers are CSP customers, because in the final analysis, they're building infrastructure for the world to use, and so the rich developer ecosystem is really valued, and really, really deeply appreciated.
+
+(01:03:11)
+Well, now that we're going to take AI out to the rest of the world, the rest of the world has different system configurations, operating environment differences, domain-specific library differences, usage differences, and so AI as it translates to enterprise it, as it translates to manufacturing, as it translates to robotics, or self-driving cars, or even companies that are starting GPU clouds. There's a whole bunch of companies, maybe 20 of them who started during the NVIDIA time, and what they do is just one thing. They host GPUs, they call themselves GPU clouds,
+
+Jensen Huang (01:04:00):
+
+… and one of our great partners, CoreWeave is in the process of going public and we're super proud of them. And so GPU Clouds, they have their own requirements, but one of the areas that I'm super excited about is EDGE. And today we announced, we announced today that Cisco, NVIDIA, T-Mobile, the largest telecommunications company in the world, Cerberus ODC are going to build a full stack for radio networks here in the United States.
+
+(01:04:35)
+And that's going to be the second stack. So that this current stack, this current stack we're announcing today, will put AI into the EDGE. Remember, a hundred billion dollars of the world's capital investments each year is in the radio networks and all of the data centers provisioning for communications. In the future there is no question in my mind that's going to be accelerated computing infused with AI. AI will do a far, far better job adapting the radio signals, the massive MIMOs to the changing environments in the traffic conditions.
+
+(01:05:14)
+Of course it would. Of course we would use reinforcement learning to do that. Of course, MIMO is essentially one giant radio robot. Of course it is. And so we will of course provide for those capabilities. Of course, AI could revolutionize communications. When I call home, you don't have to say but that few words, because my wife knows where I work, what that condition's like. Conversation carries on from yesterday. She kind of remembers what I like, don't like. And oftentimes just a few words, you communicate it a whole bunch.
+
+(01:05:52)
+The reason for that is because of context and human priors, prior knowledge. Well, combining those capabilities could revolutionize communications. Look what it's doing for video processing. Well look what I just described earlier in 3D graphics. And so of course we're going to do the same for EDGE. So I'm super excited about the announcement that we made today, T-Mobile, Cisco, NVIDIA, Cerberus ODC are going to build a full stack.
+
+(01:06:28)
+Well, AI is going to go into every industry, that's just one. One of the earliest industries that AI went into was autonomous vehicles. The moment I saw AlexNet, and we've been working on computer vision for a long time, the moment I saw AlexNet was such an inspiring moment, such an exciting moment. It caused us to decide to go all in on building self-driving cars. So we've been working on self-driving cars now for over a decade. We build technology that almost every single self-driving car company uses. It could be either in the data center, for example, Tesla uses lots of NVIDIA GPUs in the data center. It could be in the data center or the car. Waymo and Wave uses NVIDIA computers in data centers as well as the car. It could be just in the car. It's very rare, but sometimes it's just in the car or they use all of our software in addition. We work with the car industry however the car industry would like us to work with them.
+
+(01:07:33)
+We build all three computers, the training computer, the simulation computer, and the robotics computer, the self-driving car computer, all the software stack that sits on top of it, models and algorithms just as we do with all of the other industries that I've demonstrated. And so today I'm super excited to announce that GM has selected NVIDIA to partner with them to build their future self-driving car fleet.
+
+(01:08:09)
+The time for autonomous vehicles has arrived and we're looking forward to building with GM AI in all three areas. AI for manufacturing, so they can revolutionize the way they manufacture. AI for enterprise so they can revolutionize the way they work, design cars and simulate cars. And then also AI for in the car. So AI infrastructure for GM, partnering with GM and building with GM their AI. I'm super excited about that.
+
+(01:08:39)
+One of the areas that I'm deeply proud of and it rarely gets any attention is safety, automotive safety. It's called Halos, in our company it's called Halos. Safety requires technology from silicon to systems, the system software, the algorithms, the methodologies. Everything from diversity, to ensuring diversity, monitoring and transparency, explainability. All of these different philosophies have to be deeply ingrained into every single part of how you develop the system and the software. We're the first company in the world, I believe, to have every line of code safety assessed. 7 million lines of code safety assessed.
+
+(01:09:38)
+Our chip, our system, our system software, and our algorithms are safety assessed by third parties that crawl through every line of code to ensure that it is designed to ensure diversity, transparency, and explainability. We also have filed over a thousand patents and during this GTC, and I really encourage you to do so, is to go spend time in the Halos workshop so that you could see all of the different things that comes together to ensure that cars of the future are going to be safe as well as autonomous. And so this is something I'm very proud of. It rarely gets any attention, and so I thought I would spend the extra time this time to talk about that. Okay, NVIDIA Halos. All of you have seen cars drive by themselves. The Waymode robotaxis are incredible, but we made a video to share with you some of the technology we use to solve the problems of data, and training, and diversity so that we could use the magic of AI to go create AI. Let's take a look.
+
+Speaker 3 (01:11:03):
+
+NVIDIA is accelerating AI development for AVs with Omniverse and Cosmos. Cosmos prediction and reasoning capabilities support AI first AV systems that are end-to-end trainable with new methods of development, model distillation, closed-loop training and synthetic data generation.
+
+(01:11:27)
+First model distillation. Adapted as a policy model, Cosmos's driving knowledge transfers from a slower intelligent teacher to a smaller, faster student inferenced in the car. The teacher's policy model demonstrates the optimal trajectory followed by the student model learning through iterations until it performs at nearly the same level as the teacher. The distillation process bootstraps a policy model, but complex scenarios require further tuning.
+
+(01:12:03)
+Closed-loop training enables fine-tuning of policy models. Log data is turned into 3D scenes for driving closed-loop in physics-based simulation using Omniverse neural reconstruction. Variations of these scenes are created to test the model's trajectory generation capabilities.
+
+(01:12:25)
+Cosmos behavior evaluator can then score the generated driving behavior to measure model performance. Newly generated scenarios and their evaluation create a large data set for closed-loop training, helping AVs navigate complex scenarios more robustly.
+
+(01:12:45)
+Last, 3D synthetic data generation enhances AVs adaptability to diverse environments. From log data Omniverse builds detailed 4D driving environments by fusing maps and images and generates a digital twin of the real world, including segmentation to guide Cosmos by classifying each pixel. Cosmos then scales the training data by generating accurate and diverse scenarios closing the SIM to real gap. Omniverse and Cosmos enable AVs to learn, adapt, and drive intelligently advancing safer mobility.
+
+Jensen Huang (01:13:38):
+
+NVIDIA is the perfect company to do that. Gosh, that's our destiny. Use AI to recreate AI. The technology that we showed you there is very similar to the technology that you're enjoying to take you to a digital twin we call NVIDIA. All right, let's talk about data centers. That's not bad, huh?
+
+(01:14:22)
+Gaussian splats, just in case. Gaussian splats. Well, let's talk about data centers. Blackwell is in full production and this is what it looks like. It's an incredible, incredible… For people, for us, this is a sight of beauty. Would you agree? How is this not beautiful? How is this not beautiful? Well, this is a big deal because we made a fundamental transition in computer architecture. I just want you to know that in fact, I've shown you a version of this about three years ago. It was called Grace Hopper and the system was called Ranger.
+
+(01:15:13)
+The Ranger system is maybe about half of the width of the screen, and it was the world's first NVLink32. Three years ago we showed Ranger working and it was way too large, but it was exactly the right idea. We were trying to solve scale-up. Distributed computing is about using a whole lot of different computers working together to solve a very large problem, but there's no replacement for scaling up before you scale out. Both are important, but you want to scale up first before you scale out.
+
+(01:15:57)
+Well scaling up is incredibly hard, there is no simple answer for it. You're not going to scale it up, you're not going to scale it out like Hadoop. Take a whole bunch of commodity computers, hook it up into a large network and do in storage computing using Hadoop. Hadoop was a revolutionary idea as we know. It enabled hyper scale data centers to solve problems of gigantic sizes and using off-the-shelf computers.
+
+(01:16:28)
+However, the problem we're trying to solve is so complex that scaling in that way would've simply cost way too much power, way too much energy. It would've never… deep learning would've never happened. And so the thing that we had to do was scale up first. Well, this is the way we scaled up. I'm not going to lift this. This is 70 pounds. This is the last generation system architecture, it's called HGX. This revolutionized computing as we know it. This revolutionized artificial intelligence. This is eight GPUs, eight GPUs. Each one of them is kind of like this, okay? This is two GPUs, two black wall GPUs in one black wall package, two black wall GPUs in one black wall package. And there are eight of these underneath this.
+
+(01:17:24)
+And this connects into what we call MVLink8. This then connects to a CPU shelf like that. So there's dual CPUs and that sits on top and we connect it over PCI Express and then many of these get connected with InfiniBand, which turns into what is an AI supercomputer. This is the way it was in the past. This is how we started.
+
+(01:17:52)
+Well, this is as far as we scaled up before we scaled out, but we wanted to scale up even further. And I told you that Ranger took this system and scaled it out, scaled it up by another factor of four. And so we had MVLink32, but the system was way too large. And so we had to do something quite remarkable, re-engineer how MVLink worked and how scale up worked. And so the first thing that we did was we said, "Listen, the MVLink switches are in this system embedded on the motherboard. We need to disaggregate the MVLink system and take it out."
+
+(01:18:33)
+So this is the MV link system. This is an MV link switch. This is the highest performance switch the world's ever made, and this makes it possible for every GPU to talk to every GPU at exactly the same time at full bandwidth. So this is the MVLink switch. We disaggregated it, we took it out and we put it in the center of the chassis. So there are 18 of these switches in nine different racks, nine different switch trays we call them, and then the switches are disaggregated. The compute is now sitting in here.
+
+(01:19:16)
+This is equivalent to these two things in compute. What's amazing is this is completely liquid-cooled and by liquid-cooling it, we can compress all of these compute nodes into one rack. This is the big change of the entire industry. All of you in the audience, I know how many of you are here, I want to thank you for making this fundamental shift from integrated MVLink to disaggregated MVLink, from air-cooled to liquid-cooled, from 60,000 components per computer or so to 600, 000 components per rack, 120 kilowatts fully liquid-cooled. And as a result, we have a one exaflops computer in one rack. Isn't it incredible?
+
+(01:20:27)
+So this is the compute node. This is the compute node, okay? And that now fits in one of these. Now we… 3000 pounds, 5,000 cables, about two miles worth, just an incredible electronics, 600,000 parts. I think that's like 20 cars, 20 cars worth of parts and integrates into one supercomputer.
+
+(01:21:04)
+Well, our goal is to do this. Our goal is to do scale-up and this is what it now looks like. We essentially wanted to build this chip. It's just that no reticle limits can do this. No process technology can do this. It's 130 trillion transistors. 20 trillion of it is used for computing. So it's not like… you can't reasonably build this anytime soon. And so the way to solve this problem is to disaggregate it as I described into the Grace Blackwell MVLink72 rack. But as a result, we have done the ultimate scale-up. This is the most extreme scale-up the world has ever done.
+
+(01:21:50)
+The amount of computation that's possible here, the memory bandwidth, 570 terabytes per second, everything in this machine is now in T's. Everything's a trillion. And you have an exaflops, which is a million trillion floating point operations per second.
+
+(01:22:13)
+Well, the reason why we wanted to do this is to solve an extreme problem. And that extreme problem, a lot of people misunderstood to be easy. And in fact, it is the ultimate extreme computing problem, and it's called inference. And the reason for that is very simple, inference is token generation by a factory and a factory is revenue and profit generating or lack of. And so this factory has to be built with extreme efficiency, with extreme performance because everything about this factory directly affects your quality of service, your revenues, and your profitability. Let me show you how to read this chart because I want to come back to this a few more times.
+
+(01:23:13)
+Basically you have two axes on the x-axis is the tokens per second. Whenever you chat, when you put a prompt into ChatGBT, what comes out is tokens. Those tokens are reformulated into words. It's more than a token per word. And they'll tokenize things like T-H-E could be used for the, it could be used for them, it could be used for theory, it could be used for theatrics, it could be used for all kinds of… And so T-H-E is an example of a token. They reformulate these tokens to turn into words.
+
+(01:23:49)
+Well, we've already established that if you want your AI to be smarter, you want to generate a whole bunch of tokens. Those tokens are reasoning tokens, consistency checking tokens, coming up with a whole bunch of ideas so they can select the best of those ideas tokens. And so those tokens, it might be second-guessing itself. It might be, "Is this the best work you could do?" And so it talks to itself just like we talk to ourselves. And so the more tokens you generate, the smarter your AI.
+
+(01:24:20)
+But if you take too long to answer a question, the customer's not going to come back. This is no different than web search. There is a real limit to how long it can take before it comes back with a smart answer. And so you have these two dimensions that you're fighting against. You're trying to generate a whole bunch of tokens, but you're trying to do it as quickly as possible. Therefore, your token rate matters. So you want your tokens per second for that one user to be as fast as possible.
+
+(01:24:52)
+However, in computer sciences and in factories, there's a fundamental tension between latency response time and throughput. And the reason is very simple. If you're in the large high-volume business, you batch up, it's called batching, you batch up a lot of customer demand and you manufacture a certain version of it for everybody to consume later.
+
+(01:25:19)
+However, from the moment that they batched up and manufacture whatever they did to the time that you consumed it, it could take a long time. No different for computer science, no different for AI factories that are generating tokens. And so you have these two fundamental tensions. On the one hand, you would like the customer's quality of service to be as good as possible, smart AIs that are superfast. On the other hand, you're trying to get your data center to produce tokens for as many people as possible so you can maximize your revenues. The perfect answer is to the upper right.
+
+(01:26:04)
+Ideally, the shape of that curve is a square that you could generate very fast tokens per person up until the limits of the factory, but no factory can do that. And so it's probably some curve, and your goal is to maximize the area under the curve, the product of X and Y, and the further you push out, more likely it means the better of a factory that you're building.
+
+(01:26:37)
+Well, it turns out that in tokens per second for the whole factory and tokens per second response time, one of them requires enormous amount of computation, FLOPS. And then the other dimension requires an enormous amount of bandwidth and FLOPS. And so this is a very difficult problem to solve. The good answer is that you should have lots of FLOPS and lots of bandwidth and lots of memory and lots of everything. That's the best answer to start, which is the reason why this is such a great computer.
+
+(01:27:10)
+You start with the most FLOPS you can, the most memory you can, the most bandwidth you can, of course the best architecture you can, the most energy efficiency you can, and you have to have a programming model that allows you to run software across all of this, insanely hard so that you could do this. Now, let's just take a look at this one demo to give you a tactile feeling of what I'm talking about. Please play it.
+
+Speaker 4 (01:27:37):
+
+Traditional LLMs capture foundational knowledge while reasoning models help solve complex problems with thinking tokens. Here, a prompt asks to seat people around a wedding table while adhering to constraints like traditions, photogenic angles and feuding family members. Traditional LLM answers quickly with under 500 tokens. It makes mistakes in seating the guests, while the reasoning model thinks with over 8,000 tokens to come up with the correct answer, it takes a pastor to keep the peace.
+
+Jensen Huang (01:28:23):
+
+As all of you know if you have a wedding party of 300 and you're trying to find the perfect, well the optimal seating for everyone, that's a problem that only AI can solve or a mother-in-law can solve. And so that's one of those problems that co-op cannot solve.
+
+(01:28:47)
+Okay. So what you see here is that we gave it a problem that requires reasoning, and you saw R1 goes off into reasons about it. It tries all these different scenarios and it comes back and it tests it own answer. It asks itself whether it did it right. Meanwhile, the last generation language model does it one-shot. So the one-shot is 439 tokens. It was fast, it was effective, but it was wrong. So it was 439 wasted tokens. On the other hand, in order for you to reason about this problem and that was actually a very simple problem.
+
+(01:29:24)
+We just give it a few more difficult variables and it becomes very difficult to reason through. And it took 8,000, almost 9,000 tokens, and it took a lot more computation because the model's more complex. Okay, so that's one dimension. Before I show you some results, let just me explain something else. So the answer, if you look at Blackwell, you look at the Blackwell system and it's now the scaled-up MVLink72.
+
+(01:29:53)
+The first thing that we have to do is we have to take this model. And this model is not small. It's in the case of R1, people think R1 is small, but it's 680 billion parameters. Next generation models could be trillions of parameters. And the way that you solve that problem is you take these trillions and trillions of parameters and this model and you distribute the workload across the whole system of GPUs. You can use tensor parallel. You can take one layer of the model and run it across multiple GPUs.
+
+(01:30:28)
+You could take a slice of the pipeline and call that pipeline parallel and put that on multiple GPUs. You could take different experts and put it across different GPUs, we'll call it expert parallel. The combination of pipeline parallelism, and tensor parallelism, and expert parallelism, the number of combinations is insane. And depending on the model, depending on the workload, depending on the circumstance, how you configure that computer has to change so that you can get the maximum throughput out of it.
+
+(01:30:59)
+You also sometimes optimize for very low latency. Sometimes you try to optimize for throughput, and so you have to do some in-flight batching. A lot of different techniques for batching and aggregating work. And so the software, the operating system for these AI factories is insanely complicated. Well, one of the observations, and this is a really terrific thing about having a homogeneous architecture like MVLink72, is that every single GPU could do all the things that I just described.
+
+(01:31:32)
+And we observe that these reasoning models are doing a couple of phases of computing. One of the phases of computing is thinking. When you're thinking you're not producing a lot of tokens, you're producing tokens that you're maybe consuming yourself, you're thinking. Maybe you're reading, you're digesting information, that information could be a PDF, that information could be a website. You could literally be watching a video ingesting all of that at super linear rates. And you take all of that information and you then formulate the answer, formulate a plan to answer.
+
+(01:32:13)
+And so that digestion of information context processing is very FLOPS intensive. On the other hand, during the next phase is called decode. So the first part we call pre-fill the next phase of decode requires floating point operations, but it requires an enormous amount of bandwidth, and it's fairly easy to calculate. If you have a model and it's a few trillion parameters, well, it takes a few terabytes per second. Notice I was mentioning 576 terabytes per second. It takes terabytes per second to just pull the model in from HBM memory and to generate literally one token.
+
+(01:32:58)
+And the reason it generates one token is because remember that these large language models are predicting the next token. That's why they say the next token. It's not predicting every single token, it's predicting the next token. Now, we have all kinds of new techniques, speculative decoding, and all kinds of new techniques for doing that faster. But in the final analysis, you're predicting the next token. And so you ingest pull in the entire model and the context, we call it a KV cache, and then we produce one token. And then we take that one token, we put it back into our brain, we produce the next token, every single one, every single time we do that, we take trillions of parameters in. We produce one token, trillions of parameters in, produce another token, trillions of parameters in, produce another token.
+
+(01:33:44)
+And notice that demo, we produced 8,600 tokens. So trillions of bytes of information, trillions of bytes of information, have been taken into our GPUs and produce one token at a time, which is fundamentally the reason why you want MVLink. MVLink gives us the ability to take all of those GPUs and turn them into one massive GPU, the ultimate scale up.
+
+(01:34:16)
+And the second thing is that now that everything is on MVLink, I can disaggregate the pre-fill from the decode, and I could decide I want to use more GPUs for pre-fill, less for decode, because I'm thinking a lot. I'm doing… It's a agentic, I'm reading a lot of information. I'm doing deep research. Notice during deep research, and earlier I was listening to Michael, and Michael was talking about him doing research and I do the same thing. And we go off and we write these really long research projects for our AI. And I love doing that because I already paid for it, and I just love making our GPUs work and nothing gives me more joy.
+
+(01:35:05)
+So I write up and then it goes off and it does all this research, and it went off to like 94 different websites and it read all this, I'm reading all this information and it formulates an answer and writes the report. It's incredible. During that entire time, pre-fill is super busy, and it's not really generating that many tokens.
+
+(01:35:25)
+On the other hand, when you're chatting with the chatbot, and millions of us are doing the same thing, it is very token generation heavy. It's very decode heavy. And so depending on the workload, we might decide to put more GPUs into decode, depending on the workload, put more GPUs into pre-fill. Well, this dynamic operation is really complicated. So I've just now described pipeline parallel, tensor parallel, expert parallel, in-flight batching, disaggregated inferencing,
+
+Jensen Huang (01:36:00):
+
+… inferencing workload management. And then I've got to take this thing called a KV cache. I've got to route it to the right GPU. I've got to manage it through all the memory hierarchies. That piece of software is insanely complicated. And so today we're announcing the NVIDIA Dynamo.
+
+(01:36:23)
+NVIDIA Dynamo does all that. It is essentially the operating system of an AI factory. Whereas in the past, in the way that we ran data centers, our operating system would be something like VMware and we would orchestrate… And we still do. We're a big user. We orchestrate a whole bunch of different enterprise applications running on top of our enterprise IT. But in the future, the application is not enterprise IT. It's agents. And the operating system is not something like Vmware. It's something like Dynamo. And this operating system is running on top of not a data center, but on top of an AI factory.
+
+(01:37:06)
+Now, we call it Dynamo for a good reason. As you know, the Dynamo was the first instrument that started the last industrial revolution. The industrial revolution of energy. Water comes in, electricity comes out. It's pretty fantastic. Water comes in, you light it on fire, turn it to steam, and what comes out is this invisible thing that's incredibly valuable. It took another 80 years to go to alternate in current, but Dynamo. Dynamo is where it all started. So we decided to call this operating system, this piece of software, insanely complicated software, the NVIDIA Dynamo. It's open source. It's open source. And we're so happy that so many of our partners are working with us on it. And one of my favorite partners, I just love them so much because the revolutionary work that they do, and also because Aravind's such a great guy. But Perplexity is a great partner of ours in working through this. Okay, so anyhow, really, really great.
+
+(01:38:09)
+Okay, so now we're going to have to wait until we scale up all these infrastructure. But in the meantime, we've done a whole bunch of very in-depth simulation. We have supercomputers doing simulation of our supercomputers, which makes sense. And I'm now going to show you the benefit of everything that I've just said. And remember, the factory diagram on the Y-axis, tokens per second throughput of the factory and the X-axis, tokens per second of the user experience. And you want super smart AIs and you want to produce a whole bunch of them. This is Hopper. So this is Hopper. And it can produce for each user, about a hundred tokens per second. This is eight GPUs and it's connected with InfiniBand.
+
+(01:39:10)
+And I'm normalizing it to tokens per second per megawatt. So it's a one megawatt data center, which is not a very large AI factory, but anyhow, one megawatt, okay? And so it can produce for each user a hundred tokens per second, and it can produce at this level, whatever that happens to be, a hundred thousand tokens per second for that one megawatt data center. Or it can produce about two and a half million tokens per second, two and a half million tokens per second for that AI factory if it was super batched up and the customer is willing to wait a very long time. Okay? Does that make sense? All right, so nod. All right, because this is where every GTC, there's the price for entry. You guys know and you get tortured with math, okay? Only at NVIDIA do you get tortured with math. All right, so Hopper, you get two and a half. Now, what's that two and a half million. How do you translate that? Two and a half million. Remember, ChatGPT is like $10 per million tokens, right? $10 per million tokens. Let's pretend for a second that that's… I think the $10 per million tokens is probably down here, okay? I'd probably say it's down here, but let me pretend it's up there because two and a half million, 10, so 25 million per second. Does that make sense? That's how you think through it. Or on the other hand, if it's way down here, then the question is, so it's a hundred thousand, a hundred thousand, just divide that by 10, okay? $250,000 per factory per second. And then what is it? It's 31 million, 30 million seconds in a year.
+
+(01:41:11)
+And that translates into revenues for that 1 million, that one megawatt data center. And so that's your goal. On the one hand, you would like your token rate to be as fast as possible so that you can make really smart AIs. And if you have smart AI's, people pay you more money for it. On the other hand, the smarter the AI, the less you can make in volume. Very sensible trade-off. And this is the curve we're trying to bend. Now, what I'm just showing you right now is the fastest computer in the world, Hopper. It's the computer that revolutionized everything. And so how do we make that better? So the first thing that we do is we come up with Blackwell with NVLink 8, same Blackwell, that one same compute and that one compute node with NVLink- 8 using FP8.
+
+(01:42:01)
+And so Blackwell is just faster, faster, bigger, more transistors, more everything. But we like to do more than that. And so we introduce a new precision. It's not quite as simple as four-bit floating point, but using four-bit floating point, we can quantize the model, use less energy to do the same. And as a result, when you use less energy to do the same, you could do more. Because remember, one big idea is that every single data center in the future will be power limited. Your revenues are power limited. You could figure out what your revenues are going to be based on the power you have to work with. This is no different than many other industries. And so we are now a power limited industry. Our revenues will associate with that. Well, based on that, you want to make sure you have the most energy efficient compute architecture you can possibly get.
+
+(01:43:01)
+The next, then we scale up with NVLink-8. Does that make sense? Look at the difference between that NVLink 72 FP4. And then because our architecture is so tightly integrated and now we add Dynamo to it, Dynamo can extend that even further. Are you following me? So Dynamo also helps Hopper, but Dynamo helps Blackwell incredibly. Yep. Only at GTC do you get an applause for that. And so now notice what I put those two shiny parts, that's kind of where your max Q is. That's likely where you'll run your factory operations. You're trying to find that balance between maximum throughput and maximum quality of AI. Smartest AI, the most of it. Those two, that XY intercept is really what you're optimizing for. And that's what it looks like if you look underneath those two squares. Blackwell is way, way better than Hopper. And remember, this is not ISO chips. This is ISO power.
+
+(01:44:17)
+This is ultimate Moore's law. This is what Moore's law was always about in the past. And now here we are 25X in one generation as ISO power. This is not ISO chips. It's not ISO transistors. It's not ISO anything. ISO power, the ultimate limiter. There's only so much energy we can get into a data center. And so within ISO power, Blackwell is 25 times… Now here's that rainbow. That's incredible. That's the fun part. Look, all the different config… Underneath the Pareto, the Frontier Pareto… We call it the Frontier Pareto. Under the Frontier Pareto are millions of points we could have configured the data center to do. We could have parallelized and split the work and sharded the work in a whole lot of different ways. And we found the most optimal answer, which is the Pareto, the Frontier Pareto, okay? The Pareto Frontier. And each one of them, because of the color shows you it's a different configuration, which is the reason why this image says very, very clearly you want a programmable architecture that is as homogeneously fungible, as fungible as possible because the workload changes so dramatically across the entire frontier.
+
+(01:45:48)
+And look, we got on the top, expert parallel eight, batch of 3000 disaggregation off, dynamo off. In the middle, expert parallel 64 with… Oh, the 26% is used for context. So Dynamo is turned. On 26% context. The other 74% is not. Batch of 64. And expert parallel of 64 on one. Expert parallel four on the other. And then down here all the way to the bottom, you got tensor parallel 16 with expert parallel four, batch of two, 1% context. The configuration of the computer is changing across that entire spectrum. And then this is what happens. So this is with input sequence length. This is kind of a commodity test case. This is a test case that you can benchmark relatively easily. The input is 1000 tokens, the output is 2000. Notice earlier, we just showed you a demo where the output is very simply 9,000, right? 8,000, okay? And so obviously this is not representative of just that one chat. Now this one is more representative and this is what the goal is to build these next generation computers for next generation workloads. And so here's an example of a reasoning model. And in a reasoning model, Blackwell is 40 times the performance of Hopper. Straight up. Pretty amazing. I've said before, somebody actually asked, why would I say that? But I said before that when Blackwell starts shipping in volume, you couldn't give Hoppers away. And this is what I mean. And this makes sense. If anybody, if you're still looking to buy a Hopper, don't be afraid. It's okay, but I'm the chief revenue destroyer. My sales guys are going, "Oh no, don't say that."
+
+(01:48:04)
+There are circumstances where Hopper is fine. That's the best thing I could say about Hopper. There are circumstances where you're fine. Not many, if I have to take a swing. And so that's kind of my point. When the technology is moving this fast and because the workload is so intense and you're building these things, they're factories, we really like you to invest in the right versions. Just to put it in perspective, this is what a hundred megawatt factory looks like. There's a hundred megawatt factory. You have based on Hopper's… You have 45,000 dyes, 1400 racks, and it produces 300 million tokens per second. And then this is what it looks like with Blackwell. You have 86… Yeah, I know. That doesn't make any sense.
+
+(01:49:15)
+Okay, so we're not trying to sell you less. Okay? Our sales guys are going, "Jensen, you're selling them less." This is better. Okay? And so anyways, the more you buy, the more you save. It's even better than that. Now, the more you buy, the more you make. Anyhow, remember, everything now in the context of AI factories. And although we talk about the chips, you always start from scale up. We talk about the chips, but you always start from scale up, the full scale up. What can you scale up to the maximum? I want to show you now what an AI factory looks like. But AI factories are so complicated. I just gave you an example of one rack and it has 600,000 parts. It's 3000 pounds. Now you've got to take that and connect it with a whole bunch of others. And so we are starting to build what we call the digital twin of every data center. Before you build a data center, you have to build a digital twin. Let's take a look at this. This is just incredibly beautiful.
+
+Speaker 3 (01:50:37):
+
+The world is racing to build state-of-the-art large-scale AI factories. Bringing up an AI gigafactory is an extraordinary feat of engineering, requiring tens of thousands of workers from suppliers, architects, contractors and engineers to build ship and assemble nearly 5 billion components. And over 200,000 miles of fiber, nearly the distance from the earth to the moon. The NVIDIA Omniverse Blueprint for AI factory digital twins enables us to design and optimize these AI factories long before physical construction starts. Here, NVIDIA engineers use the Blueprint to plan a one gigawatt AI factory. Integrating 3D and layout data of the latest NVIDIA DGX super pods and advanced power and cooling systems from Vertiv and Schneider Electric, and optimized topology from NVIDIA Air, a framework for simulating network logic, layout and protocols.
+
+(01:51:37)
+This work is traditionally done in silos. The Omniverse Blueprint lets our engineering teams work in parallel and collaboratively, letting us explore various configurations to maximizing TCO and power usage effectiveness. NVIDIA uses Cadence Reality Digital Twin, accelerated by CUDA and Omniverse Libraries to simulate air and liquid cooling systems, and Schneider Electric with ETAP, an application to simulate power block efficiency and reliability. Real-time simulation lets us iterate and run large-scale what-if scenarios in seconds versus hours. We use the digital twin to communicate instructions to the large body of teams and suppliers, reducing execution errors and accelerating time to bring up. And when planning for retrofits or upgrades, we can easily test and simulate cost and downtime, ensuring a future-proof AI factory.
+
+Jensen Huang (01:52:48):
+
+NVIDIA is the first time anybody who builds data centers says, "Oh, that's so beautiful." All right, I got to race here because turns out I got a lot to tell you. And so if I go a little too fast, it's not because I don't care about you. It's just I got a lot of information to go through. All right, so first our roadmap. We're now in full production of Blackwell. Computer companies all over the world are ramping these incredible machines at scale. And I'm just so pleased and so grateful that all of you worked hard on transitioning into this new architecture.
+
+(01:53:29)
+And now in the second half of this year, we will easily transition into the upgrade. So we have the Blackwell Ultra NVLink-72. It's one and a half times more flabs. It's got a new instruction for attention. It's one and a half times more memory. All that memory is useful for things like KV cache. This is two times more bandwidth, for networking bandwidth. And so now that we have the same architecture, we'll just kind of gracefully glide into that, and that's called Blackwell Ultra. Okay? So that's coming second half of this year. Now, there's a reason why… This is the only product announcement in any company where everybody's going, "Yeah, next."
+
+(01:54:18)
+And in fact, that's exactly the response I was hoping to get. And here's why. Look, we're building AI factories and AI infrastructure. It's going to take years of planning. This isn't like buying a laptop. This isn't discretionary spend. This is spend that we have to go plan on. And so we have to plan on having of course, the land and the power and we have to get our CapEx ready and we get engineering teams and we have to lay it out a couple, two, three years in advance, which is the reason why I show you our roadmap a couple, two, three years in advance so that we don't surprise you in May. Hi. In another month, we're going to go to this incredible new system and I'll show you an example in a second. And so we plan this out in multiple years. The next click, one year out is named after an astronomer, and her grandkids are here. Her name is Vera Rubin. She discovered dark matter. Okay? Yep.
+
+(01:55:26)
+Vera Rubin is incredible because the CPU is new. It's twice the performance of grace and more memory, more bandwidth. And yet just a little tiny 50 watts CPU is really quite incredible. And Rubin, brand-new GPU, CX9, brand-new networking smart NIC, NVLink 6, brand-new NVLink, brand-new memories, HBM four. Basically everything is brand-new except for the [inaudible 01:55:58]. And this way we could take a whole lot of risk in one direction and not risk a whole bunch of other things related to the infrastructure. And so Vera Rubin, NVlink 144 is the second half of next year. Now one of the things that I made a mistake on, and so I just need you to make this pivot. We're going to do this one time.
+
+(01:56:21)
+Blackwell is really two GPUs in one Blackwell chip. We call that one chip a GPU. And that was wrong. And the reason for that is it screws up all the link nomenclature and things like that. So going forward, without going back to Blackwell to fix it, going forward, when I say NVLink 144, it just means that it's connected to 144 GPUs. And each one of those GPUs is a GPU die. And it could be assembled in some package. How it's assembled could change from time to time. Okay? And so each GPU die is a GPU. Each NVLink is connected to the GPU. And so Vera Rubin NVLink 144. And then this now sets the stage for the second half of the year, the following year we call Rubin Ultra. Okay? So Vera Rubin Ultra, I know.
+
+(01:57:19)
+This one. This is where you should go, [inaudible 01:57:21]. All right? All right. So this is Vera Rubin, Rubin Ultra. Second half of '27. It's NVLink 576. Extreme scale-up. Each rack is 600 kilowatts, two and a half million parts. Okay? And obviously a whole lot of GPUs and everything is x-factor more. So 14 times more flops, 15 exaflops. Instead of one exaflop as I mentioned earlier, it's now 15 exaflops scaled up exaflops, okay? And it's 300 what? 4.6 petabytes. So 4,600 terabytes per second scale-up bandwidth. I don't mean aggregate. I mean, scale-up bandwidth. And of course lots of brand-new NVLink switch and CX9. And so notice 16 sites, four GPUs and one package, extremely large NVLink.
+
+(01:58:28)
+Now just put that in perspective. This is what it looks like. Okay? Now this is going to be fun. So you are just literally ramping up Grace Blackwell at the moment. And I don't mean to make it look like a laptop, but here go. Okay, so this is what Grace Blackwell looks like, and this is what Rubin looks like. ISO dimension. And so this is another way of saying before you scale out, you have to scale up. Does that make sense? Before you scale up, scale out, you scale up. And then after that you scale out with amazing technology that I'll show you in just a second. All right? So first you scale up and then now that gives you a sense of the pace at which we're moving. This is the amount of scale up flops.
+
+(01:59:17)
+This is scale up flops. Hopper is 1X, Blackwell 68X, Rubin is 900X scale up flops. And then if I turn it into essentially your TCO, which is power on top, power per, and the underneath is the area underneath the curve that I was talking to you about, the square underneath the curve, which is basically flops times bandwidth. Okay? So the way you think about a very easy gut feel, gut check on whether your AI factories are making progress is watts divided by those numbers. And you can see that Rubin, it's going to drive the cost down tremendously. Okay? So that's very quickly NVIDIA's roadmap.
+
+(02:00:15)
+Once a year like clock ticks, once a year. Okay? How do we scale up? Well, we were preparing to scale out… That will scale up as NVLink. Our scale-out network is InfiniBand and SpectrumX. Most were quite surprised that we came into the Ethernet world. And the reason why we decided to do Ethernet is if we could help Ethernet become, like InfiniBand, have the qualities of InfiniBand, then the network itself would be a lot easier for everybody to use and manage. And so we decided to invest in spectrum, we call it SpectrumX. And we brought to it the properties of congestion control and very low latency and amount of software that's part of our computing fabric. And as a result, we made SpectrumX incredibly high-performing.
+
+(02:01:08)
+We scaled up the largest single GPU cluster ever as one giant cluster with SpectrumX, right? And that was Colossus. And so there are many other examples of it. Spectrumx is unquestionably a huge home run for us. One of the areas that I'm very excited about is largest enterprise networking company to take SpectrumX and integrate it into their product line so that they could help the world's enterprises become AI companies. We're at a hundred thousand with CX-7. Now CX-8's coming, CX-9's coming. And during Rubin's time frame, we would like to scale out the number of GPUs to many hundreds of thousands.
+
+(02:01:56)
+Now the challenge with scaling up GPUs to many hundreds of thousands is the connection of the scale-out… The connection on scale-up is copper. We should use copper as far as we can, and that's call it a meter or two. And that's incredibly good connectivity, very high reliability, very good energy efficiency, very low cost. And so we use copper as much as we can on scale-up. But on scale-out where the data centers are now the size of the stadium, we're going to need something much long distance running. And that is where Silicon Photonics comes in. The challenge of Silicon Photonics has been that the transceivers consume a lot of energy. To go from electrical to photonic, has to go through a SerDes, go through a transceiver in a SerDes, several SerDes. And so each one of these… Am I alone? Is anybody… What happened to my networking guys?
+
+Speaker 5 (02:03:04):
+
+Your what?
+
+Jensen Huang (02:03:05):
+
+Can I have this up here? Yeah, yeah, let's bring it up so I can show people what I'm talking about. Okay. So first of all, we're announcing NVIDIA's first co-packaged option, silicon photonic system. It is the world's first 1.6 terabit per second CPO. It is based on a technology called micro ring resonator modulator. And it is completely built with this incredible process technology at TSMC that we've been working with for some time. And we partnered with just a giant ecosystem of technology providers to invent what I'm about to show you.
+
+(02:03:50)
+This is really crazy technology. Crazy, crazy technology. Now, the reason why we decided to invest in MRM is so that we could prepare ourselves using MRM's incredible density and power, better density and power compared to Moxander, which is used for telecommunications when you drive from one data center to another data center in telecommunications. Or even in the transceivers that we use, we use Moxander because the density requirement is not very high until now. And so if you look at these transceivers, this is an example of a transceiver. They did a very good job tangling this up for me.
+
+(02:04:38)
+Oh wow. Thank you. Oh, mother of god. Okay, this is where you got to turn reasoning on. It's not as easy as you think. These are squirrely little things. All right, so this one right here, this is 30 watts, just so you keep and remember, this is 30 watts. And if you buy in high volume, it's a thousand dollars. This is a plug. On this side is electrical. On this side is optical. So optics come through the yellow. You plug this into a switch. It's electrical on this side. There's transceivers, lasers, and it's a technology called Moxander and incredible. And so we use this to go from the GPU to the switch to the next switch, and then the next switch down and the next switch down to the GPU, for example. And so each one of these, if we had a hundred thousand GPUs, we would have a hundred thousand of this side and then another a hundred thousand which connects the switch to the switch.
+
+(02:06:13)
+And then on the other side, I'll attribute that to the other NIC. If we had 250,000, we'll add another layer of switches. And so each GPU, every GPU, 250,000, every GPU would have six transceivers. Every GPU would have six of these plugs. And these six plugs would add 180 watts per GPU, and $6,000 per GPU. Okay? And so the question is how do we scale up now to millions of GPUs? Because if we had a million GPUs multiplied by six, right? It would be 6 million transceivers times 30 watts, 180 megawatts of transceivers. They didn't do any math. They just moved signals around. And so the question is how could we afford… And as I mentioned earlier, energy is our most important commodity.
+
+(02:07:21)
+Everything is related ultimate to energy. So this is going to limit our revenues, our customer's revenues by subtracting out 180 megawatts of power. And so this is the amazing thing that we did. We invented the world's first MRM, micro-mirror. And this is what it looks like. There's a little waveguide. You see that on that waveguide goes to a ring. That ring resonates, and it controls the amount of reflectivity of the waveguide as it goes around and limits and modulates the energy, the amount of light that goes through, and it shuts it off
+
+Jensen Huang (02:08:00):
+
+… off by absorbing it or pass it on. Okay. It turns the light, this direct continuous laser beam into ones and zeros, and that's the miracle. That technology is then… That photonic IC is stacked with the electronic IC, which is then stacked with a whole bunch of micro lenses, which is stacked with this thing called fiber array. These things are all manufactured using this technology at TSMC called… They call it COUPE and packaged using a 3D CoWoS technology, working with all of these technology providers, a whole bunch of them, the names I just showed you earlier, and it turns it into this incredible machine. So let's take a look at the video.
+
+(02:08:40)
+Just a technology marvel, and they turn into these switches, our InfiniBand switch. The silicon is working fantastically. Second half of this year, we will ship the silicon photonic switch in the second half of this year, and the second half of next year, we'll ship the Spectrum-X. Because of the MRM choice, because of the incredible technology risks over the last five years that we did and filed hundreds of patents, and we've licensed it to our partners so that we can all build them, now we're in a position to put silicon photonics with co-package options, no transceivers, fiber, direct fiber in into our switches with a radix of 512. This is the 512 ports. This would just simply not be possible any other way, and so this now set us up to be able to scale up to these multi-hundred-thousand GPUs and multi-million GPUs.
+
+(02:11:18)
+The benefit, just so you imagine this, is incredible. In a data center, we could save tens of megawatts, tens of megawatts. Let's say 10 megawatts. Well, let's say 60 megawatts, 60… 6 megawatts is 10 Rubin Ultra racks. 6 megawatts is 10 Rubin Ultra racks. Right? 60, that's a lot. A hundred Rubin ultra racks of power that we can now deploy into Rubins. All right?
+
+(02:11:55)
+So this is our roadmap. Once a year, once a year, in architecture, every two years, a new product line. Every single year, X factors up, and we try to take silicon risk, or networking risk, or system chassis risk in pieces so that we can move the industry forward as we pursue this incredible technology. Vera Rubin, and I really appreciate the grandkids for being here. This is our opportunity to recognize her and to honor her for the incredible work that she did. Our next generation will be named after Feynman.
+
+(02:12:40)
+Okay. Nvidia's roadmap. Let me talk to you about enterprise computing. This is really important. In order for us to bring AI to the world's enterprise, first, we have to go to a different part of Nvidia, the beauty of Gaussian Splats. Okay. In order for us to take AI to enterprise, take a step back for a second and remind yourself this. Remember, AI and machine learning has reinvented the entire computing stack. The processor is different. The operating system is different. The applications on top are different. The way the applications are different, the way you orchestrate it are different, and the way you run them are different. Let me give you one example.
+
+(02:13:29)
+The way you access data will be fundamentally different than the past. Instead of retrieving precisely the data that you want and you read it to try to understand, it in the future, we will do what we do with Perplexity. Instead of doing retrieval that way, I'll just ask Perplexity what I want. Ask it a question, and it will tell you the answer. This is the way enterprise IT will work in the future as well. We'll have AI agents, which are part of our digital workforce.
+
+(02:13:58)
+There's a billion knowledge workers in the world. There are probably going to be 10 billion digital workers working with us side by side. 100% of software engineers in the future. There are 30 million of them around the world. 100% of them are going to be AI-assisted. I'm certain of that. 100% of Nvidia software engineers will be AI-assisted by the end of this year. So AI agents will be everywhere.
+
+(02:14:22)
+How they run, what enterprises run, and how we run it will be fundamentally different, and so we need a new line of computers. This is what a PC should look like, 20 petaflops. Unbelievable. 72 CPU cores, chip-to-chip interface, HBM memory, and just in case, some PCI Express slots for your GeForce. Okay? So this is called DGX Station. DGX Spark and DGX Station are going to be available by all of the OEMs, HP, Dell, Lenovo, Asus. It's going to be manufactured for data scientists and researchers all over the world. This is the computer of the age of AI. This is what computers should look like, and this is what computers will run in the future. We have a whole lineup for enterprise now from little tiny one to workstation ones, the server ones to supercomputer ones, and these will be available by all of our partners.
+
+(02:15:36)
+We will also revolutionize the rest of the computing stack. Remember, computing has three pillars. There's computing, you're looking at it. There's networking. As I mentioned earlier, Spectrum-X going to the world's enterprise and AI network. The third is storage. Storage has to be completely reinvented. Rather than a retrieval-based storage system. It's going to be a semantics-based retrieval system, a semantics-based storage system. So the storage system has to be continuously embedding information in the background, taking raw data, embedding it into knowledge, and then later, when you access it, you don't retrieve it. You just talk to it. You ask it questions. You give it problems.
+
+(02:16:25)
+One of the examples, I wish we had a video of it, but Aaron at Box even put one up in the cloud, worked with us to put it up in the cloud, and it's basically a super smart storage system. In the future, you're going to have something like that in every single enterprise. That is the enterprise storage of the future, and we're working with the entire storage industry. Really fantastic partners. DDN, and Dell, and HP Enterprise, and Hitachi, and IBM, and NetApp, and Nutanix, and Pure Storage, and VAST, and WEKA. Basically, the entire world storage industry will be offering this stack. For the very first time, your storage system will be GPU-accelerated.
+
+(02:17:17)
+So somebody thought I didn't have enough slides, and so Michael thought I didn't have enough slides, so he said, "Jensen, just in case you don't have enough slides, can I just put this in there?" So this is Michael's slides, but this… He sent this to me. He goes, "Just in case you don't have any slides," and I said, "I got too many slides." But this is such a great slide, and let me tell you why. In one single slide, he's explaining that Dell is going to be offering a whole line of Nvidia enterprise IT, AI infrastructure systems, and all the software that runs on top of it. Okay? So you can see that we're in the process of revolutionizing the world's enterprise.
+
+(02:17:57)
+We're also announcing today this incredible model that everybody can run. So I showed you earlier, R1, a reasoning model. I showed you versus Llama 3, a non-reasoning model. Obviously, R1 is much smarter, but we can do it even better than that, and we can make it possible to be enterprise-ready for any company, and it's now completely open-source. It's part of our system we call NIMS, and you can download it. You can run it anywhere. You can run it on DGX Spark, you can run it on DGX Station. You can run it on any of the servers that the OEMs make. You can run it in the cloud. You can integrate it into any of your agentic AI frameworks.
+
+(02:18:41)
+We're working with companies all over the world, and I'm going to flip through these, so watch very carefully. I've got some great partners in the audience. I want to recognize Accenture. Julie Sweet and her team are building their AI factory and their AI framework, Amdocs, the world's largest telecommunication software company. AT&T, John Stankey and his team building an AT&T AI system, agentic system. Larry Fink and BlackRock team building theirs. Anirudh.
+
+(02:19:09)
+In the future, not only will we hire ASIC designers, we're going to hire a whole bunch of digital ASIC designers from Anirudh, Cadence, that will help us design our chips. So Cadence is building their AI framework, and as you can see in every single one of them, there's Nvidia models, Nvidia NIMS, Nvidia libraries integrated throughout so that you can run it on-prem in the cloud, any cloud.
+
+(02:19:31)
+Capital One, one of the most advanced financial services companies in using technology has Nvidia all over it. Deloitte, Jason and his team. E&Y, Janet and his team. Nasdaq, Adena and her team integrating Nvidia technology into their AI frameworks. Then, Christian and his team at SAP, Bill McDermott and his team at ServiceNow. That was pretty good, huh? First, this is one of those keynotes where the first slide took 30 minutes, and then all the other slides took 30 minutes. All right? So, next, let's go somewhere else. Let's go talk about robotics, shall we?
+
+Audience (02:20:13):
+
+Woo.
+
+Jensen Huang (02:20:17):
+
+Let's talk about robots. Well, the time has come. The time has come for robots. Robots have the benefit of being able to interact with the physical world and do things that otherwise digital information cannot. We know very clearly that the world has severe shortage of human laborers, human workers. By the end of this decade, the world is going to be at least 50 million workers short. We be more than delighted to pay them each $50,000 to come to work. We're probably going to have to pay robots $50,000 a year to come to work, and so this is going to be a very, very large industry.
+
+(02:20:57)
+There are all kinds of robotic systems. Your infrastructure will be robotic. Billions of cameras in warehouses and factories. 10, 20 million factories around the world. Every car is already a robot, as I mentioned earlier, and then now we're building general robots. Let me show you how we're doing that.
+
+Speaker 3 (02:21:17):
+
+Everything that moves will be autonomous. Physical AI will embody robots of every kind in every industry. Three computers built by Nvidia enable a continuous loop of robot AI simulation, training, testing, and real-world experience. Training robots requires huge volumes of data. Internet-scale data provides common sense and reasoning, but robots need action and control data, which is expensive to capture.
+
+(02:21:53)
+With blueprints built on Nvidia Omniverse and Cosmos, developers can generate massive amounts of diverse synthetic data for training robot policies. First, in Omniverse, developers aggregate real-world sensor or demonstration data according to their different domains, robots, and tasks. Then, use omniverse to condition Cosmos, multiplying the original captures into large volumes of photoreal diverse data.
+
+(02:22:25)
+Developers use Isaac Lab to post-train the robot policies with the augmented dataset and let the robots learn new skills by cloning behaviors through imitation learning or through trial and error with reinforcement learning AI feedback. Practicing in a lab is different than the real world. New policies need to be field-tested. Developers use Omniverse for software and hardware in the loop testing, simulating the policies in a digital twin with real-world environmental dynamics with domain randomization, physics feedback, and high-fidelity sensor simulation.
+
+(02:23:11)
+Real-world operations require multiple robots to work together. Mega, an omniverse blueprint lets developers test fleets of post-train policies at scale. Here, Foxconn tests heterogeneous robots in a virtual Nvidia Blackwell production facility. As the robot brains execute their missions, they perceive the results of their actions through sensor simulation, then plan their next action. Mega lets developers test many robot policies, enabling the robots to work as a system, whether for spatial reasoning, navigation, mobility, or dexterity.
+
+(02:23:54)
+Amazing things are born in simulation. Today, we're introducing Nvidia Isaac GR00T N1. GR00T N1 is a generalist foundation model for humanoid robots. It's built on the foundations of synthetic data generation, and learning and simulation. GR00T N1 features a dual-system architecture for thinking fast and slow, inspired by principles of human cognitive processing. The slow thinking system lets the robot perceive and reason about its environment and instructions, and plan the right actions to take. The fast thinking system translates the plan into precise and continuous robot actions.
+
+(02:24:42)
+GR00T N1's generalization lets robots manipulate common objects with ease and execute multi-step sequences collaboratively. With this entire pipeline of synthetic data generation and robot learning, humanoid robot developers can post-train GR00T N1 across multiple embodiments and tasks across many environments. Around the world in every industry, developers are using Nvidia's three computers to build the next generation of embodied AI.
+
+Jensen Huang (02:25:30):
+
+Physical AI and robotics are moving so fast. Everybody, pay attention to this space. This could very well likely be the largest industry of all. At its core, we have the same challenges. As I mentioned before, there are three that we focus on. They are rather systematic. One, how do you solve the data problem? How/where do you create the data necessary to train the AI? Two, what's the model architecture? Then, three, what's the scaling laws? How can we scale either the data, the compute, or both so that we can make AIs smarter, and smarter, and smarter? How do we scale? Those two, those fundamental problems exist in robotics as well.
+
+(02:26:22)
+In robotics, we created a system called Omniverse. It's our operating system for physical AIs. You've heard me talk about Omniverse for a long time. We added two technologies to it. Today, I'm going to show you two things. One of them is so that we could scale AI with generative capabilities and generative model that understand the physical world. We call it Cosmos. Using Omniverse to condition Cosmos and using Cosmos to generate an infinite number of environments allows us to create data that is grounded, grounded, controlled by us, and yet be systematically infinite at the same time. Okay? So, you see, Omniverse, we use candy colors to give you an example of us controlling the robot in the scenario perfectly. Yet, Cosmos can create all these virtual environments.
+
+(02:27:26)
+The second thing, just as we were talking about earlier, one of the incredible scaling capabilities of language models today is reinforcement learning, verifiable rewards. The question is, what's the verifiable rewards in robotics? As we know very well, it's the laws of physics, verifiable physics rewards, and so we need an incredible physics engine. Well, most physics engines have been designed for a variety of reasons. It could be designed because we want to use it for large machineries, or maybe we design it for virtual worlds, video games and such, but we need a physics engine that is designed for very fine grain, rigid, and soft bodies, designed for being able to train tactile feedback, and fine motor skills, and actuator controls.
+
+(02:28:24)
+We need it to be GPU-accelerated so that these virtual worlds could live in super linear time, super real-time, and train these AI models incredibly fast, and we need it to be integrated harmoniously into a framework that is used by roboticists all over the world, MuJoCo. So, today, we're announcing something really, really special. It is a partnership of three companies, DeepMind, Disney Research, and Nvidia, and we call it Newton. Let's take a look at Newton.
+
+Blue (02:29:06):
+
+Hello.
+
+Jensen Huang (02:29:35):
+
+Thank you. All right. Let's start that over, shall we?
+
+Audience (02:29:38):
+
+Okay. Yeah.
+
+Jensen Huang (02:29:40):
+
+Let's not ruin it for them. Hang on a second. Somebody talk to me. I need feedback. What happened? I just need a human to talk to. Come on. That's a good joke. Give me a human to talk to. Janine, I know it's not your fault, but talk to me. We just got two minutes left.
+
+Janine (02:30:04):
+
+I'm right here. They're re-racking it.
+
+Jensen Huang (02:30:06):
+
+They're re-racking it? I don't even know what that means. Okay.
+
+Blue (02:30:46):
+
+Hello.
+
+Jensen Huang (02:30:53):
+
+Tell me. That wasn't amazing. Hey, Blue. How are you doing? How do you like your new physics engine? You like it, huh? Yeah, I bet. I know. Tactile feedback, rigid body, soft body, simulation, super real-time. Can you imagine just now what you were looking at is complete real-time simulation? This is how we're going to train robots in the future. Just so you know, Blue has two computers, two Nvidia computers inside. Look how smart you are. Yes, you're smart. Okay. All right. Hey, Blue, listen. How about let's take them home? Let's finish this keynote. It's lunchtime. Are you ready? Let's finish it up.
+
+(02:31:52)
+We have another announcement. You're good. You're good. Just stand right here. Stand right here. Stand right here. All right. Good. Right there. That's good. All right. Stand. Okay. We have another amazing news. I told you the progress of our robotics has been making enormous progress, and today, we're announcing that GR00T N1 is open-sourced.
+
+(02:32:42)
+I want to thank all of you to come… Let's wrap up. I want to thank all of you for coming to GTC. We talked about several things. One, Blackwell is in full production, and the ramp is incredible. Customer demand is incredible and for good reason. Because there's an inflection point in AI, the amount of computation we have to do in AI is so much greater as a result of reasoning AI, and the training of reasoning AI systems, and agentic systems.
+
+(02:33:13)
+Second, Blackwell NVLink72 with Dynamo is 40 times the performance, AI factory performance of Hopper, and inference is going to be one of the most important workloads in the next decade as we scale out AI. Third, we have annual rhythm of roadmaps that has been laid out for you so that you could plan your AI infrastructure, and then we have three AI infrastructures we're building: AI infrastructure for the cloud, AI infrastructure for enterprise, and AI infrastructure for robots. We have one more treat for you. Play it. Thank you, everybody. Thank you for all the partners that made this video possible. Thank you everybody that made this video possible. Have a great GTC. Thank you. Hey, Blue. Let's go home. Good job. Good little man.
+
+Audience (02:37:16):
+
+I love you. I love Jensen.
+
+Jensen Huang (02:37:17):
+
+Thank you. I love you too. Thank you.
+
