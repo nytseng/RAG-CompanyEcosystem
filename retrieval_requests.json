@@ -1,0 +1,238 @@
+{
+  "requests": [
+    {
+      "request": "How does NVIDIA address physical or resource bottlenecks that constrain the scalability of AI factories used by major companies?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/NVIDIA_Spectrum_X_Ethernet_Switches_Speed_Up_Networks_for_Meta_and_Oracle.txt",
+          "text": "Spectrum-X Ethernet has already demonstrated record-setting efficiency, enabling the world’s largest AI supercomputer to achieve 95% data throughput with its congestion-control technology. By contrast, off-the-shelf Ethernet at scale suffers from thousands of flow collisions, limiting throughput to roughly 60%. This leap in efficiency marks a breakthrough in the economics and performance of AI-scale networking. NVIDIA Spectrum-XGS Ethernet technology, part of the Spectrum-X Ethernet networking platform, enables scale-across capabilities to link data centers across cities, nations and continents into vast, giga-scale AI super-factories."
+        },
+        {
+          "document": "data/nvidia_articles/At_Climate_Week_NYC_NVIDIA_Details_AIs_Key_Role_in_Energy_Efficiency.txt",
+          "text": "NVIDIA NVentures portfolio company, is collaborating with NVIDIA on a recently unveiled NVIDIA Omniverse Blueprint for building high-performance, grid-friendly and energy-efficient AI infrastructure. This new reference design enables the transformation of data centers into fully integrated AI factories — optimized so that every watt of energy contributes to intelligence generation. “As a collaborator on NVIDIA’s reference design for giga-scale AI factories, we’re helping prove that AI compute can be power-flexible,” said Varun Sivaram, founder and CEO of Emerald AI. “It’s a paradigm shift with a massive prize: unlocking 100 gigawatts of untapped power grid capacity and resolving AI’s energy bottleneck while promoting affordable, reliable and clean power grids.”"
+        },
+        {
+          "document": "data/transcripts/transcript_2.txt",
+          "text": "The world is racing to build state-of-the-art large-scale AI factories. Bringing up an AI gigafactory is an extraordinary feat of engineering, requiring tens of thousands of workers from suppliers, architects, contractors and engineers to build ship and assemble nearly 5 billion components. And over 200,000 miles of fiber, nearly the distance from the earth to the moon. The NVIDIA Omniverse Blueprint for AI factory digital twins enables us to design and optimize these AI factories long before physical construction starts. Here, NVIDIA engineers use the Blueprint to plan a one gigawatt AI factory. Integrating 3D and layout data of the latest NVIDIA DGX super pods and advanced power and cooling systems from Vertiv and Schneider Electric, and optimized topology from NVIDIA Air, a framework for simulating network logic, layout and protocols."
+        },
+        {
+          "document": "data/nvidia_articles/Gearing_Up_for_the_Gigawatt_Data_Center_Age.txt",
+          "text": "Distributed computing requires a scale-out infrastructure built for zero-jitter operation — one that can handle bursts of extreme throughput, deliver low latency, maintain predictable and consistent RDMA performance, and isolate network noise. This is why InfiniBand networking is the gold standard for high-performance computing supercomputers and AI factories. With NVIDIA Quantum InfiniBand, collective operations run inside the network itself using Scalable Hierarchical Aggregation and Reduction Protocol technology, doubling data bandwidth for reductions. It uses adaptive routing and telemetry-based congestion control to spread flows across paths, guarantee deterministic bandwidth and isolate noise. These optimizations let InfiniBand scale AI communication with precision. It’s why NVIDIA Quantum infrastructure connects the majority of the systems on the TOP500 list of the world’s most powerful supercomputers, demonstrating 35% growth in just two years."
+        }
+      ]
+    },
+    {
+      "request": "In what ways is the NeMo framework applied to real-world AI model development and applications?",
+      "documents": [
+        {
+          "document": "data/publications/rag_papers_text/1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md",
+          "text": "The toolkit comes with extendable collections of pre-built modules for automatic speech recognition and natural language processing. Furthermore, NeMo provides built-in support for distributed training and mixed precision on latest NVIDIA GPUs"
+        },
+        {
+          "document": "data/nvidia_articles/Now_Were_Talking_NVIDIA_Releases_Open_Dataset_Models_for_Multilingual_Speech_AI.txt",
+          "text": "NVIDIA NeMo , a modular software suite for managing the AI agent lifecycle, accelerated speech AI model development. NeMo Curator , part of the software suite, enabled the team to filter out synthetic examples from the source data so that only high-quality samples were used for model training. The team also harnessed the NeMo Speech Data Processor toolkit for tasks like aligning transcripts with audio files and converting data into the required formats."
+        },
+        {
+          "document": "data/nvidia_articles/The_AI_Makers_NVIDIA_Partners_in_UK_Advance_Physical_and_Agentic_AI_Robotics_Life_Sciences_and_More.txt",
+          "text": "Agentic and Generative AI Innovations AI model builders and startups are working with NVIDIA to transform the U.K. technology sector with agentic and generative AI tools that advance productivity, from financial large language models to AI voice agents. Aveni created a financial LLM using the NVIDIA NeMo software suite to power its next-generation agentic framework that can interact with live financial systems, communicate with customers and advise on risk outcomes while ensuring compliance, transparency and control."
+        },
+        {
+          "document": "data/nvidia_articles/AI_On_How_Onboarding_Teams_of_AI_Agents_Drives_Productivity_and_Revenue_for_Businesses.txt",
+          "text": "With software like NVIDIA NIM and NeMo microservices, developers can swap in different models and connect tools based on their needs. The result: task-specific agents fine-tuned to meet a business’ goals, data strategy and compliance requirements."
+        },
+        {
+          "document": "data/transcripts/transcript_11.txt",
+          "text": "NASDAQ realized a 30% improvement in accuracy and response time in its AI platform's search capabilities and Shell's custom LLM achieved a 30% increase in accuracy when trained with NVIDIA Nemo. Nemo's parallelism techniques accelerated model training time by 20% when compared to other frameworks."
+        }
+      ]
+    },
+    {
+      "request": "What is NVIDIA’s broader vision of AI agents in the real world?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/AI_On_How_Onboarding_Teams_of_AI_Agents_Drives_Productivity_and_Revenue_for_Businesses.txt",
+          "text": "AI is no longer solely a back-office tool. It’s a strategic partner that can augment decision-making across every line of business. Whether users aim to reduce operational overhead or personalize customer experiences at scale, custom AI agents are key. As AI agents are adopted across enterprises, managing their deployment will require a deliberate strategy. The first steps are architecting the enterprise AI infrastructure to optimize for fast, cost-efficient inference and creating a data pipeline that keeps agents continuously fed with timely, contextual information. Alongside human and hardware resourcing, onboarding AI agents will become a core strategic function for businesses as leaders orchestrate digital talent across the organization."
+        },
+        {
+          "document": "data/transcripts/transcript_12.txt",
+          "text": "You know, a lot of people first, their first thought is that AI is going to take jobs. AI's first thing I just said is to augment all of the people that I have today. Every software engineers augmented by five six AI agents. Well, every single, every single professional in the future will do so. And my my prediction is that we're going to, frankly, be a little bit busier than ever. And industries will grow, productivity will improve.  Eric Veiel  And people will be doing the parts of the jobs they like.  Jensen Huang  They like. Exactly. We're going to do we're going to be doing a lot of prompting. That's a great way to close it."
+        },
+        {
+          "document": "data/transcripts/transcript_2.txt",
+          "text": "There's a billion knowledge workers in the world. There are probably going to be 10 billion digital workers working with us side by side. 100% of software engineers in the future. There are 30 million of them around the world. 100% of them are going to be AI-assisted. I'm certain of that. 100% of Nvidia software engineers will be AI-assisted by the end of this year. So AI agents will be everywhere."
+        },
+        {
+          "document": "data/transcripts/transcript_5.txt",
+          "text": "And then now above that is when we can start talking about how are these AI agents going to change the work of doctors or financial service professionals or customer care or in our company, just as a starting point, every single software engineer is now assisted by AI assistance and the amount of code that we check into the company is incredible. As a result, our productivity has shot up through the roof and we’re hiring more people because it enabled us to create more things that the world desires, increases our revenues and increases our ability to hire."
+        },
+        {
+          "document": "data/nvidia_articles/Meet_the_Streamlabs_Streaming_Assistant_Accelerated_by_NVIDIA_RTX.txt",
+          "text": "Today’s creators are equal parts entertainer, producer and gamer, juggling game commentary, scene changes, replay clips, chat moderation and technical troubleshooting — all while trying to play their best. Agentic AI presents huge potential for creators. The technology can power intelligent collaborators that can help cohost, produce or troubleshoot livestreams in real time to make space for what matters most: connecting with audiences. At Logitech G PLAY 2025 , Streamlabs released its Intelligent Streaming Agent , an AI assistant developed using technologies from NVIDIA and Inworld , that helps livestreamers produce high-quality broadcasts with remarkable ease."
+        }
+      ]
+    },
+    {
+      "request": "What kinds of medical AI projects or clinical applications have been developed or are currently being improved as a result of using NVIDIA GPUs?",
+      "documents": [
+        {
+          "document": "data/transcripts/transcript_6.txt",
+          "text": "JENSEN HUANG: Partly, researchers discovering it, partly internal inspiration and partly solving a problem. And, you know, a lot of interesting ideas come out of that soup. You know, some of it is aspiration and inspiration. Some of it is just desperation, you know. And so in the case of CUDA is very much the same way. And, probably the first external ideas of using our GPUs for parallel processing emerged out of some interesting work in medical imaging.  A couple of researchers at Mass General were using it to do CT reconstruction. They were using our graphics processors for that reason, and it inspired us."
+        },
+        {
+          "document": "data/publications/rag_papers_text/1280094.1280104_CITED-70_A_hardware_redundancy_and_recovery_mecha.md",
+          "text": "NVIDIA’s GeForce 8800 GTX GPU produces a theoreti- cal maximum of 346 GFLOPS, almost double the through- put of the fastest supercomputer in the world only a little over a decade ago [TOP94]. With this kind of processing power, even lower budget organizations are starting to look toward GPUs as a platform for highly parallel, compute in- tensive, vertical market applications with the aim of moving batch processing online and away from more costly, cluster based solutions. One example of a new market where GPUs are starting to make inroads is that of radiology, where GPUs are employed for medical image processing. This is a do- main in which errors are often very costly, both in ﬁnancial terms and liability, and potentially also in human life. Erro- neous computation can lead to death."
+        },
+        {
+          "document": "data/transcripts/transcript_2.txt",
+          "text": "Almost everybody, everybody's using either Gurobi, or IBM CPLEX, or FICO. We're working with all three of them. The industry is so excited we're about to accelerate the living daylights out of the industry. Parabricks for gene sequencing, and gene analysis. MONAI is the world's leading medical imaging library. EARTH-2 multiphysics for predicting in very high resolution local weather, cuQuantum, and CUDAcu. We're going to have our first quantum day here at GTC. We're working with just about everybody in the ecosystem, either helping them research on quantum architectures, quantum algorithms, or in building a classical accelerated quantum heterogeneous architecture, and so really exciting work there. cuEquivariance, and cuTENSOR for tensor contraction, quantum chemistry. Of course, this stack is world-famous. People think that there's one piece of software called CUDA, but in fact, on top of CUDA is a whole bunch of libraries that's integrated into all different parts of the ecosystem, and software, and infrastructure in order to make AI possible."
+        }
+      ]
+    },
+    {
+      "request": "What are some benefits of adopting digital twin technology specifically in industrial operations?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/Into_the_Omniverse_How_OpenUSD_and_Digital_Twins_Are_Powering_Industrial_and_Physical_AI.txt",
+          "text": "built a digital twin platform that integrates critical planning and production data to enable its teams to streamline planning, as well as simulate and optimize plants, machines and workflows."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Partners_With_AI_Infrastructure_Ecosystem_to_Unveil_Reference_Design_for_Giga_Scale_AI_Factor.txt",
+          "text": "These digital twins not only optimize AI factories before they’re built — they also help manage them once they’re operational."
+        },
+        {
+          "document": "data/nvidia_articles/AI_On_6_Ways_AI_Agents_Are_Raising_Team_Performance_and_How_to_Measure_It.txt",
+          "text": "Pegatron developed the PEGA AI Factory platform to accelerate the development of AI agents across the company by 400% in the last four years. In addition, the company’s digital twin platform PEGAVERSE was built on the NVIDIA Omniverse platform and lets engineers virtually simulate, test and optimize production lines before they’re built, cutting factory construction time by 40%."
+        },
+        {
+          "document": "data/transcripts/transcript_2.txt",
+          "text": "NVIDIA uses Cadence Reality Digital Twin, accelerated by CUDA and Omniverse Libraries to simulate air and liquid cooling systems, and Schneider Electric with ETAP, an application to simulate power block efficiency and reliability. Real-time simulation lets us iterate and run large-scale what-if scenarios in seconds versus hours. We use the digital twin to communicate instructions to the large body of teams and suppliers, reducing execution errors and accelerating time to bring up. And when planning for retrofits or upgrades, we can easily test and simulate cost and downtime, ensuring a future-proof AI factory."
+        }
+      ]
+    },
+    {
+      "request": "What partnerships has NVIDIA formed to expand AI infrastructure across major cloud platforms?",
+      "documents": [
+        {
+          "document": "data/transcripts/transcript_11.txt",
+          "text": "Adoption is widespread across major CSPs and consumer internet companies, including Coreweave, Microsoft Azure, Oracle Cloud and xAI. This quarter we added Google Cloud and Meta to the growing list of Spectrum-X customers."
+        },
+        {
+          "document": "data/nvidia_articles/Microsoft_Azure_Unveils_Worlds_First_NVIDIA_GB300_NVL72_Supercomputing_Cluster_for_OpenAI.txt",
+          "text": "Today’s achievement is the result of years of deep partnership between NVIDIA and Microsoft purpose-building AI infrastructure for the world’s most demanding AI workloads and to deliver infrastructure for the next frontier of AI. It marks another leadership moment, ensuring that leading-edge AI drives innovation in the United States."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_and_Oracle_to_Accelerate_Enterprise_AI_and_Data_Processing.txt",
+          "text": "“I believe the AI market has been defined by critical partnerships such as the one between Oracle and NVIDIA,” said Mahesh Thiagarajan, executive vice president of Oracle Cloud Infrastructure. “These partnerships provide force multipliers that help ensure customer success in this rapidly evolving space. OCI Zettascale10 delivers multi‑gigawatt capacity for the most challenging AI workloads with NVIDIA’s next-generation GPU platform. In addition, the native availability of NVIDIA AI Enterprise on OCI gives our joint customers a leading AI toolset close at hand to OCI’s 200+ cloud services, supporting a long tail of customer innovation.”"
+        },
+        {
+          "document": "data/nvidia_articles/Industry_Leaders_Transform_Enterprise_Data_Centers_for_the_AI_Era_With_NVIDIA_RTX_PRO_Servers.txt",
+          "text": "Cloud service providers CoreWeave and Google Cloud are now offering instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with additional instances coming later this year from AWS, Nebius and Vultr."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Blackwell_Ultra_Sets_the_Bar_in_New_MLPerf_Inference_Benchmark.txt",
+          "text": "NVIDIA partners — including cloud service providers and server makers — submitted great results using the NVIDIA Blackwell and/or Hopper platform. These partners include Azure, Broadcom, Cisco, CoreWeave, Dell Technologies, Giga Computing, HPE, Lambda, Lenovo, Nebius, Oracle, Quanta Cloud Technology, Supermicro and the University of Florida."
+        }
+      ]
+    },
+    {
+      "request": "What sustainability efforts or energy efficiency improvements has NVIDIA announced for data centers?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/At_Climate_Week_NYC_NVIDIA_Details_AIs_Key_Role_in_Energy_Efficiency.txt",
+          "text": "Energy efficiency in large language model inference has improved 100,000x in the past 10 years — demonstrating that accelerated computing is sustainable computing. NVIDIA is continuously working to decrease its own carbon footprint. Its first product carbon footprint summary comparison was recently released — revealing a 24% reduction in carbon footprint for the HGX B200 baseboards. NVIDIA will continue to publish product carbon footprint summaries of newly released products to spotlight improvements in energy efficiency and sustainability. In terms of NVIDIA's physical footprint, all offices and data centers under the company's operational control run on 100% renewable energy — and carbon-free electricity is purchased to cover 100% of the company's leased data centers' footprint."
+        },
+        {
+          "document": "data/nvidia_articles/Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt",
+          "text": "The NVIDIA GB200 NVL72 rack-scale system connects 36 NVIDIA Grace CPUs and 72 Blackwell GPUs with NVIDIA NVLink interconnect, delivering 40x higher revenue potential, 30x higher throughput, 25x more energy efficiency and 300x more water efficiency, even when running the most complex models."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Partners_Drive_Next_Gen_Efficient_Gigawatt_AI_Factories_in_Buildup_for_Vera_Rubin.txt",
+          "text": "Moving to 800 VDC infrastructure from traditional 415 or 480 VAC three-phase systems offers increased scalability, improved energy efficiency, reduced materials usage and higher capacity for performance in data centers. The electric vehicle and solar industries have already adopted 800 VDC infrastructure for similar benefits."
+        },
+        {
+          "document": "data/nvidia_articles/Gearing_Up_for_the_Gigawatt_Data_Center_Age.txt",
+          "text": "Infiniband switches push InfiniBand to new heights. Each switch provides 144 ports of 800 Gbps connectivity, featuring hardware-based SHARPv4, adaptive routing and telemetry-based congestion control. The platform integrates co-packaged silicon photonics to minimize the distance between electronics and optics, reducing power consumption and latency. Paired with NVIDIA ConnectX-8 SuperNICs delivering 800 Gb/s per GPU, this fabric links trillion-parameter models and drives in-network compute."
+        },
+        {
+          "document": "data/transcripts/transcript_14.txt",
+          "text": "The reason why we sell so much is because our price performance is the best, and it's absolutely the case that performance per watt is incredibly important. And the reason for that is because a data center is only so large. That data center could be 250 megawatts, or it could be a gigawatt. But within that data center, however large it is, you want the amount of revenues you can generate to be as high as possible. So, you want to generate very high-quality tokens. And in order to do that, your performance has to be excellent, and your performance per watt has to be excellent. And so, the simple way to thinking about that is if your performance per unit energy is the highest, the revenues you can help a company generate is the absolute highest."
+        }
+      ]
+    },
+    {
+      "request": "How has NVIDIA scaled AI performance from Hopper to Blackwell?",
+      "documents": [
+        {
+          "document": "data/transcripts/transcript_2.txt",
+          "text": "Just to put it in perspective, this is what a hundred megawatt factory looks like. There's a hundred megawatt factory. You have based on Hopper's… You have 45,000 dyes, 1400 racks, and it produces 300 million tokens per second. And then this is what it looks like with Blackwell. You have 86… Yeah, I know. That doesn't make any sense. This is what it looks like with Blackwell. And ISO power, ISO power, 86,000 dyes. Now the difference is 86,000 GPUs versus 45,000 GPUs. 700 racks instead of 1400 racks, half the racks. 86,000 GPUs versus 45,000. And the performance is 1.2 billion tokens per second versus 300 million."
+        },
+        {
+          "document": "data/transcripts/transcript_11.txt",
+          "text": "In the latest MLPerf inference results, we submitted our first results using GB200 and BL72, delivering up to 30X higher inference throughput compared to our 8 GPU H200 submission on the challenging Lama 3.1 benchmark. This feat was achieved through a combination of tripling the performance per GPU as well as 9X more GPUs all connected on a single and be linked. And while Blackwell is still early in its lifecycle, software optimizations have already improved its performance by 1.5X in the last month alone. We expect to continue improving the performance of Blackwell through its operational life as we have done with Hopper and Ampere. For example, we increased the inference performance of Hopper by four times over two years. This is the benefit of NVIDIA's programmable CUDA architecture and rich ecosystem."
+        },
+        {
+          "document": "data/transcripts/transcript_1.txt",
+          "text": "I think our primary focus, our strategy number one is to create a platform that increases performance, or another way of thinking about it, reduces token generation cost by very significant margins every single year. Now, of course, that pace of innovation puts pressure on the entire industry, you know, all of our competitors and so on, but everybody benefits when we drive the cost of tokens down every single year. Between Hopper, between Blackwell and Hopper, we’re going to drive down the cost of tokens 10 to 20 times. And so that’s another, Moore’s law, transistors alone would have driven it down by 20% so instead of 20%, it’s 20 times. And we do that again and again and again every single year. We could do it because we change every single chip in the data center. We change every single technology all once."
+        },
+        {
+          "document": "data/transcripts/transcript_14.txt",
+          "text": "The reason why we sell so much is because our price performance is the best, and it’s absolutely the case that performance per watt is incredibly important... And so, the simple way to thinking about that is if your performance per unit energy is the highest, the revenues you can help a company generate is the absolute highest. And there’s, if you look at the way we are driving our roadmap between Hopper and Blackwell, our token generation rate for these reasoning AI models can be as high as 25 times. That’s the same thing as saying that factory can generate 25 times more revenues using Blackwell than you could using Hopper before that."
+        },
+        {
+          "document": "data/nvidia_articles/Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt",
+          "text": "Performance is the biggest driver of return on investment. A 4x increase in performance from the NVIDIA Hopper architecture to Blackwell yields up to 10x profit growth within a similar power budget. In power-limited data centers and AI factories, generating more tokens per watt translates directly to higher revenue per rack. Managing token throughput efficiently — balancing latency, accuracy and user load — is crucial for keeping costs down."
+        }
+      ]
+    },
+    {
+      "request": "How does NVIDIA reduce token generation cost for large AI?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt",
+          "text": "Performance is the biggest driver of return on investment. A 4x increase in performance from the NVIDIA Hopper architecture to Blackwell yields up to 10x profit growth within a similar power budget. Generating more tokens per watt translates directly to higher revenue per rack."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Blackwell_Raises_Bar_in_New_InferenceMAX_Benchmarks_Delivering_Unmatched_Performance_and_Effi.txt",
+          "text": "Lowest total cost of ownership: NVIDIA B200 software optimizations achieve two cents per million tokens on gpt-oss, delivering 5x lower cost per token in just 2 months."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Blackwell_Raises_Bar_in_New_InferenceMAX_Benchmarks_Delivering_Unmatched_Performance_and_Effi.txt",
+          "text": "The cost per token is crucial for evaluating AI model efficiency. The NVIDIA Blackwell architecture lowered cost per million tokens by 15x versus the previous generation."
+        },
+        {
+          "document": "data/transcripts/transcript_1.txt",
+          "text": "Our primary focus is to create a platform that increases performance, or reduces token generation cost by very significant margins every single year. Between Hopper and Blackwell, we’re going to drive down the cost of tokens 10 to 20 times."
+        },
+        {
+          "document": "data/transcripts/transcript_14.txt",
+          "text": "Performance per watt is incredibly important. Our token generation rate for reasoning AI models can be as high as 25 times higher on Blackwell than on Hopper, allowing factories to generate significantly more revenue."
+        }
+      ]
+    },
+    {
+      "request": "How does NVIDIA collaborate with academic or industry partners to push AI research forward?",
+      "documents": [
+        {
+          "document": "data/nvidia_articles/The_AI_Makers_NVIDIA_Partners_in_UK_Advance_Physical_and_Agentic_AI_Robotics_Life_Sciences_and_More.txt",
+          "text": "Isambard-AI — the U.K.'s most powerful AI supercomputer based at the University of Bristol, which launched in July — is accelerating national projects including UK-LLM, a large language model project developed by University College London, Bangor University and NVIDIA. UK-LLM uses NVIDIA Nemotron reasoning models to support national languages like Welsh, as well as English, to improve public service delivery in sectors like healthcare and education."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_National_Science_Foundation_Support_Ai2_Development_of_Open_AI_Models_to_Drive_US_Scientific_.txt",
+          "text": "The contributions will support research teams from the University of Washington, the University of Hawaii at Hilo, the University of New Hampshire and the University of New Mexico. The public-private partnership investment in U.S. technology aligns with recent initiatives outlined by the White House AI Action Plan, which supports America's global AI leadership. 'AI is the engine of modern science — and large, open models for America's researchers will ignite the next industrial revolution,' said Jensen Huang, founder and CEO of NVIDIA."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Accelerates_Robotics_Research_and_Development_With_New_Open_Models_and_Simulation_Libraries.txt",
+          "text": "Global researchers at leading universities such as Stanford University, ETH Zurich and the National University of Singapore are tapping NVIDIA accelerated computing and software to advance robotics research. The latest adopters of Newton are esteemed research labs and universities such as ETH Zurich Robotic Systems Lab, Technical University of Munich and Peking University."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Jetson_Thor_Unlocks_Real_Time_Reasoning_for_General_Robotics_and_Physical_AI.txt",
+          "text": "Research labs at Stanford University, Carnegie Mellon University and the University of Zurich are tapping Jetson Thor to push the boundaries of perception, planning and navigation models for a host of potential applications. At Carnegie Mellon's Robotics Institute, a research team uses NVIDIA Jetson to power autonomous robots that can navigate complex, unstructured environments to conduct medical triage as well as search and rescue."
+        },
+        {
+          "document": "data/nvidia_articles/NVIDIA_Unveils_Rubin_CPX_A_New_Class_of_GPU_Designed_for_Massive_Context_Inference.txt",
+          "text": "Magic is an AI research and product company developing foundation models to power AI agents that can automate software engineering. Runway, an American generative AI company, will use NVIDIA technologies to enable creators to produce cinematic content and sophisticated visual effects with unmatched scale and efficiency. 'Video generation is rapidly advancing toward longer context and more flexible, agent-driven creative workflows,' said Cristóbal Valenzuela, CEO of Runway."
+        }
+      ]
+    }
+  ]
+}
