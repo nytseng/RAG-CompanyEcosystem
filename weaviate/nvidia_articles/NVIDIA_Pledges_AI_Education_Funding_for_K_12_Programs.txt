@@ -1,0 +1,54 @@
+Title: NVIDIA Pledges AI Education Funding for K-12 Programs
+Source: https://blogs.nvidia.com/blog/ai-education-k-12/
+
+---
+
+NVIDIA Pledges AI Education Funding for K-12 Programs
+At White House event, company commits to enabling learning programs adapted from the NVIDIA Deep Learning Institute with a commitment valued at $25 million for the initiative.
+September 4, 2025
+by
+Louis Stewart
+Share
+Email
+0
+NVIDIA today announced new AI education support for K-12 programs at a White House event to celebrate public-private partnerships that advance artificial intelligence education for America’s youth.
+The commitment comes after recent NVIDIA announcements to support AI education and academic research, including a
+$30 million contribution
+to the National AI Intelligence Research pilot and a U.S. National Science Foundation partnership in support of academic research. Over the last five years, NVIDIA has invested $125 million in higher education and academic research in the United States.
+Pledging $25 million in support with AI education programs, NVIDIA is partnering with
+Study Fetch
+and
+CK-12
+— two leading K-12 learning platforms — to tailor the
+NVIDIA Deep Learning Institute
+(DLI) and
+NVIDIA Academy
+content offerings to meet the instructional needs of U.S. K-12 classrooms.
+The NVIDIA effort aligns with the White House executive order Advancing Artificial Intelligence Education for American Youth, announced in April. Additionally, in support of the executive order,
+NVIDIA signed the White House’s Pledge to America’s Youth: Investing in AI Education,
+committing to delivering AI literacy, credentialing and educator enablement.
+Supporting America’s Educators in Driving AI Literacy
+In the first year, NVIDIA will support curriculum adaptation, platform integration, educator training, institutional engagement and ecosystem-wide outreach.
+The NVIDIA DLI program integrations with Study Fetch and CK-12 will make available NVIDIA’s industry-leading training materials to help empower high school educators in applying DLI Teaching Kits.
+NVIDIA DLI courses are geared toward teaching professional skills to developers. NVIDIA is partnering with Study Fetch and CK-12, which will curate the course material content for high school students to get hands-on experience with AI, aiming to spark curiosity, build practical skills and prepare the next generation of job seekers to thrive in the AI-driven economy.
+The NVIDIA partnership aims to reach 1 million K-12 students within three years.
+Preparing the Next Generation for AI Leadership
+The White House initiative and NVIDIA commitments are united on a central mission to drive American leadership in AI.
+Winning the AI Race: America’s AI Action Plan
+was announced
+in July by the White House, supported with executive orders to accelerate federal permitting of data center infrastructure and promote exportation of the American AI technology stack.
+Aligned with the White House AI Action Plan, NVIDIA and the U.S. National Science Foundation
+recently committed
+$152 million in support to Ai2 for the development of open AI models to drive U.S. academic and nonprofit scientific leadership.
+Categories:
+Corporate
+Tags:
+Deep Learning Institute
+|
+Education
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

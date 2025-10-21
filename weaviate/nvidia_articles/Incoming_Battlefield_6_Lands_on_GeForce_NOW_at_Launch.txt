@@ -1,0 +1,109 @@
+Title: Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+Source: https://blogs.nvidia.com/blog/geforce-now-thursday-battlefield-6/
+
+---
+
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+Dive into six new games and a new Discord integration to stream from the cloud.
+October 9, 2025
+by
+GeForce NOW Community
+Share
+Email
+0
+Lock, load and stream — the battle is just beginning. EA’s highly anticipated
+Battlefield 6
+is set to storm the cloud when it launches tomorrow with GeForce RTX 5080 power, delivering the high-intensity combat and heart-pounding chaos the series is known for.
+Catch it as part of the six games joining the cloud, including Bethesda’s
+The Elder Scrolls III: Morrowind Game of the Year Edition
+and the launch of
+King of Meat.
+The Discord integration first unveiled at Gamescom is now live, debuting with
+Fortnite
+— showcasing how easy it is to discover games and stay connected with friends via Discord and GeForce NOW.
+Ashburn, Portland and London will soon be the latest regions to get GeForce RTX 5080-class power. Stay tuned to GFN Thursday for updates. Follow along with the latest progress on the
+server rollout page
+.
+Ashburn, Portland and London will be the next regions to light up with GeForce RTX 5080-class power.
+War Waits for No Respawn
+Turn cover into rubble — and rubble into cover.
+Battlefield
+6 drops gamers into all-out warfare, where every shot and explosion can change the tide of the fight.
+With a new Kinesthetic Combat System, in-game movements and gunplay feel sharper and more instinctive than ever. Battle through Conquest and Breakthrough modes or a global campaign spanning Cairo to Gibraltar. The Phantom Edition packs exclusive skins, weapons, vehicle cosmetics and a Battle Pass so gamers are geared up from day one.
+When every second counts, GeForce NOW puts players in control with ultralow-latency streaming and razor-sharp frames — whether dodging artillery or rocketing off a grenade mid-air. Stream at up to 240 frames per second (fps) from almost any device and take the fight anywhere when
+Battlefield 6
+joins the cloud at launch.
+Ready, Set, Click
+From chat to combat — instantly.
+NVIDIA and Discord have teamed up to change how people discover and play games together, making it easier than ever for friends and communities to stay connected. Powered by GeForce NOW, the new integrated experience —
+first shown at Gamescom
+— lets anyone discover and try games like
+Fortnite
+directly on Discord with no downloads or installs needed, and even without a GeForce NOW membership.
+This next-level experience is fueled by a limited-time trial of the GeForce NOW Performance tier, letting anyone jump into streaming at up to 1440p and 60 fps — all without ever leaving Discord. For Discord’s hundreds of millions of users, it’s a fast, simple way to play together and keep the gaming conversation going, right where it’s already happening.
+The first playable game with this integration is
+Fortnite
+, rolling out to gamers now. A single click on a Discord chat link and an Epic Games account login are all it takes to join the action. The integration opens a new way to discover and play games, enabling publishers to create smooth gaming experiences for communities everywhere.
+Wander Where You Want To
+Adventure awaits.
+Bethesda’s
+The Elder Scrolls III: Morrowind Game of the Year Edition
+is the single-player role-playing game that defined open-world fantasy adventures. This edition bundles the original
+The Elder Scrolls III: Morrowind
+with its celebrated expansions, Tribunal and Bloodmoon, delivering the definitive version of the iconic game.
+Step into a rich world where every choice shapes destiny. Take on the epic quest to save Morrowind from a terrible blight, or carve a path across vast landscapes filled with ancient cities, dangerous dungeons and curious creatures.
+With the expansions, visit the mystical Clockwork City, brave frozen Solstheim, clash with werewolves and direct the rise of a mining colony, enjoying up to 80 hours of quests and stories. The game’s open-ended structure lets players build any character imaginable, offering unmatched depth and replayability.
+Jump into the world of Vvardenfell on nearly any device with GeForce NOW, from laptops and Macs to phones and TVs, and pick the adventure back up anytime, anywhere.
+Meaty New Games
+We got the meats.
+King of Meat
+is a wild and over-the-top brawler that doesn’t take itself too seriously — except when it comes to juicy combos and meaty takedowns. Part cooking show, part gladiator arena, it throws players into chaotic battles where the weapon of choice is meat. Whether tenderizing foes with a ham hock or unleashing absurd special moves, players can lean hard into the game’s goofy, carnivorous charm. It’s fast, silly and unashamedly over-seasoned fun.
+In addition, members can look for the following:
+Deathground
+(New release on
+Steam
+, Oct. 7)
+King of Meat
+(New release on
+Steam
+, Oct. 7)
+Seafarer: The Ship Sim
+(New release on
+Steam
+, Oct. 7)
+Little Nightmares III
+(New release on
+Steam
+, Oct. 9)
+Battlefield 6
+(New release on
+Steam
+and
+EA app
+, Oct. 10, GeForce RTX 5080-ready)
+The Elder Scrolls III: Morrowind
+(
+Steam
+,
+Epic Games Store
+and
+Xbox
+, available on PC Game Pass)
+What are you planning to play this weekend? Let us know on
+X
+or in the comments below.
+If you could play one game RIGHT NOW, regardless of its release date, what game would it be and why? 🗣️
+— 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN)
+October 8, 2025
+Categories:
+Gaming
+Tags:
+Cloud Gaming
+|
+GeForce NOW
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

@@ -1,0 +1,59 @@
+Title: The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Source: https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/
+
+---
+
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+The celebration showcased how manufacturing the world’s AI technology stack in America will fuel innovation and bolster the US supply chain.
+October 17, 2025
+by
+NVIDIA Newsroom
+Share
+Email
+0
+AI has ignited a new industrial revolution.
+NVIDIA and TSMC are working together to build the infrastructure that powers the world’s AI factories, right here in America.
+NVIDIA founder and CEO Jensen Huang today visited TSMC’s semiconductor manufacturing facility in Phoenix to celebrate the first NVIDIA Blackwell wafer produced on U.S. soil, representing that Blackwell has reached volume production.
+Onstage at the celebration, Huang joined Y.L. Wang, vice president of operations at TSMC, to sign the Blackwell wafer, commemorating a milestone that showcases how the engines of the world’s AI infrastructure are now being constructed domestically.
+This bolsters the U.S. supply chain and onshores the AI technology stack that will turn data into intelligence and secure America’s leadership for the AI era.
+“This is a historic moment for several reasons. It’s the very first time in recent American history that the single most important chip is being manufactured here in the United States by the most advanced fab, by TSMC, here in the United States,” Huang said at the event. “This is the vision of President Trump of reindustrialization — to bring back manufacturing to America, to create jobs, of course, but also, this is the single most vital manufacturing industry and the most important technology industry in the world.”
+“To go from arriving in Arizona to delivering the first U.S.-made NVIDIA Blackwell chip in just a few short years represents the very best of TSMC,” said Ray Chuang, CEO of TSMC Arizona. “This milestone is built on three decades of partnership with NVIDIA — pushing the boundaries of technology together — and on the unwavering dedication of our employees and the local partners who helped to make TSMC Arizona possible.”
+The wafer — the base material for semiconductors — will go through a complex process of layering, patterning, etching and dicing before taking shape as the ultra-high-performance, accelerated AI chip the NVIDIA Blackwell architecture offers.
+TSMC Arizona will produce advanced technologies including two-, three- and four-nanometer chips, as well as A16 chips, all essential for applications like AI, telecommunications and high-performance computing.
+Onshoring World-Class AI Chipmaking to American Soil
+America-based manufacturing is crucial to meeting the growing demand for AI.
+Today’s achievement marks a huge step forward in semiconductor manufacturing and AI development in the U.S., paving the way for sustained American leadership in artificial intelligence. NVIDIA Blackwell GPUs offer exceptional performance, return on investment and energy efficiency for
+AI inference
+.
+In addition, NVIDIA plans to deploy its advanced AI, robotics and digital twin technologies to design and operate
+new U.S. manufacturing facilities
+.
+Learn more about how NVIDIA technologies accelerate innovation for America’s enterprises, government organizations, researchers and startups at
+NVIDIA GTC Washington, D.C.
+, running Oct. 27-29.
+Categories:
+Corporate
+|
+Data Center
+|
+Generative AI
+Tags:
+AI Factory
+|
+Artificial Intelligence
+|
+GPU
+|
+Hardware
+|
+Industrial and Manufacturing
+|
+Inference
+|
+Simulation and Design
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

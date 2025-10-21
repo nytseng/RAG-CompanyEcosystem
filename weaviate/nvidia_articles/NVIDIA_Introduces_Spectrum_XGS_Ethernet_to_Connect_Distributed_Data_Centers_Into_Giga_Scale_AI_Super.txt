@@ -1,0 +1,35 @@
+Title: NVIDIA Introduces Spectrum-XGS Ethernet to Connect Distributed Data Centers Into Giga-Scale AI Super-Factories
+Source: https://nvidianews.nvidia.com/news/nvidia-introduces-spectrum-xgs-ethernet-to-connect-distributed-data-centers-into-giga-scale-ai-super-factories
+
+---
+
+Hot Chips—
+NVIDIA today announced NVIDIA
+®
+Spectrum-XGS Ethernet, a scale-across technology for combining distributed data centers into unified, giga-scale AI super-factories.
+As AI demand surges, individual data centers are reaching the limits of power and capacity within a single facility. To expand, data centers must scale beyond any one building, which is limited by off-the-shelf Ethernet networking infrastructure with high latency and jitter and unpredictable performance.
+Spectrum-XGS Ethernet is a breakthrough addition to the
+NVIDIA Spectrum-X
+™ Ethernet platform that removes these boundaries by introducing scale-across infrastructure. It serves as a third pillar of AI computing beyond scale-up and scale-out, designed for extending the extreme performance and scale of Spectrum-X Ethernet to interconnect multiple, distributed data centers to form massive AI super-factories capable of giga-scale intelligence.
+“The AI industrial revolution is here, and giant-scale AI factories are the essential infrastructure,” said Jensen Huang, founder and CEO of NVIDIA. “With NVIDIA Spectrum-XGS Ethernet, we add scale-across to scale-up and scale-out capabilities to link data centers across cities, nations and continents into vast, giga-scale AI super-factories.”
+Spectrum-XGS Ethernet is fully integrated into the Spectrum-X platform, featuring algorithms that dynamically adapt the network to the distance between data center facilities.
+With advanced, auto-adjusted distance congestion control, precision latency management and end-to-end telemetry, Spectrum-XGS Ethernet nearly doubles the performance of the
+NVIDIA Collective Communications Library
+, accelerating multi-GPU and multi-node communication to deliver predictable performance across geographically distributed AI clusters. As a result, multiple data centers can operate as a single AI super-factory, fully optimized for long-distance connectivity.
+Hyperscale pioneers embracing the new infrastructure include CoreWeave, which will be among the first to connect its data centers with Spectrum-XGS Ethernet.
+“CoreWeave’s mission is to deliver the most powerful AI infrastructure to innovators everywhere,” said Peter Salanki, cofounder and chief technology officer of CoreWeave. “With NVIDIA Spectrum-XGS, we can connect our data centers into a single, unified supercomputer, giving our customers access to giga-scale AI that will accelerate breakthroughs across every industry.”
+The Spectrum-X Ethernet networking platform provides greater bandwidth density than off-the-shelf Ethernet for multi-tenant, hyperscale AI factories — including the
+world’s largest AI supercomputer
+. It comprises NVIDIA Spectrum-X switches and
+NVIDIA ConnectX
+®
+-8 SuperNICs
+, delivering seamless scalability, ultralow latency and breakthrough performance for enterprises building the future of AI.
+Today’s announcement follows a drumbeat of networking innovation announcements from NVIDIA, including
+NVIDIA Spectrum-X and NVIDIA Quantum-X silicon photonics networking switches
+, which enable AI factories to connect millions of GPUs across sites while reducing energy consumption and operational costs.
+Availability
+NVIDIA Spectrum-XGS Ethernet is available now as part of the NVIDIA Spectrum-X Ethernet platform.
+Learn more about Spectrum-XGS Ethernet at
+Hot Chips
+.

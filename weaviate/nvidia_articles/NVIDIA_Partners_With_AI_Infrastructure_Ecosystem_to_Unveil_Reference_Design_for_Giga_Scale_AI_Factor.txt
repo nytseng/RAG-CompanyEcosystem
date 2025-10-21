@@ -1,0 +1,74 @@
+Title: NVIDIA Partners With AI Infrastructure Ecosystem to Unveil Reference Design for Giga-Scale AI Factories
+Source: https://blogs.nvidia.com/blog/ai-factories-reference-design/
+
+---
+
+NVIDIA Partners With AI Infrastructure Ecosystem to Unveil Reference Design for Giga-Scale AI Factories
+At the AI Infrastructure Summit, NVIDIA’s Ian Buck introduces a reference design and partner-driven strategy to transform global infrastructure for high-performance, energy-efficient AI.
+September 9, 2025
+by
+Madison Huang
+Share
+Email
+0
+At this week’s
+AI Infrastructure Summit
+in Silicon Valley, NVIDIA’s VP of Accelerated Computing Ian Buck unveiled a bold new vision: the transformation of traditional data centers into fully integrated
+AI factories
+.
+As part of this initiative, NVIDIA is developing reference designs to be shared with partners and enterprises worldwide — offering an
+NVIDIA Omniverse Blueprint
+for building high-performance, energy-efficient infrastructure optimized for the age of AI reasoning.
+Already, NVIDIA is collaborating with scores of companies across every layer of the stack, from building design and grid integration to power, cooling and orchestration.
+It’s a natural evolution for the company, scaling beyond chips and systems into a new class of industrial products — so complex and interconnected that no single player can build them alone.
+NVIDIA, along with a deep bench of industrial and technology partners, is reactivating decades of infrastructure expertise to build this new class of AI factories.
+Among those partners, Jacobs serves as the design integrator, helping to coordinate the physical and digital layers of the infrastructure to ensure seamless orchestration.
+The embodiment of the reference design will be a digital twin of the AI factory. This digital twin integrates the IT systems inside the data center with the operational technology for power and cooling systems inside and outside the data center.
+The new initiative expands the digital twin to integrate local power generation, energy storage systems, cooling technology and AI agents for operations.
+Longtime collaborators in power and cooling — Schneider Electric, Siemens and Vertiv — have been instrumental in shaping resilient, high-efficiency environments tailored for AI-scale workloads.
+Siemens and Siemens Energy plays a critical role in on-premises power delivery, supporting the need for rapidly deployable, continuous power to meet the gigawatt-scale energy demands of these facilities. GE Vernova collaborates in power generation and electrification to the rack.
+These companies, along with a growing ecosystem of specialists in infrastructure design and simulation, and orchestration — including Cadence,
+Emerald AI
+, E Tech Group,
+phaidra.ai
+,
+PTC
+, Schneider Electric with ETAP, Siemens and Vertech — are helping NVIDIA activate a system-level transformation.
+At the heart of this vision lies a fundamental challenge: how to optimize every watt of energy that enters the facility so that it contributes directly to intelligence generation.
+In today’s data center paradigm, buildings are often designed independently of the compute platforms they house, leading to inefficiencies in power distribution, cooling and system orchestration.
+NVIDIA and its partners are flipping that model.
+By designing the infrastructure and technology stack in tandem, the company enables true system-level optimization — where power, cooling, compute and software are engineered as a unified whole.
+Simulation plays a central role in this shift.
+Companies will be able to share
+simulation-ready assets
+, allowing designers to model components in Omniverse using AI factory
+digital twins
+even before they’re physically available.
+These digital twins not only optimize AI factories before they’re built — they also help manage them once they’re operational.
+By adopting the OpenUSD framework, the simulation platform can accurately model every aspect of a facility’s operations, from power and cooling to networking infrastructure. This open and extensible approach allows for the creation of physically accurate assets, which in turn leads to the design of smarter, more reliable facilities.
+And the complexity doesn’t stop at the facility walls.
+AI factories must be plugged into broader systems — power grids, water supplies and transportation networks — that require careful coordination and simulation throughout their lifecycle to ensure reliability and scalability.
+This work has already begun.
+Earlier this year, NVIDIA introduced an
+Omniverse Blueprint for AI factory digital twins
+. This blueprint connects platforms like
+Cadence
+and ETAP, allowing partners to plug in their core tools to model gigawatt-scale facilities before a single physical AI factory site has even been selected.
+More recently, the company expanded its ecosystem with integrations from Delta, Jacobs, Siemens and Siemens Energy, enabling unified simulation of power, cooling and networking systems.
+When this blueprint is complete next year, it will allow partners to plug into the system via application programming interfaces and simulation-ready digital assets, enabling real-time collaboration and orchestration across the entire lifecycle — from design to deployment to operation.
+Thanks to this work, where traditional facilities operated in isolation, AI factories will be designed for composability, resilience and scale.
+Call to Action:
+Join developers, industry leaders, and innovators at
+NVIDIA GTC Washington, D.C.
+, to explore the latest breakthroughs in AI infrastructure and learn from expert sessions, hands-on training, and partner showcases.
+See
+notice
+regarding software product information.
+Categories:
+Corporate
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

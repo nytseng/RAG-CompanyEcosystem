@@ -1,0 +1,151 @@
+Title: At Gamescom 2025, NVIDIA DLSS 4 and Ray Tracing Come to This Year’s Biggest Titles
+Source: https://blogs.nvidia.com/blog/gamescom-2025-dlss-4-ray-tracing/
+
+---
+
+At Gamescom 2025, NVIDIA DLSS 4 and Ray Tracing Come to This Year’s Biggest Titles
+Over 175 DLSS 4 games are now available, along with ray tracing in titles like ‘Resident Evil Requiem,’ ‘Phantom Blade Zero’ and ‘Borderlands 4’ — plus, explore upgrades to NVIDIA RTX Remix, Project G-Assist and the NVIDIA app.
+August 18, 2025
+by
+Caiti Sullivan
+Share
+Email
+0
+With over 175 games now supporting
+NVIDIA DLSS 4
+— a suite of advanced, AI-powered neural rendering technologies — gamers and tech enthusiasts everywhere can experience breakthrough performance in this year’s most anticipated titles, including
+Borderlands 4
+,
+Hell Is Us
+and
+Fate Trigger
+.
+Plus, path tracing is making its way to
+Resident Evil Requiem
+and
+Directive 8020
+, as well as ray tracing in upcoming releases like
+Phantom Blade Zero
+,
+PRAGMATA
+and
+CINDER CITY
+— enabling crystal-clear visuals for more immersive gameplay
+“DLSS 4 and path tracing are no longer cutting-edge graphical experiments — they’re the foundation of modern PC gaming titles,” said Matt Wuebbling, vice president of global GeForce marketing at NVIDIA. “Developers are embracing AI-powered rendering to unlock stunning visuals and massive performance gains, enabling gamers everywhere to experience the future of real-time graphics today.”
+These announcements come alongside a new NVIDIA GeForce RTX 50 Series bundle for
+Borderlands 4
+and updates to the
+NVIDIA app
+— a companion platform for content creators, gamers and AI enthusiasts using NVIDIA GeForce RTX GPUs.
+DLSS 4 Now Accelerating Over 175 Games and Applications
+Launched with the GeForce RTX 50 Series earlier this year, DLSS 4 with Multi Frame Generation uses AI to generate up to three frames for every traditionally rendered frame, delivering performance boosts of up to 8x over traditional rendering.
+In addition to Multi Frame Generation, DLSS 4 titles include support for DLSS Super Resolution, Ray Reconstruction and NVIDIA Reflex technology — unlocking incredible performance gains and responsive gameplay for every GeForce RTX 50 Series owner.
+New titles announced at Gamescom that will support the latest RTX technologies include:
+Directive 8020
+and
+Resident Evil Requiem
+, which are launching with DLSS 4 and path tracing
+Black State
+,
+CINDER CITY
+(formerly
+Project LLL
+),
+Cronos: The New Dawn
+,
+Dying Light: The Beast
+,
+Honeycomb: The World Beyond
+,
+Lost Soul Aside
+,
+The Outer Worlds 2
+,
+Phantom Blade Zero
+and
+PRAGMATA
+, which are launching with DLSS 4 and ray tracing
+Borderlands 4
+and
+Fate Trigger
+, which are launching with DLSS 4 with Multi Frame Generation
+Indiana Jones and the Great Circle,
+which in September will add support for RTX Hair, a technology that uses new hardware capabilities in RTX 50 Series GPUs to model hair with greater path-traced detail and realism
+Many of these RTX titles will also launch on the
+GeForce NOW
+cloud gaming platform, including
+Borderlands 4, CINDER CITY
+(formerly
+Project LLL
+)
+, Hell Is Us
+and
+The Outer Worlds 2.
+NVIDIA App Adds Global DLSS Overrides and Software Updates
+The
+NVIDIA app
+is the essential companion for NVIDIA GeForce RTX GPU users, simplifying the process of keeping PCs updated with the latest GeForce Game Ready and NVIDIA Studio Drivers.
+New updates to the NVIDIA app include:
+Global DLSS Overrides:
+Easily enable DLSS Multi-Frame Generation or DLSS Super Resolution profiles globally across hundreds of DLSS Override titles, instead of needing to configure per title.
+Project G-Assist Upgrades:
+The latest update to Project G-Assist — an on-device AI assistant that lets users control and tune their RTX systems with voice and text commands — introduces a significantly more efficient AI model that uses 40% less memory. Despite its smaller footprint, it responds to queries faster and more accurately calls the right tools.
+Highly Requested Legacy 3D Settings:
+Use easily configurable control panel settings — including anisotropic filtering, anti-aliasing and ambient occlusion — to enhance classic games.
+The NVIDIA app beta update launches Tuesday, Aug. 19, at 9 a.m. PT, with full availability coming the following week.
+NVIDIA ACE Enhances Voice-Driven Gaming Experiences
+NVIDIA ACE
+— a suite of generative AI technologies that power lifelike non-playable character interactions in games like Krafton’s
+inZOI
+— now features in Iconic Interactive’s
+The Oversight Bureau
+, a darkly comic, voice-driven puzzle game.
+Using speech-to-text technology powered by ACE, players can interact naturally with in-game characters using speech, with Iconic’s Narrative Engine interpreting the input and determining and delivering the pre-recorded character dialogue that best fits the story and situation.
+This system keeps developers in creative control while offering players real agency in games — all running locally on RTX AI PCs with sub-second latency.
+The Oversight Bureau
+launches later this year and will be playable at NVIDIA’s Gamescom B2B press suite.
+NVIDIA RTX Remix Evolves With Community Expansions and New Particle System
+NVIDIA RTX Remix
+, an open-source modding platform for remastering classic games with path tracing and neural rendering, continues to grow thanks to its passionate community.
+Modders have been using large language models to extend RTX Remix’s capabilities. For example, one modder “vibe coded” a plug-in that connects RTX Remix to Adobe Substance 3D, the industry-standard tool for 3D texturing and materials. Another modder made it possible for RTX Remix to use classic game data to instantly make objects glow with emissive effects.
+RTX Remix’s open-source community has even expanded compatibility to allow many new titles to be remastered, including iconic games like
+Call Of Duty 4: Modern Warfare
+,
+Knights Of The Old Republic
+,
+Doom 3
+,
+Half-Life: Black Mesa
+and
+Bioshock.
+Some of these games were featured in the RTX Remix’s $50K Mod Contest, which wrapped up at Gamescom.
+Painkiller RTX
+by Merry Pencil Studios won numerous awards, including “Best Overall RTX Remix Mod.” Explore all mod submissions on
+ModDB.com
+.
+At Gamescom, NVIDIA also unveiled a new RTX Remix particle system that brings dynamic, realistically lit and physically accurate particles to 165 classic games — the majority of which have never had a particle editor.
+Modders can use the system to change the look, size, quantity, light emission, turbulence and even gravity of particles in games. The new particle system will be available in September.
+‘Borderlands 4’ GeForce RTX 50 Series Bundle Available Now
+To celebrate Gearbox’s
+Borderlands 4
+, which will be enhanced by DLSS 4 with Multi Frame Generation and NVIDIA Reflex, NVIDIA is introducing a new GeForce RTX 50 Series bundle.
+Players who purchase a GeForce RTX 5090, 5080, 5070 Ti, or 5070 desktop system or graphics card — or laptops with a GeForce RTX™ 5090 Laptop GPU, RTX 5080 Laptop GPU, RTX 5070 Ti Laptop GPU or RTX 5070 Laptop GPU from participating retailers — will receive a copy of
+Borderlands 4
+and
+The Gilded Glory Pack
+DLC. The offer is available through Monday, Sept. 22.
+Learn more about GeForce announcements at
+Gamescom
+.
+Categories:
+Gaming
+Tags:
+NVIDIA DLSS
+|
+NVIDIA RTX
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

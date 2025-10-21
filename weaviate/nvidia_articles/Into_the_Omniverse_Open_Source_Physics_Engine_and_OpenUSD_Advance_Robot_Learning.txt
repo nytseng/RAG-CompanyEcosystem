@@ -1,0 +1,157 @@
+Title: Into the Omniverse: Open-Source Physics Engine and OpenUSD Advance Robot Learning
+Source: https://blogs.nvidia.com/blog/newton-physics-engine-openusd/
+
+---
+
+Into the Omniverse: Open-Source Physics Engine and OpenUSD Advance Robot Learning
+The Newton physics engine and enhanced NVIDIA Isaac GR00T models enable developers to accelerate robot learning through unified OpenUSD simulation workflows.
+September 30, 2025
+by
+Akhil Docca
+Share
+Email
+0
+Editor’s note: This blog is a part of
+Into the Omniverse
+, a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse.
+Building robots that can effectively operate alongside human workers in factories, hospitals and public spaces presents an enormous technical challenge. These robots require humanlike dexterity, perception, cognition and whole-body coordination to navigate unpredictable real-world environments in real time.
+A
+“sim-first” approach
+unlocks these critical skills by enabling parallel training of hundreds or thousands of robot instances using real robot-captured data and
+synthetic data
+in simulation environments.
+Universal Scene Description
+(OpenUSD) provides the foundational framework for this advanced robot development, serving as a scalable, interoperable data standard that enables developers to build physically accurate virtual worlds where robots can practice and perfect their skills before transferring them to real-world applications.
+Accelerating Physical AI Development
+NVIDIA announced at the Conference on Robot Learning this week groundbreaking advances in open-source physics simulation, open foundation models and development frameworks, including:
+Newton Physics Engine
+: While robots learn faster and safer in
+simulation
+,
+humanoid robots
+— with complex joints, balance and movements — are pushing today’s physics engines to the limit.
+Codeveloped by Google DeepMind, Disney Research and NVIDIA, and
+managed by the Linux Foundation
+,
+Newton
+is an open-source, GPU-accelerated physics engine to advance robot learning.
+Built on
+NVIDIA Warp
+and
+OpenUSD
+, Newton enables robots to learn complex tasks more precisely while working seamlessly with
+robot learning
+frameworks like MuJoCo Playground and
+NVIDIA Isaac Lab
+.
+Tune in to an upcoming
+livestream for a Newton beta demonstration
+to learn about Newton’s core features and how to get started on Newton with NVIDIA Isaac Lab.
+Isaac GR00T N1.6
+: To perform humanlike tasks in the physical world, humanoids must understand ambiguous instructions and navigate unforeseen scenarios. The latest Isaac GR00T N1.6 open robot foundation model, available soon on Hugging Face, integrates
+NVIDIA Cosmos Reason
+, an open reasoning vision language model built for
+physical AI
+. Cosmos Reason serves as the robot’s deep-thinking brain and transforms vague instructions into step-by-step action plans using prior knowledge, common sense and physics understanding.
+NVIDIA Isaac Lab
+:
+The latest version of Isaac Lab, an open-source, modular robot learning framework built on NVIDIA Isaac Sim and OpenUSD, is now available as an early developer release. Version 2.3 brings a host of new features to robotics researchers and developers, including advanced whole-body control and expanded teleoperation for data collection.
+OpenUSD’s interoperability ensures these advanced physics simulations, foundation models and learning frameworks work together seamlessly, enabling developers to build unified
+robot learning
+pipelines that scale across different platforms and deployment scenarios.
+See How Developers Are Accelerating Robot Learning
+Leading humanoid and robotics developers, including Agility Robotics, Lightwheel, Mentee, Universal Robots and Wandelbots are adopting simulation technologies and libraries to accelerate physical AI development and deployment.
+Agility Robotics
+uses NVIDIA Isaac Lab to train a whole-body control foundation model for its Digit robot. Isaac Sim and OpenUSD enable precise digital twin creation of customer facilities, delivering a scalable way to optimize the robot’s operation before deployment.
+Lightwheel
+developed the Lightwheel Simulation Platform, built on
+NVIDIA Omniverse
+. Lightwheel is also building
+simulation-ready assets
+that use the NVIDIA USD Search application programming interface to streamline asset discovery and assemble accurate digital twins to help robotics developers accelerate their training and simulation workflows.
+Mentee Robotics
+harnesses
+NVIDIA’s three-computer architecture
+to develop MenteeBot’s sophisticated learning capabilities, using OpenUSD as the foundation for developing synthetic data generation pipelines in Isaac Sim.
+Universal Robots
+uses the NVIDIA Isaac platform for comprehensive robot simulation and learning, tapping OpenUSD to create interoperable digital twins of manufacturing environments that validate cobot safety protocols and optimize human-robot interaction across diverse industrial settings. Inbolt, a partner in the Universal Robots ecosystem, delivers dynamic vision guidance systems that enable robots to adapt to their environment on the fly, handling production variations with ease.
+Wandelbots
+, a German robotics software company, is helping Volkswagen shorten automation projects at its Transparent Factory in Dresden.
+Using Wandelbots NOVA, a robotics platform with deep integration into Isaac Sim, developers can build, train, test and validate their pick-and-place applications with a virtual twin before deployment.
+NVIDIA’s open frameworks and libraries are also being adopted by developers within the robotics community. Community member and NVIDIA Omniverse ambassador Dylan Tobin
+created an AI chatbot
+trained on Isaac Sim workflows to help developers navigate Omniverse more efficiently.
+See how other developers in the community are using Isaac Sim and Isaac Lab for innovation in robotics navigation, control and reinforcement learning by watching this livestream replay:
+Plus, an NVIDIA Robotics office hours session demonstrates how Brev makes it easy to run Isaac Sim and Isaac Lab on Omniverse:
+Get Plugged Into the World of OpenUSD
+To learn more about robot learning with OpenUSD and NVIDIA’s latest robotics technologies, explore these resources:
+Watch
+a
+tutorial on how to teach a robot new skills fast
+with Isaac GR00T N1.5.
+Read
+three ways to use OpenUSD in robotics workflows
+to significantly reduce deployment time and improve robot simulation and training performance.
+Listen
+to the NVIDIA AI Podcast episode on
+the future of robot learning and simulation
+with Seattle Robotics Lab lead Yashraj Narang.
+Train
+using the
+NVIDIA Robotics Fundamentals Learning Path
+, which covers basic robotics and advanced AI-powered automation.
+Attend
+Physical AI and Robotics Day
+on Tuesday, Oct. 28, at NVIDIA GTC Washington, D.C., which will feature curated sessions on how digital twins, robot learning and OpenUSD are shaping the future of physical AI. Earn an industry-recognized
+OpenUSD Development certification
+, offered at no additional charge to conference attendees.
+Stay up to date by subscribing to
+NVIDIA Omniverse news
+, joining the Omniverse
+community
+and following Omniverse on
+Discord
+,
+Instagram
+,
+LinkedIn
+,
+Threads
+,
+X
+and
+YouTube
+.
+Explore the
+Alliance for OpenUSD forum
+and the
+AOUSD website
+.
+Categories:
+Pro Graphics
+|
+Robotics
+Tags:
+Artificial Intelligence
+|
+Digital Twin
+|
+Into the Omniverse
+|
+Isaac
+|
+Omniverse
+|
+Physical AI
+|
+Robotics
+|
+Simulation and Design
+|
+Synthetic Data Generation
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

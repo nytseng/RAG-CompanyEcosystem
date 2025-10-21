@@ -1,0 +1,77 @@
+Title: Now We’re Talking: NVIDIA Releases Open Dataset, Models for Multilingual Speech AI
+Source: https://blogs.nvidia.com/blog/speech-ai-dataset-models/
+
+---
+
+Now We’re Talking: NVIDIA Releases Open Dataset, Models for Multilingual Speech AI
+The new Granary dataset, featuring around 1 million hours of audio, was used to train high-accuracy and high-throughput AI models for audio transcription and translation.
+August 15, 2025
+by
+Jonathan Cohen
+Share
+Email
+0
+Of around 7,000 languages in the world, a tiny fraction are supported by AI language models. NVIDIA is tackling the problem with a new dataset and models that support the development of high-quality speech recognition and translation AI for 25 European languages — including languages with limited available data like Croatian, Estonian and Maltese.
+These tools will enable developers to more easily scale AI applications to support global users with fast, accurate speech technology for production-scale use cases such as multilingual chatbots, customer service voice agents and near-real-time translation services. They include:
+Granary
+, a massive, open-source corpus of multilingual speech datasets that contains around a million hours of audio, including nearly 650,000 hours for speech recognition and over 350,000 hours for speech translation.
+NVIDIA Canary-1b-v2
+, a billion-parameter model trained on Granary for high-quality transcription of European languages, plus translation between English and two dozen supported languages.
+It
+tops Hugging Face’s leaderboard
+of open models for multilingual speech recognition accuracy.
+NVIDIA Parakeet-tdt-0.6b-v3
+, a streamlined, 600-million-parameter model designed for real-time or large-volume transcription of Granary’s supported languages.
+It has the highest throughput of multilingual models
+on the Hugging Face leaderboard
+, measured as duration of audio transcribed divided by computation time.
+The
+paper behind Granary
+will be presented at Interspeech, a language processing conference taking place in the Netherlands, Aug. 17-21. The dataset, as well as the new Canary and Parakeet models, are now
+available on Hugging Face
+.
+How Granary Addresses Data Scarcity
+To develop the Granary dataset, the NVIDIA speech AI team
+collaborated with researchers
+from Carnegie Mellon University and Fondazione Bruno Kessler. The team passed unlabeled audio through an innovative processing pipeline powered by
+NVIDIA NeMo Speech Data Processor
+toolkit that turned it into structured, high-quality data.
+This pipeline allowed the researchers to enhance public speech data into a usable format for AI training, without the need for resource-intensive human annotation. It’s
+available in open source on GitHub
+.
+With Granary’s clean, ready-to-use data, developers can get a head start building models that tackle transcription and translation tasks in nearly all of the European Union’s 24 official languages, plus Russian and Ukrainian.
+For European languages underrepresented in human-annotated datasets, Granary provides a critical resource to develop more inclusive speech technologies that better reflect the linguistic diversity of the continent — all while using less training data.
+The team demonstrated in their Interspeech paper that, compared to other popular datasets, it takes around half as much Granary training data to achieve a target accuracy level for automatic speech recognition (ASR) and automatic speech translation (AST).
+Tapping NVIDIA NeMo to Turbocharge Transcription
+The new Canary and Parakeet models offer examples of the kinds of models developers can build with Granary, customized to their target applications. Canary-1b-v2 is optimized for accuracy on complex tasks, while parakeet-tdt-0.6b-v3 is designed for high-speed, low-latency tasks.
+By sharing the methodology behind the Granary dataset and these two models, NVIDIA is enabling the global speech AI developer community to adapt this data processing workflow to other ASR or AST models or additional languages, accelerating speech AI innovation.
+Canary-1b-v2, available under a
+permissive license
+, expands the Canary family’s supported languages from four to 25. It offers transcription and translation quality comparable to models 3x larger while running inference up to 10x faster.
+https://blogs.nvidia.com/wp-content/uploads/2025/08/Canary-demo.mp4
+NVIDIA NeMo
+, a modular software suite for managing the AI agent lifecycle, accelerated speech AI model development.
+NeMo Curator
+, part of the software suite, enabled the team to filter out synthetic examples from the source data so that only high-quality samples were used for model training. The team also harnessed the NeMo Speech Data Processor toolkit for tasks like aligning transcripts with audio files and converting data into the required formats.
+Parakeet-tdt-0.6b-v3 prioritizes high throughput and is capable of transcribing 24-minute audio segments in a single inference pass. The model automatically detects the input audio language and transcribes without additional prompting steps.
+Both Canary and Parakeet models provide accurate punctuation, capitalization and word-level timestamps in their outputs.
+Read more on GitHub
+and get started with
+Granary on Hugging Face
+.
+Categories:
+Generative AI
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+NVIDIA NeMo
+|
+Open Source
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

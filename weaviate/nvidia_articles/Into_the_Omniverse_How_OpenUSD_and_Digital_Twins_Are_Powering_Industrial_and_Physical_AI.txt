@@ -1,0 +1,167 @@
+Title: Into the Omniverse: How OpenUSD and Digital Twins Are Powering Industrial and Physical AI
+Source: https://blogs.nvidia.com/blog/openusd-digital-twins-industrial-physical-ai/
+
+---
+
+Into the Omniverse: How OpenUSD and Digital Twins Are Powering Industrial and Physical AI
+August 20, 2025
+by
+James McKenna
+Share
+Email
+0
+Editor’s note: This blog is a part of
+Into the Omniverse
+, a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advances in
+OpenUSD
+and
+NVIDIA Omniverse
+.
+Investments in
+industrial AI
+and
+physical AI
+are driving increased demand for
+digital twins
+across industries.
+These physically accurate, virtual replicas of real-world environments, facilities and processes aren’t just helping manufacturers streamline planning and optimize operations. They serve as the training ground for helping ensure vision AI agents, autonomous vehicles and robot fleets can operate safely, efficiently and reliably.
+Creating physically accurate simulation environments that enable physical AI to transition seamlessly to the real world typically involves substantial manual effort. However, with the latest advancements in OpenUSD — a powerful open standard for describing and connecting complex 3D worlds — alongside improvements in rendering, neural reconstruction and
+world foundation models (WFMs)
+, developers can fast-track the construction of digital twins at scale.
+Accelerating Digital Twin and Physical AI Development
+To speed digital twin and physical AI development, NVIDIA announced at this year’s SIGGRAPH conference new research, NVIDIA Omniverse libraries, NVIDIA Cosmos WFMs and advanced AI infrastructure — including
+NVIDIA RTX PRO Servers
+and
+NVIDIA DGX Cloud
+.
+The
+latest Omniverse software development kits
+bridge MuJoCo and Universal Scene Description (OpenUSD), enabling over 250,000 MJCF
+robot learning
+developers to simulate robots across platforms.
+Omniverse NuRec
+libraries and AI models enable Omniverse RTX ray-traced
+3D Gaussian splatting
+, allowing developers to capture, reconstruct and simulate the real world in 3D using sensor data.
+NVIDIA Isaac Sim 5.0
+and
+Isaac Lab 2.2
+open-source robot simulation and learning frameworks are now available on GitHub.
+Isaac Sim
+features NuRec neural rendering and new OpenUSD robot and sensor schemas to narrow the simulation-to-reality gap.
+Cosmos WFMs, including
+Cosmos Transfer-2
+and
+NVIDIA Cosmos Reason
+, deliver leaps in synthetic data generation and reasoning for physical AI development.
+NVIDIA research
+advances in rendering and AI-assisted material generation help developers scale digital twin development.
+Growing OpenUSD Ecosystem
+OpenUSD serves as a foundational ecosystem for digital twin and physical AI development, empowering developers to integrate industrial and 3D data to create physically accurate digital twins.
+The
+Alliance for OpenUSD
+(AOUSD) recently welcomed
+new general members
+, including Accenture, Esri, HCLTech, PTC, Renault and Tech Soft 3D. These additions underscore the continued growth of the OpenUSD community and its commitment to unifying 3D workflows across industries.
+To address the growing demand for OpenUSD and digital twins expertise, NVIDIA launched a new industry-recognized
+OpenUSD development certification
+and a free
+digital twins learning path
+.
+Developers Building Digital Twins
+Industry leaders including
+Siemens
+,
+Sight Machine
+,
+Rockwell Automation
+,
+EDAG
+,
+Schaeffler
+,
+Amazon Devices & Services
+and
+Vention
+are building digital twin solutions with Omniverse libraries and OpenUSD to enable transformation with industrial and physical AI.
+Siemens
+’ Teamcenter Digital Reality Viewer enables engineers to visualize, interact with and collaborate on photorealistic digital twins at unprecedented scale. These efforts are enabling faster design reviews, minimizing the need for physical prototypes a
+Schaeffler
+built a digital twin platform that integrates critical planning and production data to enable its teams to streamline planning, as well as simulate and optimize plants, machines and workflows.
+nd accelerating time to market — all while reducing costs.
+Sight Machine’s
+Operator Agent platform combines live production data, agentic AI-powered recommendations and digital twins to provide real-time visibility into production and enable faster, more informed decisions for plant operations teams.
+Rockwell Automation’s
+Emulate3D Factory Test platform enables manufacturers to build factory-scale, physics-based digital twins for simulating, validating and optimizing automation and autonomous systems at scale.
+EDAG’s
+industrial digital twin platform helps manufacturers improve project management, optimize production layouts, train workers and perform data-driven quality assurance.
+Schaeffler
+built a digital twin platform that integrates critical planning and production data to enable its teams to streamline planning, as well as simulate and optimize plants, machines and workflows.
+Amazon Devices & Services
+uses digital twins to train robotic arms to recognize, inspect and handle new devices. Robotic actions can be configured to manufacture products purely based on training performed in simulation — including for steps involved in assembly, testing, packaging and auditing.
+Vention
+is using NVIDIA robotics, AI and simulation technologies — including Omniverse libraries, Isaac Sim and Jetson hardware — to deliver plug-and-play digital twin and automation solutions that simplify and accelerate the deployment of intelligent manufacturing systems.
+Get Plugged Into the World of OpenUSD
+To learn more about OpenUSD and how to develop digital twin applications with Omniverse libraries, take free courses as part of the new
+digital twin learning path
+, and check out the
+Omniverse Kit companion tutorial
+and how-to guide for
+deploying Omniverse Kit-based applications at scale
+.
+Watch a replay of NVIDIA’s SIGGRAPH
+Research Special Address
+. Plus, try out
+Omniverse NuRec on Isaac Sim and CARLA
+, and learn more about
+Isaac Sim
+.
+Stay up to date by subscribing to
+NVIDIA Omniverse news
+, joining the Omniverse
+community
+and following Omniverse
+on
+Discord
+,
+Instagram
+,
+LinkedIn
+,
+Threads
+,
+X
+,
+and
+YouTube
+.
+Explore the
+Alliance for OpenUSD forum
+and the
+AOUSD website
+.
+Featured image courtesy of Siemens, Sight Machine.
+Categories:
+Pro Graphics
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+Digital Twin
+|
+Industrial and Manufacturing
+|
+Into the Omniverse
+|
+Omniverse
+|
+Physical AI
+|
+Universal Scene Description
+All NVIDIA News
+The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation

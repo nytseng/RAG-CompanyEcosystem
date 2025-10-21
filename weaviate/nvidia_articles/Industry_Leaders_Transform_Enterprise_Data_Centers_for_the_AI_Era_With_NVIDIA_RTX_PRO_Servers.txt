@@ -1,0 +1,105 @@
+Title: Industry Leaders Transform Enterprise Data Centers for the AI Era With NVIDIA RTX PRO Servers
+Source: https://nvidianews.nvidia.com/news/industry-leaders-transform-enterprise-data-centers-for-the-ai-era-with-nvidia-rtx-pro-servers
+
+---
+
+News Summary:
+Leading companies including Disney, Foxconn, Hitachi Ltd., Hyundai Motor Group, Lilly, SAP and TSMC are among the first to adopt NVIDIA RTX PRO Servers to speed AI reasoning, physical AI and business workloads.
+Enterprises are adopting NVIDIA RTX PRO Servers to transition from general-purpose clusters to AI factory infrastructure, without a complete data center overhaul.
+Built on the new RTX PRO 6000 Blackwell Server Edition GPU, NVIDIA RTX PRO Servers deliver breakthrough performance and flexibility, enabling faster development and deployment of next-generation applications and services.
+NVIDIA today announced leading global enterprises have adopted
+NVIDIA RTX PRO™ Servers
+— a new category of enterprise data center infrastructure powered by the
+RTX PRO 6000 Blackwell Server Edition GPU
+— speeding the shift from general-purpose computing clusters to AI factory infrastructure, without a complete data center overhaul.
+Disney,
+Foxconn
+, Hitachi Ltd., Hyundai Motor Group, Lilly, SAP and TSMC are among the first to adopt the servers to accelerate AI, design and simulation applications.
+“The age of AI has arrived — and enterprises can no longer rely on classical servers alone. They must rearchitect for AI,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA RTX PRO is the computing platform built for this moment — running today’s IT workloads while powering the AI agents that will transform every company and every industry.”
+Industry Leaders Tap RTX PRO for AI Acceleration
+Built with NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, RTX PRO Servers use the NVIDIA Blackwell architecture to deliver universal acceleration for demanding enterprise AI workloads spanning agentic and
+physical AI
+to advanced design, scientific computing, simulation, graphics and video applications.
+Industry leaders are deploying RTX PRO Servers to speed their enterprise workloads:
+Josh D’Amaro, chairman of Disney Experiences
+: “At Disney, we’re continually redefining what’s possible for immersive storytelling and guest experiences. This incredible technology will allow us to bring our breadth of stories to life in spectacular detail and faster than ever before. The best example of this is our upcoming update to Millennium Falcon: Smugglers Run at Disneyland and Walt Disney World, where we partnered with NVIDIA to create a blockbuster-caliber experience debuting the same day as ‘The Mandalorian and Grogu’ film.”
+Young Liu, chairman of Foxconn
+: “Achieving digital transformation in smart manufacturing requires the right foundation and technology. By introducing RTX PRO Servers into our global infrastructure, Foxconn is redefining the boundaries of AI-driven automation — from sophisticated robotics to intelligent logistics and smart electric vehicles.”
+Toshiaki Tokunaga, president and CEO of Hitachi Ltd
+: “Hitachi will further accelerate AI innovation by leveraging NVIDIA RTX PRO Servers. NVIDIA RTX PRO Servers enable the digital twin and optimization of physical assets, including social infrastructure, through the acceleration of AI reasoning and physical AI, while also unlocking new possibilities such as improving productivity across overall business activities. Moving forward, Hitachi will deepen its partnership with NVIDIA to solve challenges faced by customer companies and society, continuously delivering value.”
+Heung-Soo Kim, executive vice president and head of the Global Strategy Office at Hyundai Motor Group
+: “Hyundai Motor Group will leverage NVIDIA’s cutting-edge AI infrastructure, including RTX PRO Servers, in the digital twin field to accelerate technological innovation. The partnership will focus on establishing a virtual testbed for manufacturing processes to reduce new factory construction time, while also creating a virtual mobility environment for autonomous driving technology verification.”
+Diogo Rau, chief information and digital officer
+of Lilly:
+“At Lilly, we bring innovative medicines to the people who need them. We do that by pushing the boundaries of science through technology. The universe of possible medicines is enormous. GPUs can help us explore this expansive space, reaching places humans might never look.”
+Christian Klein, CEO of SAP
+: “Secure SAP Cloud Infrastructure empowers enterprises and governments to harness the transformative power of SAP Business AI — all while retaining full control over their data and operational processes. Bringing together RTX PRO Servers and SAP Cloud Infrastructure marks a new chapter in our longstanding collaboration with NVIDIA to enable enterprises to define their AI-powered future.”
+C.C. Wei, chairman and CEO of TSMC
+: “Semiconductors are the backbone of AI, empowering breakthroughs that are redefining every industry. Through our close partnership with NVIDIA, TSMC is advancing semiconductor manufacturing and optimizing our fab operations with Blackwell-powered AI factories, including the utilization of the latest RTX PRO Servers — driving efficiency and innovation throughout the industry.”
+Leading companies at the forefront of the AI industrial revolution are building AI factories and transforming their data center infrastructure with RTX PRO Servers.
+In manufacturing, leaders like
+PEGATRON
+,
+Quanta Cloud Technology
+(QCT),
+Siemens
+and
+Wistron
+are using these systems to drive factory automation and simulation.
+Digital advertising company PubMatic is using RTX PRO Servers to address new AI use cases and high-growth areas like connected TV, commerce media networks and mobile apps.
+Aerospace manufacturer Northrop Grumman is enhancing its existing capabilities with these systems to accelerate AI integration into enterprise workstreams to boost productivity and performance.
+Amdocs
+, a leading provider of software and services for communications and media companies, is deploying RTX PRO Servers to support the reasoning of its amAIz Agents for transforming telecom customer experiences.
+Cadence
+, Siemens EDA and Synopsys will use RTX PRO Servers to accelerate Al-driven simulation across silicon, systems and AI.
+RTX PRO Servers Accelerate Workloads With Data Center Flexibility
+RTX PRO Servers accelerate agentic AI and reasoning workloads, allowing researchers and developers to build and deploy autonomous systems that can learn from, adapt to and interact with their surroundings in real time.
+For example, the
+NVIDIA Llama Nemotron Super
+reasoning model delivers up to 3x better price performance when running with
+NVFP4
+on a single NVIDIA RTX PRO 6000 GPU compared with FP8 on NVIDIA H100 GPUs. This enables more accurate reasoning at a lower cost.
+To develop effective physical AI systems, enterprises need to test and optimize their robotic fleets in simulation before deploying to real-world factories. NVIDIA RTX PRO Servers are advancing industrial and physical AI by delivering up to 4x faster performance for digital twin, simulation and synthetic data generation workflows than systems with NVIDIA L40S GPUs.
+RTX PRO Servers are designed for maximum flexibility to support Windows, Linux and leading hypervisors to offer IT managers a familiar environment for deploying AI at scale without compromise. These servers run virtually every enterprise workload — using air-cooled, PCIe-based, x86 architectures — all with enterprise-grade security, manageability and serviceability.
+Comprehensive Software Support
+NVIDIA RTX PRO Servers and the entire Blackwell architecture product portfolio are supported by the
+NVIDIA AI Enterprise
+software platform, which includes
+NVIDIA NIM™ microservices
+and AI frameworks, libraries and tools that enterprises can deploy on NVIDIA-accelerated clouds, data centers and workstations.
+RTX PRO Servers are featured in the
+NVIDIA Enterprise AI Factory validated design
+for companies looking to build and deploy on-premises AI factories and in the
+NVIDIA AI Data Platform
+, a customizable reference design for building modern storage systems for enterprise agentic AI.
+For physical and industrial AI, RTX PRO Servers running
+NVIDIA Omniverse
+™ libraries and
+NVIDIA Cosmos
+™ world foundation models enable physical AI developers to build and deploy applications including digital twins for factory and robot simulation or large-scale synthetic data generation.
+Availability
+NVIDIA RTX PRO Servers are available in multiple configurations with RTX PRO 6000 Blackwell Server Edition GPUs from Cisco,
+Dell Technologies
+,
+HPE
+,
+Lenovo
+and
+Supermicro
+, as well as
+Advantech
+, Aetina,
+Aivres
+,
+ASRock Rack
+, ASUS,
+Compal
+, Eviden, Foxconn, GIGABYTE, Inventec,
+MiTAC Computing
+,
+MSI
+, PEGATRON, QCT, Wistron and Wiwynn.
+Cloud service providers CoreWeave and Google Cloud are now offering instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with additional instances coming later this year from AWS, Nebius and Vultr.
+Learn more about the
+NVIDIA RTX PRO Server platform
+.

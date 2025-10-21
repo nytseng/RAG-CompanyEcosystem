@@ -1,0 +1,164 @@
+Title: New Lightweight AI Model for Project G-Assist Brings Support for 6GB NVIDIA GeForce RTX and RTX PRO GPUs
+Source: https://blogs.nvidia.com/blog/rtx-ai-garage-gamescom-g-assist-rtx-remix/
+
+---
+
+New Lightweight AI Model for Project G-Assist Brings Support for 6GB NVIDIA GeForce RTX and RTX PRO GPUs
+Updates announced at Gamescom — including new G-Assist capabilities and plug-in hub, and a particle system for NVIDIA RTX Remix — bring generative AI tools to more RTX users.
+August 18, 2025
+by
+Gerardo Delgado
+Share
+Email
+0
+At
+Gamescom
+, NVIDIA is releasing its first major update to
+Project G‑Assist
+— an experimental on-device AI assistant that allows users to tune their NVIDIA RTX systems with voice and text commands.
+The update brings a new AI model that uses 40% less VRAM, improves tool-calling intelligence and extends G-Assist support to all RTX GPUs with 6GB or more VRAM, including laptops. Plus, a new
+G-Assist Plug-In Hub
+enables users to easily discover and download plug-ins to enable more G-Assist features.
+NVIDIA also announced a new path-traced particle system, coming in September to the NVIDIA RTX Remix modding platform, that brings fully simulated physics, dynamic shadows and realistic reflections to visual effects.
+In addition, NVIDIA named the winners of the
+NVIDIA and ModDB RTX Remix Mod Contest
+. Check out the winners and finalist RTX mods in the
+RTX Remix GeForce article
+.
+G-Assist Gets Smarter, Expands to More RTX PCs
+The modern PC is a powerhouse, but unlocking its full potential means navigating a complex maze of settings across system software, GPU and peripheral utilities, control panels and more.
+Project G-Assist is a free, on-device AI assistant built to cut through that complexity. It acts as a central command center, providing easy access to functions previously buried in menus through voice or text commands. Users can ask the assistant to:
+Run diagnostics to optimize game performance
+Display or chart frame rates, latency and GPU temperatures
+Adjust GPU or even peripheral settings, such as keyboard lighting
+The G-Assist update also introduces a new, significantly more efficient AI model that’s faster and uses 40% less memory while maintaining response accuracy. The more efficient model means that G-Assist can now run on all RTX GPUs with 6GB or more VRAM, including laptops.
+Getting started is simple:
+Install the latest Game Ready Driver (580.97 and above) from the NVIDIA app.
+Open the NVIDIA app, go to Settings > About and opt in to Beta and Experimental Features / Early Access. Then re-launch the app; it should be on version 11.0.5.
+On the NVIDIA app, go to Home, scroll down to Discover and download the G-Assist 0.1.17 update.
+Press Alt+G to activate.
+Another G-Assist update coming in September will introduce support for laptop-specific commands for features like
+NVIDIA BatteryBoost
+and Battery OPS.
+Introducing the G-Assist Plug-In Hub With Mod.io
+NVIDIA is collaborating with
+mod.io
+to launch the
+G-Assist Plug-In Hub
+, which allows users to easily access
+G-Assist plug-ins
+, as well as discover and download community-created ones.
+With the mod.io plug-in, users can ask G-Assist to discover and install new plug-ins.
+With the latest update, users can also directly ask G-Assist what new plug-ins are available in the hub and install them using natural language, thanks to a mod.io plug-in.
+The recent
+G-Assist Plug-In Hackathon
+showcased the incredible creativity of the G-Assist community. Here’s a sneak peek of what they came up with:
+Some finalists include:
+Omniplay
+— allows gamers to use G-Assist to research lore from online wikis or take notes in real time while gaming
+Launchpad
+— lets gamers set, launch and toggle custom app groups on the fly to boost productivity
+Flux NIM Microservice for G-Assist
+— allows gamers to easily generate AI images from within G-Assist, using on-device NVIDIA NIM microservices
+The winners of the hackathon will be announced on Wednesday, Aug. 20.
+Building custom plug-ins is simple. They’re based on a foundation of JSON and Python scripts — and the Project G-Assist
+Plug-In Builder
+helps further simplify development by enabling users to code plug-ins with natural language.
+Mod It Like It’s Hot With RTX Remix
+Classic PC games remain beloved for their unforgettable stories, characters and gameplay — but their dated graphics can be a barrier for new and longtime players.
+NVIDIA RTX Remix
+enables modders to revitalize these timeless titles with the latest NVIDIA gaming technologies — bridging nostalgic gameplay with modern visuals.
+Since the platform’s release, the RTX Remix modding community has grown with over 350 active projects and over 100 mods released. The mods span a catalog of beloved games like
+Half-Life 2
+,
+Need for Speed: Underground
+,
+Portal 2
+and
+Deus Ex —
+and have amassed over 2 million downloads.
+In May, NVIDIA invited modders to participate in the
+NVIDIA and ModDB RTX Remix Mod Contest
+for a chance to win $50,000 in cash prizes. At Gamescom, NVIDIA announced the winners:
+Best Overall RTX Mod Winner:
+Painkiller
+RTX Remix
+, by Binq_Adams
+Best Use of RTX in a Mod Winner:
+Painkiller
+RTX Remix
+, by Binq_Adams
+Runner-Up:
+Vampire: The Masquerade – Bloodlines
+– RTX Remaster
+, by Safemilk
+Most Complete RTX Mod Winner:
+Painkiller
+RTX Remix
+, by Binq_Adams
+Runner-Up:
+I-Ninja
+Remixed
+, by g.i.george333
+Community Choice RTX Mod Winner:
+Call of Duty 2
+RTX Remix of Carentan
+, by tadpole3159
+These modders tapped RTX Remix and generative AI to bring their creations to life — from enhancing textures to quickly creating images and 3D assets.
+For example, the Merry Pencil Studios modder team used a workflow that seamlessly connected RTX Remix and ComfyUI, allowing them to simply select textures in the RTX Remix viewport and, with a single click in ComfyUI, restore them.
+The results are stunning, with each texture meticulously recreated with physically based materials layered with grime and rust. With a fully path-traced lighting system, the game’s gothic horror atmosphere has never felt more immersive to play through.
+All mods submitted to the RTX Remix Modding Contest, as well as 100 more Remix mods, are available to download from
+ModDB
+. For a sneak peek at RTX Remix projects under active development, check out the
+RTX Remix Showcase Discord server
+.
+Another RTX Remix update coming in September will allow modders to create new particles that match the look of those found in modern titles. This opens the door for over 165 RTX Remix-compatible games to have particles for the first time.
+To get started creating RTX mods, download NVIDIA RTX Remix from the home screen of the
+NVIDIA app
+. Read the
+RTX Remix article
+to learn more about the contest and winners.
+Each week, the
+RTX AI Garage
+blog series features community-driven AI innovations and content for those looking to learn more about NVIDIA NIM microservices and AI Blueprints, as well as building
+AI agents
+, creative workflows, productivity apps and more on AI PCs and workstations.
+Plug in to NVIDIA AI PC on
+Facebook
+,
+Instagram
+,
+TikTok
+and
+X
+— and stay informed by subscribing to the
+RTX AI PC newsletter
+. Join NVIDIA’s
+Discord server
+to connect with community developers and AI enthusiasts for discussions on what’s possible with RTX AI.
+Follow NVIDIA Workstation on
+LinkedIn
+and
+X
+.
+See
+notice
+regarding software product information.
+Categories:
+Generative AI
+Tags:
+Artificial Intelligence
+|
+Conversational AI
+|
+GeForce
+|
+NVIDIA RTX
+|
+RTX AI Garage
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

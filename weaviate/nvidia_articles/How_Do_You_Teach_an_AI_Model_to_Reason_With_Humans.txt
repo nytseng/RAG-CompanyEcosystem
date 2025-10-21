@@ -1,0 +1,86 @@
+Title: How Do You Teach an AI Model to Reason? With Humans
+Source: https://blogs.nvidia.com/blog/ai-reasoning-cosmos/
+
+---
+
+How Do You Teach an AI Model to Reason? With Humans
+NVIDIA’s data factory team creates the foundation for AI models like Cosmos Reason, which today topped the physical reasoning leaderboard on Hugging Face.
+August 27, 2025
+by
+Zoe Kessler
+Share
+Email
+0
+AI models are advancing at a rapid rate and scale.
+But what might they lack that (most) humans don’t? Common sense: an understanding, developed through real-world experiences, that birds can’t fly backwards, mirrors are reflective and ice melts into water.
+While such principles seem obvious to humans, they must be taught to AI models tasked with accurately answering complex questions and navigating unpredictable physical environments, such as industrial warehouses or roads.
+NVIDIA is tackling this challenge by developing a set of tests to coach AI models on the limitations of the physical world. In other words, to teach AI common sense.
+These tests are used to develop
+reasoning models
+such as
+NVIDIA Cosmos Reason
+, an open reasoning
+vision language model
+(VLM) used for
+physical AI
+applications that are proficient in generating temporally grounded responses. Cosmos Reason just topped the
+physical reasoning leaderboard
+on Hugging Face.
+Cosmos Reason is unique compared with previous VLMs as it’s designed to accelerate physical AI development for fields such as robotics, autonomous vehicles and smart spaces. The model can infer and reason through unprecedented scenarios using physical common-sense knowledge.
+For models to understand complex environments — including industrial spaces and laboratories — they must start small. For example, in the test depicted below, the Cosmos Reason model is tasked with answering a multiple-choice question about the relative motion in the video:
+https://blogs.nvidia.com/wp-content/uploads/2025/08/ModelReasoning_DrivingExample.mp4
+Example from Cosmos Reason evaluation dataset
+What Does Reasoning Look Like for an AI Model?
+To develop their reasoning capabilities, NVIDIA models are being taught physical common sense about the real world via
+reinforcement learning
+.
+For example, robots don’t intuitively know which way is left, right, up or down. They’re taught these spatial-temporal limitations through training. AI-powered robots used in safety testing, such as vehicle crash testing, must be taught to be aware of how their physical forms interact with their surroundings.
+Without embedding common sense into the training of these robots, issues can arise in deployment.
+“Without basic knowledge about the physical world, a robot may fall down or accidentally break something, causing danger to the surrounding people and environment,” said Yin Cui, a Cosmos Reason research scientist at NVIDIA.
+Distilling human common sense about the physical world into models is how NVIDIA is bringing about the next generation of AI.
+Enter the NVIDIA data factory team: a group of global analysts who come from various backgrounds — including bioengineering, business and linguistics. They’re working to develop, analyze and compile hundreds of thousands of data units that will be used to train
+generative AI
+models on how to reason.
+The Data Curation Process
+One of the NVIDIA data factory team’s projects focuses on the development of world foundation models for physical AI applications. These virtual environments create deep learning neural networks that are safer and more effective for training reasoning models, based on simulated domains.
+It all starts with an NVIDIA annotation group that creates question-and-answer pairs based on video data. These videos are all from the real world and can include any type of footage, whether depicting chickens walking around in their coop or cars driving on a rural road.
+For example, an annotator might ask about the video below: “The person uses which hand to cut the spaghetti?”
+https://blogs.nvidia.com/wp-content/uploads/2025/08/ModelReasoning_SpaghettiExample.mp4
+Example from Cosmos Reason evaluation dataset
+The annotators then come up with four multiple choice answers labeled A, B, C and D. The model is fed the data and has to reason and choose the correct answer.
+“We’re basically coming up with a test for the model,” said Cui. “All of our questions are multiple choice, like what students would see on a school exam.”
+These question-and-answer pairs are then quality checked by NVIDIA analysts, such as Michelle Li.
+Li has a background in public health and data analytics, which allows her to look at the broader purpose of the data she analyzes.
+“For physical AI, we have a specific goal of wanting to train models on understanding the physical world, which helps me think about the bigger picture when I’m looking at the Q&A pairs and the types of questions that are being presented,” Li said. “I ask myself, do the Q&A pairs that I’m looking at align with our objectives for the guidelines that we have for the project?”
+After this, the data is reviewed by the data factory leads of the project, who make sure it’s up to quality standards and ready to be sent to the Cosmos Reason research team. The scientists then feed the hundred thousands of data units — in this case the Q&A pairs — to the model, training it with reinforcement learning on the bounds and limitations of the physical world.
+What Are the Applications of Reasoning AI?
+Reasoning models are exceptional because they can make sense of their temporal space as well as predict outcomes. They can analyze a situation, come up with a thought web of probable outcomes and infer the most likely scenario.
+Simply put, reasoning AI demonstrates humanlike thinking. It shows its work, giving the user insight into the logic behind its responses.
+Users can ask these models to analyze a video such as of two cars driving on a road. When asked a question like, “What would happen if the cars were driving toward each other on the same lane?” the model can reason and determine the most probable outcome of the proposed scenario — for example, a car crash.
+“We’re building a pioneering reasoning model focused on physical AI,” said Tsung-Yi Lin, a principal research scientist on the Cosmos Reason team at NVIDIA.
+The data factory team’s ability to produce high-quality data will be imperative for driving the development of intelligent autonomous agents and physical AI systems that can safely interact with the real world as NVIDIA reasoning model innovation continues.
+Preview
+NVDIA Cosmos-Reason1
+or download the model on
+Hugging Face
+and
+GitHub
+.
+Categories:
+Generative AI
+|
+Robotics
+Tags:
+Artificial Intelligence
+|
+Cosmos
+|
+NVIDIA Research
+|
+Physical AI
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

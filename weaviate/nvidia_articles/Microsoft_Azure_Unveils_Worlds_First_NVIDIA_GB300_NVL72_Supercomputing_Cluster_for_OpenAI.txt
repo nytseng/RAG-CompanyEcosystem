@@ -1,0 +1,70 @@
+Title: Microsoft Azure Unveils World’s First NVIDIA GB300 NVL72 Supercomputing Cluster for OpenAI
+Source: https://blogs.nvidia.com/blog/microsoft-azure-worlds-first-gb300-nvl72-supercomputing-cluster-openai/
+
+---
+
+Microsoft Azure Unveils World’s First NVIDIA GB300 NVL72 Supercomputing Cluster for OpenAI
+New state-of-the-art platform enables next-generation AI model development and deployment while furthering American leadership in AI.
+October 9, 2025
+by
+Ian Buck
+Share
+Email
+0
+Microsoft Azure today
+announced
+the new NDv6 GB300 VM series, delivering the industry’s first supercomputing-scale production cluster of
+NVIDIA GB300 NVL72
+systems, purpose-built for OpenAI’s most demanding AI inference workloads.
+This supercomputer-scale cluster features over 4,600 NVIDIA Blackwell Ultra GPUs connected via the
+NVIDIA Quantum-X800 InfiniBand
+networking platform. Microsoft’s unique systems approach applied radical engineering to memory and networking to provide the massive scale of compute required to achieve high inference and training throughput for reasoning models and agentic AI systems.
+Today’s achievement is the result of years of deep partnership between NVIDIA and Microsoft purpose-building AI infrastructure for the world’s most demanding AI workloads and to deliver infrastructure for the next frontier of AI. It marks another leadership moment, ensuring that leading-edge AI drives innovation in the United States.
+“Delivering the industry’s first at-scale NVIDIA GB300 NVL72 production cluster for frontier AI is an achievement that goes beyond powerful silicon — it reflects Microsoft Azure and NVIDIA’s shared commitment to optimize all parts of the modern AI data center,” said Nidhi Chappell, corporate vice president of Microsoft Azure AI Infrastructure.
+“Our collaboration helps ensure customers like OpenAI can deploy next-generation infrastructure at unprecedented scale and speed.”
+Inside the Engine: The NVIDIA GB300 NVL72
+At the heart of Azure’s new NDv6 GB300 VM series is the liquid-cooled, rack-scale NVIDIA GB300 NVL72 system. Each rack is a powerhouse, integrating 72 NVIDIA Blackwell Ultra GPUs and 36 NVIDIA Grace CPUs into a single, cohesive unit to accelerate training and inference for massive AI models.
+The system provides a staggering 37 terabytes of fast memory and 1.44 exaflops of FP4 Tensor Core performance per VM, creating a massive, unified memory space essential for reasoning models, agentic AI systems and complex multimodal generative AI.
+NVIDIA Blackwell Ultra is supported by the full-stack NVIDIA AI platform, including collective communication libraries that tap into new formats like
+NVFP4
+for breakthrough training performance, as well as compiler technologies like
+NVIDIA Dynamo
+for the highest inference performance in reasoning AI.
+The NVIDIA Blackwell Ultra platform excels at both training and inference. In the recent
+MLPerf Inference v5.1
+benchmarks, NVIDIA GB300 NVL72 systems delivered record-setting performance using NVFP4. Results included up to 5x higher throughput per GPU on the 671-billion-parameter DeepSeek-R1 reasoning model compared with the NVIDIA Hopper architecture, along with leadership performance on all newly introduced benchmarks like the Llama 3.1 405B model.
+The Fabric of a Supercomputer: NVLink Switch and NVIDIA Quantum-X800 InfiniBand
+To connect over 4,600 Blackwell Ultra GPUs into a single, cohesive supercomputer, Microsoft Azure’s cluster relies on a two-tiered NVIDIA networking architecture designed for both scale-up performance within the rack and scale-out performance across the entire cluster.
+Within each GB300 NVL72 rack, the fifth-generation
+NVIDIA NVLink Switch
+fabric provides 130 TB/s of direct, all-to-all bandwidth between the 72 Blackwell Ultra GPUs. This transforms the entire rack into a single, unified accelerator with a shared memory pool — a critical design for massive, memory-intensive models.
+To scale beyond the rack, the cluster uses the NVIDIA Quantum-X800 InfiniBand platform, purpose-built for trillion-parameter-scale AI. Featuring NVIDIA ConnectX-8 SuperNICs and Quantum-X800 switches, NVIDIA Quantum-X800 provides 800 Gb/s of bandwidth per GPU, ensuring seamless communication across all 4,608 GPUs.
+Microsoft Azure’s cluster also uses NVIDIA Quantum-X800’s advanced adaptive routing, telemetry-based congestion control and performance isolation capabilities, as well as NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) v4, which accelerates operations to significantly boost the efficiency of large-scale training and inference.
+Driving the Future of AI
+Delivering the world’s first production NVIDIA GB300 NVL72 cluster at this scale required a reimagination of every layer of Microsoft’s data center — from custom liquid cooling and power distribution to a reengineered software stack for orchestration and storage.
+This latest milestone marks a big step forward in building the infrastructure that will unlock the future of AI. As Azure scales to its goal of deploying hundreds of thousands of NVIDIA Blackwell Ultra GPUs, even more innovations are poised to emerge from customers like OpenAI.
+Learn more about this announcement on the
+Microsoft Azure blog
+.
+Categories:
+Data Center
+|
+Supercomputing
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+High-Performance Computing
+|
+Inference
+|
+NVLink
+|
+Supercomputing
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

@@ -1,0 +1,77 @@
+Title: The UK’s ‘Goldilocks Moment for AI’: NVIDIA, UK and US Leaders Highlight AI Infrastructure Investments
+Source: https://blogs.nvidia.com/blog/uk-ai-ecosystem-celebration/
+
+---
+
+The UK’s ‘Goldilocks Moment for AI’: NVIDIA, UK and US Leaders Highlight AI Infrastructure Investments
+September 18, 2025
+by
+NVIDIA Newsroom
+Share
+Email
+0
+The U.K. was the center of the AI world this week as NVIDIA, U.K. and U.S. leaders announced new initiatives toward making the nation an AI superpower.
+NVIDIA founder and CEO Jensen Huang’s visit to the U.K. this week culminated in an
+NVIDIA AI ecosystem celebration
+today at Town Hall by Bottaccio in London, where he welcomed U.K. Prime Minister Keir Starmer and U.K. Secretary of State for Science, Innovation and Technology Liz Kendall on stage to discuss the nation’s “Goldilocks moment” where world-class universities, researchers, startups and venture capitalists converge to create a golden network for building out the nation’s AI.
+Huang also highlighted plans for the U.K.’s AI infrastructure on a panel with Peter Kyle, U.K. Secretary of State for Business and Trade, and Howard Lutnick, U.S. Secretary of Commerce.
+Panel with U.K. Secretary of State for Business and Trade Peter Kyle, U.S. Secretary of Commerce Howard Lutnick and NVIDIA founder and CEO Jensen Huang.
+The United Kingdom was the birthplace of the industrial revolution, Huang said. Now, it’s the world’s third largest AI market — home to 3,700 companies and 60,000 employees, a powerhouse of talent and enterprise — making it an ideal ecosystem for pushing forth the next industrial revolution driven by AI.
+“This is the biggest-ever tech agreement between the United States and the United Kingdom,” said Starmer. He highlighted that the U.K’s work with NVIDIA and the U.S. government is focused on using AI for security and safety for both countries, in addition to business and trade.
+“[AI], which some people find strange and confusing, can open doors,” said Secretary Kendall. “The role of this government is to open doors … and together with [NVIDIA], we can open those doors and give that hope to people in this country.”
+U.K. Secretary of State for Science, Innovation and Technology Liz Kendall with NVIDIA founder and CEO Jensen Huang.
+“This isn’t just about London,” Secretary Kyle said, highlighting the collaboration’s reach will span Belfast, Manchester, Edinburgh and other parts of the country. “What you’re seeing is the renewal, the refocus and crucially, the modernizing of the special relationship [between the U.K. and U.S.],” he said.
+That modernization taps into AI and digital infrastructure.
+Secretary Lutnick emphasized the importance of building this infrastructure, highlighting how the U.S. is bringing more energy online to power the AI factories that will make this transformation possible.
+“One of the things we need to do is to build — and that’s part of our philosophy: to build sufficiently at home so that we have the capacity to care for ourselves and the rest of the world if we need to,” Lutnick said.
+Combining supercomputing hyperscale facilities and AI investments in Britain will result in incredible scientific exploration and discovery — and crucially, the commercialization of it, Kyle added.
+“I believe the greatest natural resource of the U.K. is the incredible researchers and scientists,” Huang said. “It is really quite extraordinary. Your universities are creating critical thinkers, independent thinkers, creative thinkers — and they invent amazing things.”
+Over 500 attendees from startups, venture capital companies, higher education and industry came together at the event to forge connections, exchange ideas and catalyze new growth opportunities at the forefront of AI.
+NVIDIA Announces Investment in the UK
+Huang
+announced NVIDIA’s £2 billion investment
+in partnership with venture capital firms that have a longstanding U.K. presence, including Accel, Air Street Capital, Balderton Capital, Hoxton Ventures and Phoenix Court — all of which attended the AI ecosystem celebration.
+Designed to foster the U.K. AI startup ecosystem and scale AI’s impact across industries, the investment will act as an economic catalyst, bringing more innovative technologies and AI applications to market through new companies and jobs.
+Read more about other AI makers
+leading innovation in the U.K.
+More Key Announcements From the Week
+NVIDIA and partners are deploying 120,000 NVIDIA Blackwell GPUs — the largest AI infrastructure rollout in U.K. history, 100x more powerful than today’s top supercomputers.
+By 2026, up to 60,000 GPUs will power new AI factories with Microsoft, Nscale, OpenAI and CoreWeave, enabling the next wave of U.K. innovation.
+NVIDIA and Oxford Quantum Circuits are building a quantum-GPU supercenter — advancing the U.K.’s leadership at the frontier of science.
+With techUK and QA, NVIDIA is launching a robotics R&D hub to train and upskill the next generation of AI talent.
+Built on
+NVIDIA Grace Hopper Superchips
+, Isambard-AI — the U.K.’s most powerful AI supercomputer, based at the University of Bristol — is accelerating national projects including for healthcare, climate science and public services.
+Learn more about
+NVIDIA’s collaboration with the U.K. to fuel innovation, economic growth and jobs
+.
+Categories:
+Data Center
+|
+Generative AI
+Tags:
+AI Factory
+|
+Artificial Intelligence
+|
+Data Science
+|
+Economic Development
+|
+Events
+|
+High-Performance Computing
+|
+NVIDIA DGX
+|
+NVIDIA in Europe
+|
+Social Impact
+|
+Sovereign AI
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

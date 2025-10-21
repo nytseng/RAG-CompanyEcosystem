@@ -1,0 +1,61 @@
+Title: NVIDIA Blackwell Ultra Sets the Bar in New MLPerf Inference Benchmark
+Source: https://blogs.nvidia.com/blog/mlperf-inference-blackwell-ultra/
+
+---
+
+NVIDIA Blackwell Ultra Sets the Bar in New MLPerf Inference Benchmark
+The NVIDIA GB300 NVL72 rack-scale system delivers the highest throughput on the new reasoning inference benchmark, while the NVIDIA platform holds every per-GPU inference record.
+September 9, 2025
+by
+Dave Salvator
+Share
+Email
+0
+Inference performance is critical, as it directly influences the
+economics of an AI factory
+. The higher the throughput of AI factory infrastructure, the more
+tokens
+it can produce at a high speed — increasing revenue, driving down total cost of ownership (TCO) and enhancing the system’s overall productivity.
+Less than half a year since its debut at NVIDIA GTC, the
+NVIDIA GB300 NVL72
+rack-scale system (5.1-0072, Closed Division [1]) — powered by the
+NVIDIA Blackwell Ultra architecture
+— set records on the new reasoning inference benchmark in MLPerf Inference v5.1, delivering 45% higher DeepSeek-R1 inference throughput in the offline scenario compared with NVIDIA Blackwell-based
+GB200 NVL72
+systems (5.1-0071, Closed Division [1]).
+Blackwell Ultra builds on the success of the Blackwell architecture, with the Blackwell Ultra architecture featuring 1.5x more NVFP4 AI compute and 2x more attention-layer acceleration than Blackwell, as well as up to 288GB of HBM3e memory per GPU.
+The NVIDIA platform also set performance records on all new data center benchmarks added to the MLPerf Inference v5.1 suite — including DeepSeek-R1, Llama 3.1 405B Interactive, Llama 3.1 8B and Whisper — while continuing to hold per-GPU records on every MLPerf data center benchmark.
+Stacking It All Up
+Full-stack co-design plays an important role in delivering these latest benchmark results. Blackwell and Blackwell Ultra incorporate hardware acceleration for the NVFP4 data format — an NVIDIA-designed 4-bit floating point format that provides better accuracy compared with other FP4 formats, as well as comparable accuracy to higher-precision formats.
+NVIDIA TensorRT Model Optimizer software quantized DeepSeek-R1, Llama 3.1 405B, Llama 2 70B and Llama 3.1 8B to NVFP4. In concert with the open-source NVIDIA TensorRT-LLM library, this optimization enabled Blackwell and Blackwell Ultra to deliver higher performance while meeting strict accuracy requirements in submissions.
+Large language model inference consists of two workloads with distinct execution characteristics: 1) context for processing user input to produce the first output token and 2) generation to produce all subsequent output tokens.
+A technique called disaggregated serving splits context and generation tasks so each part can be optimized independently for best overall throughput. This technique was key to record-setting performance on the Llama 3.1 405B Interactive benchmark, helping to deliver a 47% increase in performance per GPU with GB200 NVL72 with 72 Blackwell GPUs connected using fifth-generation NVLink and NVLink Switch (5.1-0072, Closed Division [1]) systems compared with each Blackwell GPU in an
+NVIDIA DGX B200
+server with 8 Blackwell GPUs also connected using fifth-generation NVLink and NVLink Switch (5.1-0069, Closed Division [1]) running the benchmark with traditional serving.
+NVIDIA also made its first submissions this round using the
+NVIDIA Dynamo
+inference framework
+(5.1-0388, Open Division [1])
+.
+NVIDIA partners — including cloud service providers and server makers — submitted great results using the NVIDIA Blackwell and/or Hopper platform. These partners include Azure, Broadcom, Cisco, CoreWeave, Dell Technologies, Giga Computing, HPE, Lambda, Lenovo, Nebius, Oracle, Quanta Cloud Technology, Supermicro and the University of Florida.
+The market-leading inference performance on the NVIDIA AI platform is available from major cloud providers and server makers. This translates to lower TCO and enhanced return on investment for organizations deploying sophisticated AI applications.
+Learn more about these full-stack technologies by reading the
+NVIDIA Technical Blog
+on MLPerf Inference v5.1. Plus, visit the
+NVIDIA DGX Cloud Performance Explorer
+to learn more about NVIDIA performance, model TCO and generate custom reports.
+[1] MLPerf® v5.1 Inference. Result verified by MLCommons Association. The MLPerf name and logo are registered and unregistered trademarks of MLCommons Association in the United States and other countries. All rights reserved. Unauthorized use strictly prohibited. See www.mlcommons.org for more information.
+Categories:
+Data Center
+|
+Hardware
+Tags:
+NVIDIA Blackwell Platform
+|
+TensorRT
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX
+Incoming: ‘Battlefield 6’ Lands on GeForce NOW at Launch
+GeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time

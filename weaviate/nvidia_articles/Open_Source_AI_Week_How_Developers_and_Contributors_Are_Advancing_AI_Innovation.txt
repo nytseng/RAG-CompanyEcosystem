@@ -1,0 +1,92 @@
+Title: Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Source: https://blogs.nvidia.com/blog/open-source-ai-week/
+
+---
+
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Stay tuned throughout the week for coverage from Open Source AI Week in San Francisco.
+October 17, 2025
+by
+Anish Maddipoti
+Share
+Email
+0
+NVIDIA’s on the ground at
+Open Source AI Week
+. Stay tuned for a celebration highlighting the spirit of innovation, collaboration and community that drives open-source AI forward. Follow
+NVIDIA AI Developer
+on social channels for additional news and insights.
+Building the Future of AI With PyTorch and NVIDIA
+🔗
+PyTorch
+, the fastest-growing AI framework, derives its performance from the NVIDIA CUDA platform and uses the Python programming language to unlock developer productivity. This year, NVIDIA
+added
+Python as a first-class language to the CUDA platform, giving the PyTorch developer community greater access to CUDA.
+CUDA Python includes key components that make GPU acceleration in Python easier than ever, with built-in support for
+kernel fusion
+,
+extension module integration
+and simplified
+packaging
+for fast deployment.
+Following PyTorch’s open collaboration model,
+CUDA Python
+is available on
+GitHub
+and
+PyPI
+.
+According to
+PyPI Stats
+, PyTorch averaged over two million daily downloads, peaking at 2,303,217 on October 14, and had 65 million total downloads last month.
+Every month, developers worldwide download
+hundreds of millions of
+NVIDIA libraries — including CUDA, cuDNN, cuBLAS and CUTLASS — mostly within Python and PyTorch environments. CUDA Python provides
+nvmath-python
+, a new library that acts as the bridge between Python code and these highly optimized GPU libraries.
+Plus,
+kernel enhancements
+and support for next-generation frameworks make NVIDIA accelerated computing more efficient, adaptable and widely accessible.
+NVIDIA maintains a long-standing collaboration with the PyTorch community through open-source contributions and technical leadership, as well as by sponsoring and participating in community events and activations.
+At
+PyTorch Conference 2025 in San Francisco
+, NVIDIA will host a keynote address, five technical sessions and nine poster presentations.
+NVIDIA’s on the ground at
+Open Source AI Week
+. Stay tuned for a celebration highlighting the spirit of innovation, collaboration and community that drives open-source AI forward. Follow
+NVIDIA AI Developer
+on social channels for additional news and insights.
+NVIDIA Spotlights Open Source Innovation
+🔗
+Open Source AI Week
+kicks off on Monday with a series of hackathons, workshops and meetups spotlighting the latest advances in AI, machine learning and open-source innovation.
+The event brings together leading organizations, researchers and open-source communities to share knowledge, collaborate on tools and explore how openness accelerates AI development.
+NVIDIA continues to expand access to advanced AI innovation by providing open-source tools, models and datasets designed to empower developers. With more than 1,000 open-source tools on
+NVIDIA GitHub
+repositories and over 500 models and 100 datasets on the
+NVIDIA Hugging Face
+collections, NVIDIA is accelerating the pace of open, collaborative AI development.
+Over the past year,
+NVIDIA has become the top contributor
+in Hugging Face repositories, reflecting a deep commitment to sharing models, frameworks and research that empower the community.
+https://blogs.nvidia.com/wp-content/uploads/2025/10/1016.mp4
+Openly available models, tools and datasets are essential to driving innovation and progress. By empowering anyone to use, modify and share technology, it fosters transparency and accelerates discovery, fueling breakthroughs that benefit both industry and communities alike. That’s why NVIDIA is committed to supporting the open source ecosystem.
+We’re on the ground all week — stay tuned for a celebration highlighting the spirit of innovation, collaboration and community that drives open-source AI forward, with the
+PyTorch Conference
+serving as the flagship event.
+Categories:
+Generative AI
+Tags:
+Agentic AI
+|
+Artificial Intelligence
+|
+Events
+|
+Physical AI
+All NVIDIA News
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing
+Elon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX

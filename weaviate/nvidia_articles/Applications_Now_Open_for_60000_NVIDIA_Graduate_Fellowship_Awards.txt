@@ -1,0 +1,41 @@
+Title: Applications Now Open for $60,000 NVIDIA Graduate Fellowship Awards
+Source: https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2025/
+
+---
+
+Applications Now Open for $60,000 NVIDIA Graduate Fellowship Awards
+August 13, 2025
+by
+Sylvia Chanak
+Share
+Email
+0
+Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems.
+To foster such innovation, the
+NVIDIA Graduate Fellowship Program
+provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 25th year, is now accepting applications worldwide.
+It focuses on supporting students working in AI, machine learning, autonomous vehicles, computer graphics, robotics, healthcare, high-performance computing and related fields. Awards are up to $60,000 per student.
+Since its start in 2002, the Graduate Fellowship Program has awarded over 200 grants worth more than $7.3 million.
+Students must have completed at least their first year of Ph.D.-level studies at the time of application.
+The application deadline for the 2026-2027 academic year is Monday, Sept. 15, 2025. An in-person internship at an NVIDIA research office preceding the fellowship year is mandatory; eligible candidates must be available for the internship in summer 2026.
+For more on eligibility and how to apply, visit the
+program website
+.
+Categories:
+Corporate
+|
+Deep Learning
+|
+Generative AI
+|
+Research
+Tags:
+Artificial Intelligence
+|
+Education
+All NVIDIA News
+Open Source AI Week — How Developers and Contributors Are Advancing AI Innovation
+Ready, Set, Reward — GeForce NOW Membership Rewards Await
+How Starcloud Is Bringing Data Centers to Outer Space
+Oracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi’s AI-Native Government Transformation
+NVIDIA and Oracle to Accelerate Enterprise AI and Data Processing

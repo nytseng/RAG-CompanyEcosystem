@@ -1,0 +1,109 @@
+Title: NVIDIA Blackwell Architecture Comes to GeForce NOW
+Source: https://nvidianews.nvidia.com/news/nvidia-blackwell-architecture-comes-to-geforce-now
+
+---
+
+News Summary:
+The NVIDIA Blackwell architecture is coming to GeForce NOW in the platform’s biggest update yet, delivering NVIDIA GeForce RTX 5080-class GPUs to the cloud, including NVIDIA DLSS 4 Multi-Frame Generation for streaming up to 5K resolution at 120 frames per second, new AI-powered features and more.
+The GeForce NOW game library will double to over 4,500 titles with the launch of Install-to-Play, allowing members to access more of their PC collections, along with upcoming AAA games launching in the cloud.
+A new Cinematic Quality Streaming mode significantly improves graphical fidelity with Blackwell-powered technology for stunning color accuracy, supersmooth streaming and crystal-clear graphics.
+The extensive list of supported devices continues to grow — now including racing wheels, up to 90 fps on the Steam Deck, 4K at 120Hz on supported LG TVs and more.
+NVIDIA, Discord and Epic are partnering to enable an integrated experience in Discord via a limited-time trial of a GeForce NOW Performance experience, transforming game discovery and social gaming.
+Gamescom—
+NVIDIA today announced that the NVIDIA Blackwell architecture is coming to
+GeForce NOW
+™, marking the cloud gaming platform’s biggest update yet.
+The upgrade brings NVIDIA GeForce RTX™ 5080-class performance, AI enhancements and cloud storage to set new standards for cloud gaming. With thousands of more games on the way, the NVIDIA Blackwell architecture will deliver cutting-edge graphics and the fastest frame rates in the cloud without raising membership prices.
+“Bringing the NVIDIA Blackwell architecture, one of the world’s most important computer graphics innovations, to GeForce NOW represents the biggest leap in cloud gaming ever,” said Jensen Huang, founder and CEO of NVIDIA. “With Blackwell, GeForce NOW offers even more stunning graphics, the fastest frame rates and negligible latency to turn any device into a high-quality gaming rig that rivals nearly every other product on the market today.”
+Members will gain advanced features like
+NVIDIA DLSS 4
+Multi-Frame Generation, pushing streaming up to 5K resolution at 120 frames per second (fps) — previously only possible with the most advanced gaming PCs.
+The upgrade adds support for up to 360 fps at 1080p with
+NVIDIA Reflex
+technology and click-to-pixel response times as low as 30 milliseconds. Tapping a global network of NVIDIA SuperPODs, the majority of gamers in GeForce NOW-supported regions will see sub-30-millisecond network latency.
+In addition, a new Cinematic-Quality Streaming (CQS) mode uses a host of technological advancements to significantly improve image quality.
+Borderlands 4
+,
+Call of Duty: Black Ops 7
+and
+The Outer Worlds 2
+are among the new AAA games that will join GeForce NOW, now totaling more than 2,300 games. That number will double instantly with the launch of Install-to-Play, a feature that brings more of gamers’ PC collections to the cloud with new cloud storage.
+The Ultimate Upgrade
+The NVIDIA Blackwell architecture features enhanced ray tracing and AI-powered rendering, enabling more realistic lighting, richer textures and faster computation to run real-time graphics for even the most demanding games.
+With the introduction of GeForce RTX 5080-class GPUs, the GeForce NOW Ultimate membership tier will deliver a stunning 62 teraflops of compute performance and a massive 48GB frame buffer, which enables AI-enhanced gaming experiences and prepares the platform for the future of AI in gaming.
+The latest GPU architecture offers up to 2.8x faster frame rates compared with previous-generation servers and outpaces the PlayStation 5 Pro by more than 3x. Enhanced by the latest AMD “Zen 5” CPUs and
+NVIDIA ConnectX
+®
+-7 SmartNICs
+, GeForce NOW features the most advanced hardware in cloud gaming.
+Plus, NVIDIA’s broadband connectivity and mobile partner network continues to grow, with new collaborations with Comcast, Deutsche Telekom AG and more. Comcast is enhancing low-latency GeForce NOW cloud gaming through the DOCSIS telecommunications standard, Deutsche Telekom AG is integrating GeForce NOW into its 5G+ network and BT Group plans to trial L4S and 5G slicing to deliver consistent, high-quality 5G performance — whether at home or on the go.
+Cinematic-Quality Streaming
+Members will experience a noticeable leap in graphics fidelity with CQS for the highest-quality visual experiences in the cloud. CQS features a suite of technologies powered by the NVIDIA Blackwell architecture, delivering:
+Stunning Color Accuracy:
+Support for the YUV color model with 4:4:4 chroma sampling and 10-bit high dynamic range enables true-to-life visuals with richer colors, sharper edges and deeper contrast — ideal for games with detailed text and intricate backgrounds, such as with lush foliage and rich greenery.
+Supersmooth Streaming:
+Advanced AV1 encoders offer seamless adaptation to changing network speeds, ensuring uninterrupted play.
+Crystal-Clear Graphics:
+New heads-up display sharpness and AI-powered video filters, available on select games, keep on-screen text crisp and action scenes free from blur or noise, even during fast-paced games.
+Optimized for Every Screen:
+New automatic detection of a laptop’s display resolution delivers the highest possible streaming quality — especially on laptops with high dots per inch, or DPI.
+Blazing-Fast Bitrates:
+With up to 100 Mbps streaming, every detail stays sharp, so gamers can tap into today’s fastest home internet connections.
+Games Multiplier
+Publishers are bringing the biggest blockbusters and acclaimed indie hits to GeForce NOW, expanding its cloud library of preinstalled, ready-to-play games to over 2,300 titles.
+A host of AAA games will be available to play in the cloud at launch. Upcoming releases include
+Hell Is Us
+, a mystery adventure from Nacon, followed by 2K’s and Gearbox Software’s
+Borderlands 4
+and Techland’s
+Dying Light: The Beast
+.
+“NVIDIA’s Blackwell-powered GeForce NOW upgrade is a game-changer for Gearbox that significantly elevates the gameplay experiences for our players,” said Brian Burleson, vice president of strategic partnerships at Gearbox Entertainment. “GeForce NOW brings the games and universes within them to almost any screen imaginable so that every last detail we’ve worked so hard on is visible. We’re proud to be part of this next era of cloud gaming.”
+“Castor Woods in
+Dying Light: The Beast
+is the most beautiful world we ever created, with huge improvements to dynamic lighting, physics and graphics,” said Tymon Smektała,
+Dying Light
+franchise director at Techland. “With GeForce NOW’s Blackwell architecture, these improvements will be available to more players than ever, even those without high-end PCs at home.”
+Gamers can also look forward to the return of the beloved sci-fi role-playing game
+The Outer Worlds 2
+from Obsidian Entertainment; the sci-fi action of Embark Studio’s
+Arc Raiders
+; as well as the highly anticipated
+Vampire: The Masquerade – Bloodlines 2
+from Paradox Interactive and White Wolf. The heart-pounding
+Call of Duty: Black Ops 7
+from Activision is also joining the cloud at launch, as well as a new sci-fi third-person shooter from BigFire Games and NCSoft called
+CINDER CITY
+.
+“We’re focused on giving players more choice in how and where they play, and NVIDIA’s Blackwell-powered GeForce NOW upgrade helps us do that,” said Craig Duncan, head of Xbox Game Studios. “With enhanced performance and visual fidelity, it’s now easier for players to jump into their favorite worlds, connect with friends and discover new adventures.”
+Also new with the GeForce NOW upgrade, Install-to-Play games are made possible by cutting-edge cloud storage servers using high-performance NVIDIA NVMesh technology.
+Members will gain access to double the game catalog, streaming more than 2,200 additional Steam titles that publishers have enabled for cloud streaming on GeForce NOW, with more to come. This means GeForce NOW’s library will expand to over 4,500 Ready-to-Play and Install-to-Play titles.
+“Seeing so many AAA and indie games arriving on GeForce NOW is a great win for studios and gamers alike,” said Larry Kuperman, vice president of business development at Nightdive Studios. “Expanding the GeForce NOW library with thousands of additional Steam titles means more gamers than ever can experience our worlds — seamlessly and instantly, on nearly any device — for a true PC experience in the cloud.”
+Install-to-Play games are downloaded directly to cloud storage, mirroring the experience of having them on a local PC. GeForce NOW Ultimate and Performance members will receive 100GB of single-session cloud storage for Install-to-Play games at no additional cost to their membership.
+Members will also be able to expand their cloud storage with persistent storage add-ons: 200GB for $2.99 per month, 500GB for $4.99 per month and 1TB for $7.99 per month.
+Install-to-Play games saved in persistent storage will remain ready to launch without the need to download and reinstall for every session.
+More Frames on More Devices
+Launched earlier this year, GeForce RTX 5080-powered servers are giving the
+native GeForce NOW app on Steam Deck
+a performance boost from 60 to 90 fps.
+LG monitors and TVs are among the first to benefit from GeForce NOW RTX 5080 server upgrades. Supported LG OLED monitors can also stream in ultra-high 5K (5120×2880) when connected to Windows or macOS devices — no extra hardware needed. LG TVs are also leading the way as the world’s first to stream 4K at 120Hz with HDR through a native app on supported LG TVs.
+Support for popular peripherals also grows, with native support for many Logitech racing wheels offering the lowest-latency, most responsive driving experiences.
+In addition, the GeForce NOW Mac client will receive all the NVIDIA Blackwell architecture upgrades, turning Apple computers into high-performance gaming machines.
+More Easily Connect With Gamers
+NVIDIA, Discord and Epic are partnering to transform how people discover and play games together — making it easier than ever for gamers to stay connected.
+Powered by NVIDIA GeForce NOW’s game streaming technology and distributed through Discord, the new integrated experience lets players try new games instantly on Discord — no downloads, installs or launchers — without missing a beat of gameplay.
+This new integrated experience will let gamers try
+Fortnite
+directly in Discord, if they do not have the game installed, through a limited-time trial of the GeForce NOW Performance experience — even without a GeForce NOW membership.
+Players only need to create or connect their Epic accounts before instantly dropping into
+Fortnite.
+The integration
+makes it easier for Discord’s hundreds of millions of users to discover streamed game experiences, such as
+Fortnite
+sessions, helping game developers expand their reach where conversations about games are already happening.
+Pricing, Availability and Promotions
+The GeForce NOW upgrade featuring the NVIDIA Blackwell architecture will begin rolling out in September.
+GeForce NOW Ultimate remains available for $19.99 per month or $99.99 for six months, and includes access to RTX 5080 servers. Performance memberships remain available at $9.99 per month or $49.99 for six months. Daily, monthly and annual membership will be available starting at launch. Annual memberships will be available for $199.99 and $99.99, respectively.
+To reserve a spot to be among the first to access RTX 5080-class servers on GeForce NOW,
+sign up for an Ultimate membership
+.
