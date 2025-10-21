@@ -7,7 +7,7 @@ from weaviate.classes.backup import BackupLocation
 client = weaviate.connect_to_local()
 
 # 2. Define a unique ID for your backup
-BACKUP_ID = "my_nvidia_rag_export_20251021"
+BACKUP_ID = "nvidia_all_1"
 
 # 3. Start the backup process
 print(f"Starting backup with ID: {BACKUP_ID}...")
@@ -16,7 +16,7 @@ try:
     result = client.backup.create(
         backup_id=BACKUP_ID,
         backend="filesystem", # Use the 'filesystem' backend
-        include_collections=["NvidiaNewsArticleHF"], # Specify the collection(s) to back up
+        include_collections=["NvidiaInfo"], # Specify the collection(s) to back up
         wait_for_completion=True, # Wait until the process finishes before continuing
         backup_location=BackupLocation.FileSystem(path="/var/lib/weaviate/backups")
     )

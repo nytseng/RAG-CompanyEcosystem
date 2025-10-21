@@ -10,8 +10,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # --- Configuration ---
 WEAVIATE_URL = "http://localhost:8080"
-WEAVIATE_CLASS_NAME = "NvidiaNewsArticleHF"
-ARTICLE_DIR = "nvidia_articles" # This should match the directory from the scraping script
+WEAVIATE_CLASS_NAME = "NvidiaInfo"
+ARTICLE_DIR = "../data" # This should match the directory from the scraping script
 
 # --- Embedding Model Setup (Hugging Face) ---
 # NOTE: The first time this runs, the model will be downloaded to your machine.
@@ -27,11 +27,22 @@ def load_documents():
         # Use LangChain's DirectoryLoader to read all files ending in .txt
         loader = DirectoryLoader(
             path=ARTICLE_DIR, 
-            glob="*.txt", 
+            glob="*.txt/", 
             loader_kwargs={"encoding": "utf-8"},
-            silent_errors=True
+            silent_errors=True,
+            recursive=True
         )
         documents = loader.load()
+        print(f"   ✅ Loaded {len(documents)} total documents.")
+        loader = DirectoryLoader(
+            path=ARTICLE_DIR, 
+            glob="*.md/", 
+            loader_kwargs={"encoding": "utf-8"},
+            silent_errors=True,
+            recursive=True
+        )
+        documents += loader.load()
+
         print(f"   ✅ Loaded {len(documents)} total documents.")
         return documents
     except Exception as e:
