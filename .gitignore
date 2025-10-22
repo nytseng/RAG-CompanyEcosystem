@@ -1,3 +1,5 @@
 data/nvidia-most-cited/
 data/selected_papers/
-data/temp.txt
+data/temp.txt/
+__pycache__/
+*.pyc
