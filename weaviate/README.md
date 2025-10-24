@@ -1,4 +1,4 @@
-# 📚 Weaviate RAG Demo Setup Guide
+# Weaviate RAG Demo Setup Guide
 
 This guide outlines the steps to set up the Weaviate vector database, ingest the NVIDIA article data (using Hugging Face's `all-MiniLM-L6-v2` embeddings), and run similarity searches using LangChain.
 
@@ -18,7 +18,7 @@ pip install weaviate-client langchain-weaviate langchain-community langchain-cor
 
 4. **Data:** Ensure your scraped article data is available in the `nvidia_articles/` directory.
 
-## 🚀 Step 1: Start the Weaviate Database
+## Step 1: Start the Weaviate Database
 
 You must start the Weaviate container before attempting to connect to it. The ingestion and query scripts are configured to connect to `http://localhost:8080`.
 
@@ -28,9 +28,9 @@ To start the database in the background:
 docker compose up -d
 ```
 
-> **Note:** Wait a few moments for the container to fully initialize and become ready after running this command.
+> **Note:** Wait a few moments for the container to fully initialize and become ready after running this command. Also make sure the volume is properly mounted so that you can create a backup.
 
-## 💾 Step 2: Build the Database and Ingest Data
+## Step 2: Build the Database and Ingest Data
 
 This step loads the articles, splits them into chunks, calculates the `all-MiniLM-L6-v2` embeddings, creates the Weaviate collection (`NvidiaNewsArticleHF`), and uploads the vectors.
 
@@ -38,6 +38,11 @@ Run your data ingestion script:
 
 ```bash 
 python weaviate_db.py
+```
+or back up the current database (make sure the volume is mounted for weaviate_backups)
+
+```bash
+python weaviate_db_backup.py
 ```
 
 or restore the previously built database
@@ -47,7 +52,7 @@ python weaviate_db_restore.py
 ```
 
 
-## 🔍 Step 3: Query the Vector Database
+## Step 3: Query the Vector Database
 
 Once the ingestion is complete, you can use the retrieval script (`weaviate_query.py`) to perform vector similarity searches against your newly indexed data.
 
