@@ -12,7 +12,7 @@ This Phase 1 implementation demonstrates a domain-specific RAG system optimized 
 RAG-CompanyEcosystem/
 ├── README.md                           # This comprehensive documentation
 ├── retrieval_requests.json             # 10 manual domain-specific test queries
-├── weaviate_results.json              # Experimental results from Weaviate system
+├── weaviate_results.json               # Experimental results from Weaviate system
 │
 ├── data/                               # Curated NVIDIA knowledge base (125 docs)
 │   ├── nvidia_articles/                # Recent newsroom content (67 .txt files)
@@ -21,7 +21,7 @@ RAG-CompanyEcosystem/
 │   │   ├── README.md                   # Collection methodology documentation
 │   │   ├── download_arxiv.py           # Automated paper collection script
 │   │   ├── parse_papers.py             # PDF to markdown conversion utility
-│   │   └── rag_papers_text/           # Processed research papers
+│   │   └── rag_papers_text/            # Processed research papers
 │   │       └── [43 highly-cited NVIDIA research papers on AI, CUDA, GPUs]
 │   └── transcripts/                    # Executive communications (15 .txt files)
 │       ├── metadata.json               # Comprehensive interview metadata
@@ -32,27 +32,27 @@ RAG-CompanyEcosystem/
 │   ├── script.py                      # Vector ingestion with incremental processing
 │   ├── readme.md                      # Technical implementation documentation
 │   ├── requirements.txt               # Python dependencies
-│   └── qdrant_db_COSINE/             # SQLite-based vector storage
+│   └── qdrant_db_COSINE/              # SQLite-based vector storage
 │
 ├── evaluator/                         # Multi-modal evaluation framework
 │   ├── __init__.py                    # Package initialization
-│   ├── bleu_evaluator.py             # N-gram similarity metrics (BLEU)
-│   ├── rouge_evaluator.py            # Recall-oriented metrics (ROUGE-1, -2, -L)
-│   ├── llm_evaluator.py              # LLM-based factual accuracy assessment
-│   ├── ragas_evaluator.py            # Retrieval quality metrics (RAGAS)
-│   ├── readme.md                     # Comprehensive evaluation documentation
-│   └── test/                         # Evaluation examples and validation
+│   ├── bleu_evaluator.py              # N-gram similarity metrics (BLEU)
+│   ├── rouge_evaluator.py             # Recall-oriented metrics (ROUGE-1, -2, -L)
+│   ├── llm_evaluator.py               # LLM-based factual accuracy assessment
+│   ├── ragas_evaluator.py             # Retrieval quality metrics (RAGAS)
+│   ├── readme.md                      # Comprehensive evaluation documentation
+│   └── test/                          # Evaluation examples and validation
 │       ├── __init__.py
-│       └── sample_test.py            # Usage examples
+│       └── sample_test.py             # Usage examples
 │
 └── weaviate/                         # Alternative vector store experiments
     ├── README.md                     # Weaviate implementation documentation
     ├── newsletter_scraper.py         # Web scraping utilities
-    ├── weaviate_db.py               # Vector database setup and configuration
-    ├── weaviate_db_backup.py        # Backup utilities
-    ├── weaviate_db_restore.py       # Restore utilities
-    ├── weaviate_query.py            # Query interface implementation
-    └── weaviate_backups/            # Backup storage directory
+    ├── weaviate_db.py                # Vector database setup and configuration
+    ├── weaviate_db_backup.py         # Backup utilities
+    ├── weaviate_db_restore.py        # Restore utilities
+    ├── weaviate_query.py             # Query interface implementation
+    └── weaviate_backups/             # Backup storage directory
         ├── my_nvidia_rag_export_20251021/
         └── nvidia_all_1/
 ```
