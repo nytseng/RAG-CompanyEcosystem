@@ -194,47 +194,6 @@ Each query includes manually selected ground truth documents with specific text 
 - ✅ **Backup/restore** capabilities for data preservation
 - ✅ **Modular architecture** enabling component-wise improvements
 
-## Research Applications
-
-### For NVIDIA Research Teams
-
-**Ongoing Work Discovery**:
-```bash
-# Example: Find related GPU architecture research
-"What recent research has been published on GPU memory optimization?"
-
-# Expected retrieval: Academic papers + recent product announcements
-# Business value: Avoid research duplication, identify collaboration opportunities
-```
-
-**Technical Context Retrieval**:
-```bash
-# Example: Understand framework evolution
-"How has the NeMo framework evolved in terms of real-world applications?"
-
-# Expected retrieval: Research papers + application case studies + executive insights
-# Business value: Comprehensive technical roadmap understanding
-```
-
-### For Executive Decision-Making
-
-**Strategic Alignment**:
-```bash
-# Example: Market positioning analysis
-"What is NVIDIA's vision for AI agents in enterprise environments?"
-
-# Expected retrieval: Executive transcripts + product announcements + partnership news
-# Business value: Consistent messaging and strategic alignment
-```
-
-**Competitive Intelligence**:
-```bash
-# Example: Technology advancement tracking
-"How does NVIDIA's Blackwell architecture compare to previous generations?"
-
-# Expected retrieval: Technical specifications + performance benchmarks + market analysis
-# Business value: Informed strategic decisions and competitive positioning
-```
 
 ## Future Development Roadmap
 
