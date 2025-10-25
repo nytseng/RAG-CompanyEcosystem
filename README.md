@@ -1,4 +1,4 @@
-# RAG-CompanyEcosystem: NVIDIA Internal Research Tool
+# RAG-CompanyEcosystem:
 
 ## Executive Summary
 
