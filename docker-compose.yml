@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # 1. Your LangGraph Python Application
+  rag-app:
+    build: 
+      context: ./LangGraph
+      dockerfile: Dockerfile
+    depends_on:
+      - ollama
+      - weaviate
+    environment:
+      # Hostnames match the service names below
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - WEAVIATE_URL=http://weaviate:8080
+    networks:
+      - agent_network
+
+  # 2. The Local LLM Service
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./entrypoint.sh:/entrypoint.sh
+    networks:
+      - agent_network
+    entrypoint: ["/usr/bin/bash", "/entrypoint.sh"]
+
+  # 3. Weaviate Vector Database
+  weaviate:
+    command:
+      - --host
+      - 0.0.0.0
+      - --port
+      - '8080'
+      - --scheme
+      - http
+    image: cr.weaviate.io/semitechnologies/weaviate:1.33.1
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+      - ./weaviate_backups:/var/lib/weaviate/backups
+    restart: on-failure:0
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      # Important: This allows Weaviate to use Ollama for embeddings
+      ENABLE_MODULES: 'text2vec-ollama,generative-ollama,backup-filesystem'
+      CLUSTER_HOSTNAME: 'node1'
+      BACKUP_FILESYSTEM_PATH: '/var/lib/weaviate/backups'
+    networks:
+      - agent_network
+
+# --- NETWORK DEFINITION ---
+networks:
+  agent_network:
+    driver: bridge
+
+# --- VOLUMES ---
+volumes:
+  ollama_data:
+  weaviate_data:
