@@ -15,7 +15,7 @@ ARTICLE_DIR = "../data" # This should match the directory from the scraping scri
 
 # --- Embedding Model Setup (Hugging Face) ---
 # NOTE: The first time this runs, the model will be downloaded to your machine.
-MODEL_NAME = "all-MiniLM-L6-v2"
+MODEL_NAME = "BAAI/bge-base-en-v1.5"
 embeddings = HuggingFaceEmbeddings(model_name=MODEL_NAME)
 print(f"✅ Initialized Hugging Face Embeddings with model: {MODEL_NAME}")
 
@@ -27,21 +27,25 @@ def load_documents():
         # Use LangChain's DirectoryLoader to read all files ending in .txt
         loader = DirectoryLoader(
             path=ARTICLE_DIR, 
-            glob="*.txt/", 
+            glob="**/*.txt", 
             loader_kwargs={"encoding": "utf-8"},
             silent_errors=True,
             recursive=True
         )
         documents = loader.load()
-        print(f"   ✅ Loaded {len(documents)} total documents.")
+        print(f"   ✅ Loaded {len(documents)} .txt documents.")
+        
+        # Also load .md files
         loader = DirectoryLoader(
             path=ARTICLE_DIR, 
-            glob="*.md/", 
+            glob="**/*.md", 
             loader_kwargs={"encoding": "utf-8"},
             silent_errors=True,
             recursive=True
         )
-        documents += loader.load()
+        md_documents = loader.load()
+        documents += md_documents
+        print(f"   ✅ Loaded {len(md_documents)} .md documents.")
 
         print(f"   ✅ Loaded {len(documents)} total documents.")
         return documents
