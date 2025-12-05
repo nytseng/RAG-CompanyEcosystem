@@ -123,6 +123,69 @@ workflow.add_edge("generate", END)
 
 app = workflow.compile()
 
+# Agentic workflow
+
+class AnswerCheck(BaseModel):
+    sufficient: bool = Field(..., description="True if the answer sufficiently and clearly addresses the question.")
+
+def assess_answer(state: AgentState):
+    structured_llm = llm.with_structured_output(AnswerCheck, method="json_schema")
+
+    system_prompt = """You check if an answer sufficiently and clearly addresses a user's question.
+    Return a JSON object with a single key 'sufficient'.
+    """
+
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", system_prompt),
+        ("human", "Question:\n{question}\n\nAnswer:\n{answer}")
+    ])
+
+    checker = prompt | structured_llm
+    result = checker.invoke({"question": state["question"], "answer": state["answer"]})
+
+    update = {"sufficient": result.sufficient}
+    if not result.sufficient:
+        update["question"] = f"Improve and expand this answer: {state['answer']}"
+    return update
+
+def agent_next_step(state: AgentState):
+    return "end" if state.get("sufficient") else "router"
+
+agent_workflow = StateGraph(AgentState)
+
+agent_workflow.add_node("router", route_question)
+agent_workflow.add_node("retrieve_transcripts", retrieve_transcripts)
+agent_workflow.add_node("retrieve_newsletters", retrieve_newsletters)
+agent_workflow.add_node("retrieve_papers", retrieve_papers)
+agent_workflow.add_node("generate", generate_answer)
+agent_workflow.add_node("assess", assess_answer)
+
+agent_workflow.set_entry_point("router")
+
+agent_workflow.add_conditional_edges(
+    "router",
+    get_next_node,
+    {
+        "retrieve_transcripts": "retrieve_transcripts",
+        "retrieve_newsletters": "retrieve_newsletters",
+        "retrieve_papers": "retrieve_papers",
+    }
+)
+
+agent_workflow.add_edge("retrieve_transcripts", "generate")
+agent_workflow.add_edge("retrieve_newsletters", "generate")
+agent_workflow.add_edge("retrieve_papers", "generate")
+agent_workflow.add_edge("generate", "assess")
+
+agent_workflow.add_conditional_edges(
+    "assess",
+    agent_next_step,
+    {"router": "router", "end": END}
+)
+
+agent = agent_workflow.compile()
+
+
 # --- EXECUTION ---
 if __name__ == "__main__":
     # Example 1
