@@ -24,6 +24,18 @@ from langchain_core.documents import Document
 # Corrected Import to match ingestion script
 from langchain_community.embeddings import HuggingFaceEmbeddings 
 
+import os
+import weaviate
+from weaviate.classes.init import Auth, AdditionalConfig, Timeout
+from weaviate.classes.query import MetadataQuery
+import getpass
+import os
+# LangChain Imports
+from langchain_weaviate.vectorstores import WeaviateVectorStore
+from langchain_core.documents import Document
+# Corrected Import to match ingestion script
+from langchain_community.embeddings import HuggingFaceEmbeddings 
+
 # --- CONFIGURATION ---
 # Ensure you have pulled this model in Ollama: `ollama pull llama3`
 LLM_MODEL = "gemma3" 
@@ -368,6 +380,7 @@ class AnswerCheck(BaseModel):
     sufficient: bool = Field(..., description="True if the answer sufficiently and clearly addresses the question.")
 
 def assess_answer(state: AgentState):
+    print("---ASSESS---")
     structured_llm = llm.with_structured_output(AnswerCheck, method="json_schema")
 
     system_prompt = """You check if an answer sufficiently and clearly addresses a user's question.
@@ -381,13 +394,15 @@ def assess_answer(state: AgentState):
 
     checker = prompt | structured_llm
     result = checker.invoke({"question": state["question"], "answer": state["answer"]})
-
+    print(result)
     update = {"sufficient": result.sufficient}
     if not result.sufficient:
         update["question"] = f"Improve and expand this answer: {state['answer']}"
     return update
 
 def agent_next_step(state: AgentState):
+    print("\n\n\n\n")
+    print(state)
     return "end" if state.get("sufficient") else "router"
 
 agent_workflow = StateGraph(AgentState)
