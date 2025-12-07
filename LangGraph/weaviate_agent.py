@@ -89,6 +89,7 @@ class RouteQuery(BaseModel):
     )
 
 def route_question(state: AgentState):
+    print(state)
     print(f"---ROUTING QUESTION: {state['question']}---")
     
     # "json_schema" method is often more reliable for local models than tool calling
@@ -403,10 +404,11 @@ def assess_answer(state: AgentState):
 def agent_next_step(state: AgentState):
     print("\n\n\n\n")
     print(state)
-    return "end" if state.get("sufficient") else "router"
+    return "end" if state.get("sufficient") else "decompose_query"
 
 agent_workflow = StateGraph(AgentState)
 
+agent_workflow.add_node("decompose_query", decompose_query)
 agent_workflow.add_node("router", route_question)
 agent_workflow.add_node("retrieve_transcripts", retrieve_transcripts)
 agent_workflow.add_node("retrieve_newsletters", retrieve_newsletters)
@@ -414,17 +416,9 @@ agent_workflow.add_node("retrieve_papers", retrieve_papers)
 agent_workflow.add_node("generate", generate_answer)
 agent_workflow.add_node("assess", assess_answer)
 
-agent_workflow.set_entry_point("router")
+agent_workflow.set_entry_point("decompose_query")
 
-agent_workflow.add_conditional_edges(
-    "router",
-    get_next_node,
-    {
-        "retrieve_transcripts": "retrieve_transcripts",
-        "retrieve_newsletters": "retrieve_newsletters",
-        "retrieve_papers": "retrieve_papers",
-    }
-)
+agent_workflow.add_conditional_edges("decompose_query", distribute_queries)
 
 agent_workflow.add_edge("retrieve_transcripts", "generate")
 agent_workflow.add_edge("retrieve_newsletters", "generate")
@@ -434,7 +428,7 @@ agent_workflow.add_edge("generate", "assess")
 agent_workflow.add_conditional_edges(
     "assess",
     agent_next_step,
-    {"router": "router", "end": END}
+    {"decompose_query": "decompose_query", "end": END}
 )
 
 agent = agent_workflow.compile()
