@@ -7,12 +7,11 @@ services:
       context: ./LangGraph
       dockerfile: Dockerfile
     depends_on:
-      - ollama
       - weaviate
+      - ollama
     environment:
       # Hostnames match the service names below
       - OLLAMA_BASE_URL=http://ollama:11434
-      - WEAVIATE_URL=http://weaviate:8080
     networks:
       - agent_network
 
@@ -24,9 +23,17 @@ services:
     volumes:
       - ollama_data:/root/.ollama
       - ./entrypoint.sh:/entrypoint.sh
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all # Or a specific number like 1
+              capabilities: [gpu]
     networks:
       - agent_network
     entrypoint: ["/usr/bin/bash", "/entrypoint.sh"]
+    attach: false
 
   # 3. Weaviate Vector Database
   weaviate:
@@ -53,6 +60,7 @@ services:
       ENABLE_MODULES: 'text2vec-ollama,generative-ollama,backup-filesystem'
       CLUSTER_HOSTNAME: 'node1'
       BACKUP_FILESYSTEM_PATH: '/var/lib/weaviate/backups'
+    attach: false
     networks:
       - agent_network
 
@@ -63,5 +71,5 @@ networks:
 
 # --- VOLUMES ---
 volumes:
-  ollama_data:
   weaviate_data:
+  ollama_data:
