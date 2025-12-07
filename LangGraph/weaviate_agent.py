@@ -1,9 +1,12 @@
 from typing import TypedDict, Literal
+from typing import List, Annotated, TypedDict
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
 from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, END
+from langgraph.types import Send
 from langchain_core.prompts import ChatPromptTemplate
+import operator
 
 import os
 import weaviate
@@ -24,9 +27,6 @@ OLLAMA_BASE_URL = "http://ollama:11434" # Hostname 'ollama' comes from docker-co
 WEAVIATE_URL = "http://weaviate:8080"
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Google AI API key: ")
-
 # Initialize Local LLM
 llm = ChatOllama(
     model=LLM_MODEL,
@@ -38,9 +38,18 @@ llm = ChatOllama(
 class AgentState(TypedDict):
     question: str
     category: str
-    context: str
+    context: Annotated[List[str], operator.add]
     answer: str
     sufficient: bool
+    original_question: str
+    sub_questions: List[str]
+
+class SubQueries(BaseModel):
+    """A list of sub-questions derived from a complex user question."""
+    sub_questions: List[str] = Field(
+        ...,
+        description="A list of distinct, independent sub-questions that need to be answered to fully resolve the user's original, complex question."
+    )
 
 # --- ROUTER LOGIC ---
 class RouteQuery(BaseModel):
@@ -51,6 +60,7 @@ class RouteQuery(BaseModel):
     )
 
 def route_question(state: AgentState):
+    print(state)
     print(f"---ROUTING QUESTION: {state['question']}---")
     
     # "json_schema" method is often more reliable for local models than tool calling
@@ -144,10 +154,71 @@ def retrieve_papers(state: AgentState):
     print(docs[0])
     return {"context": docs}
 
+# --- DECOMPOSER LOGIC (FAN-OUT) ---
+def decompose_query(state: AgentState):
+    """Uses LLM to break a complex question into multiple sub-questions."""
+    print(f"---DECOMPOSING QUERY: {state['question']}---")
+
+    structured_llm = llm.with_structured_output(SubQueries, method="json_schema")
+    
+    system_prompt = """You are a Query Decomposer. Your task is to analyze a complex user question 
+    and break it down into distinct, simple, and independent sub-questions. 
+    Each sub-question should be answerable on its own. 
+    Return a JSON object containing a list of these sub-questions.
+
+    If the question is simple then just return a JSON object containing a list of the original question.
+    """
+    
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", system_prompt),
+        ("human", "{question}")
+    ])
+    
+    decomposer_chain = prompt | structured_llm
+    result = decomposer_chain.invoke({"question": state["question"]})
+
+    # Ensure result is a list of strings, fall back if LLM fails
+    sub_questions = result.sub_questions if result and result.sub_questions else [state['question']]
+    print(f"---GENERATED {len(sub_questions)} SUB-QUERIES---")
+
+    return {"sub_questions": sub_questions, "original_question": state["question"]}
+
+def distribute_queries(state: AgentState):
+    """
+    Decide routing HERE instead of in a separate node. 
+    This prevents 'category' state collisions.
+    """
+    sub_qs = state.get("sub_questions", [])
+    print(f"---ROUTING {len(sub_qs)} SUB-TASKS---")
+    
+    structured_llm = llm.with_structured_output(RouteQuery, method="json_schema")
+    router_prompt = ChatPromptTemplate.from_messages([
+        ("system", "Route to: 'transcripts', 'newsletters', or 'papers'."),
+        ("human", "{question}")
+    ])
+    router_chain = router_prompt | structured_llm
+
+    sends = []
+    for q in sub_qs:
+        # Run router for this specific sub-question
+        try:
+            res = router_chain.invoke({"question": q})
+            source = res.datasource
+        except:
+            source = "newsletters" # Fallback
+
+        target_node = f"retrieve_{source}"
+        
+        # Create the Send object
+        # Note: We pass 'question' so the retriever knows what to search for
+        sends.append(Send(target_node, {"question": q}))
+        
+    return sends
+
 def rerank(docs):
     return docs[0].content
 # --- GENERATOR ---
-def generate_answer(state: AgentState):
+def generate_answer(state: List[AgentState]):
     print("---GENERATING ANSWER---")
     prompt = ChatPromptTemplate.from_template(
         """You are a helpful assistant. Answer the question based ONLY on the provided context.
@@ -159,44 +230,19 @@ def generate_answer(state: AgentState):
         {question}
         """
     )
+    combined_results = ""
+    for d in state["context"]:
+        combined_results += f"\n {d.page_content}"
     chain = prompt | llm
-    response = chain.invoke({"context": state["context"], "question": state["question"]})
-    print(response)
+    response = chain.invoke({"context": combined_results, "question": state["original_question"]})
+
     return {"answer": response.content}
-
-# --- GRAPH CONSTRUCTION ---
-workflow = StateGraph(AgentState)
-
-workflow.add_node("router", route_question)
-workflow.add_node("retrieve_transcripts", retrieve_transcripts)
-workflow.add_node("retrieve_newsletters", retrieve_newsletters)
-workflow.add_node("retrieve_papers", retrieve_papers)
-workflow.add_node("generate", generate_answer)
-
-workflow.set_entry_point("router")
 
 def get_next_node(state: AgentState):
     category = state["category"]
     if category == "transcripts": return "retrieve_transcripts"
     elif category == "papers": return "retrieve_papers"
     else: return "retrieve_newsletters"
-
-workflow.add_conditional_edges(
-    "router",
-    get_next_node,
-    {
-        "retrieve_transcripts": "retrieve_transcripts",
-        "retrieve_newsletters": "retrieve_newsletters",
-        "retrieve_papers": "retrieve_papers"
-    }
-)
-
-workflow.add_edge("retrieve_transcripts", "generate")
-workflow.add_edge("retrieve_newsletters", "generate")
-workflow.add_edge("retrieve_papers", "generate")
-workflow.add_edge("generate", END)
-
-app = workflow.compile()
 
 # Agentic workflow
 
@@ -227,10 +273,11 @@ def assess_answer(state: AgentState):
 def agent_next_step(state: AgentState):
     print("\n\n\n\n")
     print(state)
-    return "end" if state.get("sufficient") else "router"
+    return "end" if state.get("sufficient") else "decompose_query"
 
 agent_workflow = StateGraph(AgentState)
 
+agent_workflow.add_node("decompose_query", decompose_query)
 agent_workflow.add_node("router", route_question)
 agent_workflow.add_node("retrieve_transcripts", retrieve_transcripts)
 agent_workflow.add_node("retrieve_newsletters", retrieve_newsletters)
@@ -238,17 +285,9 @@ agent_workflow.add_node("retrieve_papers", retrieve_papers)
 agent_workflow.add_node("generate", generate_answer)
 agent_workflow.add_node("assess", assess_answer)
 
-agent_workflow.set_entry_point("router")
+agent_workflow.set_entry_point("decompose_query")
 
-agent_workflow.add_conditional_edges(
-    "router",
-    get_next_node,
-    {
-        "retrieve_transcripts": "retrieve_transcripts",
-        "retrieve_newsletters": "retrieve_newsletters",
-        "retrieve_papers": "retrieve_papers",
-    }
-)
+agent_workflow.add_conditional_edges("decompose_query", distribute_queries)
 
 agent_workflow.add_edge("retrieve_transcripts", "generate")
 agent_workflow.add_edge("retrieve_newsletters", "generate")
@@ -258,7 +297,7 @@ agent_workflow.add_edge("generate", "assess")
 agent_workflow.add_conditional_edges(
     "assess",
     agent_next_step,
-    {"router": "router", "end": END}
+    {"decompose_query": "decompose_query", "end": END}
 )
 
 agent = agent_workflow.compile()
