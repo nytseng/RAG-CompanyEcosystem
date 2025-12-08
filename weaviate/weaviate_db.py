@@ -135,8 +135,8 @@ def upload_to_weaviate(chunks, client, className):
 # --- Main Execution ---
 def main():
     """Runs the full pipeline to load and ingest data."""
-    dirList = ["../data/nvidia_articles", "../data/publications", "../data/transcripts"]
-    classList = ["NvidiaArticles", "NvidiaPublications", "NvidiaTranscripts"]
+    dirList = ["../data/nvidia_articles", "../data/publications", "../data/transcripts", "../data"]
+    classList = ["NvidiaArticles", "NvidiaPublications", "NvidiaTranscripts", "NvidiaInfo"]
     for d, c in zip(dirList, classList):
         if not os.path.isdir(d):
             print(f"The directory '{d}' was not found. Please run the scraping script first.")

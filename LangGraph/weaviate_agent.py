@@ -7,7 +7,9 @@ from langgraph.graph import StateGraph, END
 from langgraph.types import Send
 from langchain_core.prompts import ChatPromptTemplate
 import operator
+from metric_handler import MetricsHandler
 
+import time
 import os
 import weaviate
 from weaviate.classes.init import Auth, AdditionalConfig, Timeout
@@ -27,11 +29,13 @@ OLLAMA_BASE_URL = "http://ollama:11434" # Hostname 'ollama' comes from docker-co
 WEAVIATE_URL = "http://weaviate:8080"
 MODEL_NAME = "all-MiniLM-L6-v2"
 
+metrics_handler = MetricsHandler()
 # Initialize Local LLM
 llm = ChatOllama(
     model=LLM_MODEL,
     base_url=OLLAMA_BASE_URL,
-    temperature=0
+    temperature=0,
+    callbacks=[metrics_handler]
 )
 
 # --- STATE DEFINITION ---
@@ -307,6 +311,17 @@ agent = agent_workflow.compile()
 if __name__ == "__main__":
     # Example 1
     inputs = {"question": "How does NVIDIA reduce latency in ray tracing?"}
+
+    start_time = time.perf_counter()
+
     result = agent.invoke(inputs)
+
+    end_time = time.perf_counter() 
+    total_time = end_time - start_time
+
     print(f"\nFINAL ANSWER:\n{result['answer']}")
+    metrics_handler.report()
+    print(f"Total Workflow Duration (Wall Clock): {total_time:.2f}s")
+
+    
 

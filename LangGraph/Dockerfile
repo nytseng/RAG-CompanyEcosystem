@@ -15,7 +15,7 @@ RUN pip install sentence-transformers
 
 # Copy the rest of the application's code
 # Assumes your script is named 'main.py'
-COPY weaviate_agent.py .
+COPY . .
 
 # Define the command to run your app
 CMD ["python", "weaviate_agent.py"]
