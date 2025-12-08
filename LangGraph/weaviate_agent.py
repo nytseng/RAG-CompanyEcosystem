@@ -24,6 +24,7 @@ from langchain_core.documents import Document
 # Corrected Import to match ingestion script
 from langchain_community.embeddings import HuggingFaceEmbeddings 
 
+import time
 import os
 import weaviate
 from weaviate.classes.init import Auth, AdditionalConfig, Timeout
