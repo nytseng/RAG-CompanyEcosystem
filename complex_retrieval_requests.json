@@ -17,7 +17,7 @@
         }
       ]
     },{
-      "request": "What are the major physical or resource bottlenecks that constrain the scalability of AI factories used by major companies? How has NVIDIA addressed these limitations?",
+      "request": "Our team is designing a 10-year roadmap for deploying a local 'AI Factory.' Identify and summarize the major physical or resource bottlenecks that constrain the scalability of AI factories used by major companies? How has NVIDIA addressed these limitations?",
       "documents": [
         {
           "document": "data/nvidia_articles/NVIDIA_Spectrum_X_Ethernet_Switches_Speed_Up_Networks_for_Meta_and_Oracle.txt",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "request": "How is the NeMo framework applied to real-world AI model development and applications? What are some potential areas for improvement?",
+      "request": "We are drafting a scaling plan to deploy the NeMo framework globally. How is the NeMo framework used in real-world AI model applications? What are some potential areas for improvement?",
       "documents": [
         {
           "document": "data/publications/rag_papers_text/1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "request": "List and summarize articles that discuss NVIDIA’s broader vision of AI agents in the real world. Also provide interview transcripts that mention this topic.",
+      "request": "We are preparing a strategy report for an upcoming executive board meeting. List and summarize articles that discuss NVIDIA’s broader vision of AI agents in the real world. Also provide interview transcripts that mention this topic.",
       "documents": [
         {
           "document": "data/nvidia_articles/AI_On_How_Onboarding_Teams_of_AI_Agents_Drives_Productivity_and_Revenue_for_Businesses.txt",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "request": "What kinds of medical AI projects or clinical applications have been developed or are currently being improved as a result of using NVIDIA GPUs?",
+      "request": "Our 'AI innovation' team is applying for an internal research grant. Discuss medical AI projects and clinical applications that have been developed or significantly improved using NVIDIA GPUs.",
       "documents": [
         {
           "document": "data/transcripts/transcript_6.txt",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "request": "How has NVIDIA scaled AI performance from Hopper to Blackwell? Explain the improvements over time based on the timestamps of the documents",
+      "request": "How has NVIDIA scaled AI performance from Hopper to Blackwell? Explain the improvements over time based on the timestamps of the documents.",
       "documents": [
         {
           "document": "data/transcripts/transcript_2.txt",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "request": "Discuss NVIDIA's current or previous collaborations with academic or industry partners in AI research. How have these collaborations push AI research forward?",
+      "request": "The Communications team is drafting this month's internal newsletter and wants to highlight our impact outside the company. Summarize NVIDIA's current or previous collaborations with academic or industry partners in AI research. Describe how these collaborations have push AI research forward?",
       "documents": [
         {
           "document": "data/nvidia_articles/The_AI_Makers_NVIDIA_Partners_in_UK_Advance_Physical_and_Agentic_AI_Robotics_Life_Sciences_and_More.txt",
