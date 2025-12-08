@@ -1,0 +1,8 @@
+nltk
+rouge-score
+openai>=1.0.0
+anthropic
+google-genai
+requests
+ragas
+sentence-transformers
