@@ -7,6 +7,7 @@ from langgraph.graph import StateGraph, END
 from langgraph.types import Send
 from langchain_core.prompts import ChatPromptTemplate
 import operator
+import json
 from metric_handler import MetricsHandler
 
 import time
@@ -240,7 +241,7 @@ def generate_answer(state: List[AgentState]):
     chain = prompt | llm
     response = chain.invoke({"context": combined_results, "question": state["original_question"]})
 
-    return {"answer": response.content}
+    return {"answer": response.content, "context": state["context"]}
 
 def get_next_node(state: AgentState):
     category = state["category"]
@@ -322,6 +323,45 @@ if __name__ == "__main__":
     print(f"\nFINAL ANSWER:\n{result['answer']}")
     metrics_handler.report()
     print(f"Total Workflow Duration (Wall Clock): {total_time:.2f}s")
+
+    results = []
+    with open('complex_retrieval_requests.json', 'r') as f:
+        data_dict = json.load(f)
+
+        reqs = data_dict["requests"]
+        for r in reqs:
+            inputs = {"question": r["request"]}
+            start_time = time.perf_counter()
+
+            result = agent.invoke(inputs)
+
+            end_time = time.perf_counter() 
+            total_time = end_time - start_time
+
+            serialized_context = []
+            if "context" in result:
+                serialized_context = [
+                    {
+                        "content": doc.page_content, 
+                        "metadata": doc.metadata
+                    } 
+                    for doc in result['context']
+                ]
+            request_metrics = {}
+            request_metrics["response"] = result['answer']
+            request_metrics["context"] = serialized_context
+            request_metrics["total_time"] = total_time
+            request_metrics["successful_requests"] = metrics_handler.successful_requests
+            request_metrics["total_latency"] = metrics_handler.total_latency
+            request_metrics["total_input_tokens"] = metrics_handler.total_input_tokens
+            request_metrics["total_output_tokens"] = metrics_handler.total_output_tokens
+
+            results.append(request_metrics)
+    
+
+    with open('./data/result.json', 'w') as fp:
+        json.dump({"results": results}, fp)
+
 
     
 

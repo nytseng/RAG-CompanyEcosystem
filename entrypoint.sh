@@ -15,6 +15,5 @@ sleep 5
 echo "🔴 Retrieve Gemma3 model..."
 ollama pull gemma3
 echo "🟢 Done!"
-
 # Wait for Ollama process to finish.
 wait $pid
