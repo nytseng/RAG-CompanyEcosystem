@@ -7,7 +7,6 @@ from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
-
 # --- Configuration ---
 WEAVIATE_URL = "http://localhost:8080"
 WEAVIATE_CLASS_NAME = "NvidiaInfo"
@@ -20,13 +19,13 @@ embeddings = HuggingFaceEmbeddings(model_name=MODEL_NAME)
 print(f"✅ Initialized Hugging Face Embeddings with model: {MODEL_NAME}")
 
 # --- 1. Load Documents from Directory ---
-def load_documents():
+def load_documents(d):
     """Loads all .txt files from the specified directory using LangChain."""
     print(f"\n1️⃣ Starting document loading from '{ARTICLE_DIR}/'...")
     try:
         # Use LangChain's DirectoryLoader to read all files ending in .txt
         loader = DirectoryLoader(
-            path=ARTICLE_DIR, 
+            path=d, 
             glob="*.txt/", 
             loader_kwargs={"encoding": "utf-8"},
             silent_errors=True,
@@ -35,7 +34,7 @@ def load_documents():
         documents = loader.load()
         print(f"   ✅ Loaded {len(documents)} total documents.")
         loader = DirectoryLoader(
-            path=ARTICLE_DIR, 
+            path=d, 
             glob="*.md/", 
             loader_kwargs={"encoding": "utf-8"},
             silent_errors=True,
@@ -77,22 +76,22 @@ def setup_weaviate_client():
         print(f"   ❌ Error connecting to Weaviate. Is the Docker container running? Details: {e}")
         return None
 
-def configure_weaviate_schema(client):
+def configure_weaviate_schema(client, className):
     """Configures the schema for the NvidiaNewsArticleHF class."""
     # Note: Using the v4 client, collections are the new name for classes.
     # The LangChain integration handles this conversion seamlessly.
 
     # Delete class if it exists to ensure a clean start
-    if client.collections.exists(WEAVIATE_CLASS_NAME):
-        print(f"   ⚠️ Deleting existing class '{WEAVIATE_CLASS_NAME}' for clean setup...")
-        client.collections.delete(WEAVIATE_CLASS_NAME)
+    if client.collections.exists(className):
+        print(f"   ⚠️ Deleting existing class '{className}' for clean setup...")
+        client.collections.delete(className)
     
     # Define the new collection schema
     # When vectorizer is 'none', Weaviate expects the vectors to be provided at import time.
     from weaviate.classes.config import Configure, Property, DataType
     
     client.collections.create(
-        name=WEAVIATE_CLASS_NAME,
+        name=className,
         description="NVIDIA Newsletter and Newsroom articles (Hugging Face Vectorized).",
         vectorizer_config=Configure.Vectorizer.none(),
         properties=[
@@ -108,11 +107,11 @@ def configure_weaviate_schema(client):
             ),
         ],
     )
-    print(f"   ✅ Created Weaviate class '{WEAVIATE_CLASS_NAME}'.")
+    print(f"   ✅ Created Weaviate class '{className}'.")
 
 
 # --- 4. Upload Data to Weaviate ---
-def upload_to_weaviate(chunks, client):
+def upload_to_weaviate(chunks, client, className):
     """Uses LangChain's Weaviate integration to upload all chunks."""
     print("\n4️⃣ Generating embeddings and uploading documents...")
 
@@ -122,7 +121,7 @@ def upload_to_weaviate(chunks, client):
             chunks,
             embeddings,
             client=client,
-            index_name=WEAVIATE_CLASS_NAME,
+            index_name=className,
             # 'text_key' is often required in the new package 
             # and defaults to 'text' (which matches the schema we set up).
             text_key="text", 
@@ -136,33 +135,36 @@ def upload_to_weaviate(chunks, client):
 # --- Main Execution ---
 def main():
     """Runs the full pipeline to load and ingest data."""
-    if not os.path.isdir(ARTICLE_DIR):
-        print(f"The directory '{ARTICLE_DIR}' was not found. Please run the scraping script first.")
-        return
+    dirList = ["../data/nvidia_articles", "../data/publications", "../data/transcripts", "../data"]
+    classList = ["NvidiaArticles", "NvidiaPublications", "NvidiaTranscripts", "NvidiaInfo"]
+    for d, c in zip(dirList, classList):
+        if not os.path.isdir(d):
+            print(f"The directory '{d}' was not found. Please run the scraping script first.")
+            return
 
-    # 1. Load and Split
-    documents = load_documents()
-    if not documents:
-        print("No documents found. Exiting.")
-        return
+        # 1. Load and Split
+        documents = load_documents(d)
+        if not documents:
+            print("No documents found. Exiting.")
+            return
+            
+        chunks = split_documents(documents)
+
+        # 2. Setup Weaviate
+        client = setup_weaviate_client()
+        if not client:
+            return
+            
+        # **NOTE**: The schema creation logic needed an update for the new Weaviate v4 client syntax.
+        configure_weaviate_schema(client, c)
+
+        # 3. Upload Data
+        vectorstore = upload_to_weaviate(chunks, client, c)
         
-    chunks = split_documents(documents)
-
-    # 2. Setup Weaviate
-    client = setup_weaviate_client()
-    if not client:
-        return
-        
-    # **NOTE**: The schema creation logic needed an update for the new Weaviate v4 client syntax.
-    configure_weaviate_schema(client)
-
-    # 3. Upload Data
-    vectorstore = upload_to_weaviate(chunks, client)
-    
-    if vectorstore:
-        print("\n--- INGESTION COMPLETE ---")
-        print(f"Your data is now in the Weaviate collection/class '{WEAVIATE_CLASS_NAME}'.")
-        print("You can now perform vector similarity searches.")
+        if vectorstore:
+            print("\n--- INGESTION COMPLETE ---")
+            print(f"Your data is now in the Weaviate collection/class '{c}'.")
+            print("You can now perform vector similarity searches.")
 
 if __name__ == "__main__":
     main()

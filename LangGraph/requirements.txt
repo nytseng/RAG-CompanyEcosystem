@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+langchain-google-genai
+langchain-weaviate
+pydantic
+weaviate-client
