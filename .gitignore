@@ -3,3 +3,4 @@ data/selected_papers/
 data/temp.txt/
 __pycache__/
 *.pyc
+raptor.py
