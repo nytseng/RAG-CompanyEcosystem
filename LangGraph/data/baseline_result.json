@@ -1155,6 +1155,406 @@
             "total_latency": 347.40787120498135,
             "total_input_tokens": 59291,
             "total_output_tokens": 12404
+        },
+        {
+            "response": "Based on the provided text, here\u2019s a summary of Nvidia\u2019s three most recent technical achievements in 3D scene editing, along with the involved teams:\n\n1.  **NVIDIA AI Blueprint for 3D Object Generation:** This new workflow allows 3D artists to prototype scenes by generating up to 20 3D objects from a text prompt. It utilizes a large language model (LLM) \u2013 the Llama 3.1 8B NVIDIA NIM \u2013 and the Microsoft TRELLIS NVIDIA NIM microservice to accelerate performance by 20%.\n2.  **New Microsoft TRELLIS NVIDIA NIM microservice:** This microservice works within the AI Blueprint to generate high-quality 3D assets 20% faster than native models.\n3.  **Scene It to Believe It: Populate 3D Worlds Quickly With NVIDIA AI Blueprints:** This initiative simplifies scene creation and utilizes the AI Blueprint.\n\n**Internal Team Members (Authors):**\n\n*   Michael Fukuyama (authored the \u201cScene It to Believe It\u2026\u201d blog post)\n\n**Note:** The text does not provide details about specific internal teams or individuals involved in the development of the AI Blueprint or the microservice.",
+            "context": [
+                {
+                    "content": "NVIDIA today released the AI Blueprint for 3D object generation \u2014 a workflow that lets 3D artists create up to 20 3D objects to prototype a scene from a simple text prompt.\n\nIn addition, the new Microsoft TRELLIS NVIDIA NIM microservice works within the AI Blueprint for 3D object generation to generate high-quality 3D assets 20% faster than with the native model.\n\nGenerate, Prototype, Repeat\n\n3D projects start with an idea\u2019s genesis, followed by the careful consideration of visual details such as themes, locations, decors, colors, textures and more. Even after populating a scene with assets, artists must review and edit individual and collective visuals multiple times.\n\nThe new NVIDIA AI Blueprint for 3D object generation gives users a pipeline to automate the prototyping process. Start by providing an artistic idea through a prompt, and the blueprint\u2019s built-in large language model (\n\nLLM\n\n) will brainstorm 20 possible objects to include in the scene. The\n\nLlama 3.1 8B NVIDIA NIM",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Scene_It_to_Believe_It_Populate_3D_Worlds_Quickly_With_NVIDIA_AI_Blueprints.txt"
+                    }
+                },
+                {
+                    "content": "What\u2019s NVIDIA Nemotron?\n\nNVIDIA Nemotron is a collection of open-source AI technologies designed for efficient AI development at every stage. It includes:\n\nMultimodal models:\n\nState-of-the-art AI models, delivered as open checkpoints, that excel at graduate-level scientific\n\nreasoning\n\n, advanced math, coding, instruction following, tool calling and visual reasoning.\n\nPretraining\n\n, post-training and multimodal datasets:\n\nCollections of carefully chosen text, image and video data that teach AI models skills including language, math and problem-solving.\n\nNumerical precision algorithms and recipes:\n\nAdvanced precision techniques that make AI faster and cheaper to run while keeping answers accurate.\n\nSystem software for scaling training efficiently on GPU clusters:\n\nOptimized software and frameworks that unlock accelerating training and\n\ninference\n\non NVIDIA GPUs at massive scale for the largest models.\n\nPost-training methodologies and software:\n\nFine-tuning steps that",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Open_Secret_How_NVIDIA_Nemotron_Models_Datasets_and_Techniques_Fuel_AI_Development.txt"
+                    }
+                },
+                {
+                    "content": "Title: Scene It to Believe It: Populate 3D Worlds Quickly With NVIDIA AI Blueprints\n\nSource: https://blogs.nvidia.com/blog/rtx-ai-garage-blueprint-3d-object-nim-microsoft-trellis/\n\n---\n\nScene It to Believe It: Populate 3D Worlds Quickly With NVIDIA AI Blueprints\n\nThe new NVIDIA AI Blueprint for 3D object generation simplifies scene creation, and the new Microsoft TRELLIS NVIDIA NIM microservice accelerates performance by 20%, all powered by NVIDIA RTX.\n\nSeptember 3, 2025\n\nby\n\nMichael Fukuyama\n\nShare\n\nEmail\n\n0\n\n3D artists are constantly prototyping.\n\nIn traditional workflows, modelers must build placeholder, low-fidelity assets to populate 3D scenes, tinkering and adjusting the core elements until they\u2019re in place. From there, visuals can be refined, detailed and finalized.\n\nPrototyping is time consuming and often comprises throwaway work, forcing artists to spend time on tedious modeling rather than on creative exploration.\n\nGenerative AI",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Scene_It_to_Believe_It_Populate_3D_Worlds_Quickly_With_NVIDIA_AI_Blueprints.txt"
+                    }
+                },
+                {
+                    "content": "With\n\nNVIDIA CUDA\n\necosystem support through its lifecycle, Jetson Thor is expected to deliver even better throughput and faster responses with future software releases.\n\nJetson Thor modules also run the full NVIDIA AI software stack to accelerate virtually every physical AI workflow with platforms including\n\nNVIDIA Isaac\n\nfor robotics,\n\nNVIDIA Metropolis\n\nfor video analytics AI agents and\n\nNVIDIA Holoscan\n\nfor sensor processing.\n\nWith these software tools, developers can easily build and deploy applications, such as visual AI agents that can analyze live camera streams to monitor worker safety, humanoid robots capable of manipulation tasks in unstructured environments and smart operating rooms that guide surgeons based on data from multi-camera streams.\n\nJetson Thor Set to Advance Research Innovation",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Jetson_Thor_Unlocks_Real_Time_Reasoning_for_General_Robotics_and_Physical_AI.txt"
+                    }
+                },
+                {
+                    "content": "throughput. The efficiency of\n\nJune 2007\n\nPage 16 of 21\n\nImage Convolution with CUDA\n\nBibliography\n\n1.\n\nWolfram http://mathworld.wolfram.com/Convolution.html\n\nMathworld.\n\n\u201cConvolution\u201d\n\n2.\n\nGeneration5. \u201cAn Introduction to Edge Detection: The Sobel Edge Detector\u201d\n\nhttp://www.generation5.org/content/2002/im01.asp\n\n3.\n\nWolfram Mathworld. \u201cNormal Distribution\u201d\n\nhttp://mathworld.wolfram.com/NormalDistribution.html\n\nJune 2007\n\nPage 17 of 21\n\nNotice\n\nALL NVIDIA DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \u201cMATERIALS\u201d) ARE BEING PROVIDED \u201cAS IS.\u201d NVIDIA MAKES NO WARRANTIES, EXPRESSED, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND EXPRESSLY DISCLAIMS ALL IMPLIED WARRANTIES OF NONINFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.",
+                    "metadata": {
+                        "source": "..\\data\\publications\\rag_papers_text\\no-doi_CITED-160_Image_Convolution_with_CUDA.md"
+                    }
+                }
+            ],
+            "total_time": 5.255860379009391,
+            "successful_requests": 115,
+            "total_latency": 352.61863959497714,
+            "total_input_tokens": 60414,
+            "total_output_tokens": 12655
+        },
+        {
+            "response": "Based on the provided text, here\u2019s a summary of the major physical/resource bottlenecks and how NVIDIA is addressing them in the context of scaling AI factories:\n\n**Major Bottlenecks:**\n\n1.  **GPU Scaling:** The core challenge is scaling to \u201cmillion-GPU AI factories,\u201d which implies a massive increase in the number of GPUs needed.\n2.  **End-to-End Integration:** The text highlights the need for tight optimization across the entire stack \u2013 GPUs, NICs, switches, cables, and software \u2013 to achieve low latency and high throughput. Simply having open standards isn\u2019t enough.\n3.  **Context Processing and Diffusion:** The emergence of specialized workloads like CPX (for context processing and diffusion, video generation) indicates a shift beyond just GPU scaling and the need for specialized hardware.\n\n**How NVIDIA is Addressing These Limitations:**\n\n*   **Programmable CUDA Architecture:** NVIDIA\u2019s architecture allows for scaling from one to thousands of GPUs without complex restructuring.\n*   **Full-Stack Architecture:** NVIDIA is providing a complete solution, including hardware and software, to optimize the entire AI factory stack.\n*   **Investment in Specialized Hardware:** NVIDIA is developing new chips like CPX to address specialized workloads, demonstrating a move beyond solely relying on GPU scaling.\n*   **Partnership with OpenAI:** The $100 billion investment and deployment of 10 gigawatts of NVIDIA systems demonstrate a commitment to scaling AI infrastructure at an unprecedented level.\n\n",
+            "context": [
+                {
+                    "content": "(09:07) We expect to continue improving the performance of Blackwell through its operational life as we have done with Hopper and Ampere. For example, we increased the inference performance of Hopper by four times over two years. This is the benefit of NVIDIA's programmable CUDA architecture and rich ecosystem. The pace and scale of AI factory deployments are accelerating with nearly 100 NVIDIA powered AI factories in flight this quarter. A two-fold increase year over year with the average number of GPUs powering each factory, also doubling in the same period and more AI factory projects are starting across industries and geographies. NVIDIA's full-stack architecture is underpinning AI factory deployments as industry leaders like AT&T, BYD, Capital One, Foxconn, MediaTek and Telenor are strategically vital sovereign clouds like those recently announced in Saudi Arabia, Taiwan and the UAE. We have a line of sight to projects requiring tens of gigawatts of NVIDIA AI infrastructure in",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_11.txt"
+                    }
+                },
+                {
+                    "content": "Scalability:\n\nCan the system setup quickly adapt as demand increases, going from one to thousands of GPUs without complex restructuring or wasted resources?\n\nCost Efficiency:\n\nIs performance per dollar high, and are those gains sustainable as system demands grow?\n\nArchitecture and Software\n\nAI inference performance needs to be engineered from the ground up. It comes from hardware and software working in sync \u2014 GPUs, networking and code tuned to avoid bottlenecks and make the most of every cycle.\n\nPowerful architecture without smart orchestration wastes potential; great software without fast, low-latency hardware means sluggish performance. The key is architecting a system so that it can quickly, efficiently and flexibly turn prompts into useful answers.\n\nEnterprises can use NVIDIA infrastructure to build a system that delivers optimal performance.\n\nArchitecture Optimized for Inference at AI Factory Scale\n\nThe\n\nNVIDIA Blackwell platform",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt"
+                    }
+                },
+                {
+                    "content": "Open standards create the foundation for interoperability, but real-world AI clusters require tight optimization across the entire stack \u2014 GPUs, NICs, switches, cables and software.\n\nVendors that invest in end\u2011to\u2011end integration deliver better latency and throughput. SONiC, the open\u2011source network operating system hardened in hyperscale data centers, eliminates licensing and vendor lock\u2011in and allows intense customization, but operators still choose purpose\u2011built hardware and software bundles to meet AI\u2019s performance needs. In practice, open standards alone don\u2019t deliver deterministic performance; they need innovation layered on top.\n\nToward Million\u2011GPU AI Factories\n\nAI factories are scaling fast. Governments in Europe are building seven national AI factories, while\n\ncloud providers and enterprises across Japan, India and Norway are rolling out NVIDIA\u2011powered AI infrastructure",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Gearing_Up_for_the_Gigawatt_Data_Center_Age.txt"
+                    }
+                },
+                {
+                    "content": "To discuss what this means for the next generation of AI development and deployment, the two companies\u2019 CEOs, and the president of OpenAI, spoke this morning with CNBC\u2019s Jon Fortt.\n\n\u201cThis is the biggest AI infrastructure project in history,\u201d said NVIDIA founder and CEO Jensen Huang in the interview. \u201cThis partnership is about building an AI infrastructure that enables AI to go from the labs into the world.\u201d\n\nThrough the partnership, OpenAI will deploy at least 10 gigawatts of NVIDIA systems for OpenAI\u2019s next-generation AI infrastructure, including the NVIDIA Vera Rubin platform. NVIDIA also intends to invest up to $100 billion in OpenAI progressively as each gigawatt is deployed.\n\n\u201cThere\u2019s no partner but NVIDIA that can do this at this kind of scale, at this kind of speed,\u201d said Sam Altman, CEO of OpenAI.\n\nThe million-GPU AI factories built through this agreement will help OpenAI meet the training and inference demands of its next frontier of AI models.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_OpenAI_Announce_the_Biggest_AI_Infrastructure_Deployment_in_History.txt"
+                    }
+                },
+                {
+                    "content": "BRAD GERSTNER: But you better hope that that industry gets really big. You\u2019re creating an industry.\n\nJENSEN HUANG: That\u2019s right.\n\nBRAD GERSTNER: And I mean the NVIDIA story, you\u2026\n\nThe Evolution of AI Infrastructure JENSEN HUANG: You know, so that\u2019s the challenge for people who are building ASICs. Now it looks like a juicy market, but remember, this juicy market has evolved from a chip called a GPU to\u2026 I just described an AI factory and you guys just saw, I just announced a chip called CPX for context processing and diffusion, video generation. A very specialized workload, but an important workload inside the data center.",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_3.txt"
+                    }
+                }
+            ],
+            "total_time": 6.500403052996262,
+            "successful_requests": 116,
+            "total_latency": 359.02935249397706,
+            "total_input_tokens": 61384,
+            "total_output_tokens": 12960
+        },
+        {
+            "response": "Based on the provided context:\n\n**How NeMo is used in real-world AI model applications:**\n\n*   **Cisco increased model accuracy by 40% and improved response time by 10X** in its code assistant.\n\n**Potential areas for improvement:**\n\nThe context does not provide specific areas for improvement. It only highlights successful applications and the framework's core features.",
+            "context": [
+                {
+                    "content": "work with our reasoning models. NVIDIA Nemo Microservices are generally available across industries are being leveraged by leading enterprises to build, optimize and scale AI applications. With Nemo, Cisco increased model accuracy by 40% and improved response time by 10X in its code assistant.",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_11.txt"
+                    }
+                },
+                {
+                    "content": "NVIDIA Santa Clara, CA {okuchaiev,jasoli,chipn,ohrinchuk,rleary,bginsburg,skriman,stanislavv, vlavrukhin,jocook,pcastonguay,mpopova,jocelynh,jocohen}@nvidia.com\n\nAbstract\n\nNeMo (Neural Modules) is a Python framework-agnostic toolkit for creating AI applications through re-usability, abstraction, and composition. NeMo is built around neural modules, conceptual blocks of neural networks that take typed inputs and produce typed outputs. Such modules typically represent data layers, encoders, decoders, language models, loss functions, or methods of combining activations. NeMo makes it easy to combine and re-use these building blocks while providing a level of semantic correctness checking via its neural type system. The toolkit comes with extendable collections of pre-built modules for automatic speech recognition and natural language processing. Furthermore, NeMo provides built-in support for distributed training and mixed precision on latest NVIDIA GPUs. NeMo is open-source.1",
+                    "metadata": {
+                        "source": "..\\data\\publications\\rag_papers_text\\1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md"
+                    }
+                },
+                {
+                    "content": "3.1 NeMo Core\n\nAn application built with NeMo typically consists of 3 required stages and 1 optional stage:\n\nInstantiate a NeuralFactory object and the necessary NMs. 2. De\ufb01ne the activation \ufb02ow DAG by connecting NMs together. 3. (optional) De\ufb01ne callbacks for logging, checkpointing, visualization, and evaluation. 4. Invoke an action such as train, eval, or infer.\n\nNeMo follows a lazy execution model: no computation is done until an action is called. During the de\ufb01nition of the activation \ufb02ow directed acyclic graph (DAG), NeMo does type checking for the inputs and outputs of connected NMs. This helps catch and debug various errors prior to doing any computations. Once the DAG of modules is de\ufb01ned and action is called, NeMo invokes the DL framework, which we call a backend. NeMo is designed to be framework-agnostic, but it currently only supports PyTorch as backend.",
+                    "metadata": {
+                        "source": "..\\data\\publications\\rag_papers_text\\1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md"
+                    }
+                },
+                {
+                    "content": "1Available at: https://github.com/NVIDIA/NeMo\n\nPreprint. Under review.\n\nWe seek to translate common software engineering practices developed to address those issues into the context of developing AI-based applications. Speci\ufb01cally, we focus on the problems of:\n\ndecomposition of a complex system into functional blocks with well-de\ufb01ned interfaces;\n\nstatic type checking to ensure API compliance and to catch type-mismatch bugs;\n\nseparation of concerns between model architecture, training procedure, DL framework, optimization algorithm;\n\nhigh performance training by supporting modern ef\ufb01cient hardware features; and\n\nreusable pre-built components that can be easily combined in novel ways.\n\nNeMo consists of: (1) NeMo Core: fundamental building blocks for all neural models and type system and (2) NeMo collections: pre-built neural modules for particular domains such as automatic speech recognition (ASR), and natural language processing (NLP).\n\n2 Related work",
+                    "metadata": {
+                        "source": "..\\data\\publications\\rag_papers_text\\1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md"
+                    }
+                },
+                {
+                    "content": "The main difference between NeMo and toolkits in the second group is that NeMo does not impose any particular structure, e.g. many toolkits require models to follow the encoder-decoder-loss structure. NeMo also does not require con\ufb01guration \ufb01les to be in any particular format \u2013 users can de\ufb01ne models directly using NeMo API. Some toolkits from the second group enforce input-output compatibility between blocks [1], but NeMo does this using a consistent, generic, and extensible type system.\n\nConceptually, NeMo is similar to PyTorchPipe [1], which follows the task-oriented approach, but allows for arbitrary, \ufb02exible sets of components, and also performs compatibility checks. It is essentially an application framework, while NeMo allows developer to use its underlying type and composition system, but not otherwise adopt any of the NeMo run-time functionality.\n\n3 NeMo",
+                    "metadata": {
+                        "source": "..\\data\\publications\\rag_papers_text\\1909.09577v1_CITED-381_NeMo_toolkit_Neural_modules.md"
+                    }
+                }
+            ],
+            "total_time": 1.9935063450102462,
+            "successful_requests": 117,
+            "total_latency": 360.9949117609649,
+            "total_input_tokens": 62343,
+            "total_output_tokens": 13042
+        },
+        {
+            "response": "Here\u2019s a summary of the articles discussing NVIDIA\u2019s vision of AI agents, based solely on the provided text:\n\n**Articles Discussing NVIDIA\u2019s AI Agent Vision:**\n\n1.  **\u201cAI On: 6 Ways AI Agents Are Raising Team Performance \u2014 and How to Measure It\u201d (September 4, 2025)**\n    *   **Summary:** This article discusses the expected involvement of AI agents in most business tasks within three years. It highlights the potential for effective human-agent collaboration to increase human engagement in high-value tasks by 65%. It also mentions the use of NVIDIA NeMo and NVIDIA NIM tools for customizing and deploying these agents.\n\n2.  **\u201cNVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products\u201d**\n    *   **Summary:** This article discusses the use of NVIDIA NeMo agent lifecycle tools and NVIDIA NIM microservices to transform RBC Capital Markets\u2019 research for faster delivery of insights to clients.\n\n**Interview Transcripts:**\n\n*   The provided text does not contain any interview transcripts.",
+            "context": [
+                {
+                    "content": "The NVIDIA partnership aims to reach 1 million K-12 students within three years.\n\nPreparing the Next Generation for AI Leadership\n\nThe White House initiative and NVIDIA commitments are united on a central mission to drive American leadership in AI.\n\nWinning the AI Race: America\u2019s AI Action Plan\n\nwas announced\n\nin July by the White House, supported with executive orders to accelerate federal permitting of data center infrastructure and promote exportation of the American AI technology stack.\n\nAligned with the White House AI Action Plan, NVIDIA and the U.S. National Science Foundation\n\nrecently committed\n\n$152 million in support to Ai2 for the development of open AI models to drive U.S. academic and nonprofit scientific leadership.\n\nCategories:\n\nCorporate\n\nTags:\n\nDeep Learning Institute\n\n|\n\nEducation\n\nAll NVIDIA News\n\nOpen Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation\n\nReady, Set, Reward \u2014 GeForce NOW Membership Rewards Await",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Pledges_AI_Education_Funding_for_K_12_Programs.txt"
+                    }
+                },
+                {
+                    "content": "Title: AI On: 6 Ways AI Agents Are Raising Team Performance \u2014 and How to Measure It\n\nSource: https://blogs.nvidia.com/blog/ways-ai-agents-are-raising-team-performance/\n\n---\n\nAI On: 6 Ways AI Agents Are Raising Team Performance \u2014 and How to Measure It\n\nSeptember 4, 2025\n\nby\n\nErik Pounds\n\nShare\n\nEmail\n\n0\n\nEditor\u2019s note: This post is part of the\n\nAI On\n\nblog series, which explores the latest techniques and real-world applications of agentic AI, chatbots and copilots. The series also highlights the NVIDIA software and hardware powering advanced AI agents, which form the foundation of AI query engines that gather insights and perform tasks to transform everyday experiences and reshape industries.\n\nAI agents\n\nare expected to be involved in most business tasks within three years, with effective human-agent collaboration projected to\n\nincrease human engagement in high-value tasks by 65%\n\n.\n\nAI agents can help achieve and exceed efficiency goals as they learn,\n\nreason",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\AI_On_6_Ways_AI_Agents_Are_Raising_Team_Performance_and_How_to_Measure_It.txt"
+                    }
+                },
+                {
+                    "content": ", India, Japan and the\n\nU.K.\n\n, joining heads of state and industry leaders to highlight national AI strategies, announce infrastructure investments and accelerate public-private collaboration.\n\n\u201cLeadership is not a birthright,\u201d Solomon said. \u201cIt has to be earned again and again \u2014 and the competition is fierce.\u201d\n\nAnd last year, during a visit to Canada, Huang highlighted\n\nCanada\u2019s pioneering role in modern AI\n\n, describing it as the \u201cepicenter of innovation in modern AI,\u201d building on the foundational work of pioneering Canadian AI researchers such as Geoffrey Hinton and Yoshua Bengio, who is also speaking at the conference.\n\nRBC Capital Markets works with NVIDIA software to build enterprise-grade AI agents for Capital Markets. This enables global institutions to deploy intelligent systems tailored to local needs.\n\nThese agents \u2014 customized with\n\nNVIDIA NeMo\n\nagent lifecycle tools and deployed using\n\nNVIDIA NIM",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Canada_Goes_All_In_on_AI_NVIDIA_Joins_Nations_Technology_Leaders_in_Montreal_to_Shape_Sovereign_AI_S.txt"
+                    }
+                },
+                {
+                    "content": "Title: NVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products Source: https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products\n\n---",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_and_Intel_to_Develop_AI_Infrastructure_and_Personal_Computing_Products.txt"
+                    }
+                },
+                {
+                    "content": "These agents \u2014 customized with\n\nNVIDIA NeMo\n\nagent lifecycle tools and deployed using\n\nNVIDIA NIM\n\nmicroservices \u2014 are helping transform RBC Capital Markets\u2019 research for faster delivery of insights to clients.\n\nWatch the entire conversation below.\n\nCategories:\n\nData Center\n\n|\n\nGenerative AI\n\n|\n\nSoftware\n\nTags:\n\nAI Factory\n\n|\n\ncloud\n\n|\n\nFinancial Services\n\n|\n\nNemotron\n\n|\n\nNVIDIA NeMo\n\n|\n\nNVIDIA NIM\n\n|\n\nSovereign AI\n\nAll NVIDIA News\n\nOpen Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation\n\nReady, Set, Reward \u2014 GeForce NOW Membership Rewards Await\n\nElon Musk Gets Just-Launched NVIDIA DGX Spark: Petaflop AI Supercomputer Lands at SpaceX\n\nIncoming: \u2018Battlefield 6\u2019 Lands on GeForce NOW at Launch\n\nGeForce NOW Brings 18 Games to the Cloud in October for a Spooky Good Time",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Canada_Goes_All_In_on_AI_NVIDIA_Joins_Nations_Technology_Leaders_in_Montreal_to_Shape_Sovereign_AI_S.txt"
+                    }
+                }
+            ],
+            "total_time": 4.43100417900132,
+            "successful_requests": 118,
+            "total_latency": 365.3832124389737,
+            "total_input_tokens": 63273,
+            "total_output_tokens": 13261
+        },
+        {
+            "response": "Based on the provided text, here\u2019s a discussion of medical AI projects and clinical applications developed or significantly improved using NVIDIA GPUs:\n\n**Drug Discovery & Life Sciences:**\n\n*   **Simulating Therapies & Drug Design:** Many U.K.-based life sciences companies are using NVIDIA technologies to simulate therapies and drug design to achieve faster treatment testing. Specifically, companies like:\n    *   Basecamp Research\n    *   U.K. CEiSRI (University of Manchester)\n    *   Isomorphic Labs\n    *   Peptone\n    *   Latent Labs\n    *   Relation Therapeutics\n    *   Hologen AI (University College London & Kings College London)\n    *   Oxford Nanopore\n    *   are utilizing NVIDIA GPUs for this purpose.\n\n**Clinical Applications (Implied through Research):**\n\n*   **Hologen AI:** This collaboration between University College London and Kings College London is focused on AI-driven drug discovery, suggesting potential clinical applications.\n*   **Oxford Nanopore:** While primarily known for its nanopore sequencing technology, NVIDIA\u2019s involvement (through collaborations and potentially GPU-accelerated analysis) suggests applications in genomic analysis and diagnostics.\n\n**Overall Trend:**\n\nThe text highlights a significant trend of using NVIDIA GPUs to accelerate research and development in the life sciences, particularly in areas like drug discovery and simulating therapies. This is driven by the need for increased computational capacity to handle complex models and simulations.",
+            "context": [
+                {
+                    "content": "NVIDIA RTX PRO\u2122 Servers\n\n, which offer a single architecture for every robot development workload across training,\n\nsynthetic data generation\n\n,\n\nrobot learning\n\nand\n\nsimulation\n\n. RTX PRO Servers have been adopted by the RAI Institute.\n\nNVIDIA Jetson Thor\n\n\u2122, powered by a Blackwell GPU, which enables robots to run multi-AI workflows for real-time, intelligent interactions and unlocks real-time on-robot inference \u2014 a breakthrough for high-performance physical AI workloads and applications such as humanoid robotics. Jetson Thor has been adopted by partners including Figure AI, Galbot, Google DeepMind, Mentee Robotics, Meta, Skild AI and Unitree.\n\nNVIDIA Advances Robotics Research\n\nNVIDIA technologies, including GPUs, simulation frameworks and CUDA\n\n\u00ae\n\n\u2011accelerated libraries, were referenced in nearly half of CoRL\u2019s accepted papers \u2014 with adoption across leading research labs and institutions such as\n\nCarnegie Mellon\n\n,\n\nUniversity of Washington\n\n,\n\nETH Zurich\n\nand",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Accelerates_Robotics_Research_and_Development_With_New_Open_Models_and_Simulation_Libraries.txt"
+                    }
+                },
+                {
+                    "content": ", developed by researchers at the University of Cambridge in collaboration with NVIDIA and SCAN \u2014 a technology solutions provider with a strong focus on community, education and innovation.\n\nNVIDIA is working with other leading U.K. robotics leaders to advance industries with\n\nphysical AI\n\n, including\n\nExtend Robotics\n\n,\n\nHumanoid\n\n,\n\nMaterials Innovation Factory\n\n,\n\nThe National Robotarium\n\n,\n\nOpteran\n\n,\n\nOxa\n\nand\n\nWayve\n\n.\n\nMany U.K.-based life sciences companies are using NVIDIA technologies to take an AI-first approach to drug discovery, simulating therapies and drug design to achieve faster treatment testing, including:\n\nBasecamp Research, U.K.\n\nCEiSRI\n\n\u2014 the U.K. Centre of Excellence for In-Silico Regulatory Science and Innovation, based at the University of Manchester \u2014\n\nIsomorphic Labs\n\n,\n\nPeptone\n\n,\n\nLatent Labs\n\n,\n\nRelation Therapeutics\n\n,\n\nHologen AI \u2014\n\na collaboration between University College London and Kings College London \u2014 and\n\nOxford Nanopore\n\n.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_and_United_Kingdom_Build_Nations_AI_Infrastructure_and_Ecosystem_to_Fuel_Innovation_Economic_.txt"
+                    }
+                },
+                {
+                    "content": "To support its next phase of growth, the company\u2019s AI infrastructure must scale up to meet not only training but inference demands of the most advanced models for\u00a0 agentic and reasoning AI users worldwide.\n\n\u201cThe cost per unit of intelligence will keep falling and falling and falling, and we think that\u2019s great,\u201d said Altman. \u201cBut on the other side, the frontier of AI, maximum intellectual capability, is going up and up. And that enables more and more use \u2014 and a lot of it.\u201d\n\nWithout enough computational resources, Altman explained, people would have to choose between impactful use cases, for example either researching a cancer cure or offering free education.\n\n\u201cNo one wants to make that choice,\u201d he said. \u201cAnd so increasingly, as we see this, the answer is just much more capacity so that we can serve the massive need and opportunity.\u201d\n\nIn 2016, NVIDIA CEO Jensen Huang hand-delivered the first NVIDIA DGX system to OpenAI\u2019s headquarters in San Francisco.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_OpenAI_Announce_the_Biggest_AI_Infrastructure_Deployment_in_History.txt"
+                    }
+                },
+                {
+                    "content": "Since its start in 2002, the Graduate Fellowship Program has awarded over 200 grants worth more than $7.3 million.\n\nStudents must have completed at least their first year of Ph.D.-level studies at the time of application.\n\nThe application deadline for the 2026-2027 academic year is Monday, Sept. 15, 2025. An in-person internship at an NVIDIA research office preceding the fellowship year is mandatory; eligible candidates must be available for the internship in summer 2026.\n\nFor more on eligibility and how to apply, visit the\n\nprogram website\n\n.\n\nCategories:\n\nCorporate\n\n|\n\nDeep Learning\n\n|\n\nGenerative AI\n\n|\n\nResearch\n\nTags:\n\nArtificial Intelligence\n\n|\n\nEducation\n\nAll NVIDIA News\n\nOpen Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation\n\nReady, Set, Reward \u2014 GeForce NOW Membership Rewards Await\n\nHow Starcloud Is Bringing Data Centers to Outer Space\n\nOracle and NVIDIA Accelerate Sovereign AI, Enabling Abu Dhabi\u2019s AI-Native Government Transformation",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Applications_Now_Open_for_60000_NVIDIA_Graduate_Fellowship_Awards.txt"
+                    }
+                },
+                {
+                    "content": "By 2026, up to 60,000 GPUs will power new AI factories with Microsoft, Nscale, OpenAI and CoreWeave, enabling the next wave of U.K. innovation.\n\nNVIDIA and Oxford Quantum Circuits are building a quantum-GPU supercenter \u2014 advancing the U.K.\u2019s leadership at the frontier of science.\n\nWith techUK and QA, NVIDIA is launching a robotics R&D hub to train and upskill the next generation of AI talent.\n\nBuilt on\n\nNVIDIA Grace Hopper Superchips\n\n, Isambard-AI \u2014 the U.K.\u2019s most powerful AI supercomputer, based at the University of Bristol \u2014 is accelerating national projects including for healthcare, climate science and public services.\n\nLearn more about\n\nNVIDIA\u2019s collaboration with the U.K. to fuel innovation, economic growth and jobs\n\n.\n\nCategories:\n\nData Center\n\n|\n\nGenerative AI\n\nTags:\n\nAI Factory\n\n|\n\nArtificial Intelligence\n\n|\n\nData Science\n\n|\n\nEconomic Development\n\n|\n\nEvents\n\n|\n\nHigh-Performance Computing\n\n|\n\nNVIDIA DGX\n\n|\n\nNVIDIA in Europe\n\n|\n\nSocial Impact\n\n|\n\nSovereign AI\n\nAll NVIDIA News",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\The_UKs_Goldilocks_Moment_for_AI_NVIDIA_UK_and_US_Leaders_Highlight_AI_Infrastructure_Investments.txt"
+                    }
+                }
+            ],
+            "total_time": 6.047539807012072,
+            "successful_requests": 119,
+            "total_latency": 371.253964117961,
+            "total_input_tokens": 64463,
+            "total_output_tokens": 13563
+        },
+        {
+            "response": "Here\u2019s a summary of the documents and their benefits regarding digital twin technology in industrial operations:\n\n*   **Emulate3D Factory Test platform (Rockwell Automation):** Enables manufacturers to build factory-scale, physics-based digital twins for simulating, validating, and optimizing automation and autonomous systems at scale.\n*   **EDAG\u2019s industrial digital twin platform:** Improves project management, optimizes production layouts, trains workers, and performs data-driven quality assurance.\n*   **Schaeffler\u2019s digital twin platform:** Integrates critical planning and production data to streamline planning, simulate, and optimize plants, machines, and workflows.\n*   **Amazon Devices & Services:** Uses digital twins to train robotic arms to recognize, inspect, and handle new devices.\n*   **NVIDIA\u2019s OpenUSD development certification & digital twins learning path:** Addresses the growing demand for OpenUSD and digital twins expertise.\n*   **Alliance for OpenUSD (AOUSD):** Highlights the continued growth of the OpenUSD community and its commitment to unifying 3D workflows across industries.\n*   **The embodiment of the reference design:** Integrates IT systems with operational technology for power and cooling systems, including local power generation, energy storage, and AI agents.\n\nThese documents all point to digital twins enabling simulation, optimization, training, and improved efficiency within industrial operations.",
+            "context": [
+                {
+                    "content": "I know it because we\u2019ve simulated it exhaustively and we emulated it and we put it into its paces. We should do the same with digital factories. These factories, large factories. We should completely create digital twins. Use artificial intelligence to create these digital twins. Operate it well. Virtual integration. Integrate these many magnificent structures completely digitally. Operate it, optimize it and use it for planning your output completely digitally.\n\nAnd in the future, every factory will have a digital twin version in the future, and I\u2019m hoping every human will have a digital twin version. Every car has a digital twin version. Every building has a digital twin version. Every city has a digital twin version. So this idea of digital twins is happening now and it\u2019s all happening because of artificial intelligence.",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_5.txt"
+                    }
+                },
+                {
+                    "content": "Digital Twins: The Future of Design and Manufacturing Now the thing that is absolutely the case, because manufacturing is so technology intensive, we should do it in a digital twin first. We should do it in virtual reality first. Nvidia designs the most complex systems in the world. Each one of our generation R&D call it $20 billion, maybe more now, but call it $20 billion of R&D just to produce a family of chips. We design those chips completely in their digital twin. They existed for months and months and months long before we ever produced it. The moment I produced it, I know it to be perfect.",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_5.txt"
+                    }
+                },
+                {
+                    "content": "Rockwell Automation\u2019s\n\nEmulate3D Factory Test platform enables manufacturers to build factory-scale, physics-based digital twins for simulating, validating and optimizing automation and autonomous systems at scale.\n\nEDAG\u2019s\n\nindustrial digital twin platform helps manufacturers improve project management, optimize production layouts, train workers and perform data-driven quality assurance.\n\nSchaeffler\n\nbuilt a digital twin platform that integrates critical planning and production data to enable its teams to streamline planning, as well as simulate and optimize plants, machines and workflows.\n\nAmazon Devices & Services\n\nuses digital twins to train robotic arms to recognize, inspect and handle new devices. Robotic actions can be configured to manufacture products purely based on training performed in simulation \u2014 including for steps involved in assembly, testing, packaging and auditing.\n\nVention",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Into_the_Omniverse_How_OpenUSD_and_Digital_Twins_Are_Powering_Industrial_and_Physical_AI.txt"
+                    }
+                },
+                {
+                    "content": "The\n\nAlliance for OpenUSD\n\n(AOUSD) recently welcomed\n\nnew general members\n\n, including Accenture, Esri, HCLTech, PTC, Renault and Tech Soft 3D. These additions underscore the continued growth of the OpenUSD community and its commitment to unifying 3D workflows across industries.\n\nTo address the growing demand for OpenUSD and digital twins expertise, NVIDIA launched a new industry-recognized\n\nOpenUSD development certification\n\nand a free\n\ndigital twins learning path\n\n.\n\nDevelopers Building Digital Twins\n\nIndustry leaders including\n\nSiemens\n\n,\n\nSight Machine\n\n,\n\nRockwell Automation\n\n,\n\nEDAG\n\n,\n\nSchaeffler\n\n,\n\nAmazon Devices & Services\n\nand\n\nVention\n\nare building digital twin solutions with Omniverse libraries and OpenUSD to enable transformation with industrial and physical AI.\n\nSiemens",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Into_the_Omniverse_How_OpenUSD_and_Digital_Twins_Are_Powering_Industrial_and_Physical_AI.txt"
+                    }
+                },
+                {
+                    "content": "Among those partners, Jacobs serves as the design integrator, helping to coordinate the physical and digital layers of the infrastructure to ensure seamless orchestration.\n\nThe embodiment of the reference design will be a digital twin of the AI factory. This digital twin integrates the IT systems inside the data center with the operational technology for power and cooling systems inside and outside the data center.\n\nThe new initiative expands the digital twin to integrate local power generation, energy storage systems, cooling technology and AI agents for operations.\n\nLongtime collaborators in power and cooling \u2014 Schneider Electric, Siemens and Vertiv \u2014 have been instrumental in shaping resilient, high-efficiency environments tailored for AI-scale workloads.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Partners_With_AI_Infrastructure_Ecosystem_to_Unveil_Reference_Design_for_Giga_Scale_AI_Factor.txt"
+                    }
+                }
+            ],
+            "total_time": 5.394764212003793,
+            "successful_requests": 120,
+            "total_latency": 376.49934801395284,
+            "total_input_tokens": 65285,
+            "total_output_tokens": 13842
+        },
+        {
+            "response": "Based on the provided text, NVIDIA has formed the following partnerships to expand AI infrastructure:\n\n*   **OpenAI:** NVIDIA and OpenAI announced a landmark AI infrastructure partnership involving the deployment of at least 10 gigawatts of NVIDIA systems. NVIDIA intends to invest up to $100 billion in OpenAI as each gigawatt is deployed.\n*   **Nscale:** NVIDIA is enabling U.K.-based cloud partner Nscale to scale up its global expansion with 300,000 NVIDIA Grace Blackwell GPUs.\n\nThese partnerships have benefited the company by enabling the deployment of massive AI infrastructure (10+ gigawatts) and facilitating the development of AI factories. They also advance AI infrastructure research by supporting the training and inference demands of next-generation AI models and fostering groundbreaking research in priority areas.",
+            "context": [
+                {
+                    "content": "Title: NVIDIA, OpenAI Announce \u2018the Biggest AI Infrastructure Deployment in History\u2019\n\nSource: https://blogs.nvidia.com/blog/openai-nvidia/\n\n---\n\nNVIDIA, OpenAI Announce \u2018the Biggest AI Infrastructure Deployment in History\u2019\n\nNVIDIA CEO Jensen Huang, OpenAI CEO Sam Altman and OpenAI President Greg Brockman described a new strategic partnership to fuel OpenAI\u2019s growth \u2014 and enable AI at scale for virtually every industry and user.\n\nSeptember 22, 2025\n\nby\n\nIsha Salian\n\nShare\n\nEmail\n\n0\n\nOpenAI and NVIDIA just announced a\n\nlandmark AI infrastructure partnership\n\n\u2014 an initiative that will scale OpenAI\u2019s compute with multi-gigawatt data centers powered by millions of NVIDIA GPUs.\n\nTo discuss what this means for the next generation of AI development and deployment, the two companies\u2019 CEOs, and the president of OpenAI, spoke this morning with CNBC\u2019s Jon Fortt.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_OpenAI_Announce_the_Biggest_AI_Infrastructure_Deployment_in_History.txt"
+                    }
+                },
+                {
+                    "content": "Title: NVIDIA Partners With AI Infrastructure Ecosystem to Unveil Reference Design for Giga-Scale AI Factories\n\nSource: https://blogs.nvidia.com/blog/ai-factories-reference-design/\n\n---\n\nNVIDIA Partners With AI Infrastructure Ecosystem to Unveil Reference Design for Giga-Scale AI Factories\n\nAt the AI Infrastructure Summit, NVIDIA\u2019s Ian Buck introduces a reference design and partner-driven strategy to transform global infrastructure for high-performance, energy-efficient AI.\n\nSeptember 9, 2025\n\nby\n\nMadison Huang\n\nShare\n\nEmail\n\n0\n\nAt this week\u2019s\n\nAI Infrastructure Summit\n\nin Silicon Valley, NVIDIA\u2019s VP of Accelerated Computing Ian Buck unveiled a bold new vision: the transformation of traditional data centers into fully integrated\n\nAI factories\n\n.\n\nAs part of this initiative, NVIDIA is developing reference designs to be shared with partners and enterprises worldwide \u2014 offering an\n\nNVIDIA Omniverse Blueprint",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Partners_With_AI_Infrastructure_Ecosystem_to_Unveil_Reference_Design_for_Giga_Scale_AI_Factor.txt"
+                    }
+                },
+                {
+                    "content": "\u201cIn this age of AI, I want the U.K. to be the destination of choice for companies at the forefront of technological change, and renowned for harnessing homegrown talent and building sovereign capability,\u201d said Starmer. \u201cThese major announcements mark a decisive step towards the U.K. becoming a world leader in AI, meaning more jobs and investment, more money in people\u2019s pockets and transformed public services \u2014 all part of our Plan for Change.\u201d\n\nSovereign AI Infrastructure Expands to Accelerate U.K. Development and Deployments\n\nSeveral new AI factories are being built by NVIDIA partners to transform the nation\u2019s economy and unlock opportunities with AI.\n\nNVIDIA Cloud Partner Nscale, the U.K.-based AI infrastructure company, is deploying 300,000 NVIDIA Grace Blackwell GPUs in AI factories across the United States, Portugal and Norway, with 60,000 NVIDIA GPUs now being established in the U.K.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_and_United_Kingdom_Build_Nations_AI_Infrastructure_and_Ecosystem_to_Fuel_Innovation_Economic_.txt"
+                    }
+                },
+                {
+                    "content": "To discuss what this means for the next generation of AI development and deployment, the two companies\u2019 CEOs, and the president of OpenAI, spoke this morning with CNBC\u2019s Jon Fortt.\n\n\u201cThis is the biggest AI infrastructure project in history,\u201d said NVIDIA founder and CEO Jensen Huang in the interview. \u201cThis partnership is about building an AI infrastructure that enables AI to go from the labs into the world.\u201d\n\nThrough the partnership, OpenAI will deploy at least 10 gigawatts of NVIDIA systems for OpenAI\u2019s next-generation AI infrastructure, including the NVIDIA Vera Rubin platform. NVIDIA also intends to invest up to $100 billion in OpenAI progressively as each gigawatt is deployed.\n\n\u201cThere\u2019s no partner but NVIDIA that can do this at this kind of scale, at this kind of speed,\u201d said Sam Altman, CEO of OpenAI.\n\nThe million-GPU AI factories built through this agreement will help OpenAI meet the training and inference demands of its next frontier of AI models.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_OpenAI_Announce_the_Biggest_AI_Infrastructure_Deployment_in_History.txt"
+                    }
+                },
+                {
+                    "content": "Unveiled three months after U.K. Prime Minister Keir Starmer and NVIDIA founder and CEO Jensen Huang announced a collaboration at London Tech Week, this new infrastructure will foster new job opportunities and support strong, secure and sustainable economic growth across the U.K, as well as serve as a platform for groundbreaking research in priority areas agreed in the U.K.-U.S. tech partnership, including medicine and drug discovery. Unveiled in honor of transatlantic technology and trade partnership during U.S. President Donald Trump\u2019s state visit to the U.K., the AI factories will scale up AI infrastructure in the U.K. with 120,000 NVIDIA Blackwell Ultra GPUs and up to \u00a311 billion for local data centers \u2014 the largest rollout in the country\u2019s history. Furthermore, NVIDIA is enabling U.K. cloud partner Nscale to scale up its global expansion with 300,000 NVIDIA Grace Blackwell GPUs worldwide.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_and_United_Kingdom_Build_Nations_AI_Infrastructure_and_Ecosystem_to_Fuel_Innovation_Economic_.txt"
+                    }
+                }
+            ],
+            "total_time": 3.545172475001891,
+            "successful_requests": 121,
+            "total_latency": 379.97572909995506,
+            "total_input_tokens": 66342,
+            "total_output_tokens": 14007
+        },
+        {
+            "response": "Here\u2019s a timeline of NVIDIA\u2019s work on \u2018Energy Efficiency and Sustainability\u2019 based on the provided text:\n\n*   **Past 10 Years:** Energy efficiency in large language model inference has improved 100,000x, demonstrating sustainable computing.\n*   **September 23, 2025:** NVIDIA details its role at Climate Week NYC, showcasing how accelerated computing is propelling energy savings and advancing climate research.\n*   **September 2025 (Ongoing):** NVIDIA is continuously working to decrease its own carbon footprint, releasing product carbon footprint summaries comparing NVIDIA HGX H100 and HGX B200 baseboards (a 24% reduction in embodied carbon emissions intensity). They plan to continue publishing these summaries.\n*   **2025 (Ongoing):** All NVIDIA offices and data centers run on 100% renewable energy and carbon-free electricity.\n*   **2035 (Forecasted):** AI can play a critical role in stabilizing energy grids by pinpointing anomalies at a rapid rate.",
+            "context": [
+                {
+                    "content": "Title: At Climate Week NYC, NVIDIA Details AI\u2019s Key Role in Energy Efficiency\n\nSource: https://blogs.nvidia.com/blog/ai-energy-innovation-climate-research/\n\n---\n\nAt Climate Week NYC, NVIDIA Details AI\u2019s Key Role in Energy Efficiency\n\nNew research highlights how energy-efficient infrastructure and AI models can propel innovation in climate, energy and beyond.\n\nSeptember 23, 2025\n\nby\n\nJosh Parker\n\nShare\n\nEmail\n\n0\n\nEnergy efficiency in large language model inference has improved\n\n100,000x\n\nin the past 10 years \u2014 demonstrating that accelerated computing is sustainable computing.\n\nAt\n\nClimate Week NYC\n\n, taking place through Sept. 26 in New York City, NVIDIA is showcasing how accelerated computing is propelling energy savings and advancing climate research.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\At_Climate_Week_NYC_NVIDIA_Details_AIs_Key_Role_in_Energy_Efficiency.txt"
+                    }
+                },
+                {
+                    "content": "Sustainable Futures members\n\nVibrant Planet\n\n,\n\nFortyGuard\n\n,\n\nPachama\n\nand\n\nWherobots\n\nare also attending this week\u2019s summit.\n\nDecreasing the Carbon Footprint of NVIDIA Products and Operations\n\nNVIDIA is continuously working to decrease its own carbon footprint.\n\nIts first\n\nproduct carbon footprint summary comparison\n\nwas recently released \u2014 revealing a\n\n24%\n\nreduction in embodied carbon emissions intensity between\n\nNVIDIA HGX H100\n\nand\n\nHGX B200\n\nbaseboards.\n\nScope and methodology of the product carbon footprint analysis for NVIDIA HGX B200.\n\nNVIDIA will continue to publish product carbon footprint summaries of newly released products to spotlight improvements in energy efficiency and sustainability.\n\nIn terms of NVIDIA\u2019s physical footprint, all offices and data centers under the company\u2019s operational control run on\n\n100%\n\nrenewable energy \u2014 and carbon-free electricity is purchased to cover\n\n100%\n\nof the company\u2019s leased data centers\u2019 footprint.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\At_Climate_Week_NYC_NVIDIA_Details_AIs_Key_Role_in_Energy_Efficiency.txt"
+                    }
+                },
+                {
+                    "content": "And so what Nvidia does, step one is we accelerate software. The benefit of that is reduce the amount of energy used. The benefit of that is to reduce the amount of cost necessary. So, the accelerated computing directly translates to energy efficiency. Energy efficiency is the reason why we go fast. It's hard to go fast when you're not efficient. And so energy efficiency is at the core of everything that we do.\n\nAll of our data centers are designed to be maximally energy efficient because otherwise, the throughput of a data centers limited. And so performance per unit energy per, performance per watt is our is our metric for success. So, everything starts with energy efficiency.",
+                    "metadata": {
+                        "source": "..\\data\\transcripts\\transcript_12.txt"
+                    }
+                },
+                {
+                    "content": "At\n\nClimate Week NYC\n\n, taking place through Sept. 26 in New York City, NVIDIA is showcasing how accelerated computing is propelling energy savings and advancing climate research.\n\nThe summit brings together researchers, startups, scientists, technologists, nonprofits and policymakers to discuss bold ideas for climate action. This year\u2019s theme is energy: where it comes from, how to scale it and how AI can optimize the grid in newfound ways.\n\nThroughout the week, NVIDIA will be highlighting its own innovative climate technologies, as well as a pair of recently published product carbon footprint reports on the emissions intensity of NVIDIA GPUs.\n\nAI Usage Isn\u2019t Black and White \u2014 It Can Actually Be Green\n\nAI can play a critical role in stabilizing energy grids by pinpointing anomalies at a rapid rate. These timely insights can allow operators to respond to issues efficiently before they affect the larger grid.\n\nForecasted AI-Induced Energy Savings Across Energy-Intensive Sectors by 2035",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\At_Climate_Week_NYC_NVIDIA_Details_AIs_Key_Role_in_Energy_Efficiency.txt"
+                    }
+                },
+                {
+                    "content": "Commentary on the quarter by Colette Kress, NVIDIA\u2019s executive vice president and chief financial officer, is available at\n\nhttps://investor.nvidia.com\n\n.\n\nConference Call and Webcast Information\n\nNVIDIA will conduct a conference call with analysts and investors to discuss its second quarter fiscal 2026 financial results and current financial prospects today at 2 p.m. Pacific time (5 p.m. Eastern time). A live webcast (listen-only mode) of the conference call will be accessible at NVIDIA\u2019s investor relations website,\n\nhttps://investor.nvidia.com\n\n. The webcast will be recorded and available for replay until NVIDIA\u2019s conference call to discuss its financial results for its third quarter of fiscal 2026.\n\nNon-GAAP Measures",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Announces_Financial_Results_for_Second_Quarter_Fiscal_2026.txt"
+                    }
+                }
+            ],
+            "total_time": 5.060381741001038,
+            "successful_requests": 122,
+            "total_latency": 384.91045519695035,
+            "total_input_tokens": 67304,
+            "total_output_tokens": 14234
+        },
+        {
+            "response": "Based on the provided documents, NVIDIA has significantly scaled AI performance from Hopper to Blackwell, resulting in substantial improvements in throughput and efficiency. Here\u2019s a breakdown of the improvements over time:\n\n**October 9, 2025 (NVIDIA Blackwell Raises Bar in New InferenceMAX Benchmarks):**\n\n*   **GPT-OSS-120B:** Introduced speculative decoding, tripling throughput to 30,000 tokens per second per user (TPS/user) \u2013 a massive increase from the 6,000 tokens per GPU previously achieved with Hopper architecture.\n*   **Blackwell B200:** Delivers over 10,000 TPS per GPU at 50 TPS per user interactivity \u2013 4x higher per-GPU throughput compared with the NVIDIA H200 GPU.\n\n**September 9, 2025 (NVIDIA Blackwell Ultra Sets the Bar in New MLPerf Inference Benchmark):**\n\n*   **GB300 NVL72:** Delivers the highest throughput on the reasoning inference benchmark.\n*   **Overall:** The Blackwell Ultra architecture holds every per-GPU inference record.\n*   **Cost Efficiency:** The Blackwell B200 software optimizations achieve two cents per million tokens on gpt-oss, delivering 5x lower cost per token in just 2 months.\n\n**Overall Timeline & Improvements:**\n\n*   **Hopper (Implied):** The documents highlight a previous performance level of 6,000 tokens per GPU.\n*   **Blackwell (Ultra):** Represents a significant leap, with the GB300 NVL72 achieving the highest throughput and holding every per-GPU inference record. The B200 software optimizations further reduced the cost per token by 5x.\n\nIn essence, the transition from Hopper to Blackwell Ultra has resulted in a 4x increase in performance, a substantial reduction in cost per token, and overall improved efficiency in AI factory economics.",
+            "context": [
+                {
+                    "content": "The innovation doesn\u2019t stop there. The newly released gpt-oss-120b-Eagle3-v2 model introduces\n\nspeculative decoding\n\n, a clever method that predicts multiple tokens at a time.\n\nThis reduces lag and delivers even quicker results, tripling throughput at 100 tokens per second per user (TPS/user) \u2014 boosting per-GPU speeds from 6,000 to 30,000 tokens.\n\nFor dense AI models like Llama 3.3 70B, which demand significant computational resources due to their large parameter count and the fact that all parameters are utilized simultaneously during inference, NVIDIA Blackwell B200 sets a new performance standard in InferenceMAX v1 benchmarks.\n\nBlackwell delivers over 10,000 TPS per GPU at 50 TPS per user interactivity \u2014 4x higher per-GPU throughput compared with the NVIDIA H200 GPU.\n\nPerformance Efficiency Drives Value\n\nMetrics like tokens per watt, cost per million tokens and TPS/user matter as much as throughput. In fact, for power-limited AI factories, Blackwell delivers",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Blackwell_Raises_Bar_in_New_InferenceMAX_Benchmarks_Delivering_Unmatched_Performance_and_Effi.txt"
+                    }
+                },
+                {
+                    "content": ", those models can be packaged into ready-to-run microservices, making it easier for teams to roll them out and scale across environments while achieving the lowest total cost of ownership.\n\nTogether, these layers \u2014 dynamic orchestration, optimized execution, well-designed models and simplified deployment \u2014 form the backbone of inference enablement for cloud providers and enterprises alike.\n\nReturn on Investment Driven by Performance\n\nAs AI adoption grows, organizations are increasingly looking to maximize the return on investment from each user query.\n\nPerformance is the biggest driver of return on investment. A 4x increase in performance from the NVIDIA Hopper architecture to Blackwell yields up to 10x profit growth within a similar power budget.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt"
+                    }
+                },
+                {
+                    "content": "Scalability:\n\nCan the system setup quickly adapt as demand increases, going from one to thousands of GPUs without complex restructuring or wasted resources?\n\nCost Efficiency:\n\nIs performance per dollar high, and are those gains sustainable as system demands grow?\n\nArchitecture and Software\n\nAI inference performance needs to be engineered from the ground up. It comes from hardware and software working in sync \u2014 GPUs, networking and code tuned to avoid bottlenecks and make the most of every cycle.\n\nPowerful architecture without smart orchestration wastes potential; great software without fast, low-latency hardware means sluggish performance. The key is architecting a system so that it can quickly, efficiently and flexibly turn prompts into useful answers.\n\nEnterprises can use NVIDIA infrastructure to build a system that delivers optimal performance.\n\nArchitecture Optimized for Inference at AI Factory Scale\n\nThe\n\nNVIDIA Blackwell platform",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt"
+                    }
+                },
+                {
+                    "content": "Title: NVIDIA Blackwell Raises Bar in New InferenceMAX Benchmarks, Delivering Unmatched Performance and Efficiency\n\nSource: https://blogs.nvidia.com/blog/blackwell-inferencemax-benchmark-results/\n\n---\n\nNVIDIA Blackwell Raises Bar in New InferenceMAX Benchmarks, Delivering Unmatched Performance and Efficiency\n\nOctober 9, 2025\n\nby\n\nDion Harris\n\nShare\n\nEmail\n\n0\n\nNVIDIA Blackwell swept the new SemiAnalysis InferenceMAX v1 benchmarks, delivering the highest performance and best overall efficiency.\n\nInferenceMax v1 is the first independent benchmark to measure total cost of compute across diverse models and real-world scenarios.\n\nBest return on investment: NVIDIA GB200 NVL72 delivers unmatched AI factory economics \u2014 a $5 million investment generates $75 million in DSR1 token revenue, a 15x return on investment.\n\nLowest total cost of ownership: NVIDIA B200 software optimizations achieve two cents per million tokens on gpt-oss, delivering 5x lower cost per token in just 2 months.",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Blackwell_Raises_Bar_in_New_InferenceMAX_Benchmarks_Delivering_Unmatched_Performance_and_Effi.txt"
+                    }
+                },
+                {
+                    "content": "Title: NVIDIA Blackwell Ultra Sets the Bar in New MLPerf Inference Benchmark\n\nSource: https://blogs.nvidia.com/blog/mlperf-inference-blackwell-ultra/\n\n---\n\nNVIDIA Blackwell Ultra Sets the Bar in New MLPerf Inference Benchmark\n\nThe NVIDIA GB300 NVL72 rack-scale system delivers the highest throughput on the new reasoning inference benchmark, while the NVIDIA platform holds every per-GPU inference record.\n\nSeptember 9, 2025\n\nby\n\nDave Salvator\n\nShare\n\nEmail\n\n0\n\nInference performance is critical, as it directly influences the\n\neconomics of an AI factory\n\n. The higher the throughput of AI factory infrastructure, the more\n\ntokens\n\nit can produce at a high speed \u2014 increasing revenue, driving down total cost of ownership (TCO) and enhancing the system\u2019s overall productivity.\n\nLess than half a year since its debut at NVIDIA GTC, the\n\nNVIDIA GB300 NVL72\n\nrack-scale system (5.1-0072, Closed Division [1]) \u2014 powered by the\n\nNVIDIA Blackwell Ultra architecture",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_Blackwell_Ultra_Sets_the_Bar_in_New_MLPerf_Inference_Benchmark.txt"
+                    }
+                }
+            ],
+            "total_time": 8.26701139099896,
+            "successful_requests": 123,
+            "total_latency": 393.00653024694475,
+            "total_input_tokens": 68374,
+            "total_output_tokens": 14648
+        },
+        {
+            "response": "Here\u2019s a summary of NVIDIA\u2019s AI research collaborations, based on the provided text:\n\n**Current & Recent Collaborations:**\n\n*   **U.S. National Science Foundation (NSF):** NVIDIA is partnering with the NSF on the \u201cOpen Multimodal AI Infrastructure to Accelerate Science (OMAI)\u201d project. This involves developing multimodal language models to advance scientific research in the United States.\n*   **Open Source AI Week:** NVIDIA is actively participating in and supporting \u201cOpen Source AI Week\u201d in San Francisco, highlighting contributions from developers and contributors.\n*   **Industry Partnerships:** NVIDIA is collaborating with industry leaders on open models, including Llama, Google Gemma, NVIDIA Nemotron, DeepSeek, and gpt-oss.\n*   **Hugging Face:** NVIDIA is a top contributor to Hugging Face repositories, accelerating open, collaborative AI development.\n\n**How These Collaborations Push AI Research Forward:**\n\n*   **Open Source Development:** NVIDIA\u2019s involvement in open-source projects like Hugging Face and its collaborations on models like Llama and gpt-oss directly fosters innovation by making AI technology accessible and modifiable by a wider community.\n*   **Scientific Advancement:** The partnership with the NSF is specifically focused on developing AI systems to accelerate scientific research through multimodal language models.\n*   **Rapid Innovation:** NVIDIA\u2019s support for \u201cOpen Source AI Week\u201d and its industry collaborations are driving rapid advancements in AI applications, from AI factories to query engines.",
+            "context": [
+                {
+                    "content": "NVIDIA GitHub\n\nrepositories and over 500 models and 100 datasets on the\n\nNVIDIA Hugging Face\n\ncollections, NVIDIA is accelerating the pace of open, collaborative AI development.\n\nOver the past year,\n\nNVIDIA has become the top contributor\n\nin Hugging Face repositories, reflecting a deep commitment to sharing models, frameworks and research that empower the community.\n\nhttps://blogs.nvidia.com/wp-content/uploads/2025/10/1016.mp4\n\nOpenly available models, tools and datasets are essential to driving innovation and progress. By empowering anyone to use, modify and share technology, it fosters transparency and accelerates discovery, fueling breakthroughs that benefit both industry and communities alike. That\u2019s why NVIDIA is committed to supporting the open source ecosystem.\n\nWe\u2019re on the ground all week \u2014 stay tuned for a celebration highlighting the spirit of innovation, collaboration and community that drives open-source AI forward, with the\n\nPyTorch Conference",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Open_Source_AI_Week_How_Developers_and_Contributors_Are_Advancing_AI_Innovation.txt"
+                    }
+                },
+                {
+                    "content": "That\u2019s why NVIDIA continues to contribute to open-source\n\nprojects like llm-d\n\nand\n\ncollaborate with industry leaders\n\non open models, including\n\nLlama\n\n,\n\nGoogle Gemma\n\n,\n\nNVIDIA Nemotron\n\n,\n\nDeepSeek\n\nand\n\ngpt-oss\n\n\u2014 helping bring AI applications from idea to production at unprecedented speed.\n\nThe Bottom Line for Optimized Inference\n\nThe NVIDIA inference platform, coupled with the Think SMART framework for deploying modern AI workloads, helps enterprises ensure their infrastructure can keep pace with the demands of rapidly advancing models \u2014 and that each token generated delivers\n\nmaximum value\n\n.\n\nLearn more about how inference drives the\n\nrevenue generating potential of AI factories\n\n.\n\nFor\n\nmonthly updates\n\n, sign up for the\n\nNVIDIA Think SMART newsletter\n\n.\n\nCategories:\n\nData Center\n\nTags:\n\nAI Factory\n\n|\n\nArtificial Intelligence\n\n|\n\ndynamo\n\n|\n\nInference\n\nAll NVIDIA News\n\nOpen Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Think_SMART_How_to_Optimize_AI_Factory_Inference_Performance.txt"
+                    }
+                },
+                {
+                    "content": "Title: AI On: 6 Ways AI Agents Are Raising Team Performance \u2014 and How to Measure It\n\nSource: https://blogs.nvidia.com/blog/ways-ai-agents-are-raising-team-performance/\n\n---\n\nAI On: 6 Ways AI Agents Are Raising Team Performance \u2014 and How to Measure It\n\nSeptember 4, 2025\n\nby\n\nErik Pounds\n\nShare\n\nEmail\n\n0\n\nEditor\u2019s note: This post is part of the\n\nAI On\n\nblog series, which explores the latest techniques and real-world applications of agentic AI, chatbots and copilots. The series also highlights the NVIDIA software and hardware powering advanced AI agents, which form the foundation of AI query engines that gather insights and perform tasks to transform everyday experiences and reshape industries.\n\nAI agents\n\nare expected to be involved in most business tasks within three years, with effective human-agent collaboration projected to\n\nincrease human engagement in high-value tasks by 65%\n\n.\n\nAI agents can help achieve and exceed efficiency goals as they learn,\n\nreason",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\AI_On_6_Ways_AI_Agents_Are_Raising_Team_Performance_and_How_to_Measure_It.txt"
+                    }
+                },
+                {
+                    "content": "Title: Open Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation\n\nSource: https://blogs.nvidia.com/blog/open-source-ai-week/\n\n---\n\nOpen Source AI Week \u2014 How Developers and Contributors Are Advancing AI Innovation\n\nStay tuned throughout the week for coverage from Open Source AI Week in San Francisco.\n\nOctober 17, 2025\n\nby\n\nAnish Maddipoti\n\nShare\n\nEmail\n\n0\n\nNVIDIA\u2019s on the ground at\n\nOpen Source AI Week\n\n. Stay tuned for a celebration highlighting the spirit of innovation, collaboration and community that drives open-source AI forward. Follow\n\nNVIDIA AI Developer\n\non social channels for additional news and insights.\n\nBuilding the Future of AI With PyTorch and NVIDIA\n\n\ud83d\udd17\n\nPyTorch\n\n, the fastest-growing AI framework, derives its performance from the NVIDIA CUDA platform and uses the Python programming language to unlock developer productivity. This year, NVIDIA\n\nadded",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\Open_Source_AI_Week_How_Developers_and_Contributors_Are_Advancing_AI_Innovation.txt"
+                    }
+                },
+                {
+                    "content": "Title: NVIDIA, National Science Foundation Support Ai2 Development of Open AI Models to Drive U.S. Scientific Leadership\n\nSource: https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models/\n\n---\n\nNVIDIA, National Science Foundation Support Ai2 Development of Open AI Models to Drive U.S. Scientific Leadership\n\nAligned with the White House AI Action Plan, public-private partnership includes $152 million in support of open AI model development in America.\n\nAugust 14, 2025\n\nby\n\nJack Wells\n\nShare\n\nEmail\n\n0\n\nNVIDIA is partnering with the U.S. National Science Foundation (NSF) to create an AI system that supports the development of multimodal language models for advancing scientific research in the United States.\n\nThe\n\npartnership\n\nsupports the NSF Mid-Scale Research Infrastructure project, called Open Multimodal AI Infrastructure to Accelerate Science (OMAI).",
+                    "metadata": {
+                        "source": "..\\data\\nvidia_articles\\NVIDIA_National_Science_Foundation_Support_Ai2_Development_of_Open_AI_Models_to_Drive_US_Scientific_.txt"
+                    }
+                }
+            ],
+            "total_time": 6.349019248998957,
+            "successful_requests": 124,
+            "total_latency": 399.27486093995685,
+            "total_input_tokens": 69500,
+            "total_output_tokens": 14953
         }
     ]
 }

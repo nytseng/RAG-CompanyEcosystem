@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, END
 from langgraph.types import Send
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.documents import Document
 import operator
 import json
 from metric_handler import MetricsHandler
@@ -39,11 +40,22 @@ llm = ChatOllama(
     callbacks=[metrics_handler]
 )
 
+def reduce_documents(existing: List[Document], new: List[Document]) -> List[Document]:
+    # 1. Combine existing and new documents
+    all_docs = existing + new
+    
+    # 2. Deduplicate based on page_content
+    # Using a dictionary key ensures uniqueness because keys must be unique
+    unique_map = {doc.page_content: doc for doc in all_docs}
+    
+    # 3. Return the unique values as a list
+    return list(unique_map.values())
+
 # --- STATE DEFINITION ---
 class AgentState(TypedDict):
     question: str
     category: str
-    context: Annotated[List[str], operator.add]
+    context: Annotated[List[Document], reduce_documents]
     answer: str
     sufficient: bool
     original_question: str
@@ -65,7 +77,6 @@ class RouteQuery(BaseModel):
     )
 
 def route_question(state: AgentState):
-    print(state)
     print(f"---ROUTING QUESTION: {state['question']}---")
     
     # "json_schema" method is often more reliable for local models than tool calling
@@ -133,6 +144,15 @@ try:
     )
     articles_retriever = articles_vectorstore.as_retriever(search_kwargs={"k": 5})
     print("✅ LangChain WeaviateVectorStore initialized with embedding model.")
+
+    info_vectorstore = WeaviateVectorStore(
+        client=client,
+        index_name="NvidiaInfo",
+        text_key="text", # Text property name in your schema
+        embedding=embeddings_model # Pass the embeddings model here
+    )
+    info_retriever = info_vectorstore.as_retriever(search_kwargs={"k": 5})
+    print("✅ LangChain WeaviateVectorStore initialized with embedding model.")
     
 except Exception as e:
     print(f"❌ Could not initialize clients: {e}")
@@ -142,21 +162,24 @@ def retrieve_transcripts(state: AgentState):
     print("--RETRIEVE TRANSCRIPTS--")
     query = state["question"]
     docs = transcript_retriever.invoke(query)
-    print(docs[0])
     return {"context": docs}
 
 def retrieve_newsletters(state: AgentState):
     print("--RETRIEVE NEWSLETTERS--")
     query = state["question"]
     docs = articles_retriever.invoke(query)
-    print(docs[0])
     return {"context": docs}
 
 def retrieve_papers(state: AgentState):
     print("--RETRIEVE PAPERS--")
     query = state["question"]
     docs = publications_retriever.invoke(query)
-    print(docs[0])
+    return {"context": docs}
+
+def retrieve_info(state: AgentState):
+    print("--RETRIEVE INFO--")
+    query = state["question"]
+    docs = info_retriever.invoke(query)
     return {"context": docs}
 
 # --- DECOMPOSER LOGIC (FAN-OUT) ---
@@ -168,7 +191,7 @@ def decompose_query(state: AgentState):
     
     system_prompt = """You are a Query Decomposer. Your task is to analyze a complex user question 
     and break it down into distinct, simple, and independent sub-questions. 
-    Each sub-question should be answerable on its own. 
+    Each sub-question should be answerable on its own. Please be specific and ensure that you keep the keywords in each query. 
     Return a JSON object containing a list of these sub-questions.
 
     If the question is simple then just return a JSON object containing a list of the original question.
@@ -184,6 +207,7 @@ def decompose_query(state: AgentState):
 
     # Ensure result is a list of strings, fall back if LLM fails
     sub_questions = result.sub_questions if result and result.sub_questions else [state['question']]
+    print(("\n").join(sub_questions))
     print(f"---GENERATED {len(sub_questions)} SUB-QUERIES---")
 
     return {"sub_questions": sub_questions, "original_question": state["question"]}
@@ -243,6 +267,26 @@ def generate_answer(state: List[AgentState]):
 
     return {"answer": response.content, "context": state["context"]}
 
+def generate_baseline_answer(state: List[AgentState]):
+    print("---GENERATING ANSWER---")
+    prompt = ChatPromptTemplate.from_template(
+        """You are a helpful assistant. Answer the question based ONLY on the provided context.
+        
+        Context:
+        {context}
+        
+        Question:
+        {question}
+        """
+    )
+    combined_results = ""
+    for d in state["context"]:
+        combined_results += f"\n {d.page_content}"
+    chain = prompt | llm
+    response = chain.invoke({"context": combined_results, "question": state["question"]})
+
+    return {"answer": response.content, "context": state["context"]}
+
 def get_next_node(state: AgentState):
     category = state["category"]
     if category == "transcripts": return "retrieve_transcripts"
@@ -269,16 +313,13 @@ def assess_answer(state: AgentState):
 
     checker = prompt | structured_llm
     result = checker.invoke({"question": state["question"], "answer": state["answer"]})
-    print(result)
     update = {"sufficient": result.sufficient}
     if not result.sufficient:
-        update["question"] = f"Improve and expand this answer: {state['answer']}"
+        update["original_question"] = f"Improve and expand this answer: {state['answer']}"
     return update
 
 def agent_next_step(state: AgentState):
-    print("\n\n\n\n")
-    print(state)
-    return "end" if state.get("sufficient") else "decompose_query"
+    return "end" if state.get("sufficient") else "generate"
 
 agent_workflow = StateGraph(AgentState)
 
@@ -302,10 +343,23 @@ agent_workflow.add_edge("generate", "assess")
 agent_workflow.add_conditional_edges(
     "assess",
     agent_next_step,
-    {"decompose_query": "decompose_query", "end": END}
+    {"generate": "generate", "end": END}
 )
 
 agent = agent_workflow.compile()
+
+base_line_workflow = StateGraph(AgentState)
+
+base_line_workflow.add_node("retrieve_info", retrieve_info)
+base_line_workflow.add_node("generate", generate_baseline_answer)
+
+base_line_workflow.set_entry_point("retrieve_info")
+base_line_workflow.add_edge("retrieve_info", "generate")
+
+
+baseline = base_line_workflow.compile()
+
+
 
 
 # --- EXECUTION ---
@@ -360,6 +414,43 @@ if __name__ == "__main__":
     
 
     with open('./data/result.json', 'w') as fp:
+        json.dump({"results": results}, fp)
+
+    with open('complex_retrieval_requests.json', 'r') as f:
+        data_dict = json.load(f)
+
+        reqs = data_dict["requests"]
+        for r in reqs:
+            inputs = {"question": r["request"]}
+            start_time = time.perf_counter()
+
+            result = baseline.invoke(inputs)
+
+            end_time = time.perf_counter() 
+            total_time = end_time - start_time
+
+            serialized_context = []
+            if "context" in result:
+                serialized_context = [
+                    {
+                        "content": doc.page_content, 
+                        "metadata": doc.metadata
+                    } 
+                    for doc in result['context']
+                ]
+            request_metrics = {}
+            request_metrics["response"] = result['answer']
+            request_metrics["context"] = serialized_context
+            request_metrics["total_time"] = total_time
+            request_metrics["successful_requests"] = metrics_handler.successful_requests
+            request_metrics["total_latency"] = metrics_handler.total_latency
+            request_metrics["total_input_tokens"] = metrics_handler.total_input_tokens
+            request_metrics["total_output_tokens"] = metrics_handler.total_output_tokens
+
+            results.append(request_metrics)
+    
+
+    with open('./data/baseline_result.json', 'w') as fp:
         json.dump({"results": results}, fp)
 
 
