@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from tqdm import tqdm
 
 from bleu_evaluator import BLEUEvaluator
@@ -106,10 +107,22 @@ if __name__ == "__main__":
     ROOT_DIR = os.path.dirname(SCRIPT_DIR)
     LANGGRAPH_DIR = os.path.join(ROOT_DIR, "LangGraph")
 
+    # Defaults
+    DEFAULT_RESULTS_FILE = "result.json"
+    DEFAULT_OUTPUT_FILE = "evaluation_report.json"
+
+    # Parse arguments
+    # Usage: python eval_runner.py [results_file] [output_file]
+    results_filename = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_RESULTS_FILE
+    output_filename = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_OUTPUT_FILE
+
     GROUND_TRUTH_PATH = os.path.join(ROOT_DIR, "complex_retrieval_requests_ref_answers.json")
-    RESULTS_PATH = os.path.join(LANGGRAPH_DIR, "data", "result.json")
+    RESULTS_PATH = os.path.join(LANGGRAPH_DIR, "data", results_filename)
+    OUT_PATH = output_filename
 
     print("Evaluating metrics using files:")
-    print(GROUND_TRUTH_PATH)
-    print(RESULTS_PATH)
-    evaluate_results(GROUND_TRUTH_PATH, RESULTS_PATH)
+    print(f"Ground truth file:   {GROUND_TRUTH_PATH}")
+    print(f"Results file:        {RESULTS_PATH}")
+    print(f"Output file:         {OUT_PATH}")
+
+    evaluate_results(GROUND_TRUTH_PATH, RESULTS_PATH, OUT_PATH)
