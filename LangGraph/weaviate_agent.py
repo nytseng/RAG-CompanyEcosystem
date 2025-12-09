@@ -487,7 +487,7 @@ if __name__ == "__main__":
 
     with open('./data/result.json', 'w') as fp:
         json.dump({"results": results}, fp)
-
+    results = []
     with open('complex_retrieval_requests.json', 'r') as f:
         data_dict = json.load(f)
 
