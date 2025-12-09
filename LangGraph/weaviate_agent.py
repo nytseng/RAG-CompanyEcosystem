@@ -90,7 +90,6 @@ class RouteQuery(BaseModel):
     )
 
 def route_question(state: AgentState):
-    print(state)
     print(f"---ROUTING QUESTION: {state['question']}---")
     
     # "json_schema" method is often more reliable for local models than tool calling
