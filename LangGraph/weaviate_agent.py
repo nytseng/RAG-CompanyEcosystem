@@ -498,6 +498,10 @@ def main():
             request_metrics["total_input_tokens"] = metrics_handler.total_input_tokens
             request_metrics["total_output_tokens"] = metrics_handler.total_output_tokens
 
+            metrics_handler.successful_requests = 0
+            metrics_handler.total_latency = 0
+            metrics_handler.total_input_tokens = 0
+            metrics_handler.total_output_tokens = 0
             results.append(request_metrics)
     
 
@@ -535,7 +539,13 @@ def main():
             request_metrics["total_input_tokens"] = metrics_handler.total_input_tokens
             request_metrics["total_output_tokens"] = metrics_handler.total_output_tokens
 
+            metrics_handler.successful_requests = 0
+            metrics_handler.total_latency = 0
+            metrics_handler.total_input_tokens = 0
+            metrics_handler.total_output_tokens = 0
+
             results.append(request_metrics)
+
     
 
     with open('./data/chunked_baseline_result.json', 'w') as fp:
