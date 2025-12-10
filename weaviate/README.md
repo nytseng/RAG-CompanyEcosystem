@@ -16,7 +16,7 @@ Before starting, ensure you have the following installed and running:
 pip install weaviate-client langchain-weaviate langchain-community langchain-core langchain-text-splitters
 ```
 
-4. **Data:** Ensure your scraped article data is available in the `nvidia_articles/` directory.
+4. **Data:** Ensure your data is available in the `../data/` directory.
 
 ## Step 1: Start the Weaviate Database
 

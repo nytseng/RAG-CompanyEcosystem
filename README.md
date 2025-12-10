@@ -4,7 +4,7 @@
 
 RAG-CompanyEcosystem is a specialized Retrieval-Augmented Generation (RAG) system designed as an internal NVIDIA research tool for discovering ongoing work, facilitating team collaborations, and ensuring leadership alignment. The system addresses the critical need for efficient knowledge discovery within NVIDIA's vast ecosystem of research publications, news announcements, and executive communications.
 
-This Phase 1 implementation demonstrates a domain-specific RAG system optimized for technical and strategic decision-making within NVIDIA's corporate environment, moving beyond general-purpose question-answering to provide contextually relevant insights for research teams, project managers, and executives.
+This implementation demonstrates a domain-specific RAG system optimized for technical and strategic decision-making within NVIDIA's corporate environment, moving beyond general-purpose question-answering to provide contextually relevant insights for research teams, project managers, and executives.
 
 ## Project Structure
 
@@ -55,6 +55,45 @@ RAG-CompanyEcosystem/
     └── weaviate_backups/               # Backup storage directory
         ├── my_nvidia_rag_export_20251021/
         └── nvidia_all_1/
+```
+
+## 🚀 Getting Started
+
+Follow these steps to build the environment, restore the database, and run the application.
+
+### 1. Build and Start Services
+Run the following command to build the Docker containers and start the services (Weaviate, Ollama, and the RAG app) in the background.
+
+```bash
+docker compose up --build -d
+```
+
+### 2. Set Up Local Python Environment
+Before restoring the database, you need to install the required Python dependencies on your local machine.
+
+```bash
+pip install weaviate-client langchain-weaviate langchain-community langchain-core langchain-text-splitters
+```
+
+### 3. Restore the Weaviate Database
+Run the restore script to load the saved collections (Nvidia Transcripts, Publications, etc.) into the Weaviate instance.
+
+```bash
+python weaviate/weaviate_db_restore.py
+```
+> **Note:** Ensure Weaviate is fully up and running (healthy) before running this script.
+
+### 4. Run the RAG Application
+Once the database is restored, you can enter the RAG container and run the query script.
+
+**Enter the container:**
+```bash
+docker compose exec rag-app bash
+```
+
+**Run the query script:**
+```bash
+python user_query.py
 ```
 
 ## Domain Justification
@@ -113,14 +152,21 @@ Our curated dataset represents NVIDIA's knowledge ecosystem through strategicall
 **Primary System: Weaviate**
 - **Purpose**: Experimental implementation for comparison
 - **Features**: Backup/restore capabilities, alternative querying approaches
-- **Location**: `./weaviate/` with comprehensive system
-
-**Alternative System: Qdrant**
-- **Backend**: SQLite for local deployment and development
 - **Embedding Model**: SentenceTransformer `all-MiniLM-L6-v2` (384 dimensions)
 - **Distance Metric**: Cosine similarity
-- **Storage**: `./qdrant/qdrant_db_COSINE/`
-- **Processing**: Incremental ingestion with smart deduplication
+- **Location**: `./weaviate/` with comprehensive system
+
+### LangGraph Implementation
+
+**Orchestration Engine: LangGraph**
+- **Purpose**: Managing complex, stateful retrieval workflows and agentic logic
+- **Architecture**: Cyclic `StateGraph` with Map-Reduce pattern
+- **Key Components**:
+  - **Query Decomposition**: "Fan-out" mechanism breaking complex queries into independent sub-questions
+  - **Semantic Routing**: Content-aware dispatching to specific knowledge domains (Transcripts, Publications, Articles)
+  - **Self-Correction**: LLM-based `assess_answer` node that triggers refinement loops if output is deemed insufficient
+- **State Management**: Typed `AgentState` for tracking context accumulation and query evolution
+- **Inference**: Local Ollama instance running `gemma3` via LangChain integration
 
 
 ## Evaluation Methodology
@@ -194,15 +240,49 @@ Each query includes manually selected ground truth documents with specific text 
 - ✅ **Backup/restore** capabilities for data preservation
 - ✅ **Modular architecture** enabling component-wise improvements
 
+## Phase 2 Achievements
+
+### Advanced Architecture
+- ✅ **Agentic Orchestration** implementing a LangGraph state machine with query decomposition and self-corrective loops
+- ✅ **Smart Routing** dispatching queries to specialized indices (Transcripts, Publications, Articles) based on semantic intent
+- ✅ **Parallel Retrieval** utilizing map-reduce execution for concurrent sub-query processing
+- ✅ **Robust Implementation** with JSON schema validation and fallback logic to prevent inference failures
+
+### Performance & Benchmarking
+- ✅ **Automated Metrics** tracking latency, token usage, and error rates in real-time via custom handlers
+- ✅ **Comparative Evaluation** generating side-by-side JSON reports for direct Agent vs. Baseline analysis
+- ✅ **Quality Assurance** deploying an "Assess Answer" node to automatically reject and refine poor responses
+- ✅ **Latency Analysis** documenting trade-offs between computational cost and answer quality
+
+### Reproducibility & Infrastructure
+- ✅ **Full Containerization** of Weaviate, Ollama, and application logic for environment independence
+- ✅ **Comprehensive Documentation** delivering a production-ready README with architecture diagrams and guides
+- ✅ **One-Command Testing** via unified entry points enabling single-step replication of evaluation runs
 
 ## Future Development Roadmap
 
-1. Implement complete RAG with generation
-2. Improve retrieval by adding reranking and reasoning
-3. Implement retrieval improvements after reflecting on research
-4. Research method of function calling to query websites to add to the vector store
-5. Implement function calling
-6. Implement additional evaluation methods and metrics
+### Development Roadmap
+
+1.  **Latency & UX Optimization**
+    * Implement **streaming responses** to give users immediate feedback during long processing times.
+    * Migrate from local hardware (RTX 2070 Super) to cloud GPUs to benchmark true commercial performance.
+
+2.  **Scalable Data Pipeline**
+    * Refactor ingestion to support **incremental indexing**, allowing additions without full database rebuilds.
+    * Add robust deduplication logic to handle document updates efficiently.
+
+3.  **Human-in-the-Loop Interaction**
+    * Create a **clarification mechanism** where the agent asks the user questions if the initial query is ambiguous.
+    * Implement a feedback loop allowing users to flag insufficient answers for future fine-tuning.
+
+4.  **Advanced Logic (Answer-First)**
+    * Experiment with **"Answer-First" decomposition**: Synthesize intermediate answers for sub-queries rather than just aggregating raw documents, aiming to reduce context noise.
+
+5.  **User Interface**
+    * Develop a GUI (e.g., Streamlit) to replace the CLI and **visualize the agent's "thought process"** (routing, planning, assessment) for the user.
+
+6.  **External Tool Integration**
+    * Implement **API function calling** to fetch real-time data (e.g., live stock tickers, internal feeds) that cannot be stored statically in the vector database.
 
 ## Contributing
 
@@ -227,5 +307,5 @@ This project is designed for NVIDIA internal research applications. The implemen
 
 ---
 
-**Project Status**: Phase 1 Complete  
-**Last Updated**: October 2025  
+**Project Status**: Phase 2 Complete  
+**Last Updated**: December 2025  
