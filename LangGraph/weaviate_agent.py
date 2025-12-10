@@ -446,7 +446,7 @@ agent_workflow.add_edge("generate", "assess")
 agent_workflow.add_conditional_edges(
     "assess",
     agent_next_step,
-    {"decompose_query": "decompose_query", "end": END}
+    {"generate": "generate", "end": END}
 )
 
 agent = agent_workflow.compile()
