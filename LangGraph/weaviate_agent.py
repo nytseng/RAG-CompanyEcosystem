@@ -36,6 +36,8 @@ from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_core.documents import Document
 # Corrected Import to match ingestion script
 from langchain_community.embeddings import HuggingFaceEmbeddings 
+from raptor.raptor import RetrievalAugmentation, RetrievalAugmentationConfig
+from build_raptor_graph import OllamaSummarizationModel, HFEmbeddingModel, OllamaQAModel
 
 # --- CONFIGURATION ---
 # Ensure you have pulled this model in Ollama: `ollama pull llama3`
@@ -52,6 +54,27 @@ llm = ChatOllama(
     temperature=0,
     callbacks=[metrics_handler]
 )
+
+# Initialize your custom models
+custom_summarizer = OllamaSummarizationModel(llm)
+custom_qa = OllamaQAModel(llm)
+custom_embedding = HFEmbeddingModel()
+
+# Create a config with your custom models
+custom_config = RetrievalAugmentationConfig(
+    summarization_model=custom_summarizer,
+    qa_model=custom_qa,
+    embedding_model=custom_embedding
+)
+
+classList = ["RaptorNvidiaArticles", "RaptorNvidiaPublications", "RaptorNvidiaTranscripts", "RaptorNvidiaInfo"]
+
+RAArticles = RetrievalAugmentation(tree="RaptorNvidiaArticles", config=custom_config)
+RAPublication = RetrievalAugmentation(tree="RaptorNvidiaPublications", config=custom_config)
+RATranscripts = RetrievalAugmentation(tree="RaptorNvidiaTranscripts", config=custom_config)
+RANvidiaInfo = RetrievalAugmentation(tree="RaptorNvidiaInfo", config=custom_config)
+
+
 
 def reduce_documents(existing: List[Document], new: List[Document]) -> List[Document]:
     # 1. Combine existing and new documents
