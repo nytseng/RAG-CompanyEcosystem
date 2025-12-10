@@ -51,7 +51,7 @@ metrics_handler = MetricsHandler()
 llm = ChatOllama(
     model=LLM_MODEL,
     base_url=OLLAMA_BASE_URL,
-    temperature=0,
+    temperature=0.01,
     callbacks=[metrics_handler]
 )
 
@@ -216,7 +216,7 @@ def decompose_query(state: AgentState):
     structured_llm = llm.with_structured_output(SubQueries, method="json_schema")
     
     system_prompt = """You are a Query Decomposer. Your task is to analyze a complex user question 
-    and break it down into distinct, simple, and independent sub-questions. 
+    and break it down into 4 distinct, simple, and independent sub-questions. 
     Each sub-question should be answerable on its own. Please be specific and ensure that you keep the keywords in each query. 
     Return a JSON object containing a list of these sub-questions.
 
@@ -276,13 +276,18 @@ def rerank(docs):
 def generate_answer(state: List[AgentState]):
     print("---GENERATING ANSWER---")
     prompt = ChatPromptTemplate.from_template(
-        """You are a helpful assistant. Answer the question based ONLY on the provided context.
+        """You are a an expert on NVIDIA. 
+        Answer the question in an authoritative manner using the provided context. 
+        Only use context that will help answer the question.
+        Only respond in english
         
         Context:
         {context}
         
         Question:
         {question}
+
+        Response: 
         """
     )
     combined_results = ""
