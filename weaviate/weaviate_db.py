@@ -7,6 +7,7 @@ from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from chunking.chunking_strategies import RecursiveChunkingStrategy, SentenceChunkingStrategy
 # --- Configuration ---
 WEAVIATE_URL = "http://localhost:8080"
 WEAVIATE_CLASS_NAME = "NvidiaInfo"
@@ -135,8 +136,8 @@ def upload_to_weaviate(chunks, client, className):
 # --- Main Execution ---
 def main():
     """Runs the full pipeline to load and ingest data."""
-    dirList = ["../data/nvidia_articles", "../data/publications", "../data/transcripts", "../data"]
-    classList = ["NvidiaArticles", "NvidiaPublications", "NvidiaTranscripts", "NvidiaInfo"]
+    dirList = ["../data/nvidia_articles", "../data/publications", "../data/transcripts"]
+    classList = ["ChunkedNvidiaArticles", "ChunkedNvidiaPublications", "ChunkedNvidiaTranscripts"]
     for d, c in zip(dirList, classList):
         if not os.path.isdir(d):
             print(f"The directory '{d}' was not found. Please run the scraping script first.")
@@ -147,8 +148,19 @@ def main():
         if not documents:
             print("No documents found. Exiting.")
             return
-            
-        chunks = split_documents(documents)
+
+        if c ==  "ChunkedNvidiaArticles":
+            chunker = RecursiveChunkingStrategy(chunk_size=1000, chunk_overlap=300)
+        elif c == "ChunkedNvidiaPublications":
+            chunker = RecursiveChunkingStrategy(chunk_size=1000, chunk_overlap=300)
+        else:
+            chunker = SentenceChunkingStrategy(sentences_per_chunk=10, sentence_overlap=2)
+        # chunks = split_documents(documents)
+        try:
+            chunks = chunker.chunk_documents(documents)
+        except Exception as e:
+            print(f"   ❌ Error during chunking. Details: {e}")
+            return None
 
         # 2. Setup Weaviate
         client = setup_weaviate_client()
