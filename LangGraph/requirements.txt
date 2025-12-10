@@ -7,3 +7,4 @@ langchain-google-genai
 langchain-weaviate
 pydantic
 weaviate-client
+faiss-cpu 

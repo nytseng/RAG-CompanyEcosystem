@@ -36,6 +36,8 @@ from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_core.documents import Document
 # Corrected Import to match ingestion script
 from langchain_community.embeddings import HuggingFaceEmbeddings 
+# from raptor.raptor import RetrievalAugmentation, RetrievalAugmentationConfig
+# from build_raptor_graph import OllamaSummarizationModel, HFEmbeddingModel, OllamaQAModel
 
 # --- CONFIGURATION ---
 # Ensure you have pulled this model in Ollama: `ollama pull llama3`
@@ -52,6 +54,17 @@ llm = ChatOllama(
     temperature=0,
     callbacks=[metrics_handler]
 )
+
+
+
+# classList = ["RaptorNvidiaArticles", "RaptorNvidiaPublications", "RaptorNvidiaTranscripts", "RaptorNvidiaInfo"]
+
+# RAArticles = RetrievalAugmentation(tree="RaptorNvidiaArticles", config=custom_config)
+# RAPublication = RetrievalAugmentation(tree="RaptorNvidiaPublications", config=custom_config)
+# RATranscripts = RetrievalAugmentation(tree="RaptorNvidiaTranscripts", config=custom_config)
+# RANvidiaInfo = RetrievalAugmentation(tree="RaptorNvidiaInfo", config=custom_config)
+
+
 
 def reduce_documents(existing: List[Document], new: List[Document]) -> List[Document]:
     # 1. Combine existing and new documents
@@ -136,7 +149,7 @@ try:
     # Pass the matching embeddings_model to the vectorstore for query vectorization
     transcript_vectorstore = WeaviateVectorStore(
         client=client,
-        index_name="NvidiaTranscripts",
+        index_name="ChunkedNvidiaTranscripts",
         text_key="text", # Text property name in your schema
         embedding=embeddings_model # Pass the embeddings model here
     )
@@ -144,14 +157,14 @@ try:
 
     publications_vectorstore = WeaviateVectorStore(
         client=client,
-        index_name="NvidiaPublications",
+        index_name="ChunkedNvidiaPublications",
         text_key="text", # Text property name in your schema
         embedding=embeddings_model # Pass the embeddings model here
     )
     publications_retriever = publications_vectorstore.as_retriever(search_kwargs={"k": 5})
     articles_vectorstore = WeaviateVectorStore(
         client=client,
-        index_name="NvidiaArticles",
+        index_name="ChunkedNvidiaArticles",
         text_key="text", # Text property name in your schema
         embedding=embeddings_model # Pass the embeddings model here
     )
@@ -433,9 +446,7 @@ agent_workflow.add_conditional_edges(
 
 agent = agent_workflow.compile()
 
-
-# --- EXECUTION ---
-if __name__ == "__main__":
+def main():
     # Example 1
     inputs = {"question": "How does NVIDIA reduce latency in ray tracing?"}
 
@@ -485,7 +496,7 @@ if __name__ == "__main__":
             results.append(request_metrics)
     
 
-    with open('./data/result.json', 'w') as fp:
+    with open('./data/chunked_result.json', 'w') as fp:
         json.dump({"results": results}, fp)
     results = []
     with open('complex_retrieval_requests.json', 'r') as f:
@@ -522,8 +533,12 @@ if __name__ == "__main__":
             results.append(request_metrics)
     
 
-    with open('./data/baseline_result.json', 'w') as fp:
+    with open('./data/chunked_baseline_result.json', 'w') as fp:
         json.dump({"results": results}, fp)
+
+# --- EXECUTION ---
+if __name__ == "__main__":
+    main()
 
 
     
