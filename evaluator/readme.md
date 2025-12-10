@@ -2,8 +2,8 @@
 
 This framework evaluates **Retrieval-Augmented Generation (RAG)** systems by comparing:
 
-1. **The system’s retrieved documents + generated answer**
-2. **Against a ground-truth set of golden documents + reference answers**
+1. The system’s retrieved documents + generated answer
+2. Against a ground-truth set of golden documents + reference answers
 
 It produces both **quantitative** and **qualitative** metrics that assess retrieval quality, answer correctness, and alignment with reference answers.
 
@@ -42,7 +42,7 @@ Results are written into a final evaluation_report.json.
 # Metrics Overview
 
 Example output snippet:
-
+```
 {
   "metrics": {
     "bleu": 0.0168,
@@ -60,6 +60,7 @@ Example output snippet:
     "recall@5": 0.3333
   }
 }
+```
 
 ### Types of Metrics
 
@@ -126,7 +127,7 @@ python evaluator_runner.py results.json my_report.json
 ------------------------------------------------------------
 
 # Output: evaluation_report.json
-
+```
 {
   "per_request": [
     {
@@ -143,6 +144,7 @@ python evaluator_runner.py results.json my_report.json
     ...
   }
 }
+```
 
 ------------------------------------------------------------
 
