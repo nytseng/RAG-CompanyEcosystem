@@ -54,13 +54,24 @@ class BaseEvaluator(ABC):
             doc_text = entry.get("text")
         elif "content" in entry:
             doc_text = entry.get("content")
+        elif "context" in entry:
+            doc_text = entry.get("context")
 
         return doc_text
     
     @staticmethod
     def parse_documents_list(entry: Dict) -> List[Dict]:
         doc_list = None
-        if "documents" in entry:
+        if "metadata" in entry and "context" in entry:
+            # Compatability with RAPTOR result.json
+            contexts = entry.get("context", [])
+            metadatas = entry.get("metadata", [])
+
+            if len(contexts) != len(metadatas):
+                raise ValueError("context and metadata lists must be the same length")
+
+            doc_list = [{"context": ctx, "metadata": meta} for ctx, meta in zip(contexts, metadatas)]
+        elif "documents" in entry:
             doc_list = entry.get("documents")
         elif "context" in entry:
             doc_list = entry.get("context")
