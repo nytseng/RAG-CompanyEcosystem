@@ -117,11 +117,11 @@ pip install -r requirements.txt
 ------------------------------------------------------------
 # 4. Run the Evaluator
 
-python evaluator_runner.py [results_file] [output_file]
+python eval_runner.py [results_file] [output_file]
 
 Example:
 ```
-python evaluator_runner.py results.json my_report.json
+python eval_runner.py results.json my_report.json
 ```
 
 ------------------------------------------------------------
