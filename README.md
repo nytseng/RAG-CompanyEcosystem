@@ -125,8 +125,14 @@ Once the database is restored, you can enter the RAG container and run the query
 
 **Enter the container:**
 ```bash
-docker compose exec rag-app bash
+docker exec -it rag-companyecosystem-rag-app-1 bash
 ```
+or 
+
+```bash
+winpty docker exec -it rag-companyecosystem-rag-app-1 bash
+```
+if on windows
 
 **Run the query script:**
 ```bash

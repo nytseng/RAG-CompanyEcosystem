@@ -1,8 +1,8 @@
 import weaviate
-from weaviate.classes.backup import BackupStorage\
+from weaviate.classes.backup import BackupStorage
 from weaviate.classes.init import Auth, AdditionalConfig, Timeout
 
-client = weaviate.connect_to_local(host="weaviate", port=8080, grpc_port=50051,
+client = weaviate.connect_to_local(host="localhost", port=8080, grpc_port=50051,
     additional_config=AdditionalConfig(
         timeout=Timeout(init=30, query=60, insert=120)  # Values in seconds
     ))
